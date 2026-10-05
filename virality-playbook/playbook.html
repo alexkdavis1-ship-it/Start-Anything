@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Content Playbook</title>
+<link href="fonts.css" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3EFE6; --ink:#161514; --red:#E2401F; --mute:#6E685E; --line:#D8D1C2;
+  --go:#2E7A4C; --card:#FBF9F4; --yel:#F5D348;
+}
+@page{size:540px 960px;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper)}
+body{font-family:'Archivo',sans-serif;word-spacing:.07em;color:var(--ink);counter-reset:pg;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:540px;height:960px;position:relative;overflow:hidden;background:var(--paper);padding:46px 40px 60px;page-break-after:always;break-after:page;counter-increment:pg}
+.page:last-child{page-break-after:auto}
+.foot{position:absolute;left:40px;right:40px;bottom:22px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.foot .n::after{content:counter(pg, decimal-leading-zero)}
+.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--red);margin:0 0 10px}
+h1{font-family:'Anton',sans-serif;font-weight:400;font-size:60px;line-height:.96;text-transform:uppercase;margin:0 0 14px;letter-spacing:.005em}
+h2{font-family:'Anton',sans-serif;font-weight:400;font-size:28px;line-height:1;text-transform:uppercase;margin:0 0 8px}
+h3{font-size:15px;font-weight:800;margin:0 0 4px;text-transform:uppercase;letter-spacing:.06em}
+p{font-size:18px;line-height:1.4;margin:0 0 12px}
+.lead{font-size:20.5px;line-height:1.35;font-weight:500}
+.small{font-size:15px;line-height:1.4;color:var(--mute)}
+.red{color:var(--red)} .go{color:var(--go)}
+.hl{background:linear-gradient(transparent 55%, var(--yel) 55%, var(--yel) 92%, transparent 92%)}
+.hand{font-family:'Caveat',cursive;font-weight:700}
+.rule{height:3px;background:var(--ink);margin:16px 0}
+.card{background:var(--card);border:1.5px solid var(--ink);border-radius:6px;padding:14px 16px}
+.row{display:flex;gap:14px}
+.col{flex:1}
+.yes,.no{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;color:#fff;font-weight:800;font-size:13px;flex:none}
+.yes{background:var(--go)} .no{background:var(--red)}
+ol.steps{list-style:none;padding:0;margin:0;counter-reset:st}
+ol.steps li{counter-increment:st;position:relative;padding:0 0 0 44px;margin:0 0 14px;font-size:18px;line-height:1.35}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:-2px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);font-family:'Anton';font-size:16px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{font-weight:800}
+.chip{display:inline-block;border:1.5px solid var(--ink);border-radius:99px;padding:5px 11px;font-size:13.5px;font-weight:600;margin:0 6px 7px 0;background:var(--card)}
+.nw{white-space:nowrap}
+.mono{font-family:'Archivo';font-weight:800;letter-spacing:.02em}
+/* phone mockups */
+.ph{position:relative;border:5px solid var(--ink);border-radius:24px;overflow:hidden;background:#2a2826;flex:none}
+.ph .notch{position:absolute;top:6px;left:50%;transform:translateX(-50%);width:34%;height:10px;border-radius:8px;background:var(--ink);z-index:5}
+.cap{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;text-align:center;margin-top:8px}
+.stroke{color:#fff;-webkit-text-stroke:0;text-shadow:-1.5px -1.5px 0 #000,1.5px -1.5px 0 #000,-1.5px 1.5px 0 #000,1.5px 1.5px 0 #000,0 1.5px 0 #000,0 -1.5px 0 #000,1.5px 0 0 #000,-1.5px 0 0 #000;font-family:'Archivo';font-weight:800}
+table{border-collapse:collapse;width:100%}
+td,th{text-align:left;padding:10px 6px;border-bottom:1.5px solid var(--line);font-size:17.5px;vertical-align:top}
+th{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);border-bottom:2px solid var(--ink)}
+.dark{background:var(--ink);color:var(--paper)}
+.dark .foot{color:#9b958b}
+</style>
+</head>
+<body>
+
+<!-- 01 COVER -->
+<section class="page dark" style="padding:46px 40px">
+  <div style="font-size:12px;letter-spacing:.2em;font-weight:700;text-transform:uppercase;color:#bdb6aa">First Million Views &nbsp;/&nbsp; Content Playbook</div>
+  <div style="position:absolute;left:40px;right:40px;top:200px">
+    <div style="width:64px;height:8px;background:var(--red);margin-bottom:26px"></div>
+    <h1 style="font-size:92px;line-height:.9;color:var(--paper)">Make stuff<br>people<br><span style="color:var(--red)">want</span> to<br>watch.</h1>
+    <p class="lead" style="color:#cfc8bb;max-width:400px;margin-top:22px">How to film it, what to film, and how to open every video so people stop scrolling.</p>
+  </div>
+  <div style="position:absolute;left:40px;right:40px;bottom:46px;display:flex;justify-content:space-between;align-items:flex-end;border-top:1.5px solid #3b3935;padding-top:16px">
+    <div style="font-size:14px;color:#bdb6aa;line-height:1.5">Mostly pictures.<br>About 10 minutes to read.</div>
+    <div class="hand" style="font-size:30px;color:var(--yel);transform:rotate(-4deg)">keep this on your phone</div>
+  </div>
+</section>
+
+<!-- 02 THE WHOLE THING ON ONE PAGE -->
+<section class="page">
+  <div class="tag">Start here</div>
+  <h1>If you only<br>read one page</h1>
+  <div class="rule"></div>
+  <div style="display:flex;flex-direction:column;gap:26px;margin-top:22px">
+    <div class="row" style="align-items:flex-start"><div style="font-family:Anton;font-size:64px;line-height:.8;color:var(--red);width:54px">1</div><div><h2>Think in formats</h2><p style="margin:0">Don't ask "how do I go viral." Pick a format from this playbook and fill it in.</p></div></div>
+    <div class="row" style="align-items:flex-start"><div style="font-family:Anton;font-size:64px;line-height:.8;color:var(--red);width:54px">2</div><div><h2>Only script the hook</h2><p style="margin:0">The first 3 seconds get written down. Everything after that, you just talk.</p></div></div>
+    <div class="row" style="align-items:flex-start"><div style="font-family:Anton;font-size:64px;line-height:.8;color:var(--red);width:54px">3</div><div><h2>Post every reel as a Trial Reel</h2><p style="margin:0">On Instagram, no exceptions. It's the only way strangers see you first.</p></div></div>
+    <div class="row" style="align-items:flex-start"><div style="font-family:Anton;font-size:64px;line-height:.8;color:var(--red);width:54px">4</div><div><h2>Mic on. Face the window.</h2><p style="margin:0">Good sound and soft light beat an expensive camera every time.</p></div></div>
+  </div>
+  <div class="foot"><span>Start here</span><span class="n"></span></div>
+</section>
+
+<!-- 03 WHAT VIRAL MEANS -->
+<section class="page">
+  <div class="tag">The scoreboard</div>
+  <h1>What "viral"<br>actually means</h1>
+  <p class="lead"><b>1,000,000+ views</b> <span class="red">and</span> people actually reacted. Views alone don't count.</p>
+  <div class="row" style="margin:18px 0 20px">
+    <div class="card col" style="border-color:var(--red)">
+      <div class="row" style="gap:8px;align-items:center;margin-bottom:6px"><span class="no">✕</span><h3 style="margin:0">Not viral</h3></div>
+      <div style="font-family:Anton;font-size:30px">1M views</div>
+      <div style="font-size:16px;font-weight:600">200 likes</div>
+      <div class="small" style="margin-top:6px">0.02% liked it. Wrong people saw it, nobody cared.</div>
+    </div>
+    <div class="card col" style="border-color:var(--go)">
+      <div class="row" style="gap:8px;align-items:center;margin-bottom:6px"><span class="yes">✓</span><h3 style="margin:0">Viral</h3></div>
+      <div style="font-family:Anton;font-size:30px">1M views</div>
+      <div style="font-size:16px;font-weight:600">40,000 likes</div>
+      <div class="small" style="margin-top:6px">4% liked it. People watched, felt something, and acted.</div>
+    </div>
+  </div>
+  <table>
+    <tr><th>On 1M views, aim for</th><th style="text-align:right">Number</th><th style="text-align:right">Rate</th></tr>
+    <tr><td><b>Likes</b></td><td style="text-align:right">30,000+</td><td style="text-align:right">3%+</td></tr>
+    <tr><td><b>Shares</b></td><td style="text-align:right">5,000+</td><td style="text-align:right">0.5%+</td></tr>
+    <tr><td><b>Saves</b></td><td style="text-align:right">5,000+</td><td style="text-align:right">0.5%+</td></tr>
+    <tr><td><b>Comments</b></td><td style="text-align:right">1,000+</td><td style="text-align:right">0.1%+</td></tr>
+  </table>
+  <div class="card" style="margin-top:18px;background:var(--ink);color:var(--paper);border-color:var(--ink)">
+    <div style="font-size:16px;line-height:1.4"><b style="color:var(--yel)">Quick check on any video:</b> likes ÷ views.<br>Under 1% = it didn't land. 3%+ = it hit.</div>
+  </div>
+  <div class="foot"><span>The scoreboard</span><span class="n"></span></div>
+</section>
+
+<!-- 04 THE KIT -->
+<section class="page">
+  <div class="tag">Gear</div>
+  <h1>The kit</h1>
+  <p class="lead">Audio matters more than the camera. People forgive a so-so picture. They scroll past bad sound.</p>
+
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+    <!-- tier 1 -->
+    <div class="card row" style="align-items:center">
+      <svg width="104" height="86" viewBox="0 0 104 86" fill="none" stroke="#161514" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <rect x="18" y="6" width="34" height="62" rx="6" transform="rotate(-10 35 37)"/>
+        <path d="M50 70 h40 v-26 h-18" /><path d="M72 44 v26"/>
+        <rect x="8" y="70" width="88" height="6" rx="2" fill="#D8D1C2"/>
+      </svg>
+      <div><div class="tag" style="margin:0 0 2px">Bare minimum</div><h2 style="font-size:24px">Phone + DJI Mic Mini</h2><div class="small">Prop the phone against anything. A tripod with a phone holder is nice, not needed.</div></div>
+    </div>
+    <!-- tier 2 -->
+    <div class="card row" style="align-items:center">
+      <svg width="104" height="86" viewBox="0 0 104 86" fill="none" stroke="#161514" stroke-width="2.5" stroke-linejoin="round">
+        <rect x="10" y="18" width="30" height="34" rx="7"/><circle cx="25" cy="33" r="6"/><path d="M14 56 h22"/>
+        <rect x="52" y="18" width="30" height="34" rx="7"/><circle cx="67" cy="33" r="6"/>
+        <rect x="58" y="56" width="40" height="22" rx="5" fill="#D8D1C2"/><path d="M70 62 h16 M70 70 h10"/>
+      </svg>
+      <div><div class="tag" style="margin:0 0 2px">The upgrade</div><h2 style="font-size:24px">DJI Mic 3</h2><div class="small">Two clip-on mics + receiver. Plugs into your phone. This is the one to own.</div></div>
+    </div>
+    <!-- tier 3 -->
+    <div class="card row" style="align-items:center;border-width:2.5px;border-color:var(--red)">
+      <svg width="104" height="86" viewBox="0 0 104 86" fill="none" stroke="#161514" stroke-width="2.5" stroke-linejoin="round">
+        <rect x="38" y="30" width="22" height="52" rx="5"/>
+        <rect x="30" y="4" width="38" height="24" rx="5" fill="#D8D1C2"/><circle cx="49" cy="16" r="6"/>
+        <path d="M44 44 h10 M44 52 h10"/>
+        <path d="M74 12 a14 14 0 0 1 0 22" stroke="#E2401F"/><path d="M24 34 a14 14 0 0 1 0 -22" stroke="#E2401F"/>
+      </svg>
+      <div><div class="tag" style="margin:0 0 2px">Best all-around</div><h2 style="font-size:24px">DJI Osmo Pocket 3<br>+ DJI Mic 3</h2><div class="small">Best camera for this, no questions asked. Pair it with the mic and a window.</div></div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:16px;gap:10px;align-items:center">
+    <span class="hand" style="font-size:24px;color:var(--red);transform:rotate(-3deg)">no budget for a light?</span>
+    <span style="font-size:15px;font-weight:600">Use a window. Next page.</span>
+  </div>
+  <div class="foot"><span>Gear</span><span class="n"></span></div>
+</section>
+
+<!-- 05 LIGHT -->
+<section class="page">
+  <div class="tag">Light</div>
+  <h1>Face the<br>window</h1>
+  <p class="lead">Natural light, always, if you can get it. Big window, sun coming in. <b>No harsh shadows. Ever.</b></p>
+  <div class="small" style="margin:-4px 0 14px">Seen from above:</div>
+
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <!-- wrong 1 -->
+    <div class="card row" style="align-items:center;padding:10px 14px">
+      <svg width="190" height="96" viewBox="0 0 190 96">
+        <rect x="150" y="10" width="12" height="76" fill="#cfe3f0" stroke="#161514" stroke-width="2"/>
+        <g stroke="#E8B93A" stroke-width="2" opacity=".8"><path d="M148 30 L120 34"/><path d="M148 48 L120 48"/><path d="M148 66 L120 62"/></g>
+        <circle cx="100" cy="48" r="14" fill="#161514"/>
+        <rect x="14" y="38" width="12" height="20" rx="2" fill="#161514"/><path d="M26 48 L84 48" stroke="#161514" stroke-dasharray="3 4" stroke-width="1.5"/>
+        <text x="8" y="80" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">PHONE</text>
+        <text x="86" y="80" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">YOU</text>
+      </svg>
+      <div><div class="row" style="gap:8px;align-items:center"><span class="no">✕</span><h3 style="margin:0">Window behind you</h3></div><div class="small" style="margin-top:4px">You turn into a dark silhouette.</div></div>
+    </div>
+    <!-- wrong 2 -->
+    <div class="card row" style="align-items:center;padding:10px 14px">
+      <svg width="190" height="96" viewBox="0 0 190 96">
+        <rect x="80" y="2" width="44" height="10" fill="#cfe3f0" stroke="#161514" stroke-width="2"/>
+        <g stroke="#E8B93A" stroke-width="2" opacity=".8"><path d="M92 14 L96 30"/><path d="M102 14 L102 30"/><path d="M112 14 L108 30"/></g>
+        <circle cx="102" cy="48" r="14" fill="#F3EFE6" stroke="#161514" stroke-width="2"/>
+        <path d="M102 34 A14 14 0 0 0 102 62 Z" fill="#161514" transform="rotate(-90 102 48)"/>
+        <rect x="14" y="38" width="12" height="20" rx="2" fill="#161514"/><path d="M26 48 L86 48" stroke="#161514" stroke-dasharray="3 4" stroke-width="1.5"/>
+        <text x="8" y="80" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">PHONE</text>
+        <text x="88" y="80" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">YOU</text>
+      </svg>
+      <div><div class="row" style="gap:8px;align-items:center"><span class="no">✕</span><h3 style="margin:0">Window to the side</h3></div><div class="small" style="margin-top:4px">Half your face in shadow. Harsh.</div></div>
+    </div>
+    <!-- right -->
+    <div class="card row" style="align-items:center;padding:10px 14px;border-width:2.5px;border-color:var(--go)">
+      <svg width="190" height="96" viewBox="0 0 190 96">
+        <rect x="6" y="10" width="12" height="76" fill="#cfe3f0" stroke="#161514" stroke-width="2"/>
+        <g stroke="#E8B93A" stroke-width="2" opacity=".9"><path d="M20 26 L84 40"/><path d="M20 48 L84 48"/><path d="M20 70 L84 56"/></g>
+        <rect x="46" y="38" width="12" height="20" rx="2" fill="#161514"/>
+        <circle cx="104" cy="48" r="14" fill="#FBE7A6" stroke="#161514" stroke-width="2"/>
+        <text x="34" y="80" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">PHONE</text>
+        <text x="92" y="80" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">YOU</text>
+        <text x="0" y="96" font-family="Archivo" font-size="10" font-weight="700" fill="#6E685E">WINDOW</text>
+      </svg>
+      <div><div class="row" style="gap:8px;align-items:center"><span class="yes">✓</span><h3 style="margin:0">Facing the window</h3></div><div class="small" style="margin-top:4px">Phone between you and the glass. Soft, even light.</div></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px;background:var(--ink);color:var(--paper)">
+    <div style="font-size:15.5px;line-height:1.45"><b style="color:var(--yel)">The full setup:</b> stand by the window, set up the Pocket 3 (or phone), clip the mic on, turn it on. Done.</div>
+  </div>
+  <div class="foot"><span>Light</span><span class="n"></span></div>
+</section>
+
+<!-- 06 HOOKS -->
+<section class="page">
+  <div class="tag">The hook</div>
+  <h1>The first 3<br>seconds decide</h1>
+  <p class="lead" style="margin-bottom:14px">Give people a reason to care before they scroll. These are the hooks that work. Fill in the blanks.</p>
+  <table>
+    <tr><td style="width:128px"><b>Shock</b></td><td>"What it's like to live alone in your parents' attic"</td></tr>
+    <tr><td><b>Tutorial</b></td><td>"This is why you should always do ___ <span class=nw>before ___"</span></td></tr>
+    <tr><td><b>Comprehensive</b></td><td>"This is every way to do ___"</td></tr>
+    <tr><td><b>Common mistake</b></td><td>"I see so many people do ___ like <span class=nw>___. Don't."</span></td></tr>
+    <tr><td><b>Comparison</b></td><td>"There are way too many ___ and they all look the same. But are they?"</td></tr>
+    <tr><td><b>Question</b></td><td>"Have you ever seen ___?"</td></tr>
+    <tr style="background:var(--yel)"><td><b>Negative</b><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--red);margin-top:3px">THE ONE TO MASTER</div></td><td><b>"Never do ___"</b></td></tr>
+  </table>
+  <p class="small" style="margin-top:14px">Adding a negative hook has produced some level of virality on every video I've tried it on. Next page shows how to make one on command.</p>
+  <div class="foot"><span>The hook</span><span class="n"></span></div>
+</section>
+
+<!-- 07 NEGATIVE HOOK MACHINE -->
+<section class="page">
+  <div class="tag">The hook</div>
+  <h1>Make a negative<br>hook on demand</h1>
+  <p class="lead">It's a formula. Pick one from each box.</p>
+
+  <div style="display:flex;align-items:stretch;gap:6px;margin:14px 0 6px">
+    <div class="card" style="flex:.8;padding:10px;text-align:center"><div class="tag" style="margin:0 0 6px;color:var(--mute)">Number</div><div style="font-family:Anton;font-size:24px;line-height:1.15">3 · 5<br>7 · 10</div></div>
+    <div style="font-family:Anton;font-size:24px;align-self:center">+</div>
+    <div class="card" style="flex:1.4;padding:10px;text-align:center;border-color:var(--red);border-width:2.5px"><div class="tag" style="margin:0 0 6px">Negative</div><div style="font-size:14.5px;font-weight:700;line-height:1.35">things you should never do<br>mistakes that ruin<br>stop doing</div></div>
+    <div style="font-family:Anton;font-size:24px;align-self:center">+</div>
+    <div class="card" style="flex:1.2;padding:10px;text-align:center"><div class="tag" style="margin:0 0 6px;color:var(--mute)">What they want</div><div style="font-size:14.5px;font-weight:700;line-height:1.35">if you want to ___<br>before you ___<br>as a ___</div></div>
+  </div>
+
+  <div class="card" style="margin:16px 0;background:var(--ink);color:var(--paper);text-align:center;padding:18px">
+    <div style="font-family:Anton;font-size:30px;line-height:1.1;text-transform:uppercase"><span style="color:var(--yel)">5</span> things you should <span style="color:var(--red)">never</span> do if you want to get rich</div>
+    <div class="hand" style="font-size:22px;color:#cfc8bb;margin-top:6px">made up on the spot. That's the point.</div>
+  </div>
+
+  <h3>More examples</h3>
+  <div style="font-size:16px;line-height:1.75;margin-bottom:10px">
+    "Never do cardio before you lift."<br>
+    "Don't sign a lease until you watch this."<br>
+    "3 hires that will kill your small business."<br>
+    "Stop posting on Instagram like this."
+  </div>
+  <div class="card" style="border-style:dashed">
+    <h3>Daily drill · 5 minutes</h3>
+    <div style="font-size:15.5px;line-height:1.45">Write 10 negative hooks about your space. Read them out loud. Film the one that makes you go "wait, what?" It feels forced at first. After a few weeks you'll do it in your head.</div>
+  </div>
+  <div class="foot"><span>The hook</span><span class="n"></span></div>
+</section>
+
+<!-- 08 DELIVERY -->
+<section class="page">
+  <div class="tag">The hook</div>
+  <h1>How you say it<br>changes it</h1>
+  <p class="lead">Same sentence. Stress a different word and it means something else.</p>
+  <table style="margin-top:4px">
+    <tr><th>Say it like</th><th>They hear</th></tr>
+    <tr><td><b class="red">I</b> didn't hit his wife.</td><td>Someone else did.</td></tr>
+    <tr><td>I <b class="red">didn't</b> hit his wife.</td><td>Flat denial.</td></tr>
+    <tr><td>I didn't <b class="red">hit</b> his wife.</td><td>I did something else to her.</td></tr>
+    <tr><td>I didn't hit <b class="red">his</b> wife.</td><td>I hit somebody else's wife.</td></tr>
+    <tr><td>I didn't hit his <b class="red">wife</b>.</td><td>I hit someone else of his.</td></tr>
+  </table>
+  <div class="row" style="margin-top:20px;gap:12px">
+    <div class="card col">
+      <h3>Pause before the big part</h3>
+      <div style="font-size:16px;line-height:1.5;margin-top:6px">"There's something <span class="hand red" style="font-size:22px">(pause)</span> I really have to tell you."</div>
+      <div class="small" style="margin-top:6px">Don't speed-run it.</div>
+    </div>
+    <div class="card col">
+      <h3>Under 3 seconds</h3>
+      <div style="font-size:16px;line-height:1.5;margin-top:6px">Say your hook out loud with a timer. Over 3 seconds? Cut words.</div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px;border-color:var(--red);border-width:2.5px">
+    <h3 class="red">Talk the instant you hit record</h3>
+    <div style="font-size:15.5px;line-height:1.45">TikTok starts recording a beat late. If you wait, then talk, the video opens on dead air, and dead air gets scrolled.</div>
+  </div>
+  <div class="foot"><span>The hook</span><span class="n"></span></div>
+</section>
+
+<!-- 09 FORMAT MAP -->
+<section class="page">
+  <div class="tag">Formats</div>
+  <h1>Pick a format</h1>
+  <p class="lead" style="margin-bottom:12px">Do you talk? Do you need someone else there? Everything in a <b class="go">green box</b> you can film alone, today.</p>
+  <div style="display:grid;grid-template-columns:62px minmax(0,1fr) minmax(0,1fr);grid-template-rows:38px 1fr 1fr;gap:6px;height:540px">
+    <div></div>
+    <div style="background:var(--ink);color:var(--paper);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;letter-spacing:.1em">JUST YOU</div>
+    <div style="background:var(--ink);color:var(--paper);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;letter-spacing:.1em">+ 1 PERSON</div>
+    <div style="background:var(--ink);color:var(--paper);border-radius:6px;display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;transform:rotate(180deg);font-size:12.5px;font-weight:800;letter-spacing:.1em">YOU TALK</div>
+    <div class="card" style="border-width:2.5px;border-color:var(--go);padding:12px">
+      <div style="font-size:17px;line-height:1.8;font-weight:600">Green screen<br>Whiteboard<br>Ranking<br><span class=nw>Bad, Better, Best <sup class="red">✂</sup></span><br><span class=nw>Follow these people <sup class="red">✂</sup></span><br>Two-character skit</div>
+    </div>
+    <div class="card" style="padding:12px">
+      <div style="font-size:17px;line-height:1.8;font-weight:600"><span class=nw>Street interview <sup class="red">✂</sup></span><br>Hire or Fire<br>Myth vs Truth</div>
+    </div>
+    <div style="background:var(--ink);color:var(--paper);border-radius:6px;display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;transform:rotate(180deg);font-size:12.5px;font-weight:800;letter-spacing:.1em">NO TALKING</div>
+    <div class="card" style="border-width:2.5px;border-color:var(--go);padding:12px">
+      <div style="font-size:17px;line-height:1.8;font-weight:600">Listicle<br>B-roll + text<br>POV skit<br>Podcast clips</div>
+    </div>
+    <div class="card" style="padding:12px">
+      <div style="font-size:17px;line-height:1.8;font-weight:600"><span class=nw>Day in the life <sup class="red">✂</sup></span></div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:12px;gap:18px;font-size:14px;font-weight:600;align-items:center">
+    <span><sup class="red" style="font-size:16px">✂</sup> needs an editor</span>
+    <span class="small" style="font-weight:500">No mark = edit it inside TikTok/IG yourself.</span>
+  </div>
+  <div class="foot"><span>Formats</span><span class="n"></span></div>
+</section>
+
+<!-- 10 TRIAL REELS -->
+<section class="page">
+  <div class="tag">Instagram</div>
+  <h1>Everything is<br>a Trial Reel</h1>
+  <p class="lead">Trial Reels get shown to people who <b>don't</b> follow you. That's who makes a video go viral. If it's not a Trial Reel, it's not going to work.</p>
+  <div class="row" style="margin:18px 0;align-items:center;gap:22px">
+    <div class="ph" style="width:170px;height:302px;background:#1d1c1b">
+      <div class="notch"></div>
+      <div style="position:absolute;top:30px;left:12px;right:12px;color:#fff;font-size:12px;font-weight:700">New reel</div>
+      <div style="position:absolute;top:56px;left:12px;width:50px;height:80px;border-radius:6px;background:#57534d"></div>
+      <div style="position:absolute;top:150px;left:12px;right:12px;color:#ddd;font-size:10px;line-height:2">Tag people<br>Add location</div>
+      <div style="position:absolute;top:200px;left:6px;right:6px;border:2.5px solid var(--yel);border-radius:8px;padding:6px;display:flex;justify-content:space-between;align-items:center">
+        <span style="color:#fff;font-size:11px;font-weight:800">Trial</span>
+        <span style="width:30px;height:17px;border-radius:9px;background:#3d8cf0;position:relative"><span style="position:absolute;right:2px;top:2px;width:13px;height:13px;border-radius:50%;background:#fff"></span></span>
+      </div>
+      <div style="position:absolute;bottom:14px;left:12px;right:12px;height:26px;border-radius:6px;background:#3d8cf0;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">Share</div>
+    </div>
+    <div>
+      <div class="hand" style="font-size:28px;color:var(--red);line-height:1;transform:rotate(-3deg)">← turn this on.<br>every single time.</div>
+      <p class="small" style="margin-top:14px">It's on the last screen before you hit Share.</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Account dead or bought?</h3>
+    <div style="font-size:15.5px;line-height:1.45;margin-top:4px">Start a fresh one. Spend the first few days scrolling and engaging in your space (follow, like, comment), make a few posts, <i>then</i> start posting Trial Reels.</div>
+  </div>
+  <div class="foot"><span>Instagram</span><span class="n"></span></div>
+</section>
+
+<!-- 11 GREEN SCREEN 1 -->
+<section class="page">
+  <div class="tag">Format · Green screen · 1 of 3</div>
+  <h1>Find the story</h1>
+  <p class="lead">Something big just happened in your space. You explain it with the headline behind you.</p>
+  <div class="row" style="gap:16px;align-items:flex-start;margin-top:8px">
+    <div class="ph" style="width:220px;height:390px;background:#fff">
+      <div class="notch"></div>
+      <div style="position:absolute;top:28px;left:10px;right:10px;height:26px;border-radius:13px;border:1.5px solid #ccc;font-size:10.5px;color:#333;display:flex;align-items:center;padding-left:10px">your topic</div>
+      <div style="position:absolute;top:62px;left:10px;right:10px;display:flex;gap:10px;font-size:10px;color:#666">
+        <span>All</span><span style="color:#1a56d6;font-weight:800;border-bottom:2px solid #1a56d6;padding-bottom:3px">News</span><span>Images</span><span>Videos</span>
+      </div>
+      <div style="position:absolute;top:88px;left:0;right:0;border-top:1px solid #e5e5e5"></div>
+      <div style="position:absolute;top:96px;left:10px;right:10px;display:flex;flex-direction:column;gap:12px">
+        <div><div style="font-size:9.5px;color:#333"><b style="outline:2.5px solid var(--red);outline-offset:1px">CNBC</b> · <span style="outline:2.5px solid var(--red);outline-offset:1px;font-weight:700">2 hours ago</span></div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:7px;width:95%"></div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:4px;width:70%"></div></div>
+        <div><div style="font-size:9.5px;color:#333"><b>Reuters</b> · 3 hours ago</div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:7px;width:88%"></div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:4px;width:60%"></div></div>
+        <div><div style="font-size:9.5px;color:#333"><b>Bloomberg</b> · 5 hours ago</div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:7px;width:92%"></div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:4px;width:50%"></div></div>
+        <div><div style="font-size:9.5px;color:#333"><b>Wall Street Journal</b> · 6 hours ago</div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:7px;width:80%"></div></div>
+        <div><div style="font-size:9.5px;color:#333"><b>AP News</b> · 7 hours ago</div><div style="height:7px;background:#1a56d6;opacity:.75;border-radius:2px;margin-top:7px;width:85%"></div></div>
+      </div>
+    </div>
+    <div style="flex:1;padding-top:6px">
+      <div style="margin-bottom:22px">
+        <div class="hand red" style="font-size:26px;line-height:1">When?</div>
+        <div style="font-size:15px;line-height:1.4;margin-top:4px"><b>Hours ago</b> = fresh and hot. Days ago = late.</div>
+      </div>
+      <div style="margin-bottom:22px">
+        <div class="hand red" style="font-size:26px;line-height:1">Who?</div>
+        <div style="font-size:15px;line-height:1.4;margin-top:4px"><b>Big outlets</b> covering it = big story.</div>
+      </div>
+      <div>
+        <div class="hand red" style="font-size:26px;line-height:1">Both?</div>
+        <div style="font-size:15px;line-height:1.4;margin-top:4px">Film it today.</div>
+      </div>
+    </div>
+  </div>
+  <ol class="steps" style="margin-top:20px">
+    <li>Google your topic, tap <b>News</b>. Or check <b>Google Trends → Trending now</b>.</li>
+    <li>Open the stories. <b>Screenshot</b> the headline and photos.</li>
+  </ol>
+  <div class="foot"><span>Green screen</span><span class="n"></span></div>
+</section>
+
+<!-- 12 GREEN SCREEN 2 -->
+<section class="page">
+  <div class="tag">Format · Green screen · 2 of 3</div>
+  <h1>Set it up in<br>TikTok</h1>
+  <ol class="steps" style="margin:10px 0 18px">
+    <li>Open TikTok, tap <b>+</b>. Swipe to <b>10m</b> if you have it (otherwise 60s).</li>
+    <li>Bottom left, tap <b>Effects</b>. Search <b>"Green screen."</b></li>
+    <li>Pick the <b>photo</b> version, not video, and drop in your screenshot.</li>
+  </ol>
+  <p style="font-weight:700;margin-bottom:10px">There are two kinds. Use the one where you can move yourself.</p>
+  <div class="row" style="justify-content:center;gap:28px">
+    <div>
+      <div class="ph" style="width:170px;height:302px">
+        <div class="notch"></div>
+        <div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,#8a8378 0 10px,#7e776c 10px 20px)"></div>
+        <div style="position:absolute;top:24px;left:10px;right:10px;background:#fff;padding:6px;font-size:9px;font-weight:800;line-height:1.2">BREAKING: HEADLINE GOES HERE</div>
+        <svg style="position:absolute;bottom:0;left:0" width="160" height="200" viewBox="0 0 160 200"><circle cx="80" cy="70" r="40" fill="#2a2826"/><path d="M0 200 Q10 120 80 118 Q150 120 160 200 Z" fill="#2a2826"/></svg>
+        <svg style="position:absolute;top:146px;left:50%;transform:translateX(-50%)" width="22" height="26" viewBox="0 0 22 26"><path d="M5 11 V7 a6 6 0 0 1 12 0 V11" fill="none" stroke="#fff" stroke-width="3"/><rect x="1" y="11" width="20" height="14" rx="3" fill="#fff"/></svg>
+      </div>
+      <div class="cap"><span class="no" style="width:18px;height:18px;font-size:11px;vertical-align:-3px">✕</span> Locked in place</div>
+      <div class="small" style="text-align:center;font-size:12.5px">You cover the image.</div>
+    </div>
+    <div>
+      <div class="ph" style="width:170px;height:302px;border-color:var(--go)">
+        <div class="notch"></div>
+        <div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,#8a8378 0 10px,#7e776c 10px 20px)"></div>
+        <div style="position:absolute;top:24px;left:10px;right:10px;background:#fff;padding:6px;font-size:9px;font-weight:800;line-height:1.2">BREAKING: HEADLINE GOES HERE</div>
+        <div style="position:absolute;top:58px;left:10px;right:10px;height:96px;background:#b9b2a5;border:2px solid #fff"></div>
+        <svg style="position:absolute;bottom:0;left:30px" width="100" height="120" viewBox="0 0 100 120"><circle cx="50" cy="44" r="24" fill="#2a2826"/><path d="M0 120 Q6 72 50 70 Q94 72 100 120 Z" fill="#2a2826"/></svg>
+        <svg style="position:absolute;bottom:96px;left:18px" width="124" height="40" viewBox="0 0 124 40" fill="none" stroke="#F5D348" stroke-width="3" stroke-linecap="round"><path d="M10 30 L34 10 M10 30 L10 18 M10 30 L22 30"/><path d="M114 30 L90 10 M114 30 L114 18 M114 30 L102 30"/></svg>
+      </div>
+      <div class="cap"><span class="yes" style="width:18px;height:18px;font-size:11px;vertical-align:-3px">✓</span> Pinch to resize</div>
+      <div class="small" style="text-align:center;font-size:12.5px">Shrink yourself. Image shows.</div>
+    </div>
+  </div>
+  <div class="foot"><span>Green screen</span><span class="n"></span></div>
+</section>
+
+<!-- 13 GREEN SCREEN 3 -->
+<section class="page">
+  <div class="tag">Format · Green screen · 3 of 3</div>
+  <h1>Film it</h1>
+  <div class="card" style="margin:6px 0 18px">
+    <h3>Before you hit record</h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;font-size:16.5px;font-weight:600;margin-top:10px">
+      <div style="display:flex;gap:8px;align-items:flex-start"><span class="yes" style="width:20px;height:20px;font-size:11px;margin-top:1px">✓</span><span>Mic plugged in, on</span></div>
+      <div style="display:flex;gap:8px;align-items:flex-start"><span class="yes" style="width:20px;height:20px;font-size:11px;margin-top:1px">✓</span><span>Facing the window</span></div>
+      <div style="display:flex;gap:8px;align-items:flex-start"><span class="yes" style="width:20px;height:20px;font-size:11px;margin-top:1px">✓</span><span>Headline image behind you</span></div>
+      <div style="display:flex;gap:8px;align-items:flex-start"><span class="yes" style="width:20px;height:20px;font-size:11px;margin-top:1px">✓</span><span>Negative hook ready</span></div>
+    </div>
+  </div>
+  <p style="font-weight:700;margin-bottom:10px">No script after the hook. Just hit these, in order:</p>
+
+  <div style="display:flex;flex-direction:column;gap:0;border-left:3px solid var(--ink);margin-left:12px">
+    <div style="padding:0 0 14px 22px;position:relative"><span style="position:absolute;left:-9px;top:2px;width:15px;height:15px;border-radius:50%;background:var(--red)"></span><div style="font-size:12px;font-weight:800;color:var(--red);letter-spacing:.1em">0–3 SEC</div><div style="font-size:17px;font-weight:700">Hook. Negative, with emphasis, into the lens.</div></div>
+    <div style="padding:0 0 14px 22px;position:relative"><span style="position:absolute;left:-9px;top:2px;width:15px;height:15px;border-radius:50%;background:var(--ink)"></span><div style="font-size:17px;font-weight:700">What happened</div></div>
+    <div style="padding:0 0 14px 22px;position:relative"><span style="position:absolute;left:-9px;top:2px;width:15px;height:15px;border-radius:50%;background:var(--ink)"></span><div style="font-size:17px;font-weight:700">Why it matters to the viewer</div></div>
+    <div style="padding:0 0 14px 22px;position:relative"><span style="position:absolute;left:-9px;top:2px;width:15px;height:15px;border-radius:50%;background:var(--ink)"></span><div style="font-size:17px;font-weight:700">A couple of interesting facts</div><div class="small">Swap in other screenshots or B-roll here.</div></div>
+    <div style="padding:0 0 14px 22px;position:relative"><span style="position:absolute;left:-9px;top:2px;width:15px;height:15px;border-radius:50%;background:var(--ink)"></span><div style="font-size:17px;font-weight:700">Your opinion</div></div>
+    <div style="padding:0 0 0 22px;position:relative"><span style="position:absolute;left:-9px;top:2px;width:15px;height:15px;border-radius:50%;background:var(--ink)"></span><div style="font-size:17px;font-weight:700">Call to action</div><div class="small">"Follow for more on ___."</div></div>
+  </div>
+
+  <div style="margin-top:24px">
+    <div style="display:flex;height:34px;border-radius:5px;overflow:hidden;border:2px solid var(--ink)">
+      <div style="width:7.5%;background:var(--red)"></div>
+      <div style="flex:1;background:repeating-linear-gradient(90deg,var(--card) 0 18%,#e6e0d3 18% 20%)"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700;margin-top:6px"><span>0s</span><span style="font-family:Anton;font-size:22px;font-weight:400">TOTAL: 37–42 SECONDS</span></div>
+  </div>
+  <div class="foot"><span>Green screen</span><span class="n"></span></div>
+</section>
+
+<!-- 14 SAFE ZONE -->
+<section class="page">
+  <div class="tag">Framing</div>
+  <h1>The safe zone</h1>
+  <p class="lead">The app's buttons and captions sit on top of your video. Anything under them is hidden.</p>
+  <div class="row" style="gap:20px;align-items:center;margin-top:10px">
+    <div class="ph" style="width:270px;height:480px;background:#6f6a62">
+      <div class="notch"></div>
+      <!-- B-roll background suggestion -->
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,#8d877c,#5e5a53)"></div>
+      <!-- top bar zone -->
+      <div style="position:absolute;top:0;left:0;right:0;height:9%;background:rgba(226,64,31,.55)"></div>
+      <div style="position:absolute;top:22px;left:0;right:0;text-align:center;color:#fff;font-size:11px;font-weight:700">Following &nbsp; <u>For You</u></div>
+      <!-- right rail -->
+      <div style="position:absolute;top:9%;bottom:24%;right:0;width:15%;background:rgba(226,64,31,.55)"></div>
+      <div style="position:absolute;right:9px;top:40%;display:flex;flex-direction:column;gap:13px;align-items:center">
+        <span style="width:22px;height:22px;border-radius:50%;background:#fff;border:2px solid #fff"></span>
+        <span style="width:20px;height:18px;background:#fff;clip-path:path('M10 18 L1 8 A5 5 0 0 1 10 3 A5 5 0 0 1 19 8 Z')"></span>
+        <span style="width:20px;height:17px;border-radius:9px;background:#fff"></span>
+        <span style="width:16px;height:19px;background:#fff;clip-path:polygon(0 0,100% 0,100% 100%,50% 75%,0 100%)"></span>
+        <span style="width:20px;height:16px;background:#fff;clip-path:polygon(0 100%,10% 40%,55% 40%,55% 0,100% 50%,55% 100%,55% 65%,25% 65%)"></span>
+      </div>
+      <!-- bottom zone -->
+      <div style="position:absolute;bottom:0;left:0;right:0;height:24%;background:rgba(226,64,31,.55)"></div>
+      <div style="position:absolute;bottom:34px;left:12px;color:#fff;font-size:10.5px;line-height:1.5"><b>@yourname</b><br>caption text goes here... more<br>♫ original sound</div>
+      <!-- left margin -->
+      <div style="position:absolute;top:9%;bottom:24%;left:0;width:5%;background:rgba(226,64,31,.55)"></div>
+      <!-- safe box -->
+      <div style="position:absolute;top:9%;bottom:24%;left:5%;right:15%;border:3px dashed var(--yel);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:34px">
+        <div class="stroke" style="font-size:19px;text-align:center;line-height:1.15">TEXT GOES<br>UP HERE</div>
+        <div style="margin-top:auto;margin-bottom:auto;color:var(--yel);font-weight:800;font-size:13px;letter-spacing:.12em">SAFE ZONE</div>
+      </div>
+    </div>
+    <div style="flex:1;font-size:14.5px;line-height:1.4">
+      <div style="margin-bottom:16px"><b style="display:block;font-size:15px">Top</b>For You / Following tabs.</div>
+      <div style="margin-bottom:16px"><b style="display:block;font-size:15px">Right side</b>Profile, like, comment, save, share.</div>
+      <div style="margin-bottom:16px"><b style="display:block;font-size:15px">Bottom quarter</b>Your name, caption, sound.</div>
+      <div><b style="display:block;font-size:15px">Left edge</b>Small margin.</div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px"><div style="font-size:15.5px;line-height:1.45">Your face, text, captions and images stay <b>inside the dashed box</b>. B-roll can fill the whole screen.</div></div>
+  <div class="foot"><span>Framing</span><span class="n"></span></div>
+</section>
+
+<!-- 15 B-ROLL + TEXT -->
+<section class="page">
+  <div class="tag">Daily habit</div>
+  <h1>Collect B-roll<br>every day</h1>
+  <p class="lead">Film your day on purpose, knowing text will go on top later.</p>
+  <ol class="steps" style="margin-top:8px">
+    <li>Open the camera, <b>tap the screen</b>, drag the sun <b>down slightly</b>. A little darker looks better and text reads easier.</li>
+    <li>Leave the <b>top or middle empty</b>. That's where text goes.</li>
+  </ol>
+  <div class="row" style="justify-content:center;gap:28px;margin:6px 0 14px">
+    <div>
+      <div class="ph" style="width:150px;height:266px">
+        <div class="notch"></div>
+        <svg width="140" height="256" viewBox="0 0 140 256" style="position:absolute;inset:0"><rect width="140" height="256" fill="#7d776c"/>
+          <rect x="6" y="20" width="40" height="60" fill="#c9a24a"/><rect x="52" y="14" width="30" height="40" fill="#4f6b8a"/><circle cx="110" cy="40" r="20" fill="#b85b3d"/><rect x="88" y="70" width="46" height="34" fill="#d5cfc3"/><rect x="10" y="96" width="60" height="30" fill="#5d7f55"/><circle cx="40" cy="160" r="26" fill="#a58ec2"/><rect x="74" y="120" width="56" height="70" fill="#e0b34e"/><rect x="0" y="200" width="140" height="56" fill="#4b4741"/><rect x="18" y="206" width="20" height="40" fill="#c46a4c"/><rect x="96" y="210" width="34" height="30" fill="#87b0c9"/></svg>
+        <div class="stroke" style="position:absolute;top:70px;left:8px;right:8px;text-align:center;font-size:14px;line-height:1.15">WHERE DOES THE TEXT EVEN GO</div>
+      </div>
+      <div class="cap"><span class="no" style="width:18px;height:18px;font-size:11px;vertical-align:-3px">✕</span> Too busy</div>
+    </div>
+    <div>
+      <div class="ph" style="width:150px;height:266px;border-color:var(--go)">
+        <div class="notch"></div>
+        <svg width="140" height="256" viewBox="0 0 140 256" style="position:absolute;inset:0"><rect width="140" height="256" fill="#a9b6bd"/><rect y="150" width="140" height="106" fill="#6d6458"/><rect x="40" y="128" width="60" height="40" rx="4" fill="#3a3632"/><rect x="48" y="118" width="12" height="16" rx="2" fill="#f2efe8"/></svg>
+        <div class="stroke" style="position:absolute;top:50px;left:8px;right:8px;text-align:center;font-size:15px;line-height:1.15">CLEAN. TEXT HAS ROOM.</div>
+      </div>
+      <div class="cap"><span class="yes" style="width:18px;height:18px;font-size:11px;vertical-align:-3px">✓</span> Room up top</div>
+    </div>
+  </div>
+  <div class="card" style="display:flex;align-items:center;gap:16px;background:#7d776c;border-color:var(--ink)">
+    <div class="stroke" style="font-size:24px;line-height:1">TEXT LOOKS<br>LIKE THIS</div>
+    <div style="color:#fff;font-size:14px;line-height:1.45;font-weight:600">Sans-serif font<br>White text, black outline<br>Done in-app</div>
+  </div>
+  <div class="foot"><span>Daily habit</span><span class="n"></span></div>
+</section>
+
+<!-- 16 LISTICLE -->
+<section class="page">
+  <div class="tag">Format · No talking · No editor</div>
+  <h1>Listicle</h1>
+  <p class="lead">A headline, then a list that pops up one line at a time over a clip.</p>
+  <div class="row" style="gap:22px;align-items:flex-start;margin-top:10px">
+    <div class="ph" style="width:210px;height:373px">
+      <div class="notch"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,#a7b0b3 0%,#8d9497 55%,#5f5a52 55%,#4e4a44 100%)"></div>
+      <div class="stroke" style="position:absolute;top:44px;left:12px;right:30px;font-size:17px;line-height:1.15">5 BILLS YOU SHOULD NEVER PAY LATE</div>
+      <div class="stroke" style="position:absolute;top:112px;left:12px;right:30px;font-size:13px;line-height:1.75;font-weight:700">1. Credit card<br>2. Car note<br>3. Student loan<br><span style="opacity:.35">4. ...</span><br><span style="opacity:.35">5. ...</span></div>
+      <div style="position:absolute;top:110px;left:118px" class="hand"><span style="font-size:18px;color:var(--yel)">← pop in<br>&nbsp;&nbsp;&nbsp;one by one</span></div>
+    </div>
+    <div style="flex:1">
+      <h3>Make items pop in</h3>
+      <div style="font-size:15px;line-height:1.45;margin-bottom:18px">Tap a line of text → <b>Set duration</b> → drag with your finger so it starts a beat after the last one.</div>
+      <h3>Picking the clip</h3>
+      <div style="font-size:15px;line-height:1.45">Two jobs:<br><b>1.</b> Shows the feeling you want.<br><b>2.</b> Calm enough that the text is easy to read.</div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:20px;border-color:var(--red);border-width:2.5px">
+    <div style="font-size:15.5px;line-height:1.45">If the background is busy, the viewer's brain is reading two things at once. They get confused and scroll.</div>
+  </div>
+  <div class="foot"><span>Listicle</span><span class="n"></span></div>
+</section>
+
+<!-- 17 WHITEBOARD + RANKING -->
+<section class="page">
+  <div class="tag">Format · Talking · No editor</div>
+  <h1>Whiteboard<br>&amp; Ranking</h1>
+  <div class="card" style="margin:10px 0 18px">
+    <h3>Whiteboard</h3>
+    <div style="font-size:15.5px;line-height:1.45">Stand at a whiteboard and explain one thing your audience relates to. Draw while you talk. Same hook rules apply.</div>
+  </div>
+  <h2 style="font-size:24px;margin-bottom:10px">Ranking: put your space on a tier list</h2>
+  <div style="border:2px solid var(--ink);border-radius:6px;overflow:hidden">
+    <div style="display:flex;height:46px;border-bottom:2px solid var(--ink)"><div style="width:54px;background:#E2401F;color:#fff;font-family:Anton;font-size:24px;display:flex;align-items:center;justify-content:center">S</div><div style="flex:1;display:flex;gap:6px;align-items:center;padding:0 8px;background:var(--card)"><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span></div></div>
+    <div style="display:flex;height:46px;border-bottom:2px solid var(--ink)"><div style="width:54px;background:#EE8A2E;color:#fff;font-family:Anton;font-size:24px;display:flex;align-items:center;justify-content:center">A</div><div style="flex:1;display:flex;gap:6px;align-items:center;padding:0 8px;background:var(--card)"><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span></div></div>
+    <div style="display:flex;height:46px;border-bottom:2px solid var(--ink)"><div style="width:54px;background:#F5D348;color:var(--ink);font-family:Anton;font-size:24px;display:flex;align-items:center;justify-content:center">B</div><div style="flex:1;display:flex;gap:6px;align-items:center;padding:0 8px;background:var(--card)"><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span></div></div>
+    <div style="display:flex;height:46px;border-bottom:2px solid var(--ink)"><div style="width:54px;background:#7DB37A;color:#fff;font-family:Anton;font-size:24px;display:flex;align-items:center;justify-content:center">C</div><div style="flex:1;display:flex;gap:6px;align-items:center;padding:0 8px;background:var(--card)"><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span></div></div>
+    <div style="display:flex;height:46px"><div style="width:54px;background:#5B8FC9;color:#fff;font-family:Anton;font-size:24px;display:flex;align-items:center;justify-content:center">D</div><div style="flex:1;display:flex;gap:6px;align-items:center;padding:0 8px;background:var(--card)"><span style="width:32px;height:32px;border-radius:6px;background:#bdb5a6"></span><span class="hand" style="font-size:20px;color:var(--red);margin-left:8px">people will fight you on this one. good.</span></div></div>
+  </div>
+  <h3 style="margin-top:18px">What to rank</h3>
+  <div style="margin-top:8px"><span class="chip">Software</span><span class="chip">Apps</span><span class="chip">Influencers</span><span class="chip">Gurus</span><span class="chip">Brands</span><span class="chip">Biggest companies</span><span class="chip">Celebrities</span><span class="chip">Styles</span><span class="chip">Products</span><span class="chip">Local spots</span></div>
+  <p class="small" style="margin-top:6px">Anything in your space. Example that went viral locally: <b>"It's Ranking"</b>, ranking Savannah.</p>
+  <div class="foot"><span>Whiteboard &amp; Ranking</span><span class="n"></span></div>
+</section>
+
+<!-- 18 BORROWED CREDIBILITY -->
+<section class="page">
+  <div class="tag">Format · Easiest start</div>
+  <h1>Borrow<br>credibility</h1>
+  <p class="lead">Clip a famous person in your space from a podcast. Post it as a Trial Reel. This is where to start. It's the closest thing to guaranteed views.</p>
+  <ol class="steps" style="margin-top:4px">
+    <li>Watch their podcast. Find one strong moment.</li>
+    <li>Screen record it, trim it, add captions in TikTok.</li>
+  </ol>
+  <div class="row" style="justify-content:space-between;margin:4px 0 14px">
+    <div style="text-align:center"><div class="ph" style="width:128px;height:228px"><div style="position:absolute;inset:0;background:#5e5a53"></div><svg style="position:absolute;top:40px;left:24px" width="70" height="80"><circle cx="35" cy="26" r="18" fill="#a7a092"/><path d="M0 80 Q4 48 35 46 Q66 48 70 80Z" fill="#a7a092"/></svg><div class="stroke" style="position:absolute;top:150px;left:0;right:0;text-align:center;font-size:12px">captions here</div></div><div class="cap" style="font-size:11.5px">Clip only</div></div>
+    <div style="text-align:center"><div class="ph" style="width:128px;height:228px"><div style="position:absolute;top:0;left:0;right:0;height:50%;background:#5e5a53"></div><div style="position:absolute;bottom:0;left:0;right:0;height:50%;background:#8a8378"></div><svg style="position:absolute;top:30px;left:34px" width="54" height="80"><circle cx="27" cy="22" r="14" fill="#a7a092"/><path d="M0 80 Q3 46 27 44 Q51 46 54 80Z" fill="#a7a092"/></svg><svg style="position:absolute;bottom:0;left:34px" width="54" height="80"><circle cx="27" cy="26" r="14" fill="#2a2826"/><path d="M0 80 Q3 48 27 46 Q51 48 54 80Z" fill="#2a2826"/></svg><div style="position:absolute;bottom:6px;right:6px;font-size:9px;color:#fff;font-weight:800">YOU</div></div><div class="cap" style="font-size:11.5px">Split screen</div></div>
+    <div style="text-align:center"><div class="ph" style="width:128px;height:228px"><div style="position:absolute;inset:0;background:#5e5a53"></div><svg style="position:absolute;bottom:40px;left:24px" width="70" height="80"><circle cx="35" cy="26" r="18" fill="#a7a092"/><path d="M0 80 Q4 48 35 46 Q66 48 70 80Z" fill="#a7a092"/></svg><div style="position:absolute;top:22px;left:8px;width:44px;height:58px;background:#8a8378;border:2px solid #fff;border-radius:4px;overflow:hidden"><svg width="44" height="58"><circle cx="22" cy="20" r="9" fill="#2a2826"/><path d="M4 58 Q6 34 22 32 Q38 34 40 58Z" fill="#2a2826"/></svg></div></div><div class="cap" style="font-size:11.5px">Corner reaction</div></div>
+  </div>
+  <div class="card">
+    <h3>TikTok caption settings</h3>
+    <div style="font-size:15px;line-height:1.55;margin-top:4px">
+      <b>1.</b> Turn <b>punctuation off</b>.<br>
+      <b>2.</b> Custom font? Scroll down to <b>Word switch</b> (one word at a time).<br>
+      <b>3.</b> Want no outline? Select the text, tap <b>⊘</b>. That gives you plain white text.
+    </div>
+  </div>
+  <div class="foot"><span>Borrowed credibility</span><span class="n"></span></div>
+</section>
+
+<!-- 19 SKITS -->
+<section class="page">
+  <div class="tag">Format · Skits</div>
+  <h1>Two kinds<br>of skits</h1>
+  <div class="card" style="margin:8px 0 14px">
+    <div class="row" style="justify-content:space-between;align-items:baseline"><h2 style="font-size:24px">1 · POV skit</h2><span class="small" style="font-weight:700">usually no talking</span></div>
+    <div style="font-family:Anton;font-size:21px;margin:6px 0 8px;text-transform:uppercase">"POV: your manager is watching"</div>
+    <div style="font-size:15px;line-height:1.45">Think of a frustration everyone's had. Act it out and <b>exaggerate it</b> until it's funny. No crew needed, but it takes creativity. Stuck? Ask ChatGPT for relatable situations.</div>
+    <div class="small" style="margin-top:8px">Honest take: not the best fit for most business accounts.</div>
+  </div>
+  <div class="card" style="border-width:2.5px;border-color:var(--red)">
+    <div class="row" style="justify-content:space-between;align-items:baseline"><h2 style="font-size:24px">2 · Two-character skit</h2><span class="small" style="font-weight:700">talking · you play both</span></div>
+    <div style="font-size:15px;line-height:1.45;margin:6px 0 10px">One character is the official (cop, gate agent, clerk). The other is a regular person who knows the rules. The useful info comes out <b>inside the conversation</b>, never said to the camera.</div>
+    <div style="background:var(--paper);border-radius:6px;padding:12px 14px;font-size:15px;line-height:1.5">
+      <div><b style="font-size:11.5px;letter-spacing:.1em;color:var(--mute)">GATE AGENT</b><br>"Your flight's cancelled. Best I can do is tomorrow."</div>
+      <div style="margin-top:8px"><b style="font-size:11.5px;letter-spacing:.1em;color:var(--red)">YOU</b><br>"If I don't take the rebooking, I'm owed a full cash refund, right? Not a voucher."</div>
+      <div style="margin-top:8px"><b style="font-size:11.5px;letter-spacing:.1em;color:var(--mute)">GATE AGENT</b><br>"...Let me process that."</div>
+    </div>
+    <div class="small" style="margin-top:8px">Works for: tickets, citations, landlords, the DMV, contracts.</div>
+  </div>
+  <div class="foot"><span>Skits</span><span class="n"></span></div>
+</section>
+
+<!-- 20 ALGO HACKS -->
+<section class="page">
+  <div class="tag">Formats · Follower magnets</div>
+  <h1>Algo hacks</h1>
+  <p class="lead" style="margin-bottom:12px">Short, repeatable, and they convert followers. Bad, Better, Best was the go-to.</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+    <div class="card" style="padding:12px;border-width:2.5px;border-color:var(--red)"><h3>Bad, Better, Best</h3><div style="font-size:14px;line-height:1.4">Look up. Point left: "Bad." Middle: "Better." Right: "Best." Three times. Then to camera: "Follow for more."</div></div>
+    <div class="card" style="padding:12px"><h3>"Follow these people"</h3><div style="font-size:14px;line-height:1.4">"If you suck at reading..." point up "...follow these people." Repeat with money, AI, listening.</div></div>
+    <div class="card" style="padding:12px"><h3>Hire or Fire</h3><div style="font-size:14px;line-height:1.4">Someone off camera with a mic reads a work situation. You answer: "Hire." or "Fire."</div></div>
+    <div class="card" style="padding:12px"><h3>Myth or Truth</h3><div style="font-size:14px;line-height:1.4">Someone off camera reads a statement. You answer: "Myth." or "Truth."</div></div>
+  </div>
+  <div class="row" style="margin-top:16px;gap:18px;align-items:center">
+    <div class="ph" style="width:170px;height:302px;background:#d9d3c7">
+      <div class="notch"></div>
+      <div style="position:absolute;top:26px;left:8px;right:8px;height:130px;border:2.5px dashed var(--red);border-radius:6px"></div>
+      <div style="position:absolute;top:48px;left:16px;right:16px;display:flex;justify-content:space-between">
+        <div style="text-align:center"><div style="width:38px;height:38px;background:#9e978a;border-radius:4px"></div><div style="font-size:9px;font-weight:800;margin-top:3px">BAD</div></div>
+        <div style="text-align:center"><div style="width:38px;height:38px;background:#9e978a;border-radius:4px"></div><div style="font-size:9px;font-weight:800;margin-top:3px">BETTER</div></div>
+        <div style="text-align:center"><div style="width:38px;height:38px;background:#9e978a;border-radius:4px"></div><div style="font-size:9px;font-weight:800;margin-top:3px">BEST</div></div>
+      </div>
+      <svg style="position:absolute;bottom:0;left:20px" width="120" height="140" viewBox="0 0 120 140"><circle cx="60" cy="52" r="24" fill="#2a2826"/><path d="M8 140 Q12 86 60 84 Q108 86 112 140Z" fill="#2a2826"/><path d="M100 100 L118 40" stroke="#2a2826" stroke-width="10" stroke-linecap="round"/></svg>
+    </div>
+    <div style="flex:1">
+      <h3 class="red">Frame it low</h3>
+      <div style="font-size:15px;line-height:1.45">You sit in the bottom half. Leave the top empty so the images pop up above your head without getting cut off. Good light, always.</div>
+      <div class="small" style="margin-top:10px">Images over your head are the one part an editor helps with.</div>
+    </div>
+  </div>
+  <div class="foot"><span>Algo hacks</span><span class="n"></span></div>
+</section>
+
+<!-- 21 STREET INTERVIEW -->
+<section class="page">
+  <div class="tag">Format · Needs a 2nd person</div>
+  <h1>Street<br>interview</h1>
+  <p class="lead">One person holds the mic, one person films. Street, gym, anywhere people are. Takes the most courage. Here's the exact script so it doesn't feel weird.</p>
+  <ol class="steps" style="margin-top:4px">
+    <li>Walk up: <b>"Hey, question for you. Would you be opposed to being in a TikTok? We do ___."</b></li>
+    <li>If yes: <b>"Cool. Pretend you don't know me."</b></li>
+    <li>Walk away.</li>
+    <li>Camera person hits record.</li>
+    <li>Walk back up and start the video like it's the first time.</li>
+  </ol>
+  <div class="card" style="margin:6px 0 14px;padding:10px 14px">
+    <svg width="100%" height="150" viewBox="0 0 440 150">
+      <g font-family="Archivo" font-size="11" font-weight="800" fill="#6E685E" text-anchor="middle">
+        <rect x="40" y="58" width="22" height="36" rx="3" fill="#161514"/><text x="51" y="116">CAMERA</text>
+        <path d="M64 76 L250 50 M64 76 L250 104" stroke="#161514" stroke-dasharray="3 4" stroke-width="1.5"/>
+        <circle cx="270" cy="54" r="18" fill="#E2401F"/><text x="270" y="30">YOU</text>
+        <path d="M288 58 L318 66" stroke="#161514" stroke-width="4" stroke-linecap="round"/><circle cx="322" cy="67" r="5" fill="#161514"/>
+        <circle cx="352" cy="78" r="18" fill="#bdb5a6" stroke="#161514" stroke-width="2"/><text x="352" y="118">GUEST</text>
+      </g>
+      <text x="150" y="142" font-family="Caveat" font-size="20" font-weight="700" fill="#E2401F" text-anchor="middle">get both faces in frame, mic toward them</text>
+    </svg>
+  </div>
+  <div class="card" style="margin-top:8px;background:var(--ink);color:var(--paper)">
+    <div style="font-size:15.5px;line-height:1.45"><b style="color:var(--yel)">Your first question is your hook.</b> Make it something people have an opinion on. Same 3-second rule.</div>
+  </div>
+  <div class="foot"><span>Street interview</span><span class="n"></span></div>
+</section>
+
+<!-- 22 SKIP + DAILY -->
+<section class="page">
+  <div class="tag">Wrap-up</div>
+  <h1>Skip these</h1>
+  <div class="row" style="gap:12px;margin:6px 0 24px">
+    <div class="card col"><div class="row" style="gap:8px;align-items:center;margin-bottom:6px"><span class="no">✕</span><h3 style="margin:0">Reaction / Remix</h3></div><div style="font-size:14.5px;line-height:1.4">The built-in Instagram feature. Zero views every time I've tried it. (Reacting inside your own edit, like on the borrowed credibility page, is different.)</div></div>
+    <div class="card col"><div class="row" style="gap:8px;align-items:center;margin-bottom:6px"><span class="no">✕</span><h3 style="margin:0">Mockcast</h3></div><div style="font-size:14.5px;line-height:1.4">Fake podcast set. Needs a camera person and pro lighting. Never seen it work.</div></div>
+  </div>
+  <h1 style="font-size:48px">Every day</h1>
+  <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px">
+    <div class="card row" style="align-items:center;padding:12px 14px"><span style="width:22px;height:22px;border:2.5px solid var(--ink);border-radius:4px;flex:none"></span><div style="font-size:16.5px;font-weight:600">Film B-roll of your day</div></div>
+    <div class="card row" style="align-items:center;padding:12px 14px"><span style="width:22px;height:22px;border:2.5px solid var(--ink);border-radius:4px;flex:none"></span><div style="font-size:16.5px;font-weight:600">Write 10 negative hooks</div></div>
+    <div class="card row" style="align-items:center;padding:12px 14px"><span style="width:22px;height:22px;border:2.5px solid var(--ink);border-radius:4px;flex:none"></span><div style="font-size:16.5px;font-weight:600">Post at least one video (Trial Reel on IG)</div></div>
+    <div class="card row" style="align-items:center;padding:12px 14px"><span style="width:22px;height:22px;border:2.5px solid var(--ink);border-radius:4px;flex:none"></span><div style="font-size:16.5px;font-weight:600">Check yesterday's likes ÷ views</div></div>
+  </div>
+  <div style="margin-top:24px;border-top:3px solid var(--ink);padding-top:14px">
+    <div style="font-family:Anton;font-size:30px;line-height:1.05;text-transform:uppercase">Nobody really knows what people want to watch. <span class="red">The people who win just test more.</span></div>
+  </div>
+  <div class="foot"><span>Wrap-up</span><span class="n"></span></div>
+</section>
+
+</body>
+</html>
