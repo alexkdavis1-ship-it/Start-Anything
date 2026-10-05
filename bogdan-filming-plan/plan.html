@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bogdan Filming Plan</title>
+<link href="fonts.css" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3EFE6; --ink:#161514; --red:#E2401F; --mute:#6E685E; --line:#D8D1C2;
+  --go:#2E7A4C; --card:#FBF9F4; --yel:#F5D348;
+}
+@page{size:540px 960px;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper)}
+body{font-family:'Archivo',sans-serif;word-spacing:.07em;color:var(--ink);counter-reset:pg;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:540px;height:960px;position:relative;overflow:hidden;background:var(--paper);padding:46px 40px 60px;page-break-after:always;break-after:page;counter-increment:pg}
+.page:last-child{page-break-after:auto}
+.foot{position:absolute;left:40px;right:40px;bottom:22px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.foot .n::after{content:counter(pg, decimal-leading-zero)}
+.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--red);margin:0 0 10px}
+h1{font-family:'Anton',sans-serif;font-weight:400;font-size:60px;line-height:.96;text-transform:uppercase;margin:0 0 14px}
+h2{font-family:'Anton',sans-serif;font-weight:400;font-size:28px;line-height:1;text-transform:uppercase;margin:0 0 8px}
+h3{font-size:15px;font-weight:800;margin:0 0 4px;text-transform:uppercase;letter-spacing:.06em}
+p{font-size:18px;line-height:1.4;margin:0 0 12px}
+.lead{font-size:20px;line-height:1.35;font-weight:500}
+.small{font-size:15px;line-height:1.4;color:var(--mute)}
+.red{color:var(--red)} .go{color:var(--go)}
+.hand{font-family:'Caveat',cursive;font-weight:700}
+.card{background:var(--card);border:1.5px solid var(--ink);border-radius:6px;padding:14px 16px}
+.row{display:flex;gap:14px}
+.col{flex:1}
+.nw{white-space:nowrap}
+ol.steps{list-style:none;padding:0;margin:0;counter-reset:st}
+ol.steps li{counter-increment:st;position:relative;padding:0 0 0 44px;margin:0 0 14px;font-size:18px;line-height:1.35}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:-2px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);font-family:'Anton';font-size:16px;display:flex;align-items:center;justify-content:center}
+.ph{position:relative;border:5px solid var(--ink);border-radius:24px;overflow:hidden;background:#2a2826;flex:none}
+.ph .notch{position:absolute;top:6px;left:50%;transform:translateX(-50%);width:34%;height:10px;border-radius:8px;background:var(--ink);z-index:5}
+.dark{background:var(--ink);color:var(--paper)}
+table{border-collapse:collapse;width:100%}
+td,th{text-align:left;padding:9px 5px;border-bottom:1.5px solid var(--line);font-size:16px;vertical-align:middle}
+th{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);border-bottom:2px solid var(--ink)}
+.box{display:inline-block;width:20px;height:20px;border:2.5px solid var(--ink);border-radius:4px;vertical-align:middle}
+.chip{display:inline-block;border:1.5px solid var(--ink);border-radius:99px;padding:4px 10px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin:0 5px 6px 0;background:var(--card)}
+.chip.solid{background:var(--ink);color:var(--paper)}
+.chip.red{background:var(--red);border-color:var(--red);color:#fff}
+.label{font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:0 0 6px}
+.say{background:var(--ink);color:var(--paper);border-radius:6px;padding:16px 18px;font-family:'Anton';font-size:27px;line-height:1.12;text-transform:uppercase}
+.bul{margin:0;padding:0;list-style:none}
+.bul li{position:relative;padding-left:20px;font-size:16.5px;line-height:1.38;margin-bottom:7px}
+.bul li::before{content:"";position:absolute;left:2px;top:9px;width:8px;height:8px;background:var(--red);border-radius:2px}
+.titlebox{display:inline-block;background:#000;color:#fff;font-weight:700;padding:3px 7px;font-size:12px;line-height:1.25;text-align:center}
+</style>
+</head>
+<body>
+
+<!-- 01 COVER -->
+<section class="page dark">
+  <div style="font-size:12px;letter-spacing:.2em;font-weight:700;text-transform:uppercase;color:#bdb6aa">First Million Views &nbsp;/&nbsp; Email Kong</div>
+  <div style="position:absolute;left:40px;right:40px;top:190px">
+    <div style="width:64px;height:8px;background:var(--red);margin-bottom:26px"></div>
+    <div style="font-size:14px;letter-spacing:.2em;font-weight:700;text-transform:uppercase;color:var(--yel);margin-bottom:10px">Bogdan</div>
+    <h1 style="font-size:96px;line-height:.9;color:var(--paper)">What to<br><span style="color:var(--red)">film.</span></h1>
+    <p class="lead" style="color:#cfc8bb;max-width:420px;margin-top:22px">16 videos. Two sessions. Every hook is written for you. Film it, upload it raw, we handle the rest.</p>
+  </div>
+  <div style="position:absolute;left:40px;right:40px;bottom:46px;display:flex;gap:12px;border-top:1.5px solid #3b3935;padding-top:18px">
+    <div class="col"><div style="font-family:Anton;font-size:40px;line-height:1">2 hrs</div><div style="font-size:13px;color:#bdb6aa;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-top:4px">Friday</div></div>
+    <div class="col"><div style="font-family:Anton;font-size:40px;line-height:1">2.5 hrs</div><div style="font-size:13px;color:#bdb6aa;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-top:4px">Sunday</div></div>
+    <div class="col"><div style="font-family:Anton;font-size:40px;line-height:1;color:var(--yel)">22</div><div style="font-size:13px;color:#bdb6aa;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-top:4px">Posts out of it</div></div>
+  </div>
+</section>
+
+<!-- 02 HOW THIS WORKS -->
+<section class="page">
+  <div class="tag">Read first · 1 minute</div>
+  <h1>How this<br>works</h1>
+  <ol class="steps" style="margin-top:18px">
+    <li><b>Film the list.</b> Each video has its own page. The first line is written word for word. Everything after it is bullet points. Talk through them like you would on a call.</li>
+    <li><b>Upload everything raw.</b> Every take, mistakes included. Don't trim, caption, or filter anything.</li>
+    <li><b>We edit and send it back.</b> You approve within 24 hours, then it goes live.</li>
+  </ol>
+  <div class="card" style="margin-top:8px">
+    <h3>Four rules on set</h3>
+    <ul class="bul" style="margin-top:10px">
+      <li><b>Say the video number first.</b> "Video 9, take 2." Then a 1-second pause, then the hook.</li>
+      <li><b>Hook three times.</b> Three different deliveries of the first line, then go straight into the rest.</li>
+      <li><b>Start talking the moment you hit record.</b> Pauses and stumbles get cut, so keep going.</li>
+      <li><b>Under 60 seconds per video.</b> If you go long, we cut it down. Don't restart.</li>
+    </ul>
+  </div>
+  <div class="row" style="margin-top:16px;align-items:center;gap:10px">
+    <span class="hand red" style="font-size:26px;transform:rotate(-3deg);display:inline-block">stuck on a video?</span>
+    <span style="font-size:16px;font-weight:600">Skip it. Film the next one.</span>
+  </div>
+  <div class="foot"><span>How this works</span><span class="n"></span></div>
+</section>
+
+<!-- 03 SETUP -->
+<section class="page">
+  <div class="tag">Set up once · 10 minutes</div>
+  <h1>Setup</h1>
+  <div class="row" style="gap:20px;align-items:flex-start;margin-top:6px">
+    <div class="ph" style="width:200px;height:356px;background:#d6d0c4">
+      <div class="notch"></div>
+      <div style="position:absolute;top:22px;left:8px;right:8px;height:118px;border:2.5px dashed var(--red);border-radius:6px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11px;font-weight:800;letter-spacing:.08em;color:var(--red);line-height:1.4">EMPTY WALL<br>(email / graph<br>goes here)</div>
+      <svg style="position:absolute;bottom:0;left:22px" width="146" height="200" viewBox="0 0 146 200"><circle cx="73" cy="70" r="36" fill="#2a2826"/><path d="M4 200 Q8 118 73 114 Q138 118 142 200Z" fill="#2a2826"/><rect x="58" y="150" width="8" height="12" rx="2" fill="#F5D348"/></svg>
+      <div style="position:absolute;top:186px;left:0;right:0;border-top:1.5px dashed rgba(22,21,20,.4)"></div>
+    </div>
+    <div style="flex:1;padding-top:4px">
+      <div style="margin-bottom:16px"><h3>Frame</h3><div style="font-size:15.5px;line-height:1.4">Phone <b>vertical</b>, chest up. <b>Leave the top third empty.</b> That's where the email or graph goes.</div></div>
+      <div style="margin-bottom:16px"><h3>Light</h3><div style="font-size:15.5px;line-height:1.4">Face the window. Add your light only if it's dark.</div></div>
+      <div><h3>Mic</h3><div style="font-size:15.5px;line-height:1.4">DJI Mic 3 clipped on, receiver plugged into the phone.</div></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:18px">
+    <h3>Camera: use the iPhone 17 Pro</h3>
+    <ul class="bul" style="margin-top:8px">
+      <li>Back camera, <b>4K 30fps</b>. A team member hits record, or use a tripod and the iPhone's mirroring/remote.</li>
+      <li>Tap your face, then drag the sun down a little. Lock it.</li>
+      <li>Office or the Canary Wharf flat. Keep the same spot for the whole session.</li>
+    </ul>
+  </div>
+  <p class="small" style="margin-top:12px">The ZV-E10 is fine too, but the iPhone is faster and already vertical.</p>
+  <div class="foot"><span>Setup</span><span class="n"></span></div>
+</section>
+
+<!-- 04 THE LOOK -->
+<section class="page">
+  <div class="tag">What it'll look like</div>
+  <h1>The look</h1>
+  <p class="lead">Plain and direct. Just you talking to camera, with the proof on screen above your head.</p>
+  <div class="row" style="gap:18px;align-items:flex-start;margin-top:12px">
+    <div class="ph" style="width:200px;height:356px;background:#cfc8bb">
+      <div class="notch"></div>
+      <div style="position:absolute;top:24px;left:10px;right:10px;height:104px;background:#fff;border-radius:3px;padding:8px">
+        <div style="font-size:7px;color:#888;font-weight:700">CAMPAIGN REVENUE</div>
+        <div style="font-size:15px;font-weight:800;margin-top:2px">$119,0••</div>
+        <svg width="160" height="52" viewBox="0 0 160 52"><g fill="#2E7A4C"><rect x="4" y="40" width="12" height="10"/><rect x="22" y="36" width="12" height="14"/><rect x="40" y="38" width="12" height="12"/><rect x="58" y="32" width="12" height="18"/><rect x="76" y="34" width="12" height="16"/><rect x="94" y="26" width="12" height="24"/><rect x="112" y="18" width="12" height="32"/><rect x="130" y="2" width="12" height="48"/></g></svg>
+      </div>
+      <div style="position:absolute;top:140px;left:0;right:0;text-align:center"><span class="titlebox" style="font-size:13px">Black Friday: 7 Emails, 3&nbsp;Texts</span></div>
+      <svg style="position:absolute;bottom:0;left:24px" width="142" height="170" viewBox="0 0 142 170"><circle cx="71" cy="60" r="32" fill="#2a2826"/><path d="M4 170 Q8 100 71 96 Q134 100 138 170Z" fill="#2a2826"/></svg>
+      <div style="position:absolute;bottom:40px;left:0;right:0;text-align:center;color:#fff;font-size:10px;font-weight:600;text-shadow:0 1px 2px #000">seven emails and three texts</div>
+    </div>
+    <div style="flex:1;font-size:15px;line-height:1.4">
+      <div style="margin-bottom:14px"><b class="red">Top:</b> the real screenshot. Revenue, the email, the flow. Brand names blurred.</div>
+      <div style="margin-bottom:14px"><b class="red">Middle:</b> a short title in a black box.</div>
+      <div style="margin-bottom:14px"><b class="red">Bottom:</b> you, plus small captions.</div>
+      <div class="small">We handle all of this in the edit. Your job: talk, and send us the screenshots each page asks for.</div>
+    </div>
+  </div>
+  <div class="label" style="margin-top:20px">Every video is one of these</div>
+  <div><span class="chip solid">Talk + proof</span><span class="chip solid">Team asks, you answer</span><span class="chip solid">Ranking</span><span class="chip solid">Quick hit</span><span class="chip solid">Screen tour</span></div>
+  <div class="foot"><span>The look</span><span class="n"></span></div>
+</section>
+
+<!-- 05 SESSION 1 -->
+<section class="page">
+  <div class="tag">Friday · ~2 hours · Black Friday first</div>
+  <h1>Session 1</h1>
+  <p class="lead" style="margin-bottom:10px">These go first because Black Friday is on the clock.</p>
+  <table id="s1"></table>
+  <div class="card" style="margin-top:14px;border-color:var(--red);border-width:2px"><div style="font-size:15px;line-height:1.4"><b>Bring a team member</b> for 06 and 07. They read from this PDF off camera.</div></div>
+  <div class="foot"><span>Session 1</span><span class="n"></span></div>
+</section>
+
+<!-- 06 SESSION 2 -->
+<section class="page">
+  <div class="tag">Sunday · ~2.5 hours · Evergreen</div>
+  <h1>Session 2</h1>
+  <p class="lead" style="margin-bottom:10px">Stuff that works any month of the year.</p>
+  <table id="s2"></table>
+  <div class="card" style="margin-top:14px"><div style="font-size:15px;line-height:1.4">Finish with <b>30 minutes of B-roll and screen recordings</b>. The list is near the end.</div></div>
+  <div class="foot"><span>Session 2</span><span class="n"></span></div>
+</section>
+
+<div id="cards"></div>
+
+<!-- SCREEN + BROLL -->
+<section class="page">
+  <div class="tag">End of Sunday · 30 minutes</div>
+  <h1>Screens &amp;<br>B-roll</h1>
+  <div class="label" style="margin-top:6px">Screen record (blur or hide brand names)</div>
+  <table style="margin-bottom:16px">
+    <tr><td style="width:30px"><span class="box"></span></td><td>Klaviyo dashboard: revenue graph over a big month</td></tr>
+    <tr><td><span class="box"></span></td><td>A flow on the Klaviyo canvas, slow scroll</td></tr>
+    <tr><td><span class="box"></span></td><td>The $171k email, full scroll</td></tr>
+    <tr><td><span class="box"></span></td><td>The Black Friday campaign list from the pet brand</td></tr>
+    <tr><td><span class="box"></span></td><td>Where to find "email % of revenue"</td></tr>
+  </table>
+  <div class="label">Film on your phone · 10–15 sec each</div>
+  <table>
+    <tr><td style="width:30px"><span class="box"></span></td><td>Walking into the office (and past Klaviyo's)</td></tr>
+    <tr><td><span class="box"></span></td><td>Team at a whiteboard or screen, brainstorming</td></tr>
+    <tr><td><span class="box"></span></td><td>Typing, over-the-shoulder, screen blurred</td></tr>
+    <tr><td><span class="box"></span></td><td>Canary Wharf from the window, morning and night</td></tr>
+    <tr><td><span class="box"></span></td><td>You on a call, from the side, no audio needed</td></tr>
+  </table>
+  <p class="small" style="margin-top:12px">Lower the exposure a touch. Leave space at the top for text.</p>
+  <div class="foot"><span>Screens &amp; B-roll</span><span class="n"></span></div>
+</section>
+
+<!-- RULES + UPLOAD -->
+<section class="page">
+  <div class="tag">Last page</div>
+  <h1>Never on<br>camera</h1>
+  <div class="card" style="border-color:var(--red);border-width:2.5px;margin-bottom:18px">
+    <ul class="bul">
+      <li><b>Client names.</b> Say the niche: "a pet brand," "a supplement brand."</li>
+      <li><b>Prices, retainers, or plan tiers.</b></li>
+      <li><b>Anything that says "send fewer emails."</b></li>
+      <li><b>Numbers that didn't happen,</b> or anything that sounds like a guarantee.</li>
+      <li><b>Unblurred Klaviyo accounts.</b> Film them anyway, we'll blur.</li>
+    </ul>
+  </div>
+  <h2 style="font-size:26px">Upload</h2>
+  <ol class="steps" style="margin-top:10px">
+    <li>Same <b>Frame.io</b> folder as your B-roll.</li>
+    <li>One folder per session: <b>Fri</b> / <b>Sun</b>.</li>
+    <li>Don't rename anything. You said the number on camera, so we'll find it.</li>
+    <li>Message us on Slack when it's up.</li>
+  </ol>
+  <div class="card" style="margin-top:6px;background:var(--ink);color:var(--paper)">
+    <div style="font-size:15.5px;line-height:1.45"><b style="color:var(--yel)">Big news in your world?</b> (Klaviyo, Shopify, a brand's email going viral.) Film a quick reaction the same day. What happened, what it means for a store owner, your take. Send it within 24 hours.</div>
+  </div>
+  <div class="foot"><span>Rules &amp; upload</span><span class="n"></span></div>
+</section>
+
+<script>
+const V = [
+ // ---------- SESSION 1 ----------
+ {n:1,s:1,type:"Talk + proof",min:10,title:"Black Friday: 7 Emails, 3&nbsp;Texts",
+  hook:"Seven emails and three texts made a pet brand $119,000 on Black Friday.",
+  points:["That was 37% of the store's revenue that day.","Walk through the 10 messages in order: what each one was and when it went out.","The one that did the most work, and why.","What most brands do on Black Friday instead."],
+  send:"Screenshot of the campaign list and the revenue for that day. Brand name hidden.",
+  cta:"Comment \"BFCM\" and I'll send you the full playbook."},
+ {n:2,s:1,type:"Talk + proof",min:10,title:"Stop Sending Fewer Emails",
+  hook:"Never let your agency talk you into sending fewer emails.",
+  points:["Only about 5% of your list is ready to buy right now.","The other 95% need to remember you when they are.","Unsubscribes don't pay the bills. Being forgotten kills brands.","What to send more of: education, stories, launches. Not just discounts."],
+  send:"Nothing. Talking head only.",
+  cta:"Comment \"AUDIT\" and we'll look at your account for free."},
+ {n:3,s:1,type:"Ranking",min:15,title:"Ranking Every Black Friday Offer",
+  hook:"Ranking every Black Friday offer from worst to best.",
+  rank:["Sitewide % off","Free shipping only","Buy one, get one","Free gift with purchase","Spend $X, get $Y off","Bundles","Early access for subscribers","Mystery box"],
+  rankNote:"For each one, say the offer, the tier (S, A, B, C, D), then one sentence why. Example: \"Free shipping only. D tier. Nobody's waiting all year for free shipping.\" We build the chart in the edit.",
+  cta:"Comment \"BFCM\" for the playbook."},
+ {n:4,s:1,type:"Talk + proof",min:10,title:"Your Black Friday Timeline",
+  hook:"If you haven't started your Black Friday emails yet, you're already late.",
+  points:["What should be done by now: popups up, list growing.","When subscribers get early access, and why it matters.","What goes out on the day, then Cyber Monday.","What happens after: the people who bought once."],
+  send:"Your real BFCM calendar or timeline, if you have one we can show.",
+  cta:"Comment \"BFCM\" for the full playbook."},
+ {n:5,s:1,type:"Quick hit",min:5,title:"Bad, Better, Best: Subject Lines",
+  quick:true,
+  how:["Sit low in the frame with lots of space above your head.","Look up. Point up-left: \"Bad.\" Up-middle: \"Better.\" Up-right: \"Best.\"","Do it 3 times in a row. Then look at camera: \"Follow for more.\"","Film the whole thing 3 times. We'll put a different set of subject lines over each one."],
+  send:"Optional: send us 9 subject lines, 3 bad, 3 better, 3 best. Otherwise we'll draft them for your approval."},
+ {n:6,s:1,type:"Team asks, you answer",min:20,title:"Myth or Truth",team:true,
+  how:"Your team member reads each line off camera. You answer \"Myth\" or \"Truth,\" then one sentence why. Answer honestly. If you disagree with our answer, say so. That's better.",
+  lines:[["Sending more emails burns your list.","Myth"],["Email should be 25–30% of a Shopify store's revenue.","Truth"],["Discount emails always make the most money.","Myth"],["Most of your list is ready to buy right now.","Myth"],["Unsubscribes are a bad sign.","Myth"],["A template is fine for your emails.","Myth"]],
+  out:"Becomes 2 videos"},
+ {n:7,s:1,type:"Team asks, you answer",min:20,title:"Send It or Delete It",team:true,
+  how:"Your team member reads an email idea. You answer \"Send it\" or \"Delete it,\" then one sentence why.",
+  lines:[["\"LAST CHANCE!!!\" as the subject line every day of Black Friday.",""],["An email that only teaches. No discount at all.",""],["Resending the same email with a new subject line to people who didn't open.",""],["No emails between Cyber Monday and Christmas.",""],["A plain-text email from the founder.",""],["A 40% off email to someone who bought full price yesterday.",""],["A text message at 11pm.",""]],
+  out:"Becomes 2 videos"},
+ {n:8,s:1,type:"Talk + proof",min:10,title:"How I Can Help Your Brand",
+  hook:"If you run a Shopify brand doing over a million a year, here's how I can help.",
+  points:["What Email Kong does: Klaviyo email and SMS, all built in-house.","No templates, no outsourcing.","The free Klaviyo audit and the free flow build. What each one gets them.","Who it's not for."],
+  send:"Nothing. This becomes the pinned video on your profile.",
+  cta:"Comment \"AUDIT\" to get started.",
+  note:"No prices. No list of credentials."},
+ // ---------- SESSION 2 ----------
+ {n:9,s:2,type:"Talk + proof",min:10,title:"$171k From One Email, No Discount",
+  hook:"This email made $171,452. There was no discount in it.",
+  points:["A supplement brand. Subject line: \"The 2pm crash isn't a sleep problem.\"","Why teaching something sold more than a sale would have.","How to find your own version: what are your customers confused about?"],
+  send:"Screen recording of that email, full scroll, plus the revenue number. Brand hidden.",
+  cta:"Comment \"VAULT\" for more emails like this."},
+ {n:10,s:2,type:"Talk + proof",min:10,title:"Is Email Under 15% of Your Revenue?",
+  hook:"If email is under 15% of your Shopify revenue, you're leaving money on the table.",
+  points:["It should be 25 to 30%.","Where to check your number, in under a minute.","The two usual reasons it's low: missing flows, and too few campaigns."],
+  send:"Screen recording of where to find the number. Any account, blurred.",
+  cta:"Comment \"AUDIT\" and we'll check yours."},
+ {n:11,s:2,type:"Talk + proof",min:10,title:"How Many Emails We Send",
+  hook:"We send 30 to 40 email campaigns a month. Here's why that doesn't burn the list.",
+  points:["The 5% rule: most people aren't buying today.","Not 40 copies of the same email. Every one is different.","Where the ideas come from: the angles already working in their Meta ads."],
+  send:"Optional: a month view of a campaign calendar, blurred.",
+  cta:"Comment \"AUDIT\"."},
+ {n:12,s:2,type:"Talk + proof",min:10,title:"Is Your Agency Using Templates?",
+  hook:"Your email agency is probably using templates. Here's how to check.",
+  points:["Put your last 10 emails next to another brand's. Same layout? Same subject lines?","Ask what your last email was based on. If there's no answer, that's the answer.","How we do it: built from scratch for each brand, angles pulled from your ads."],
+  send:"Nothing.",
+  cta:"Comment \"AUDIT\".",
+  note:"No agency names."},
+ {n:13,s:2,type:"Talk + proof",min:10,title:"Why Customers Buy Once and Vanish",
+  hook:"Your customers buy once and disappear. Your ads aren't the problem.",
+  points:["Ad costs keep going up. A second order is where the profit is.","What a post-purchase flow should actually do.","The one email most stores never send after the first order."],
+  send:"Screen recording of a post-purchase flow on the Klaviyo canvas.",
+  cta:"Link in bio for a free flow build."},
+ {n:14,s:2,type:"Ranking",min:15,title:"Ranking Email Tools for Shopify",
+  hook:"Ranking every email and SMS tool for Shopify brands.",
+  rank:["Klaviyo","Omnisend","Mailchimp","Shopify Email","Attentive","Postscript","Drip","Brevo"],
+  rankNote:"Same as video 03: the name, the tier, one sentence. Say early on that you're a Klaviyo partner. It earns trust instead of looking hidden.",
+  cta:"Follow for more."},
+ {n:15,s:2,type:"Screen tour",min:25,title:"Steal This Email",
+  quick:true,
+  how:["Pick 3 emails you got recently from brands that aren't clients.","For each one, screen record a slow scroll. Then film yourself saying what makes it good.","Start each one with: \"Steal this email.\"","3 emails = 3 separate videos."],
+  send:"The 3 screen recordings."},
+ {n:16,s:2,type:"Talk + proof",min:10,title:"They Promised You 30% More Revenue?",
+  hook:"Another agency promised you 30% more revenue? Ask them this.",
+  points:["Ask to see a real account, the same size as yours, in Klaviyo. Not a slide.","Why promises are easy and numbers aren't.","What you should expect to see in month one, two, and three."],
+  send:"Nothing.",
+  cta:"Comment \"AUDIT\".",
+  note:"Don't promise a number yourself."}
+];
+
+const pad = n => String(n).padStart(2,'0');
+const fill = (id, s) => {
+  const rows = V.filter(v=>v.s===s);
+  const total = rows.reduce((a,v)=>a+v.min,0);
+  document.getElementById(id).innerHTML =
+    `<tr><th style="width:30px"></th><th style="width:36px">#</th><th>Video</th><th style="text-align:right">Min</th></tr>` +
+    rows.map(v=>`<tr><td><span class="box"></span></td><td style="font-family:Anton;font-size:18px">${pad(v.n)}</td><td><b>${v.title}</b><div style="font-size:12.5px;color:var(--mute);margin-top:2px">${v.type}${v.out?' · '+v.out:''}</div></td><td style="text-align:right;font-weight:700">${v.min}</td></tr>`).join('') +
+    `<tr><td></td><td></td><td style="font-weight:800">Filming time${s===2?' (+30 B-roll)':''}</td><td style="text-align:right;font-family:Anton;font-size:20px">${total}</td></tr>`;
+};
+fill('s1',1); fill('s2',2);
+
+const head = v => `
+  <div class="row" style="align-items:flex-end;gap:14px;margin-bottom:8px">
+    <div style="font-family:Anton;font-size:84px;line-height:.8;color:var(--red)">${pad(v.n)}</div>
+    <div style="padding-bottom:2px"><span class="chip solid">${v.type}</span><span class="chip">${v.min} min</span><span class="chip">${v.s===1?'Fri':'Sun'}</span></div>
+  </div>
+  <h1 style="font-size:44px;margin:10px 0 16px">${v.title}</h1>`;
+
+const card = v => {
+  let body = '';
+  if (v.hook) body += `<div class="label">Say this first, word for word</div><div class="say">"${v.hook}"</div>`;
+  if (v.points) body += `<div class="label" style="margin-top:18px">Then talk through</div><ul class="bul">${v.points.map(p=>`<li>${p}</li>`).join('')}</ul>`;
+  if (v.rank) body += `<div class="label" style="margin-top:18px">Rank these, in any order</div><div>${v.rank.map(r=>`<span class="chip" style="font-size:13px;text-transform:none;letter-spacing:0">${r}</span>`).join('')}</div><p style="font-size:15.5px;line-height:1.42;margin-top:8px">${v.rankNote}</p>`;
+  if (v.team) body += `<p style="font-size:16px;line-height:1.42">${v.how}</p><div class="label" style="margin-top:4px">Team member reads</div><table>${v.lines.map((l,i)=>`<tr><td style="width:26px;font-family:Anton;font-size:16px;color:var(--mute)">${i+1}</td><td style="font-size:15.5px">${l[0]}</td>${l[1]?`<td style="text-align:right;font-size:11.5px;font-weight:800;letter-spacing:.08em;color:var(--mute);white-space:nowrap">${l[1].toUpperCase()}</td>`:''}</tr>`).join('')}</table>${v.lines[0][1]?'<p class="small" style="margin-top:8px">Right column is our answer. You can disagree.</p>':''}`;
+  if (v.quick) body += `<div class="label">How to film it</div><ol class="steps" style="margin-top:8px">${v.how.map(h=>`<li style="font-size:16.5px">${h}</li>`).join('')}</ol>`;
+  const bottom = [];
+  if (v.send) bottom.push(`<div class="col card" style="padding:12px 14px"><div class="label">Send us</div><div style="font-size:14.5px;line-height:1.4">${v.send}</div></div>`);
+  if (v.cta) bottom.push(`<div class="col card" style="padding:12px 14px;border-color:var(--go);border-width:2px"><div class="label">End with</div><div style="font-size:14.5px;line-height:1.4;font-weight:600">${v.cta}</div></div>`);
+  if (bottom.length) body += `<div class="row" style="gap:10px;margin-top:16px">${bottom.join('')}</div>`;
+  if (v.note) body += `<div style="margin-top:12px"><span class="hand red" style="font-size:22px">watch out:</span> <span style="font-size:15px;font-weight:600">${v.note}</span></div>`;
+  return `<section class="page"><div class="tag">Video ${pad(v.n)} of 16</div>${head(v)}${body}<div class="foot"><span>${v.s===1?'Session 1 · Friday':'Session 2 · Sunday'}</span><span class="n"></span></div></section>`;
+};
+document.getElementById('cards').outerHTML = V.map(card).join('');
+</script>
+</body>
+</html>
