@@ -3,7 +3,8 @@
   "private": true,
   "description": "Ryan's Coffee House demo site. index.html is self-contained; the 3D hero is bundled from src/hero3d.js.",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "deploy": "node deploy.mjs"
   },
   "devDependencies": {
     "esbuild": "0.24.0",
