@@ -1,0 +1,194 @@
+{
+ "ref_key": "A2-03",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Can we hop on video real quick?\" (one-take scramble)",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@jayzee_here",
+  "direct_video_url": "https://www.instagram.com/reel/DdT5j6tIOQC",
+  "publication_date": "2026-09-15",
+  "views": 19800000,
+  "creator_followers": 8000,
+  "creator_median_views": 12700,
+  "outlier_multiple": 1558.8,
+  "duration_seconds": 41,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Good afternoon, everybody.\" (meeting-host voiceover at 0:01). On-screen text for the full video: \"POV: Working from home and you’re not notified that it’s an open camera meeting.\"",
+  "visual_hook": "A woman in a white tank top, shorts and large headphones sits at a desk with a laptop and reaches for her coffee mug.",
+  "narrative_structure": "One persistent POV caption. A pre-recorded host voice announces a cameras-on meeting and starts naming attendees, which acts as a countdown. In a single uncut take she physically transforms from loungewear to composed professional and lands a sweet greeting as her name is called.",
+  "viral_mechanism": "An external voice sets a deadline the performer cannot control, and the viewer watches a real-time race in one take. The lack of cuts proves the scramble is real, and the calm greeting at the end is the release.",
+  "observed_evidence": "19.8M views on an 8K-follower account with a 12.7K median (1558.8x). 41 seconds, 0 cuts, no CTA, does not loop. The host voiceover runs from 0:01 and names attendees from 0:12.",
+  "performance_hypothesis": "Hypothesis: retention holds because the name roll-call is a visible clock, so viewers stay to see if she makes it. Remote workers send it to coworkers with 'us on every Monday call'. The one-take format invites comments about how she pulled it off.",
+  "why_this_format_fits_alex": "It is a pure physical-acting piece with no dialogue until the last line, which uses his acting background the way '2 Types of Clients' (2.8M, his highest comment rate) did. The client on the other end ties it to his agency.",
+  "originality_changes": "Borrowed: persistent POV caption, an off-screen voice as a countdown, a one-take physical scramble. New: the voice is a client and his team, the setting is a Florida apartment at 2 pm, the gags are his (blazer over swim trunks, cereal, a stack of business books as a backdrop), and the ending adds a second reveal instead of stopping at the greeting."
+ },
+ "alex_adaptation": {
+  "concept": "A client calls unannounced and asks to switch to video with the whole team watching. Alex, who works from home in Florida and looks like it, has 20 seconds to become a CEO.",
+  "target_audience": "Remote workers, freelancers and agency people 18-34.",
+  "primary_emotion": "Suspense turning into laughter",
+  "estimated_duration_seconds": 30,
+  "first_frame": "Alex at his desk in a tank top and swim trunks, hair a mess, eating cereal from the box, laptop open. Caption on screen.",
+  "first_spoken_line": "Client (voiceover): \"Alex! Hey, quick thing. Mind if we flip to video?\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Client (pre-recorded voiceover, older, cheerful)",
+    "dialogue": "Alex! Hey, quick thing. Mind if we flip to video?",
+    "action": "Alex freezes mid-chew, handful of cereal at his mouth, eyes slide to the laptop.",
+    "camera": "Wide static shot on tripod showing desk, chair, floor around it and a bare wall behind. Whole body visible.",
+    "on_screen_text": "POV: you work from home and the client says \"video real quick\"",
+    "editing": "One take, no cuts. Caption stays for the whole video.",
+    "audio": "Laptop-speaker voice filter on the client. No music."
+   },
+   {
+    "start_second": 3,
+    "end_second": 7,
+    "speaker": "Client (voiceover)",
+    "dialogue": "I've got the whole team in here. Say hi, everybody.",
+    "action": "A beat of pure dread, then he explodes into motion: sets the cereal box on the floor out of frame, wipes his mouth with his forearm.",
+    "camera": "Same shot.",
+    "on_screen_text": "Same caption.",
+    "editing": "No cut.",
+    "audio": "Under the client line, 4 or 5 muffled voices say 'hey Alex' (record yourself 4 times and layer)."
+   },
+   {
+    "start_second": 7,
+    "end_second": 13,
+    "speaker": "Client (voiceover)",
+    "dialogue": "We've got Dana from finance, Mark, the new intern... one sec, the camera's being weird on our end.",
+    "action": "He grabs a blazer off the chair back and throws it on over the tank top, buttons the wrong button, fixes it. Wets his hand in a water glass and flattens his hair.",
+    "camera": "Same shot.",
+    "on_screen_text": "Same caption.",
+    "editing": "No cut.",
+    "audio": "Keyboard clacks from the client side."
+   },
+   {
+    "start_second": 13,
+    "end_second": 19,
+    "speaker": "Client (voiceover)",
+    "dialogue": "There we go. Alex, you there? We can't see you yet.",
+    "action": "He sprints off frame left, returns with a stack of thick business books and a small plant, builds a 'backdrop' on the shelf behind his chair in two seconds, kicks a pile of laundry out of frame.",
+    "camera": "Same shot.",
+    "on_screen_text": "Same caption.",
+    "editing": "No cut.",
+    "audio": "One book thuds."
+   },
+   {
+    "start_second": 19,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "Hey team! So good to see everybody.",
+    "action": "He drops into the chair, one breath, face switches instantly to a warm, relaxed, senior-partner smile. Clicks the trackpad. Small wave.",
+    "camera": "Same shot.",
+    "on_screen_text": "Same caption.",
+    "editing": "No cut.",
+    "audio": "Video-call join chime as he clicks."
+   },
+   {
+    "start_second": 24,
+    "end_second": 30,
+    "speaker": "Client (voiceover) then Alex",
+    "dialogue": "Client: Love the office. Hey, can you grab that contract off the printer?  Alex: ...Yep. Absolutely.",
+    "action": "Smile stays, eyes die. He stands slowly. The blazer ends at his waist and the bright swim trunks and bare feet are fully visible. He side-shuffles out of frame, keeping his top half facing the laptop.",
+    "camera": "Same shot. Make sure trunks are in frame when he stands.",
+    "on_screen_text": "Same caption.",
+    "editing": "Cut to black the moment he exits frame.",
+    "audio": "Silence after 'Absolutely', then one flip-flop slap sound as he exits."
+   }
+  ],
+  "alternate_hooks": [
+   "Caption: \"POV: 2 pm in Florida and the client wants cameras on\"",
+   "Open on the laptop chime and Alex's face only, cereal mid-air, then pull the tripod back to the wide as he starts moving.",
+   "Caption: \"The 20 seconds before every 'professional' video call\""
+  ],
+  "alternate_endings": [
+   "He nails the greeting, then the client says: \"Oh, we're still on audio only, the camera never worked.\" Alex slowly unbuttons the blazer and picks the cereal back up.",
+   "He sits, smiles, says hello, and the plant falls off the shelf behind him. He does not react. Hold three seconds."
+  ],
+  "caption": "I am a professional from the waist up. #wfh",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk with a bare wall and a shelf behind the chair",
+  "props": [
+   "Laptop",
+   "Cereal box",
+   "Blazer on chair back",
+   "Glass of water",
+   "4 thick business books",
+   "Small plant",
+   "Laundry pile",
+   "Swim trunks"
+  ],
+  "wardrobe": "Tank top and bright swim trunks, barefoot, then blazer on top",
+  "people_required": 1,
+  "filming_minutes_estimate": 35,
+  "editing_minutes_estimate": 20,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Record the client voiceover track first (pitch your voice down, older, cheerful) with exact timings: 0-3, 3-7, 7-13, 13-19, 24-27.",
+   "Play the track out loud from a second device while filming so the movement hits each line.",
+   "One wide locked-off take, full body in frame. Plan on 6 to 8 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Zero cuts in the body. Lay the clean voiceover over the take and apply a laptop-speaker EQ. Add the persistent caption at top. Add join chime at 0:22 and one flip-flop slap at the exit. Hard cut to black on exit. If the take runs over 32 s, speed the 7-19 s section to 110%."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"POV: 2 pm in Florida and the client wants cameras on\"",
+   "Alternate payoff: audio-only reveal (the camera never worked)"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote if 48h views are at least 3x the trailing median and average watch time is above 50% of length with follows or shares per 1,000 reached in the top quartile; this is a retention format, so kill the variant if watch time is under 35%.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same one-take scramble: a client shows up at the door unannounced",
+   "The reverse: fully suited at 9 am, the call is cancelled, one-take un-dressing back to the couch",
+   "Scramble to look busy when someone asks 'what did you do today'"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 15,
+  "follower_conversion_potential": 14,
+  "creative_execution_quality": 13,
+  "ease_of_production": 6,
+  "repeatability": 6
+ },
+ "creative_confidence": {
+  "rationale": "Highest-view reference in the comedy set from a tiny account, and the adaptation is pure physical acting, his under-used strength. Costs more takes than the silent gags.",
+  "uncertainties": [
+   "Timing the movement to a voiceover takes rehearsal; a sloppy take kills the joke.",
+   "30 seconds is longer than his proven sub-10-second hits.",
+   "The scenario is common, so the swim-trunks ending has to land visually."
+  ]
+ }
+}

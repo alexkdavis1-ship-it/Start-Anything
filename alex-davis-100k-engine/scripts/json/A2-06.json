@@ -1,0 +1,198 @@
+{
+ "ref_key": "A2-06",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"When the agency finally runs without you\" vs actual footage",
+ "batch_hint": "D",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@ch_honeycakes",
+  "direct_video_url": "https://www.instagram.com/reel/DdfyPvWTAel",
+  "publication_date": "2026-09-20",
+  "views": 4100000,
+  "creator_followers": 55600,
+  "creator_median_views": 23100,
+  "outlier_multiple": 178.4,
+  "duration_seconds": 34.33,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"WHEN YOU FINALLY MADE A BUSINESS THAT RUNS WITHOUT YOU...\"",
+  "visual_hook": "A woman in a white button-up shirt and dark jeans walks through a glass entry door into a bakery or cafe.",
+  "narrative_structure": "A caption sets up the owner's fantasy and about 24 seconds show it playing out. A film-reference device and soundtrack signal that it is a dream. A second caption, \"BACK TO REALITY...\", cuts to the owner asleep and being handed work. No speech, 7 cuts.",
+  "viral_mechanism": "The viewer is shown the dream every owner has, long enough to want it, then the cut takes it away. The contrast between the two halves is the joke and needs no words.",
+  "observed_evidence": "4.1M views on a 55.6K-follower account with a 23.1K median (178.4x). 34.33 seconds, 7 cuts, no dialogue, no CTA. Uses a recognisable film soundtrack and a spinning-top reference. Four staff appear.",
+  "performance_hypothesis": "Hypothesis: business owners send it to other owners and to their own staff, and comments fill with owners describing their own version. The fantasy half earns the watch time and the reality cut earns the share.",
+  "why_this_format_fits_alex": "Fully silent and text-led like his 13.5M and 3.6M Reels, and it uses his Florida move as the fantasy backdrop. The reality half shows him doing the actual agency work.",
+  "originality_changes": "Borrowed: fantasy first, then a labelled cut to reality, no speech. New: solo instead of four staff, no film reference or licensed soundtrack, the dream tell is a phone showing zero notifications, the setting is a Florida pool, and the fantasy is cut to 10 seconds so the whole piece is 20."
+ },
+ "alex_adaptation": {
+  "concept": "The dream: Alex by a Florida pool, laptop closed, phone silent, the agency running itself. The reality: asleep on the keyboard at his desk with 47 notifications.",
+  "target_audience": "Business owners, freelancers, agency people.",
+  "primary_emotion": "Longing, then a laugh of recognition",
+  "estimated_duration_seconds": 20,
+  "first_frame": "Slow-motion shot of Alex in sunglasses and a linen shirt closing a laptop on a pool lounger, palm trees behind. Caption on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Closes the laptop with one finger, slow and smug. Leans back.",
+    "camera": "Tripod, medium wide, pool and palms in the background. Shoot at 60 fps for slow motion.",
+    "on_screen_text": "When the agency finally runs without you",
+    "editing": "Slow motion 50%.",
+    "audio": "Warm, lazy royalty-free bossa nova, starts on frame 1."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Picks up his phone. Close-up of the screen: lock screen, no notifications at all. He smiles and sets it face down.",
+    "camera": "Over-the-shoulder close-up of the phone, then back to medium.",
+    "on_screen_text": "Same caption.",
+    "editing": "Two shots, soft cut.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Sips a drink with a tiny umbrella, exhales, puts both hands behind his head. A too-perfect grin straight to camera, held one beat too long.",
+    "camera": "Medium, slight slow push-in.",
+    "on_screen_text": "Same caption.",
+    "editing": "Slow motion. On the last half second, the image freezes.",
+    "audio": "Music continues, then starts to warp downward in pitch at 9.5 s."
+   },
+   {
+    "start_second": 10,
+    "end_second": 12,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Face down on the laptop keyboard at his desk at night, mouth open, fully asleep. Desk lamp on. Cold coffee beside him.",
+    "camera": "Tripod, side angle at desk height, tight on face and keyboard.",
+    "on_screen_text": "Actual footage:",
+    "editing": "Hard cut on a loud phone buzz. Normal speed, slightly cooler color.",
+    "audio": "Music cuts dead. One long phone vibration on wood."
+   },
+   {
+    "start_second": 12,
+    "end_second": 16,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Phone on the desk lights up and keeps buzzing. Close-up of the screen: a stack of notifications, counter reads 47 (staged lock-screen mockup, no real names). He lifts his head. The letters of a few keys are printed in red on his cheek.",
+    "camera": "Close-up of phone, then back to side angle as he lifts his head.",
+    "on_screen_text": "Actual footage:",
+    "editing": "Two shots, hard cuts.",
+    "audio": "Repeated buzzes. Room tone."
+   },
+   {
+    "start_second": 16,
+    "end_second": 20,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He looks at the phone, looks at the camera with dead eyes, wipes his cheek, sits up and starts typing without a word.",
+    "camera": "Side angle, hold.",
+    "on_screen_text": "Actual footage:",
+    "editing": "End mid-typing. No fade.",
+    "audio": "Keyboard clacks. One more buzz on the last frame."
+   }
+  ],
+  "alternate_hooks": [
+   "Caption: \"I moved to Florida so the business could run itself\"",
+   "Caption: \"What people think owning an agency at 23 looks like\"",
+   "Open on the phone close-up with zero notifications, caption: \"The dream:\""
+  ],
+  "alternate_endings": [
+   "He wakes, reads the phone, and the only new message is from himself: a reminder that says 'post today'.",
+   "He wakes up at the desk, and the pool lounger shot was his laptop wallpaper. Slow zoom on the wallpaper."
+  ],
+  "caption": "It does not run without me.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Apartment or community pool (day) and home desk (night)",
+  "props": [
+   "Laptop",
+   "Sunglasses",
+   "Drink with a paper umbrella",
+   "Phone with a staged lock-screen mockup showing 47 notifications",
+   "Desk lamp",
+   "Coffee mug",
+   "Red lipstick or marker to draw key marks on cheek"
+  ],
+  "wardrobe": "Linen shirt and sunglasses for the dream; hoodie for the desk",
+  "people_required": 1,
+  "filming_minutes_estimate": 40,
+  "editing_minutes_estimate": 25,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Pool: laptop close in slow motion",
+   "Pool: phone screen close-up, zero notifications",
+   "Pool: drink sip and grin to camera",
+   "Desk: asleep on keyboard, side angle",
+   "Desk: phone buzzing with 47 notifications close-up",
+   "Desk: head lift with key marks, look to camera, start typing"
+  ],
+  "b_roll": [
+   "2 s of palm trees and water for a cutaway if a pool take is short"
+  ],
+  "editor_instructions": "First 10 s: 50% slow motion, warm grade, bossa nova. Pitch-warp the music down over the last half second and freeze the frame. Hard cut to the desk on a phone buzz, normal speed, cooler grade, no music. Captions: line 1 for 0-10 s, 'Actual footage:' for 10-20 s. Use a mockup for the notification screen so no real client name appears."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"What people think owning an agency at 23 looks like\"",
+   "Alternate payoff: the pool was his laptop wallpaper"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote if 48h views are at least 3x the trailing median and shares per 1,000 reached are top quartile, since owners sending it to owners is the expected behaviour.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "\"When the client says 'no rush'\" vs actual footage",
+   "\"Taking a real day off\" vs actual footage (answering messages in the ocean)",
+   "\"Hiring your first editor so you can relax\" vs actual footage (re-editing everything at 2 am)"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 15,
+  "follower_conversion_potential": 14,
+  "creative_execution_quality": 11,
+  "ease_of_production": 5,
+  "repeatability": 8
+ },
+ "creative_confidence": {
+  "rationale": "Silent, text-led and clearly about his business, with a visual contrast that reads in two seconds. The fantasy half risks looking like the lifestyle flex he wants to avoid, which is why it is short and immediately punctured.",
+  "uncertainties": [
+   "If the pool half runs long it reads as a flex; keep it at 10 s.",
+   "Two locations and a day-night split make it a two-session shoot.",
+   "The reference used a famous soundtrack as its dream signal; the pitch-warp replacement is untested."
+  ]
+ }
+}

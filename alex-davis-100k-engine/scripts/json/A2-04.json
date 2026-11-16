@@ -1,0 +1,152 @@
+{
+ "ref_key": "A2-04",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "One-breath org chart: \"my boss is the algorithm\"",
+ "batch_hint": "C",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@brennanincognito",
+  "direct_video_url": "https://www.tiktok.com/@brennanincognito/video/7694446170873023757",
+  "publication_date": "2026-10-08",
+  "views": 14800000,
+  "creator_followers": 69800,
+  "creator_median_views": 533100,
+  "outlier_multiple": 27.8,
+  "duration_seconds": 8,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"I'm either at work, going to work, coming from work, getting ready for work, getting some sleep for work, or thinking about not wanting to go to work.\" (the entire audio is this one sentence)",
+  "visual_hook": "Selfie close-up of a young man with a white earbud and a blue polo under a covered wooden patio, white text at the top of the frame.",
+  "narrative_structure": "One continuous sentence, delivered deadpan to a selfie camera in 8 seconds. The sentence is a list that repeats one word and ends on a twist item. Captions mirror the words in two blocks. No cuts, loops.",
+  "viral_mechanism": "A single-breath list builds rhythm through repetition, and the last item breaks the pattern with the honest version. It is short enough to finish before the viewer decides to scroll, and the loop restarts the sentence.",
+  "observed_evidence": "14.8M views, 27.8x a 533.1K median, 69.8K followers, 8 seconds, 0 cuts, loops, no CTA. The research pass found the same wording from two other creators at 4.5M and 1.2M, so the line is a circulating bit rather than one creator's original.",
+  "performance_hypothesis": "Hypothesis: the views come from completion and loops on an 8-second clip plus sends to coworkers. Because the same sentence worked for three creators, the structure (one sentence, one repeated element, twist last) carries the result more than the performer does.",
+  "why_this_format_fits_alex": "Under 10 seconds, one take, deadpan, readable with sound off: the same shape as Central Park (13.5M) and the travel hack (3.6M). The content of the sentence describes his actual job, which the current feed never does.",
+  "originality_changes": "Borrowed: one-sentence deadpan list with a twist final item, captions mirroring speech, loop. New: every word. The list is an org chart of a one-person content business instead of a work-schedule complaint, and the twist is his mom."
+ },
+ "alex_adaptation": {
+  "concept": "Alex explains his company's org chart in one breath: every corporate role is filled by something ridiculous, and HR is his mother.",
+  "target_audience": "Creators, freelancers and self-employed people 18-34.",
+  "primary_emotion": "Recognition",
+  "estimated_duration_seconds": 10,
+  "first_frame": "Selfie close-up of Alex in the driver's seat of the parked Lexus, expressionless, first caption block on screen.",
+  "first_spoken_line": "\"I post videos for a living, so my boss is an algorithm,\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "I post videos for a living, so my boss is an algorithm,",
+    "action": "Dead-eyed, flat, no blinking. Speaks like he is reading a weather report.",
+    "camera": "Handheld selfie, eye level, parked car, daylight.",
+    "on_screen_text": "I post videos for a living, so my boss is an algorithm,",
+    "editing": "No cut. Caption block 1.",
+    "audio": "Voice only, raw car acoustics."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Alex",
+    "dialogue": "my coworkers are the comments, my performance review is a number,",
+    "action": "Same face. Tiny eyebrow raise on 'a number'.",
+    "camera": "Same shot.",
+    "on_screen_text": "my coworkers are the comments, my performance review is a number,",
+    "editing": "Caption block 2 replaces block 1.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "and HR is my mom texting, 'saw your video, are you okay?'",
+    "action": "On 'my mom' his eyes finally drop to the phone in his other hand. Holds the deadpan one beat after the last word.",
+    "camera": "Same shot.",
+    "on_screen_text": "and HR is my mom texting \"saw your video, are you okay?\"",
+    "editing": "Caption block 3. Cut on the held look so the loop lands back on 'I post videos'.",
+    "audio": "Voice only. One faint text-message ding on the last frame."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I'm 23 and I run a company, which means my boss is an algorithm,\"",
+   "\"Being self-employed means my boss is an app,\"",
+   "Text-only first second: \"My company's org chart:\" then the sentence."
+  ],
+  "alternate_endings": [
+   "\"...and HR is my mom commenting a single question mark.\"",
+   "\"...and the CEO is me, which is honestly the biggest problem.\""
+  ],
+  "caption": "We're a small team.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Parked Lexus, driver's seat",
+  "props": [
+   "Phone"
+  ],
+  "wardrobe": "Plain tee",
+  "people_required": 1,
+  "filming_minutes_estimate": 8,
+  "editing_minutes_estimate": 8,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One selfie take, 10 s. Shoot 8 takes and keep the flattest delivery."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts. Three caption blocks timed to the speech, white bold, centered upper third. No music. Trim breath at the head so speech starts on frame 1. Export at 10 s for a clean loop."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I'm 23 and I run a company, which means my boss is an algorithm,\"",
+   "Alternate payoff: \"and the CEO is me, which is honestly the biggest problem.\""
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote if 48h views are at least 3x the trailing median and shares per 1,000 reached are top quartile; a low-effort format, so three below-median attempts in a row ends it.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "One-breath list: \"My office is a car, my break room is a gas station, my commute is a staircase...\"",
+   "One-breath list of what a 'day off' includes when you are self-employed, ending on 'so, a Tuesday'",
+   "One-breath list of everyone who has asked 'so what do you actually do'"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 17,
+  "follower_conversion_potential": 14,
+  "creative_execution_quality": 11,
+  "ease_of_production": 10,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "The cheapest script in the batch to shoot and the structure worked for three separate creators. It is spoken, unlike his two silent hits, but captions make it sound-off readable.",
+  "uncertainties": [
+   "The reference line is a circulating bit; an original sentence may not carry the same familiarity.",
+   "Deadpan has to be exact. Any smile reads as trying.",
+   "Reference creator had a 533K median, so the 27.8x multiple is weaker evidence than the small-account outliers."
+  ]
+ }
+}

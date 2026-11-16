@@ -1,0 +1,224 @@
+{
+ "ref_key": "B-03",
+ "content_pillar": "Personal growth and comeback series",
+ "working_title": "Posting until 100K, part N: the silent running tally",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "YouTube Shorts",
+  "creator_handle": "cruisecupmike",
+  "direct_video_url": "https://www.youtube.com/shorts/buIvgjtSETA",
+  "publication_date": "2026-10-09",
+  "views": 6800000,
+  "creator_followers": 14100,
+  "creator_median_views": null,
+  "outlier_multiple": 513.0,
+  "duration_seconds": 37,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "creator_median_views: the YouTube tool returns a breakout multiple only",
+   "outlier_multiple is the tool's breakout score, not views divided by median",
+   "URL built from the video ID the tool returned"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"3D printing until I'm a millionaire 💸 part 15\"",
+  "visual_hook": "A young man in a black hoodie standing in a workshop filled with rows of 3D printers, throwing his fists in the air.",
+  "narrative_structure": "Series title with a part number (0-2s). Work shown as a string of small events, each tagged with a pop-up gain (+$39.99) or loss (-$120) and a matching sound (2-9s). Day summary in text (\"Today we had 72 orders\"). A named sidekick gets two captions (\"Juan packaged them...\", \"Happy Juan\"). Errand (\"Post office time\"). End card with two numbers: Today's Total and Series Total. 14 shots in 37 seconds, no speech, upbeat music.",
+  "viral_mechanism": "The title promises a finish line and the part number proves it is ongoing, so the end card is a score update the viewer waits for. Each pop-up is a tiny win or loss, which gives the eye something to track every 2 to 3 seconds without a word spoken.",
+  "observed_evidence": "6.8M views on a 14.1K-subscriber channel, breakout score 513. It is part 15, so the format had been repeated at least 14 times before this one. 37 seconds, 14 shots, zero dialogue, sound effects on every pop-up, one loss shown among the gains.",
+  "performance_hypothesis": "Hypothesis: the Series Total turns a single video into a reason to subscribe, because the number is unfinished. The one visible loss (-$120) is what makes the gains believable. Viewers comment on the running number and on the sidekick.",
+  "why_this_format_fits_alex": "It is silent and text-driven like his two largest Reels, and it gives his 100K goal a recurring scoreboard. An agency has no product to stack, so the tally has to count things that are visible on a phone: reels posted, views, followers. He already posts 4 to 10 Trial Reels a day, so the raw material exists every day.",
+  "originality_changes": "Borrowed: numbered series title, pop-up tallies with sounds, one visible loss, Today's Total and Series Total end card. New: no money appears anywhere; the tally is reels, views and followers; the 'sidekick' is his tripod, named on screen; the setting is a one-person agency day; the finish line is 100K followers by a date."
+ },
+ "alex_adaptation": {
+  "concept": "A silent 26-second episode of a numbered series. Alex's working day is scored with pop-ups: +1 for each reel filmed, a real view count, one honest loss, and an end card showing today's followers gained against the series total out of 100,000.",
+  "target_audience": "People who like watching a number go up: build-in-public followers, other creators, and anyone who saw one of his viral Reels.",
+  "primary_emotion": "Anticipation",
+  "estimated_duration_seconds": 26,
+  "first_frame": "Alex at his desk, both fists in the air like he just won something, laptop open. Series title already on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 2,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Fists up, then points straight at the lens with a huge grin. Overplayed on purpose.",
+    "camera": "Static medium shot from a tripod, desk height.",
+    "on_screen_text": "Posting until 100K followers 📈 part {{REAL: episode number}}",
+    "editing": "Title in two lines, the part number pops in at 1s.",
+    "audio": "Upbeat instrumental from frame 0."
+   },
+   {
+    "start_second": 2,
+    "end_second": 5,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Sets the phone on the tripod, steps back, does a three-second take to it, gives it a thumbs up.",
+    "camera": "Wide shot from a second angle showing him and the tripod.",
+    "on_screen_text": "+1 reel",
+    "editing": "Pop-up appears beside the tripod at 4s with a bright ding.",
+    "audio": "Ding SFX."
+   },
+   {
+    "start_second": 5,
+    "end_second": 8,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Different spot in the room, different shirt or jacket thrown on. Another quick take. Checks it, nods.",
+    "camera": "Wide, new angle.",
+    "on_screen_text": "+1 reel",
+    "editing": "Pop-up with ding at 7s.",
+    "audio": "Ding SFX."
+   },
+   {
+    "start_second": 8,
+    "end_second": 11,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Third take at the whiteboard. He finishes, looks at the phone, face falls. Turns the phone to camera: it was never recording.",
+    "camera": "Medium, then he walks the phone into a close-up.",
+    "on_screen_text": "-1 reel (forgot to hit record)",
+    "editing": "Pop-up in red at 10s with a low thud. Freeze his face for 0.4s.",
+    "audio": "Thud SFX. Music ducks for the freeze."
+   },
+   {
+    "start_second": 11,
+    "end_second": 14,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Pats the tripod on its head like a coworker.",
+    "camera": "Close-up of the tripod, his hand enters frame.",
+    "on_screen_text": "Gary held the camera...",
+    "editing": "Caption sits under the tripod.",
+    "audio": "Music back to full."
+   },
+   {
+    "start_second": 14,
+    "end_second": 17,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Tripod alone in frame. Alex's hand makes it 'dance' by rocking it side to side.",
+    "camera": "Same close-up, slight low angle.",
+    "on_screen_text": "Happy Gary 🕺",
+    "editing": "Speed up 1.5x.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 17,
+    "end_second": 21,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Sits, refreshes the phone, holds the insights screen up to the lens. Reaction matches the real number: a fist pump if it is good, a slow blink if it is not.",
+    "camera": "Over-the-shoulder to the phone, then the phone fills the frame.",
+    "on_screen_text": "Best reel today: {{REAL: views on today's best reel}} views",
+    "editing": "Screen must be legible. Hold the screenshot for a full second.",
+    "audio": "Cash-register ding if good, sad single note if bad."
+   },
+   {
+    "start_second": 21,
+    "end_second": 26,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Closes the laptop, picks up the tripod under one arm like a teammate, walks out of frame.",
+    "camera": "Static wide of the desk, he exits.",
+    "on_screen_text": "Today's total: +{{REAL: followers gained today}} followers / Series total: {{REAL: current follower count}} / 100,000",
+    "editing": "Two lines animate in one after the other, 21s and 23s. Numbers count up for 0.5s. End on the empty desk.",
+    "audio": "Ding on each line. Music ends on the beat at 26s."
+   }
+  ],
+  "alternate_hooks": [
+   "Title: \"Day {{REAL: number}} of 45: 57,300 followers to go\"",
+   "Title: \"Running a 1-person agency until I hit 100K, part N\" with the tripod already in frame",
+   "Open on the forgot-to-record fail first (the loss), then the title card"
+  ],
+  "alternate_endings": [
+   "End card adds a third line: \"Needed per day: 1,273. Today: {{REAL}}.\" Alex reads it, exhales, sits back down and reopens the laptop.",
+   "After the totals, a 1-second shot of the tripod alone with text: \"Gary wants a raise.\""
+  ],
+  "caption": "Part {{REAL: episode number}}. Gary is carrying the team.",
+  "call_to_action": "Soft, on the end card only: the unfinished Series total. No spoken ask."
+ },
+ "production": {
+  "location": "Home office or desk area, three corners of the same room.",
+  "props": [
+   "Tripod (named Gary on screen)",
+   "Whiteboard and marker",
+   "Laptop",
+   "Phone showing real Reel insights",
+   "A second shirt or jacket"
+  ],
+  "wardrobe": "Base T-shirt plus one layer he can add for the second take.",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 30,
+  "difficulty": "easy",
+  "can_batch_film": false,
+  "shot_list": [
+   "Desk: fists up and point",
+   "Wide: take 1 to the tripod with thumbs up",
+   "Wide, new corner: take 2",
+   "Whiteboard: take 3, discover it did not record, walk phone to lens",
+   "Tripod close-up: pat on the head",
+   "Tripod close-up: rocking dance",
+   "Over-shoulder: phone insights held to lens",
+   "Desk wide: close laptop, carry tripod out"
+  ],
+  "b_roll": [
+   "Screen recording of the real insights screen for the best reel of the day",
+   "Screenshot of the profile header with the live follower count"
+  ],
+  "editor_instructions": "This must be filmed and posted the same day because the end card uses that day's real numbers. Build a reusable template: title, pop-up style (green for plus, red for minus), ding and thud sounds, end card with count-up. Never round the numbers and never skip a day's loss beat. If nothing went wrong that day, the loss is whichever reel got the fewest views, labelled \"-1 (flopped)\". No voice, no captions other than the ones listed."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: opening on the forgot-to-record fail",
+   "Alternate payoff: the 'needed per day: 1,273' line"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Judge this as a series, not a single video: promote the first episode at 48h if follows per 1,000 reached beats the median, and keep making it for 5 episodes before applying the kill rule.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Client-day episode: the tally counts hooks written, takes filmed and a client's real view count with their permission",
+   "Weekend episode: same tally, filmed entirely in the car and at one outdoor spot",
+   "Milestone episode at 50K: series total hits halfway, Gary gets a tiny party hat"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 14,
+  "follower_conversion_potential": 18,
+  "creative_execution_quality": 11,
+  "ease_of_production": 7,
+  "repeatability": 10
+ },
+ "creative_confidence": {
+  "rationale": "The reference is a 14.1K-subscriber channel at 6.8M views on its fifteenth episode, which is good evidence that a silent scored series can compound. This version is silent like Alex's top Reels and makes the 100K goal a visible, checkable number. The risk is that follower and view counts are less tangible than boxes of product.",
+  "uncertainties": [
+   "Four real numbers are required per episode (episode number, best reel views, followers gained, follower count). This exceeds the usual token limit because the format is a ledger; none are income figures.",
+   "Evidence is from YouTube Shorts, not Instagram.",
+   "If daily follower gains are small or negative the end card will look bleak. That honesty is part of the format, but he has to be willing to post it.",
+   "The forgot-to-record beat should be real when possible; staging it every episode will wear out."
+  ]
+ }
+}

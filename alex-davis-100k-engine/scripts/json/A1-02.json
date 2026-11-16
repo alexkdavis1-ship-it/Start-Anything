@@ -1,0 +1,195 @@
+{
+ "ref_key": "A1-02",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "Top 5 messages I get as a 23-year-old who runs a content agency",
+ "batch_hint": "C",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@hardsneakers.usa",
+  "direct_video_url": "https://www.tiktok.com/@hardsneakers.usa/video/7688854331419888926",
+  "publication_date": "2026-09-23",
+  "views": 26600000,
+  "creator_followers": 106000,
+  "creator_median_views": 379200,
+  "outlier_multiple": 70.1,
+  "duration_seconds": 39,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"The top five customers I hate dealing with the most.\"",
+  "visual_hook": "A young man with curly dark hair sits in the red and black bucket seat of a grey BMW M4 convertible, door open, holding an open can, an industrial parking lot behind him. Text graphic: \"TOP 5\" / \"CUSTOMERS WE HATE\".",
+  "narrative_structure": "Single continuous take, 0 cuts, 39 seconds. The first sentence states the whole premise. Five named archetypes follow at roughly 6 to 9 seconds each. Each one is a name, a quoted behaviour, then a direct rebuttal to that person. It stops on the fifth rebuttal with no outro.",
+  "viral_mechanism": "A numbered list with named characters gives the viewer a reason to stay for all five, and each quoted line is something viewers have said or heard. Speaking to the offender in second person ('you spam your size') turns each item into a small confrontation.",
+  "observed_evidence": "26.6M views, 70.1x the creator's 379.2K median, 106K followers. No cuts, no acting, no costume changes. A quiet hip-hop beat sits under the voice. Caption opens with a pre-emptive apology (\"I love everyone please don't come at me\").",
+  "performance_hypothesis": "Hypothesis: viewers comment to say which number they are, or to argue with one of the five, and business owners send it to staff. The count in the first sentence sets a finish line, which holds people to item five.",
+  "why_this_format_fits_alex": "His only acted business video, '2 Types of Clients', is a list of client types and it has the highest comment rate of his top three. This is the same subject in a one-take version he can shoot in the Lexus in ten minutes.",
+  "originality_changes": "Borrowed: one take in a car, a count in the first sentence, name plus quote plus rebuttal per item. New: the list is the messages a 23-year-old agency owner receives, every line is new, and the last item turns the joke on his own age."
+ },
+ "alex_adaptation": {
+  "concept": "Alex, in the driver's seat, counts down the five messages he gets most as a 23-year-old running a content agency. Each one gets a name, the quote in a mock voice, and a one-line answer.",
+  "target_audience": "Freelancers, agency owners and creators who sell services, plus business owners who recognise themselves.",
+  "primary_emotion": "Recognition and mild outrage on Alex's behalf.",
+  "estimated_duration_seconds": 38,
+  "first_frame": "Alex in the driver's seat of the parked Lexus, door open, one hand on the wheel, looking straight into the lens mid-breath. Text top-center: \"TOP 5 MESSAGES I GET\" and under it \"23, runs a content agency\".",
+  "first_spoken_line": "Top five messages I get as a 23-year-old who runs a content agency.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "Top five messages I get as a 23-year-old who runs a content agency.",
+    "action": "Flat, quick, no smile. Holds up five fingers on 'five'.",
+    "camera": "Phone on a dash mount or held at arm's length, chest-up, slight low angle.",
+    "on_screen_text": "TOP 5 MESSAGES I GET / 23, runs a content agency",
+    "editing": "Header stays on screen for the whole video. Word-by-word captions bottom third.",
+    "audio": "Voice only. A quiet, steady beat at about 10% volume."
+   },
+   {
+    "start_second": 3,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "One. The Nephew. \"We're good, my nephew does our social media.\" Cool. How old's the nephew? ... He's twelve. He's twelve and he has more control over your brand than you do.",
+    "action": "Mock voice is a relaxed, proud uncle. On 'He's twelve' Alex leans toward the lens.",
+    "camera": "Same.",
+    "on_screen_text": "1. THE NEPHEW",
+    "editing": "Number card pops in for 1 second at the start of each item.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 9,
+    "end_second": 16,
+    "speaker": "Alex",
+    "dialogue": "Two. The Lottery Ticket. \"Can you just make one go viral?\" Just one. Sure. Let me reach into my bag of viral ones. If I could pick which one goes viral, I'd pick mine.",
+    "action": "Mimes rummaging in an invisible bag on the passenger seat. Deadpan on the last sentence.",
+    "camera": "Same.",
+    "on_screen_text": "2. THE LOTTERY TICKET",
+    "editing": "Number card.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 16,
+    "end_second": 23,
+    "speaker": "Alex",
+    "dialogue": "Three. The Exposure Guy. \"We can't pay, but it'd be great exposure.\" Sir. You have two hundred followers. I am the exposure.",
+    "action": "Polite, slow, like explaining to a child. Small hand to chest on 'I am the exposure'.",
+    "camera": "Same.",
+    "on_screen_text": "3. THE EXPOSURE GUY",
+    "editing": "Number card.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 23,
+    "end_second": 30,
+    "speaker": "Alex",
+    "dialogue": "Four. Quick Thought. It's two a.m. My phone lights up. \"Quick thought.\" It is never quick. And I'm going to be honest, it's rarely a thought.",
+    "action": "Rubs one eye as if woken up. Shakes head slowly on 'rarely a thought'.",
+    "camera": "Same.",
+    "on_screen_text": "4. \"QUICK THOUGHT\"",
+    "editing": "Number card.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 30,
+    "end_second": 36,
+    "speaker": "Alex",
+    "dialogue": "Five. \"No offense, but how old are you?\" Twenty-three. \"Oh.\" Yeah. And your marketing strategy is older than me.",
+    "action": "Says 'Twenty-three' cheerfully. Plays the client's 'Oh' as a disappointed exhale. Final line is calm, then he looks away out the windshield.",
+    "camera": "Same.",
+    "on_screen_text": "5. \"HOW OLD ARE YOU?\"",
+    "editing": "Number card.",
+    "audio": "Beat cuts out on 'older than me'."
+   },
+   {
+    "start_second": 36,
+    "end_second": 38,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex pulls the door shut and reaches for the start button. Does not look back at the camera.",
+    "camera": "Same.",
+    "on_screen_text": "TOP 5 MESSAGES I GET / 23, runs a content agency",
+    "editing": "Cut on the door thud.",
+    "audio": "Door thud. Silence."
+   }
+  ],
+  "alternate_hooks": [
+   "\"Five things clients say to me because I'm twenty-three.\"",
+   "\"If you've ever sent one of these five messages to a freelancer, we need to talk.\"",
+   "Start on item five cold: \"'No offense, but how old are you?' Twenty-three. I get five messages like this a week. Here's the list.\""
+  ],
+  "alternate_endings": [
+   "After item five his phone buzzes. He reads it out loud: \"Quick thought.\" He puts the phone in the glove box and closes it.",
+   "After item five: \"Six. The ones who pay on time and trust me. I have two. I'd take a bullet for them.\" Small salute, door shut."
+  ],
+  "caption": "Which one are you. Be honest.",
+  "call_to_action": "Caption question only. No spoken CTA."
+ },
+ "production": {
+  "location": "Parked Lexus, door open, daylight",
+  "props": [
+   "Phone mount or tripod on the dash"
+  ],
+  "wardrobe": "Plain tee or the tan tee already seen in his car Reels",
+  "people_required": 1,
+  "filming_minutes_estimate": 15,
+  "editing_minutes_estimate": 25,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous chest-up take in the driver's seat, 38 to 42 seconds. Do three full takes and use the best single take, no stitching"
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts inside the list. Add the persistent two-line header, five 1-second number cards, and word-by-word captions. If the take runs past 42 seconds, speed the whole clip to 1.08x instead of cutting. Keep the beat low enough that the voice is fully clear with phone speakers."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: start cold on item five",
+   "Alternate payoff: the 'Quick thought' text arriving in the car"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3 (age and job in the first sentence). Promote at 48h if views are at least 3x the trailing median and comments or shares per 1,000 reached are top quartile; a high follow rate below 6,000 views triggers a re-film of the first sentence only.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Top 5 things I said to clients in year one that I'd never say now",
+   "Top 5 messages I get the day after a client's video goes viral",
+   "Top 5 excuses business owners give for not posting, ranked by how often I hear them"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 15,
+  "follower_conversion_potential": 17,
+  "creative_execution_quality": 11,
+  "ease_of_production": 10,
+  "repeatability": 10
+ },
+ "creative_confidence": {
+  "rationale": "Lowest effort of the comedy set and the first sentence tells a stranger exactly who Alex is. Each item has its own small punchline, so a weak one does not sink the video.",
+  "uncertainties": [
+   "It is a talking-head take, and his proven hits are visual or acted, so retention depends on delivery speed",
+   "The reference creator's tone was genuinely irritated; if Alex plays it too light the items lose their bite",
+   "Item three's 'two hundred followers' is a joke figure, not a real client, and should stay obviously generic"
+  ]
+ }
+}

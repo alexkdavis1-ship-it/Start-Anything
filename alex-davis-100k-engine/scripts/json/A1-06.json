@@ -1,0 +1,203 @@
+{
+ "ref_key": "A1-06",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "I never say a word: selling \"90 days\" to a guy who thinks it's too long",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@ejthemaker",
+  "direct_video_url": "https://www.instagram.com/reel/Ddhxc7CyfrM",
+  "publication_date": "2026-09-20",
+  "views": 3700000,
+  "creator_followers": 811000,
+  "creator_median_views": 164400,
+  "outlier_multiple": 22.4,
+  "duration_seconds": 35.7,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Oh, that's a really nice laptop. How much is it?\" On-screen text for the whole video: \"How easily manipulated we are\".",
+  "visual_hook": "A young man in a black coat with a faux fur collar stands by a counter holding a spiral notebook with red writing, \"$1,000\" faintly visible through the page.",
+  "narrative_structure": "35.7 seconds, 14 cuts, one actor in two roles. The customer asks the price. The seller never speaks: he shows $1,000 (too much), then $800 (still too much), then writes $1,000 crossed out next to $800. The customer is thrilled, buys, and walks away congratulating himself.",
+  "viral_mechanism": "A real sales principle (price anchoring) shown instead of explained. The seller's silence makes the viewer read the notepad, and the customer's self-congratulation is the punchline because the viewer saw the trick.",
+  "observed_evidence": "3.7M views, 22.4x the creator's 164.4K median, on an 811K-follower account. No music, only dialogue, marker and paper sounds. One persistent line of text. The seller has zero lines.",
+  "performance_hypothesis": "Hypothesis: viewers feel smart for spotting the trick and share it with a 'this is literally you' message. Being a large account, part of the view count is the creator's existing audience, so the format's own pull is less certain than the small-account references.",
+  "why_this_format_fits_alex": "Alex's 2.8M skit was a whiteboard and a marker. A silent seller writing on that same whiteboard reuses a prop his audience already rewarded, and the punchline is written, so it works muted.",
+  "originality_changes": "Borrowed: silent seller, written offers, a buyer who talks himself into the same deal. New: nothing is discounted and no price appears. The offer is his real one (1,000,000 views in 90 days) and the only change is rewording '90 days' as '3 months'. Whiteboard instead of notepad, all dialogue new."
+ },
+ "alex_adaptation": {
+  "concept": "A prospect loves '1,000,000 views' but says 90 days is too long. Alex, who never speaks, crosses out '90 days' and writes '3 months'. The prospect is delighted and leaves bragging that he negotiated.",
+  "target_audience": "Sales and marketing people, business owners, anyone who enjoys watching a negotiation go wrong for the confident guy.",
+  "primary_emotion": "Feeling smarter than the prospect.",
+  "estimated_duration_seconds": 27,
+  "first_frame": "Alex beside the whiteboard, marker in hand, calm closed-mouth smile. The board reads in large letters: \"1,000,000 VIEWS\". Persistent text top of frame: \"I never said a word\".",
+  "first_spoken_line": "Prospect: \"A million views? Okay, I'm listening. How long's that take?\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Prospect (Alex, sunglasses on head, quarter-zip)",
+    "dialogue": "A million views? Okay, I'm listening. How long's that take?",
+    "action": "Chewing gum, arms crossed, impressed but trying not to show it.",
+    "camera": "Prospect: chest-up, angled toward camera-left. Seller shot: waist-up beside the whiteboard, angled toward camera-right.",
+    "on_screen_text": "I never said a word",
+    "editing": "Open on a 1-second shot of Alex and the board, then cut to the prospect. Persistent top text all video. Captions for the prospect only.",
+    "audio": "Voice, no music."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Seller (Alex, plain tee)",
+    "dialogue": "",
+    "action": "Without a word he writes \"90 DAYS\" under the first line and taps it twice with the marker. Pleasant, patient face.",
+    "camera": "Seller shot.",
+    "on_screen_text": "I never said a word",
+    "editing": "Hard cut.",
+    "audio": "Marker squeak, two taps."
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Prospect",
+    "dialogue": "Ninety days? Nah. No, no, no. That's way too long, man. I don't have ninety days.",
+    "action": "Winces, sucks his teeth, shakes his head, takes half a step back like he is leaving.",
+    "camera": "Prospect shot.",
+    "on_screen_text": "I never said a word",
+    "editing": "Hard cut.",
+    "audio": "Voice."
+   },
+   {
+    "start_second": 10,
+    "end_second": 16,
+    "speaker": "Seller",
+    "dialogue": "",
+    "action": "Alex nods slowly, fully understanding. He draws one clean line through \"90 DAYS\" and writes \"3 MONTHS\" next to it. Circles it. Steps aside and presents it with an open palm.",
+    "camera": "Seller shot, then a 1-second insert close-up of the board: 90 DAYS crossed out, 3 MONTHS circled.",
+    "on_screen_text": "I never said a word",
+    "editing": "Insert close-up at 14s. Keep the writing in real time, do not speed it up.",
+    "audio": "Marker line, marker writing, circle."
+   },
+   {
+    "start_second": 16,
+    "end_second": 21,
+    "speaker": "Prospect",
+    "dialogue": "Three months. See? Now that I can work with. Why didn't you just lead with that?",
+    "action": "Lights up. Points at the board, then at Alex, grinning like he has caught him out.",
+    "camera": "Prospect shot.",
+    "on_screen_text": "I never said a word",
+    "editing": "Hard cut.",
+    "audio": "Voice."
+   },
+   {
+    "start_second": 21,
+    "end_second": 23,
+    "speaker": "Seller",
+    "dialogue": "",
+    "action": "Alex gives a small 'you got me' shrug and holds out his hand to shake.",
+    "camera": "Seller shot.",
+    "on_screen_text": "I never said a word",
+    "editing": "Hard cut.",
+    "audio": "Silence."
+   },
+   {
+    "start_second": 23,
+    "end_second": 27,
+    "speaker": "Prospect",
+    "dialogue": "Negotiated him down. Still got it.",
+    "action": "Walking away from camera down a hallway, talking to himself, fixes his sunglasses, one small fist pump.",
+    "camera": "Wide from behind, prospect walking away.",
+    "on_screen_text": "I never said a word",
+    "editing": "Cut to black on the fist pump.",
+    "audio": "Footsteps, voice getting quieter."
+   }
+  ],
+  "alternate_hooks": [
+   "Persistent text: \"How I close deals without talking\"",
+   "Persistent text: \"He thinks he won\"",
+   "Open on the board close-up (90 DAYS crossed out, 3 MONTHS circled) for 1 second with text \"This worked\", then start the scene"
+  ],
+  "alternate_endings": [
+   "Prospect, walking away, on the phone: \"Yeah babe, I talked him down a whole month.\" Cut to Alex capping the marker, expressionless.",
+   "Prospect turns back at the door: \"Could you do twelve weeks?\" Alex uncaps the marker without changing his face."
+  ],
+  "caption": "Same deal. He's thrilled.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Room with the whiteboard used in '2 Types of Clients', plus a hallway or doorway for the walk-away",
+  "props": [
+   "Whiteboard",
+   "Black dry-erase marker",
+   "Sunglasses",
+   "Chewing gum"
+  ],
+  "wardrobe": "Seller: plain tee. Prospect: quarter-zip with sunglasses on his head",
+  "people_required": 1,
+  "filming_minutes_estimate": 30,
+  "editing_minutes_estimate": 30,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Seller at board: write 90 DAYS and tap",
+   "Seller: cross out, write 3 MONTHS, circle, present",
+   "Seller: shrug and handshake offer",
+   "Insert: close-up of the board after the change",
+   "Prospect: three lines, chest-up",
+   "Prospect: walk-away from behind with the last line"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Write the seller's board work in large block letters that fill the frame so it is readable on a phone. Keep '1,000,000 VIEWS' on the board in every seller shot. Never give the seller a caption or a sound other than the marker. No music. The final line should be recorded on location while walking so it trails off naturally."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: persistent text 'He thinks he won'",
+   "Alternate payoff: the 'twelve weeks' callback"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3 (his actual offer is on the board the whole time). Promote at 48h if views are at least 3x the trailing median and follows per 1,000 reached are top quartile; also log profile visits, since the board states the offer.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Silent seller: prospect says 'I want to post every day' and rejects '7 videos a week' but accepts 'one a day'",
+   "Silent seller: prospect refuses 'film for 2 hours' and loves 'film for 120 minutes'",
+   "Silent seller meets a second silent buyer who brings his own whiteboard"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 19,
+  "follower_conversion_potential": 17,
+  "creative_execution_quality": 13,
+  "ease_of_production": 7,
+  "repeatability": 8
+ },
+ "creative_confidence": {
+  "rationale": "It reuses the exact prop from his proven skit, puts his real offer on screen for 27 seconds without a pitch, and the joke is written on the board, so it survives sound-off viewing.",
+  "uncertainties": [
+   "The reference is from an 811K-follower account with a 22.4x multiple, so evidence that the format alone drives views is moderate",
+   "The joke depends on viewers doing the 90 days equals 3 months math instantly; the insert close-up is there to help",
+   "Stating '1,000,000 views in 90 days' on screen is his real offer; keep it as a goal he sells, not a guaranteed outcome claim in the caption"
+  ]
+ }
+}

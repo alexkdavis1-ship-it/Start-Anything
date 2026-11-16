@@ -1,0 +1,206 @@
+{
+ "ref_key": "C-01",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "The medium coffee exists so you don't buy it (decoy pricing, filmed on a real menu board)",
+ "batch_hint": "G",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@itsjayfoster",
+  "direct_video_url": "https://www.instagram.com/reel/Ddl1zxSqi0Y",
+  "publication_date": "2026-09-25",
+  "views": 5000000,
+  "creator_followers": 8000,
+  "creator_median_views": 33200,
+  "outlier_multiple": 150.1,
+  "duration_seconds": 52.8,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "The factual claims made in the reference video were not verified"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Did you know when Steve Jobs launched the iPad, he put a price on a giant screen behind him, and he left it there while he talked?\"",
+  "visual_hook": "Archival-style shot of a presenter on a keynote stage against a dark purple backdrop, hands clasped, smiling.",
+  "narrative_structure": "Question hook about an odd choice, then 'it was the wrong price, on purpose' at 0:08, then the story in order, then the principle named in plain words in the last third, then a follow line.",
+  "viral_mechanism": "A 'did you know X did a strange thing' question, followed inside ten seconds by 'on purpose'. The explanation is held back until the story is finished, so the viewer has to stay to learn why.",
+  "observed_evidence": "5.0M views on an 8K-follower account, 150.1x the creator's 33.2K median. 52.8s. Word-by-word subtitles. About 16 cuts of archival and stock footage. The principle is stated only from 0:36.",
+  "performance_hypothesis": "Hypothesis: 'on purpose' turns a trivia fact into a puzzle, and viewers who finish feel they learned a trick they can spot elsewhere, so they send it to a friend the next time they see a price board. The small account size suggests the format carried it, not the creator.",
+  "why_this_format_fits_alex": "It shows marketing knowledge through one concrete example instead of tips, which the audit says is missing from his feed (zero of nine recent Reels show his work). Filming a real board himself keeps it honest and cheap, and the voiceover over b-roll plays to his delivery.",
+  "originality_changes": "Borrowed: question hook, 'on purpose' turn, principle named last. New: the subject is an ordinary coffee menu Alex films and does the arithmetic on, there is no archival footage, no founder story, and the script admits he cannot prove intent."
+ },
+ "alex_adaptation": {
+  "concept": "Alex stands at a real coffee shop menu board, does the subtraction between small, medium and large on camera, and shows that the medium is priced to make the large feel like the smart choice. He names the decoy effect only at the end and admits he cannot prove the shop meant it.",
+  "target_audience": "People 18-34 who like 'now I can't unsee it' explanations; small-business owners who set their own prices.",
+  "primary_emotion": "Curiosity, then the small satisfaction of catching a trick",
+  "estimated_duration_seconds": 36,
+  "first_frame": "Tight handheld shot of a three-size coffee menu board, Alex's finger already pointing at the middle price.",
+  "first_spoken_line": "Did you know the medium at this coffee shop is on the menu so you won't buy it?",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "Did you know the medium at this coffee shop is on the menu so you won't buy it?",
+    "action": "Finger taps the medium price twice. No face yet.",
+    "camera": "Handheld close-up on the menu board, slight push in",
+    "on_screen_text": "the medium is there so you DON'T buy it",
+    "editing": "Cold open, no intro. Word-by-word captions start on frame one.",
+    "audio": "Voiceover only, cafe room tone underneath"
+   },
+   {
+    "start_second": 4,
+    "end_second": 10,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "Look at the prices. Small to medium is a big jump. Medium to large is {{REAL: the actual medium-to-large gap in cents}} cents.",
+    "action": "Finger slides small to medium, then medium to large. On the second move he holds his thumb and finger close together to show how small the gap is.",
+    "camera": "Same close-up, follow the finger",
+    "on_screen_text": "small → medium: BIG jump / medium → large: {{REAL: gap}}¢",
+    "editing": "Draw two brackets on the board in the edit, one wide, one tiny",
+    "audio": "Voiceover, one soft click per bracket"
+   },
+   {
+    "start_second": 10,
+    "end_second": 16,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "Nobody wants the medium. But without it you'd compare the large to the small and think, that's a lot more money for coffee.",
+    "action": "Cut to Alex in line, face on camera for the first time, squinting up at the board like he is doing hard math. Slight head tilt.",
+    "camera": "Selfie angle from chest height, board visible over his shoulder",
+    "on_screen_text": "without the medium, the large looks expensive",
+    "editing": "Cover the medium price with a black bar for one second, then remove it",
+    "audio": "Voiceover continues"
+   },
+   {
+    "start_second": 16,
+    "end_second": 22,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "With it, you compare the large to the medium and think, for that little extra, I'd be dumb not to.",
+    "action": "He points up at the large and nods slowly, impressed with himself, the way someone looks right before being upsold.",
+    "camera": "Same selfie angle",
+    "on_screen_text": "with it, the large looks like a deal",
+    "editing": "Arrow from medium to large",
+    "audio": "Voiceover continues"
+   },
+   {
+    "start_second": 22,
+    "end_second": 28,
+    "speaker": "Alex",
+    "dialogue": "Large, please.",
+    "action": "Cut to the counter. He says it straight to the barista area without hesitation, then turns to camera with a flat 'yes, I know' look.",
+    "camera": "Phone propped on the counter or held low, his profile then his face",
+    "on_screen_text": "he knew. he still ordered the large.",
+    "editing": "Hard cut in. Hold the look for a full second.",
+    "audio": "Live audio for this one line, then silence"
+   },
+   {
+    "start_second": 28,
+    "end_second": 33,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "It's called a decoy. One option that exists to make the one next to it look good.",
+    "action": "Walking out, large cup in hand, takes a sip.",
+    "camera": "Tracking shot from the front, waist up",
+    "on_screen_text": "DECOY: an option that sells the one next to it",
+    "editing": "Text card stays for the whole line",
+    "audio": "Voiceover"
+   },
+   {
+    "start_second": 33,
+    "end_second": 36,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "I can't prove they did it on purpose. I just make content for a living and can't stop seeing it.",
+    "action": "Holds the large cup up next to his face, shrugs.",
+    "camera": "Static, cup and face in frame",
+    "on_screen_text": "23. I run a content agency. I see this everywhere.",
+    "editing": "End on the shrug. No outro card.",
+    "audio": "Voiceover, cut clean on the last word"
+   }
+  ],
+  "alternate_hooks": [
+   "Nobody at this coffee shop is supposed to order the medium.",
+   "There's one price on this menu that only exists to change your mind.",
+   "I just paid extra for coffee and I watched them do it to me."
+  ],
+  "alternate_endings": [
+   "After 'I can't prove they did it on purpose', cut to him ordering again the next day: 'Large, please.' Text: 'day 2. still works.'",
+   "He turns the cup to camera, it is the medium. Voiceover: 'I ordered the medium out of spite. It's too much coffee and not enough coffee at the same time.'"
+  ],
+  "caption": "The medium is doing a job. It just isn't the job you think. #marketing",
+  "call_to_action": "Soft: 'Follow, I'm doing a different store every week.' Use only if he will make the sequels."
+ },
+ "production": {
+  "location": "Any local coffee shop, smoothie bar or movie theater concession with three sizes on a visible price board. Ask the staff before filming the board.",
+  "props": [
+   "Phone",
+   "One large drink he actually buys"
+  ],
+  "wardrobe": "Plain t-shirt, everyday look",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 35,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Close-up of the board with finger pointing at the medium",
+   "Finger slide across the three prices",
+   "Selfie in line with board over shoulder",
+   "Counter shot for 'Large, please'",
+   "Walk-out tracking shot with cup",
+   "Static cup-and-shrug closer"
+  ],
+  "b_roll": [
+   "Extra 5 seconds of the board with no hand, for the bracket graphics",
+   "Cup being handed over"
+  ],
+  "editor_instructions": "Only shoot this if the medium-to-large gap is clearly smaller than the small-to-medium gap. If it is not, find another board. Replace both {{REAL}} tokens with the number read off the board. Record the voiceover in one pass in the car right after filming so the tone matches. Word-by-word captions in the lower third, graphics on the board in the upper half. Do not show staff faces."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'Nobody at this coffee shop is supposed to order the medium.'",
+   "Alternate payoff: He ordered the medium out of spite"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and follows per 1,000 reached is in his top quartile; if follows are high under 6,000 views, re-film only the first 4 seconds with an alternate hook.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Movie theater popcorn sizes, same arithmetic on camera",
+   "A gym's three membership tiers on its own website (screen recording)",
+   "A car wash menu with four packages: which one is the decoy"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 9,
+  "follower_conversion_potential": 15,
+  "creative_execution_quality": 11,
+  "ease_of_production": 6,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "The arithmetic is checkable by any viewer, the 'Large, please' beat gives it a joke in the middle, and it tells a new viewer what Alex does without a pitch. It is a voiceover explainer, a format he has not proven on Instagram.",
+  "uncertainties": [
+   "Two {{REAL}} tokens: the price gap must come from the board he films",
+   "Needs a board where the gap pattern actually holds",
+   "He cannot prove the shop's intent and the script says so; do not edit that line out",
+   "Voiceover formats are untested for him"
+  ]
+ }
+}

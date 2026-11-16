@@ -1,0 +1,165 @@
+{
+ "ref_key": "A2-01",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Walk us through your creative process\" (the Notes app reveal)",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@onedentalbh",
+  "direct_video_url": "https://www.instagram.com/reel/DfqcP9lv7dF",
+  "publication_date": "2026-11-13",
+  "views": 19500000,
+  "creator_followers": 2300,
+  "creator_median_views": 5800,
+  "outlier_multiple": 3378.7,
+  "duration_seconds": 8.54,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"“Servers are down we lost all our data”\" (top) and \"Me on my first day at Microsoft\" (bottom).",
+  "visual_hook": "A man stands at a computer station in a clinical scanning room, hands on keyboard and mouse, looking nervous.",
+  "narrative_structure": "Two static text lines set a high-stakes premise for 8 seconds. He holds a nervous look, then one camera pan lands on the monitor, which shows the visual punchline. No cuts, no speech, music only.",
+  "viral_mechanism": "The text makes a serious claim, the face sells it, and the pan to a screen replaces the claim with something small and harmless. The viewer has to read the screen to get the joke, which forces a pause or a rewatch on an 8-second clip.",
+  "observed_evidence": "19.5M views on an account with 2.3K followers and a 5.8K median (3378.7x). 8.54 seconds, 0 cuts, no dialogue, no CTA. Posted 2026-11-13, the day of a Microsoft outage, and the caption uses outage hashtags.",
+  "performance_hypothesis": "Hypothesis: most of the spread came from the news day, but the structure (claim, nervous face, pan to a screen that undercuts it) is what made it sendable. Viewers rewatch to read the monitor and send it to coworkers with 'me'. Without a news peg expect a fraction of the views, so the adaptation leans on Alex's own 13.5M proof instead of a brand event.",
+  "why_this_format_fits_alex": "Same grammar as his two biggest Reels: one shot, no speech, one line of text, under 10 seconds (Central Park 13.5M, travel hack 3.6M). The reveal can point at his own Central Park hit, so a profile visitor immediately finds the pinned video and sees what he does.",
+  "originality_changes": "Borrowed: text premise plus nervous hold plus single pan to a screen that deflates the premise. New: the premise is a client asking about his creative process, the screen is his own Notes app, the subject is his real 13.5M Reel, and there is no news event or brand."
+ },
+ "alex_adaptation": {
+  "concept": "A client asks the 23-year-old agency owner to explain the creative process behind a 13.5M-view video. The camera pans to his laptop: the entire process is one badly typed note.",
+  "target_audience": "Non-followers 18-34 who make content, freelance, or work in marketing, plus anyone who saw the Central Park Reel.",
+  "primary_emotion": "Amusement at a confident-looking professional being exposed",
+  "estimated_duration_seconds": 9,
+  "first_frame": "Alex seated at his desk in a collared shirt, hands frozen above the laptop keyboard, eyes wide at the camera. Two text lines already on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Sits upright, professional. Eyes locked on camera, lips pressed, the face of someone asked a question on a call he cannot answer. One slow blink.",
+    "camera": "Phone on tripod, chest-up, laptop edge visible at bottom right of frame.",
+    "on_screen_text": "Top: Client: \"Walk us through your creative process\" / Bottom: Me, 13.5 million views later:",
+    "editing": "No cut. Text on from frame 1.",
+    "audio": "Light staccato strings or a ticking-clock style royalty-free track, starts on frame 1."
+   },
+   {
+    "start_second": 3,
+    "end_second": 5,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Tiny nervous swallow. Eyes flick down to the laptop and back to camera as if deciding whether to show it. Very slight head shake.",
+    "camera": "Same shot, hold.",
+    "on_screen_text": "Same two lines stay up.",
+    "editing": "No cut.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 5,
+    "end_second": 7,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He reaches forward and turns the tripod himself (hand enters frame) so the camera pans from his face to the laptop screen.",
+    "camera": "Single pan right and slightly down, ends on the laptop screen filling the frame. Lock focus on the screen before filming.",
+    "on_screen_text": "Same two lines stay up, positioned so they do not cover the note.",
+    "editing": "No cut. If the pan blurs, speed-ramp it slightly rather than cutting.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 7,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Screen shows the Notes app. One note titled 'ideas'. Body, in lowercase: 'central park but its a parking lot ???' and under it 'ask mom if funny'. Cursor blinking.",
+    "camera": "Static on screen, text large enough to read on a phone (zoom Notes to 200%).",
+    "on_screen_text": "Same two lines stay up.",
+    "editing": "End the clip on the screen with no button so it loops back to his face.",
+    "audio": "Music cuts on the last frame."
+   }
+  ],
+  "alternate_hooks": [
+   "Top: \"How long did the 13.5M video take to plan?\" / Bottom: Me, a professional:",
+   "Top: Brand: \"Send over the strategy deck\" / Bottom: The strategy deck:",
+   "Top: \"You must have a whole team for this\" / Bottom: The team:"
+  ],
+  "alternate_endings": [
+   "The note has a second line dated the same day: 'update: 13.5M. do not tell client how.'",
+   "Pan lands on the laptop, which is closed. A sticky note on the lid reads 'central park = parking lot?'. Pan back to his face, he shrugs once."
+  ],
+  "caption": "Three weeks of strategy. #marketing",
+  "call_to_action": "None. The pinned Central Park Reel is the payoff for anyone who taps the profile."
+ },
+ "production": {
+  "location": "Home desk",
+  "props": [
+   "Laptop with Notes app open at 200% zoom",
+   "Pre-typed note",
+   "Tripod"
+  ],
+  "wardrobe": "Collared shirt, neat hair, the 'on a client call' look",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 8,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous take: 5 s on face, 2 s pan, 2 s on screen. Shoot 5 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts. Add both text lines for the full duration, white with black stroke, top line in quotes. Keep the note fully unobstructed in the last 2 seconds. Trim so the last frame is the readable note. Export 9 s."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"You must have a whole team for this\" / The team:",
+   "Alternate payoff: second note line 'update: 13.5M. do not tell client how.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote if 48h views are at least 3x the trailing median and follows per 1,000 reached or shares per 1,000 reached land in the top quartile; if follows per 1,000 are 2x median at low views, refilm with the 'team' hook.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same pan, screen shows a Slack-style message to himself: 'great idea Alex' 'thanks Alex'",
+   "\"What tools do you use?\" pan to a phone with a cracked screen and a roll of tape used as a tripod",
+   "\"Who approved this concept?\" pan to a group chat where the only reply is his mom's thumbs up"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 19,
+  "follower_conversion_potential": 16,
+  "creative_execution_quality": 12,
+  "ease_of_production": 10,
+  "repeatability": 8
+ },
+ "creative_confidence": {
+  "rationale": "Matches his proven silent one-shot format and points every viewer at his best Reel. The reference had a news tailwind this version will not have, so the upside is lower than 19.5M suggests, but the cost is 20 minutes.",
+  "uncertainties": [
+   "The reference's views were tied to a same-day Microsoft outage; the mechanism is untested without a news peg.",
+   "The note text must be readable on a small phone; test before posting.",
+   "Viewers who have not seen the Central Park Reel still get the joke only if '13.5 million views' reads clearly."
+  ]
+ }
+}

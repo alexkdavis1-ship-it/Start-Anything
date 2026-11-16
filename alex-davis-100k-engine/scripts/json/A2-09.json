@@ -1,0 +1,153 @@
+{
+ "ref_key": "A2-09",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Moved to Florida for the weather\" (pan to the closed blinds)",
+ "batch_hint": "D",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@a1_tellem",
+  "direct_video_url": "https://www.instagram.com/reel/DfhhNHkxLJ3",
+  "publication_date": "2026-11-09",
+  "views": 7600000,
+  "creator_followers": 13000,
+  "creator_median_views": 4900,
+  "outlier_multiple": 1537.5,
+  "duration_seconds": 8,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"This is my commute to work and I still don’t want to go\"",
+  "visual_hook": "Close-up selfie of a man lying in bed tucked under a white blanket, text overlaid near the top.",
+  "narrative_structure": "One caption for 8 seconds. Single take: his face in bed, a pan to the laptop at the foot of the bed, a pan back to his face. No cuts, loops back to the face. A song lyric under it matches the text.",
+  "viral_mechanism": "The caption makes a claim and the pan is the proof. The viewer gets the joke at the moment the camera lands on the object, and the pan back to an unchanged face is the button. One take, so nothing delays the reveal.",
+  "observed_evidence": "7.6M views on a 13K-follower account with a 4.9K median (1537.5x). 8 seconds, 0 cuts, no dialogue, loops, no CTA. Music lyric reinforces the caption.",
+  "performance_hypothesis": "Hypothesis: remote workers recognise it instantly and send it to each other, and the 8-second loop stacks replays. Part of the effect is the lyric match, which the adaptation does not copy.",
+  "why_this_format_fits_alex": "Silent, one take, one caption, under 10 seconds, exactly the shape of Central Park (13.5M). The Florida move is a real, recent fact that gives the caption a reason to be his.",
+  "originality_changes": "Borrowed: caption plus face, pan to the object that proves it, pan back, loop. New: the subject is moving to Florida and never seeing the sun, the reveal is closed blinds with one bright sliver, and there is no lyric-matched song."
+ },
+ "alex_adaptation": {
+  "concept": "Alex moved to Florida for the weather. The pan shows how much of it he has seen: one bright sliver through closed blinds beside his desk.",
+  "target_audience": "Remote workers, people who relocated for lifestyle, self-employed 18-34.",
+  "primary_emotion": "Recognition",
+  "estimated_duration_seconds": 8,
+  "first_frame": "Close selfie of Alex at his desk in a dim room, face lit blue by a laptop, eyes tired, looking into the lens. Caption on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Tired, flat stare into the lens, lit only by the laptop. One slow blink.",
+    "camera": "Handheld selfie at arm's length, dim room, midday.",
+    "on_screen_text": "Moved to Florida for the weather. This is how much of it I've seen:",
+    "editing": "One take. Caption on from frame 1 and held throughout.",
+    "audio": "Soft, sunny ukulele track, royalty-free, deliberately too cheerful."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He turns the phone away from his face toward the window: blinds fully closed, one thin blade of blazing sunlight cutting across the wall. Hold on the sliver. A palm frond shadow moves in it.",
+    "camera": "Pan left about 120 degrees, ends on the blinds. Expose for the room so the sliver blows out bright.",
+    "on_screen_text": "Same caption.",
+    "editing": "No cut.",
+    "audio": "Music continues. Faint birds outside."
+   },
+   {
+    "start_second": 6,
+    "end_second": 8,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Pan back to his face. Same expression, now squinting slightly as if the sliver hurt.",
+    "camera": "Pan back to selfie framing.",
+    "on_screen_text": "Same caption.",
+    "editing": "End on the squint so it loops into the opening stare.",
+    "audio": "Music continues."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I moved to the Sunshine State. Here's my view:\"",
+   "\"23, moved to Florida, work from home. My tan:\" (pan to his pale forearm next to the laptop)",
+   "\"Everyone back home thinks I live at the beach\""
+  ],
+  "alternate_endings": [
+   "Pan to the blinds, then his hand enters frame and closes the last sliver. Pan back to his face, relieved.",
+   "Pan to the window where a sticky note on the blinds reads 'outside (later)'."
+  ],
+  "caption": "Beautiful out, I assume. #florida",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk beside a window with blinds, shot around midday for a hard sun sliver",
+  "props": [
+   "Laptop",
+   "Window blinds"
+  ],
+  "wardrobe": "Plain tee or hoodie",
+  "people_required": 1,
+  "filming_minutes_estimate": 8,
+  "editing_minutes_estimate": 5,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous selfie take: face 3 s, pan to blinds 3 s, pan back 2 s. Shoot 6 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts. One caption held for 8 s, white bold, top third. Do not brighten the room. Trim to end on the squint. Light ukulele track at low volume."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"Everyone back home thinks I live at the beach\"",
+   "Alternate payoff: his hand closes the last sliver of light"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2: promote if 48h views are at least 3x the trailing median and shares per 1,000 reached are top quartile; flag for a remake with the 'my tan' hook if follows per 1,000 run 2x median.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "\"My Florida pool:\" pan to a glass of water on the desk",
+   "\"Things I've explored since moving:\" pan across desk, fridge, bed, desk",
+   "\"My view of the ocean:\" pan to a desktop wallpaper of the ocean"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 19,
+  "follower_conversion_potential": 11,
+  "creative_execution_quality": 11,
+  "ease_of_production": 10,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "Closest structural match to his biggest Reel, built on a true and recent fact about him, and it takes under 15 minutes. Identity signal is moderate: it shows the move and the work-from-home life but not the agency.",
+  "uncertainties": [
+   "The reference leaned on a lyric-matched song that is not reused here.",
+   "Needs real midday sun through blinds; a cloudy day kills the visual.",
+   "Does not mention the agency, so follow conversion may trail the business skits."
+  ]
+ }
+}

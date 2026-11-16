@@ -1,0 +1,198 @@
+{
+ "ref_key": "A1-01",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "Cold call #41: the gym owner closes me instead",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@isaaciscalling",
+  "direct_video_url": "https://www.instagram.com/reel/DfrtorhO-iI",
+  "publication_date": "2026-11-13",
+  "views": 9700000,
+  "creator_followers": 20000,
+  "creator_median_views": 68500,
+  "outlier_multiple": 142.2,
+  "duration_seconds": 16,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "First spoken sentence (the off-screen caller, screamed): \"STOP CALLING ME!\" On-screen text at 0:00: \"237th dial of the day\" / \"Open to constructive criticism\".",
+  "visual_hook": "A young man in glasses, blue dress shirt, tie and an over-ear headset sits in an office chair with his chin on his hand, eyes closed and tired. White wall, drop ceiling and a TV showing a VIZIO logo behind him. A white text box sits over the shot.",
+  "narrative_structure": "One static take, zero cuts, 16 seconds. 0-3s a calm caption sets an optimistic premise. 4s an off-screen caller explodes. The salesman answers once, calmly, then loses it laughing behind his hand while the caller keeps going. Ends on a text CTA.",
+  "viral_mechanism": "Contrast between a polite, deadpan caption and audio that immediately contradicts it. The salesman only gets one line, so the viewer watches his face do the work.",
+  "observed_evidence": "9.7M views on a 20K-follower account, 142.2x that creator's 68.5K median. Zero cuts. Text appears before any sound. The salesman speaks one sentence in 16 seconds. No music. The walkthrough does not establish whether the call is real or staged.",
+  "performance_hypothesis": "Hypothesis: the caption makes a promise in the first second (this call will go badly) and the payoff arrives by second 4, so almost nobody leaves before it. People who have worked a phone job send it to a coworker with 'this is us'. Comments are other salespeople posting their own worst call.",
+  "why_this_format_fits_alex": "Same grammar as his biggest results: one shot, a short text line, a face doing the acting. His 13.5M Central Park Reel is a single-shot face reaction, and this adds the one thing his recent feed lacks, which is his actual job (selling a content agency to local businesses).",
+  "originality_changes": "Borrowed: single static take, calm caption, a phone voice that derails the call, one calm reply from the seller. New: the prospect does not yell. He is a gym owner who out-sells Alex with Alex's own closing lines, and Alex ends up buying. No profanity, no real call audio, all lines new."
+ },
+ "alex_adaptation": {
+  "concept": "Alex cold-calls a gym to pitch content. The owner flips it and runs a hard close on Alex for a gym membership, using the exact pressure lines a salesperson would use. Alex, beaten at his own game, asks if they take Visa.",
+  "target_audience": "People who sell for a living (agency owners, SDRs, realtors, gym staff) and anyone who has been upsold by a gym.",
+  "primary_emotion": "Amused recognition, with second-hand embarrassment for Alex.",
+  "estimated_duration_seconds": 18,
+  "first_frame": "Alex at a desk, phone to his ear, coffee in the other hand, eyebrows up and confident. Text box top-center already on screen: \"Cold call #41 today\" and under it \"Feeling good about this one\".",
+  "first_spoken_line": "Hey, is this the owner? It's Alex, I help gyms get a million views on",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex holds the phone to his ear, sips coffee, gives the camera one small confident nod. Relaxed shoulders.",
+    "camera": "Static, chest-up, phone on a tripod at eye level, slightly off-center so the phone side of his face is toward camera.",
+    "on_screen_text": "Cold call #41 today / Feeling good about this one",
+    "editing": "No cuts for the whole video. Text box fades out at 3s.",
+    "audio": "Two phone ring tones, then a pickup click at 2.8s. No music."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Alex",
+    "dialogue": "Hey, is this the owner? It's Alex, I help gyms get a million views on",
+    "action": "Big salesman smile, leaning forward. He gets cut off mid-sentence and his mouth stays open on the word 'on'.",
+    "camera": "Same shot.",
+    "on_screen_text": "Word-by-word captions, bottom third, for every spoken line from here.",
+    "editing": "None.",
+    "audio": "Room tone."
+   },
+   {
+    "start_second": 6,
+    "end_second": 9,
+    "speaker": "Gym owner (Alex's voice, recorded separately, phone filter)",
+    "dialogue": "Alex! Perfect timing. Quick question. Do you currently have a gym membership?",
+    "action": "Alex's smile freezes. Eyes flick left, then right. He was not ready to be asked a question.",
+    "camera": "Same shot.",
+    "on_screen_text": "Captions in a different color (yellow) for the owner.",
+    "editing": "Drop the owner's line in from a separate recording.",
+    "audio": "Owner voice with a telephone EQ filter, warm and very upbeat."
+   },
+   {
+    "start_second": 9,
+    "end_second": 11,
+    "speaker": "Alex",
+    "dialogue": "I, no, I just moved here, but that's not really why I'm",
+    "action": "Flustered, free hand comes up in a small 'wait' gesture. Speeds up as he talks.",
+    "camera": "Same shot.",
+    "on_screen_text": "Captions.",
+    "editing": "None.",
+    "audio": "Room tone."
+   },
+   {
+    "start_second": 11,
+    "end_second": 15,
+    "speaker": "Gym owner",
+    "dialogue": "So no plan. Got it. Founder's rate ends today. Alex, do you want results, or do you want excuses?",
+    "action": "On 'results or excuses' Alex slowly turns his eyes to the lens and holds for one beat: that is his line and he knows it. Jaw tight.",
+    "camera": "Same shot. A slow 5% push-in added in the edit from 11s to 15s.",
+    "on_screen_text": "Captions.",
+    "editing": "Digital push-in only, no cut.",
+    "audio": "Owner voice, same filter, now in full closer mode."
+   },
+   {
+    "start_second": 15,
+    "end_second": 17,
+    "speaker": "Alex",
+    "dialogue": "Do you take Visa?",
+    "action": "Long exhale through the nose. He sets the coffee down, pulls a wallet from his pocket and opens it. Says the line quietly, eyes down, completely defeated.",
+    "camera": "Same shot.",
+    "on_screen_text": "Captions.",
+    "editing": "Hold the silence for a full second before the line.",
+    "audio": "Room tone. Wallet leather sound."
+   },
+   {
+    "start_second": 17,
+    "end_second": 18,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex looks at the card in his hand, then at the camera, expressionless.",
+    "camera": "Same shot.",
+    "on_screen_text": "Calls closed: 0 / Times I got closed: 1",
+    "editing": "Text box pops on with no animation. Cut to black on the last frame.",
+    "audio": "One soft cash-register 'ding'."
+   }
+  ],
+  "alternate_hooks": [
+   "Text: \"Me, a sales expert, making one quick cold call\"",
+   "Text: \"I teach brands how to sell. Watch this.\"",
+   "Open cold on the owner's voice at 0s (\"Do you currently have a gym membership?\") over Alex's frozen face, with the text \"I called HIM\""
+  ],
+  "alternate_endings": [
+   "Alex hangs up, stares ahead for two seconds, then picks the phone back up and dials again. Text: \"Cold call #42. Feeling good about this one.\" (loops into the opening)",
+   "Owner's voice after the Visa line: \"And would you like to add a personal trainer?\" Alex, immediately: \"Yes.\""
+  ],
+  "caption": "He was better at my job than me. #sales",
+  "call_to_action": "None on screen. Pin a comment: \"Call #42 tomorrow.\""
+ },
+ "production": {
+  "location": "Home desk or any plain desk with a wall behind it",
+  "props": [
+   "Phone",
+   "Coffee mug",
+   "Wallet with a card"
+  ],
+  "wardrobe": "Button-up shirt, sleeves rolled once. Looks like someone trying to seem professional.",
+  "people_required": 1,
+  "filming_minutes_estimate": 15,
+  "editing_minutes_estimate": 20,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static chest-up take, 18 to 20 seconds, played against the pre-recorded owner lines through an earbud so reactions are timed",
+   "Separate audio-only recording of the three owner lines in a brighter, older voice"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Record the owner lines first and play them in one earbud while filming so Alex's pauses are real. Apply a telephone EQ (cut below 300 Hz and above 3.4 kHz) to the owner. Owner captions yellow, Alex captions white. Do not add music. Keep the full second of silence before 'Do you take Visa?'."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I teach brands how to sell. Watch this.\"",
+   "Alternate payoff: loop back to cold call #42"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3 (shows him selling the agency). Promote at 48h if views are at least 3x the trailing median and either follows per 1,000 reached or shares per 1,000 reached is top quartile; if follows per 1,000 is 2x median at any view count, re-film the first 3 seconds with the alternate hooks.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Cold call #42: a restaurant owner puts Alex on hold and the hold music is the owner singing",
+   "Cold call #43: the receptionist screens him with questions he cannot answer about his own company",
+   "Cold call #44: the owner says yes immediately and Alex does not know what to do next"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 17,
+  "follower_conversion_potential": 15,
+  "creative_execution_quality": 12,
+  "ease_of_production": 9,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "One take, one location, a clear reversal, and the punchline is four words. The numbered cold-call frame makes it a series. It shows his job without explaining it.",
+  "uncertainties": [
+   "The reference's energy came from an explosive caller; this version trades shock for a status reversal, which is quieter",
+   "Alex voicing the owner must sound like a different person or the joke reads as him talking to himself",
+   "Whether the reference call was real is unknown, so part of its pull may have been authenticity this staged version does not have"
+  ]
+ }
+}
