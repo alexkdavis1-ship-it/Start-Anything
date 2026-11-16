@@ -1,0 +1,174 @@
+{
+ "ref_key": "A1-09",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "After every call where I said \"great idea\"",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@farbsy",
+  "direct_video_url": "https://www.instagram.com/reel/Ddrlt-zyi1N",
+  "publication_date": "2026-09-24",
+  "views": 4500000,
+  "creator_followers": 904000,
+  "creator_median_views": 769800,
+  "outlier_multiple": 5.9,
+  "duration_seconds": 17.3,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Right, for sure.\" Persistent header: \"ME BASICALLY EVERY DAY AT MY JOB\".",
+  "visual_hook": "A man in glasses, over-ear headphones and a maroon sweatshirt sits at a desk, hand on chin, looking up and smiling as if on a video call. A band poster and a light blue electric guitar are behind him.",
+  "narrative_structure": "17.3 seconds, one take, 0 cuts. Six seconds of chirpy call sign-off, a mouse click, then eight seconds of silence while he takes off the headphones and stares, then one flat sentence.",
+  "viral_mechanism": "A mask drop. The length of the silence is the joke: it runs longer than a short-form viewer expects, which builds tension that a single quiet line releases.",
+  "observed_evidence": "4.5M views, but only 5.9x the creator's 769.8K median on a 904K-follower account, so the creator's reach explains much of it. Zero cuts, no music, eight seconds without speech, captions including a stage direction (\"*laughs in fake*\").",
+  "performance_hypothesis": "Hypothesis: people tag coworkers who share the same meeting. The silence keeps viewers because they are waiting for the release. Evidence for the format on its own is weaker here than for the small-account references.",
+  "why_this_format_fits_alex": "One shot and a face doing all the work is how his Central Park Reel played, and a held silence is an acting beat he is trained for.",
+  "originality_changes": "Borrowed: fake-cheerful sign-off, long silence, one deadpan line. New: it is a client call, not an employee meeting. The line is not about quitting. He opens the laptop and starts searching for the thing he just agreed to, which makes the punchline a consequence, and adds a second button."
+ },
+ "alex_adaptation": {
+  "concept": "Alex wraps a client call by enthusiastically agreeing to put a dancing mascot in every video. He ends the call. Eight seconds of silence. Then he opens the laptop and types, saying each word out loud: \"mascot costume rental near me.\"",
+  "target_audience": "Anyone client-facing: agency owners, freelancers, account managers, salespeople.",
+  "primary_emotion": "Recognition of saying yes to something you will regret.",
+  "estimated_duration_seconds": 19,
+  "first_frame": "Alex at the desk in headphones, huge agreeable smile, mid-nod, one hand giving a thumbs up to the laptop. Header: \"Me after every client call where I said 'great idea'\".",
+  "first_spoken_line": "No, I love that. A mascot. Dancing. In every video.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "No, I love that. A mascot. Dancing. In every video. Yeah. No, that's, wow.",
+    "action": "Too much smile. Nodding on every chunk. 'Wow' comes out a little strangled.",
+    "camera": "Static, chest-up, laptop edge at the bottom of frame.",
+    "on_screen_text": "Me after every client call where I said \"great idea\"",
+    "editing": "Header stays all video. Captions for his lines.",
+    "audio": "Voice only. No music at any point."
+   },
+   {
+    "start_second": 4,
+    "end_second": 6,
+    "speaker": "Alex",
+    "dialogue": "Okay! Talk Monday. Bye, guys!",
+    "action": "Little wave to the laptop with his fingertips. Clicks the trackpad.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "None. One take.",
+    "audio": "Trackpad click."
+   },
+   {
+    "start_second": 6,
+    "end_second": 14,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "The smile drains in stages: mouth first, then eyes. He takes the headphones off and sets them down. Puts both palms flat on the desk. Stares straight ahead at nothing. One slow blink. He does not sigh.",
+    "camera": "Same. Do not push in.",
+    "on_screen_text": "Same.",
+    "editing": "Do not cut the silence shorter than 8 seconds.",
+    "audio": "Room tone only."
+   },
+   {
+    "start_second": 14,
+    "end_second": 18,
+    "speaker": "Alex",
+    "dialogue": "Mascot. Costume. Rental. Near me.",
+    "action": "He pulls the laptop back toward him and types with two fingers, saying each word flatly as he types it. Eyes on the screen.",
+    "camera": "Same.",
+    "on_screen_text": "Same. Each word appears as he types it.",
+    "editing": "None.",
+    "audio": "Keyboard clicks."
+   },
+   {
+    "start_second": 18,
+    "end_second": 19,
+    "speaker": "Alex",
+    "dialogue": "Adult large.",
+    "action": "Types two more words. Hits return.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Cut on the return key.",
+    "audio": "Return key."
+   }
+  ],
+  "alternate_hooks": [
+   "Header: \"I'm 23, I run a content agency, and I cannot say no on a call\"",
+   "Header: \"The client is always right (I have to keep telling myself)\"",
+   "Header: \"How every client call ends\""
+  ],
+  "alternate_endings": [
+   "After the silence he picks up his phone and calls someone: \"Hey. Do you still have that chicken suit?\"",
+   "After the silence the call ringtone starts again. He puts the headphones on and the giant smile snaps back: \"Hey! Did you have more ideas?\""
+  ],
+  "caption": "It was a great idea. I said so myself.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk",
+  "props": [
+   "Laptop",
+   "Over-ear headphones"
+  ],
+  "wardrobe": "Collared shirt or quarter-zip, call-ready from the chest up",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 10,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static take, 19 to 21 seconds. Do four takes and choose the one with the slowest smile drain"
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts, no music, no zoom. Add the header and captions only. Type the search line on screen in sync with his voice. If the silence feels long in the edit, leave it; the reference held 8 seconds."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: header with age and job",
+   "Alternate payoff: the chicken suit phone call"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2 unless the age-and-job header is used (then 3). Promote at 48h if views are at least 3x the trailing median and shares per 1,000 reached are top quartile; do not promote on views alone.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Same take, different yes: \"Totally, we can film all 30 videos in one afternoon\" then the silence, then he opens a calendar",
+   "Same take: \"Of course your dog can be the spokesperson\" then he searches dog acting classes",
+   "Same take from the client's side: the client hangs up on Alex and says \"I have no idea what he just told me\""
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 17,
+  "follower_conversion_potential": 11,
+  "creative_execution_quality": 12,
+  "ease_of_production": 10,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "Ten minutes to film, built on a silent acting beat, and the punchline is a consequence instead of a complaint. Lower ranked than the others because the reference evidence is the weakest of this batch.",
+  "uncertainties": [
+   "Reference is a 5.9x result on a 904K account, so the format's independent pull is unproven",
+   "Eight seconds of silence is a retention risk in the first run to cold audiences",
+   "Without the alternate header nothing identifies him as an agency owner"
+  ]
+ }
+}

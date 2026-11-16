@@ -1,0 +1,268 @@
+{
+ "ref_key": "B-13",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "I moved to Florida with a laptop and a deadline (text-card story)",
+ "batch_hint": "G",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@samcoady13",
+  "direct_video_url": "https://www.instagram.com/reel/Dcd79Slt_g3",
+  "publication_date": "2026-08-25",
+  "views": 7000000,
+  "creator_followers": 418200,
+  "creator_median_views": 70600,
+  "outlier_multiple": 99.7,
+  "duration_seconds": 56.6,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "duration from the watch job, not the search index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"8 months ago I came To Alaska to pick up A truck I bought at auction\"",
+  "visual_hook": "Low-angle selfie of a bearded man wearing an aviation headset inside a small airplane cockpit.",
+  "narrative_structure": "19 short text cards over 20 personal phone clips with one song and no speech. A small original errand, then \"I haven't left...\", then a chain of specific turns (storm, job offer, truck failure, a cabin, a moose named Misty, a puppy offered at a gas station), ending on a direct follow invitation.",
+  "viral_mechanism": "An accidental life change told in fragments. Every card is one short fact, and each fact is more specific than a viewer expects. The clips are plain phone footage, which makes the story believable.",
+  "observed_evidence": "7.0M views, 99.7x the creator's 70.6K median, 418.2K followers. 56 seconds, 19 cuts, no speech, a well-known melancholic song, explicit CTA \"Follow along for our Summer adventures In Alaska...\".",
+  "performance_hypothesis": "Hypothesis: the second card opens a question the viewer needs answered, and the small details (the moose has a name) are what people repeat in comments. The CTA converts because the story is clearly unfinished.",
+  "why_this_format_fits_alex": "He has an unfinished story with a date on it: moved to Florida at 23, rebuilding after months of not posting, 42,700 followers and a public goal of 100,000 by December 31. This is the one format in the batch built to end on a reason to follow.",
+  "originality_changes": "Borrowed: short text cards over his own phone clips, one song, a story left open, a follow invitation. New: the story is Alex's move and his deadline, it is 30 seconds instead of 56, it admits he is behind pace, and the closing line offers the outcome either way."
+ },
+ "alex_adaptation": {
+  "concept": "Twelve text cards over Alex's own camera-roll clips tell the last few months in order: the move, the job, the silence, the car, the number, the deadline, and the admission that he is not on pace.",
+  "target_audience": "People in their twenties who are starting over somewhere, and anyone who likes following a public attempt with a deadline.",
+  "primary_emotion": "Rooting interest",
+  "estimated_duration_seconds": 30,
+  "first_frame": "A phone clip from the drive or flight into Florida: a welcome sign, a window view, or a loaded car. First card on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 1: arriving in Florida (welcome sign, plane window, or the packed car).",
+    "camera": "Phone footage, as shot.",
+    "on_screen_text": "\"{{REAL: number of weeks}} weeks ago I moved to Florida.\"",
+    "editing": "Card centered, white text with soft shadow. Each card is one cut.",
+    "audio": "One slow, warm song from the Instagram library starts at 0."
+   },
+   {
+    "start_second": 3,
+    "end_second": 5,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 2: Alex with a laptop bag or backpack in an empty apartment or doorway.",
+    "camera": "Phone footage.",
+    "on_screen_text": "\"I'm 23. I brought a laptop and a business.\"",
+    "editing": "Cut on the beat.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 5,
+    "end_second": 8,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 3: him filming a client or setting up a tripod, any behind-the-scenes shot.",
+    "camera": "Phone footage.",
+    "on_screen_text": "\"The business: I get brands their first million views.\"",
+    "editing": "Cut.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 8,
+    "end_second": 10,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 4: any clip from his time in France.",
+    "camera": "Phone footage.",
+    "on_screen_text": "\"Before this I lived in France.\"",
+    "editing": "Cut.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 10,
+    "end_second": 13,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 5: screen recording scrolling his own Instagram grid past a visible gap in dates.",
+    "camera": "Screen recording.",
+    "on_screen_text": "\"Then I stopped posting for months.\"",
+    "editing": "Cut. Slight slow-down on the scroll.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 13,
+    "end_second": 15,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 6: him editing someone else's video on the laptop, face lit by the screen.",
+    "camera": "Phone footage.",
+    "on_screen_text": "\"I was making content for everyone except me.\"",
+    "editing": "Cut.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 15,
+    "end_second": 17,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 7: the Lexus, a walk-up shot or the day he got it.",
+    "camera": "Phone footage.",
+    "on_screen_text": "\"I bought a car I probably shouldn't have.\"",
+    "editing": "Cut.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 17,
+    "end_second": 20,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 8: the oddest real clip from his camera roll since moving.",
+    "camera": "Phone footage.",
+    "on_screen_text": "\"{{REAL: the strangest specific thing that has happened since you moved, 8 words or fewer}}\"",
+    "editing": "Cut. Hold this card the longest.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 20,
+    "end_second": 22,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 9: screen recording of his profile showing the follower count.",
+    "camera": "Screen recording.",
+    "on_screen_text": "\"I have 42,700 followers.\"",
+    "editing": "Cut.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 22,
+    "end_second": 25,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 10: him writing '100K / DEC 31' on the whiteboard from the client skit.",
+    "camera": "Phone footage, new.",
+    "on_screen_text": "\"I said I'd hit 100,000 by December 31.\"",
+    "editing": "Cut.",
+    "audio": "Song."
+   },
+   {
+    "start_second": 25,
+    "end_second": 27,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 11: him looking at the whiteboard, then at the camera, a small 'yeah, I know' face.",
+    "camera": "Phone footage, new.",
+    "on_screen_text": "\"I am not on pace.\"",
+    "editing": "Cut. Music dips for this card.",
+    "audio": "Song dips 30%."
+   },
+   {
+    "start_second": 27,
+    "end_second": 30,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Clip 12: him walking away from the camera toward the car or the water, tripod under his arm.",
+    "camera": "Phone footage, new.",
+    "on_screen_text": "\"Follow to watch me pull it off or fail in public.\"",
+    "editing": "Last card holds a full 3 seconds. Fade out.",
+    "audio": "Song back up, resolves."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I'm 23. I moved to Florida with a laptop and a deadline.\"",
+   "\"I have until December 31 to more than double this account. Here's how I got here.\"",
+   "\"A few weeks ago I moved to Florida to fix one thing. It wasn't the weather.\""
+  ],
+  "alternate_endings": [
+   "Final two cards: \"57,300 to go.\" then \"Day 1 was a while ago. This is the day I'm telling you.\"",
+   "Final card: \"If I miss, I'll post the number anyway. Follow so I can't hide it.\""
+  ],
+  "caption": "23, new state, 42,700 followers, 100K by Dec 31. I'll post the number either way.",
+  "call_to_action": "Final card: \"Follow to watch me pull it off or fail in public.\""
+ },
+ "production": {
+  "location": "Mostly his camera roll. Three new shots filmed at home with the whiteboard and outside.",
+  "props": [
+   "Whiteboard and marker",
+   "Tripod"
+  ],
+  "wardrobe": "Whatever is in the old clips. New shots: plain tee.",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 50,
+  "difficulty": "medium",
+  "can_batch_film": false,
+  "shot_list": [
+   "FROM CAMERA ROLL (9 clips, 2 to 3 seconds each):",
+   "1. Arriving in Florida: welcome sign, plane window, or packed car",
+   "2. Him with a bag in the empty or new apartment",
+   "3. Behind the scenes at a client shoot or setting up a tripod (no client faces or logos without permission)",
+   "4. Any clip from France",
+   "5. Screen recording: scrolling his Instagram grid past the gap in posting dates",
+   "6. Him editing on a laptop",
+   "7. The Lexus, ideally from the day he got it",
+   "8. The strangest real clip since the move",
+   "9. Screen recording: his profile header showing 42.7K",
+   "NEW TO FILM (3 shots):",
+   "10. Writing '100K / DEC 31' on the whiteboard",
+   "11. Looking at the board then at the camera",
+   "12. Walking away with the tripod under his arm"
+  ],
+  "b_roll": [
+   "All nine camera-roll clips above"
+  ],
+  "editor_instructions": "One card per clip, cut on the beat, same font and position for every card. Do not color-grade the old clips to match; mixed phone footage is the look. Update the follower number to the real count on the day of posting and adjust the 'not on pace' card only if it stops being true. If a clip does not exist, film the closest honest stand-in today rather than using stock footage."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I'm 23. I moved to Florida with a laptop and a deadline.\"",
+   "Alternate payoff: \"If I miss, I'll post the number anyway. Follow so I can't hide it.\""
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. This is a conversion piece: promote if follows per 1,000 reached are top quartile even at only 2x median views, and pin it to the profile if it is the best converter of the week.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Weekly update in the same card style: \"Week 2. 44,100. Here's what worked.\" with the real number",
+   "\"30 days in Florida\" using only clips from that month",
+   "The December 31 result video, same song, first card: \"I said 100,000.\""
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 8,
+  "follower_conversion_potential": 20,
+  "creative_execution_quality": 12,
+  "ease_of_production": 5,
+  "repeatability": 7
+ },
+ "creative_confidence": {
+  "rationale": "Highest follow motivation in the batch: it states who he is, what he is attempting and when it ends, and the reference (7.0M) shows the card format carries an unfinished story. It is the least like his past hits, so reach is uncertain.",
+  "uncertainties": [
+   "Depends on real clips existing for cards 1, 4, 7 and 8. Missing clips weaken it.",
+   "Two facts are needed from him: weeks since the move and one strange true detail.",
+   "'I bought a car I probably shouldn't have' is his opinion to confirm; cut the card if he does not feel that way.",
+   "Stating the 100K goal publicly creates a result he has to report. That is the point, but it is a commitment."
+  ]
+ }
+}

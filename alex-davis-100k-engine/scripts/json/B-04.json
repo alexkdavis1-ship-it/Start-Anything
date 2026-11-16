@@ -1,0 +1,209 @@
+{
+ "ref_key": "B-04",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "The comments on my parking-lot video (voiceover story)",
+ "batch_hint": "G",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@emmeworks",
+  "direct_video_url": "https://www.tiktok.com/@emmeworks/video/7699224086366457102",
+  "publication_date": "2026-10-21",
+  "views": 4000000,
+  "creator_followers": 113100,
+  "creator_median_views": 76800,
+  "outlier_multiple": 52.1,
+  "duration_seconds": 61,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music track: not identified (upbeat electronic instrumental)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"After we placed a vending machine in a halfway house, we kept getting these messages.\"",
+  "visual_hook": "Close-up inside a coil vending machine showing rows of bottled water, with a comment-style box overlaid: \"we had to stop giving out refunds\" and \"I got ripped off\".",
+  "narrative_structure": "First-person voiceover over 22 shots of routine restocking. Cold open on a business oddity, the customers' text messages shown on screen as evidence, a turn (\"it turns out they were just scamming us\"), a second odd message, then a practical conclusion about which machines she prefers.",
+  "viral_mechanism": "A business problem told as gossip. The messages on screen are the proof, and the b-roll is ordinary work that never competes with the story. The viewer stays to see the next message.",
+  "observed_evidence": "4.0M views, 52x the creator's 76.8K median, 113.1K followers. 61 seconds, 21 cuts, word-by-word captions, voiceover throughout, no CTA, does not loop. Four pieces of message text are shown verbatim on screen.",
+  "performance_hypothesis": "Hypothesis: screenshots of real messages act as a second hook every 10 to 15 seconds, so viewers who would leave a talking head stay for the next screenshot. People comment their own guess about whether the last message was a kid, which keeps the thread active.",
+  "why_this_format_fits_alex": "He owns a story almost nobody has: a 9-second silent joke that reached 13.5M plays and drew 1,800 comments. The audit shows the feed never explains who he is. This tells a first-time viewer that he runs a content agency, using his biggest proof, without giving advice.",
+  "originality_changes": "Borrowed: voiceover over routine-work b-roll with real messages on screen as evidence. New: the subject is Alex's own Reel and its real comments, the arc ends on a joke about his profession instead of a product point, and it runs about half the length."
+ },
+ "alex_adaptation": {
+  "concept": "Alex narrates what happened after his Central Park Reel, over footage of him doing normal agency work. Two real comments appear as screenshots. The payoff is that a professional content strategist's best result came from the least professional thing he has made.",
+  "target_audience": "People who saw the Central Park Reel, plus creators and business owners curious about what going viral is like from the inside.",
+  "primary_emotion": "Curiosity, then self-deprecating humor",
+  "estimated_duration_seconds": 34,
+  "first_frame": "The Central Park parking-lot Reel playing full screen for the first second, with a comment-style box over it: \"this can't be real\".",
+  "first_spoken_line": "In June I posted nine seconds of me smiling in front of a parking lot.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "In June I posted nine seconds of me smiling in front of a parking lot.",
+    "action": "His own Reel plays.",
+    "camera": "Screen recording of his Reel, full frame.",
+    "on_screen_text": "Comment-style box: \"this can't be real\"",
+    "editing": "Hard start, no intro. Word-by-word captions begin and run throughout.",
+    "audio": "Voiceover, dry and unhurried. Original Reel audio ducked to 10%."
+   },
+   {
+    "start_second": 4,
+    "end_second": 8,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "Thirteen and a half million people watched it. I don't say a word in it.",
+    "action": "Alex at his desk scrolling the Reel's insights, shaking his head slowly.",
+    "camera": "Over-the-shoulder on the laptop.",
+    "on_screen_text": "\"13.5M plays\"",
+    "editing": "Cut on 'million'.",
+    "audio": "Light instrumental bed enters."
+   },
+   {
+    "start_second": 8,
+    "end_second": 13,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "And then the comments showed up. Eighteen hundred of them. This one thought it was real.",
+    "action": "Alex setting up a tripod in an empty room.",
+    "camera": "Wide, static.",
+    "on_screen_text": "{{REAL: screenshot of a comment from someone who believed Central Park was actually paved, username blurred}}",
+    "editing": "Screenshot slides in at 11s and holds 2 full seconds.",
+    "audio": "Bed continues."
+   },
+   {
+    "start_second": 13,
+    "end_second": 18,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "This one was furious. At me. Personally. For the parking lot.",
+    "action": "Alex carrying a ring light to the car.",
+    "camera": "Handheld follow.",
+    "on_screen_text": "{{REAL: screenshot of the angriest comment, username blurred}}",
+    "editing": "Screenshot holds 2 seconds. Tiny zoom on the angriest word.",
+    "audio": "Bed continues."
+   },
+   {
+    "start_second": 18,
+    "end_second": 25,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "Here's the part that hurts. I'm twenty-three and I run a content agency. Brands pay me to plan this stuff. I have spreadsheets.",
+    "action": "Alex at the desk in front of a spreadsheet, typing with total seriousness. He turns the laptop to the camera proudly on 'spreadsheets'.",
+    "camera": "Medium, static.",
+    "on_screen_text": "\"I have spreadsheets.\"",
+    "editing": "Three quick cuts, one per sentence.",
+    "audio": "Bed dips under 'I have spreadsheets'."
+   },
+   {
+    "start_second": 25,
+    "end_second": 30,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "My best-performing piece of work is a photo I stood in front of and grinned.",
+    "action": "The slow grin from the Reel, replayed in a tight crop.",
+    "camera": "Crop of the original Reel on his face.",
+    "on_screen_text": "",
+    "editing": "Slow push-in on the grin.",
+    "audio": "Bed cuts out. One beat of silence."
+   },
+   {
+    "start_second": 30,
+    "end_second": 34,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "So that's now my professional recommendation. Have you considered a parking lot.",
+    "action": "Alex on a video call, sincere, sliding a printed photo of a parking lot toward the webcam like a proposal.",
+    "camera": "Front-on, laptop-camera height.",
+    "on_screen_text": "\"Have you considered a parking lot.\"",
+    "editing": "Hold 1 second after the line, hard cut to black.",
+    "audio": "Dry, no music. Room tone."
+   }
+  ],
+  "alternate_hooks": [
+   "\"The most successful thing I've ever made took nine seconds and I didn't speak.\"",
+   "On-screen comment box first: \"is this real??\" then voiceover: \"Thirteen million people asked me this.\"",
+   "\"I run a content agency and my best video is a picture of a parking lot. Let me explain.\""
+  ],
+  "alternate_endings": [
+   "Final line becomes: \"Anyway. I've posted nine videos this week. None of them are a parking lot. You can tell.\" over a screenshot of his recent view counts.",
+   "He ends by holding up the printed parking-lot photo next to his face and doing the same slow grin, live, for two seconds. No line."
+  ],
+  "caption": "13.5M views. 1,800 comments. Zero words spoken. I have a business degree's worth of spreadsheets.",
+  "call_to_action": "Optional end card: \"Follow. I'm trying to do it on purpose this time.\""
+ },
+ "production": {
+  "location": "Home desk, an empty room for the tripod shot, driveway or parking spot for the ring-light shot.",
+  "props": [
+   "Laptop with a real content calendar spreadsheet open",
+   "Tripod",
+   "Ring light",
+   "Printed photo of a parking lot (the Central Park edit)"
+  ],
+  "wardrobe": "Everyday. One outfit for all b-roll so it reads as one day.",
+  "people_required": 1,
+  "filming_minutes_estimate": 30,
+  "editing_minutes_estimate": 45,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Screen recording of the Central Park Reel (4s)",
+   "Over-the-shoulder at laptop on the insights screen (5s)",
+   "Wide of setting up a tripod (6s)",
+   "Handheld of carrying the ring light to the car (6s)",
+   "Medium at desk with spreadsheet, turn laptop to camera (8s)",
+   "Front-on fake video call sliding the printed photo forward (6s)"
+  ],
+  "b_roll": [
+   "Tripod setup",
+   "Ring light carry",
+   "Spreadsheet typing",
+   "Insights scroll"
+  ],
+  "editor_instructions": "Record the voiceover first in one pass, then cut picture to it. Each comment screenshot must be legible for 2 full seconds; blur usernames and profile photos. Word-by-word captions, bottom third, never covering a screenshot. Remove the music entirely for the last 9 seconds."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"The most successful thing I've ever made took nine seconds and I didn't speak.\"",
+   "Alternate payoff: Live re-creation of the grin holding the printed photo"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote if 48h views reach 3x the trailing median and follows per 1,000 reached are top quartile. If watch percentage is under 40%, re-cut to open on the first comment screenshot before promoting.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same structure for the plane-row Reel: \"3.6M views and the airline comments\"",
+   "\"The comments on my client skit\": the 2,400 comments on '2 Types of Clients', with real screenshots",
+   "\"What a Reel with 115 views taught me\" using the same voiceover-plus-evidence build"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 11,
+  "follower_conversion_potential": 18,
+  "creative_execution_quality": 12,
+  "ease_of_production": 5,
+  "repeatability": 6
+ },
+ "creative_confidence": {
+  "rationale": "Strong follower logic: it uses his largest proof to tell strangers what he does, and the closing line is a real joke about his own job. It is longer and more edited than anything that has worked for him, which is the risk.",
+  "uncertainties": [
+   "Needs two real comments from the Central Park Reel. If no comment clearly believed it was real, replace that beat with the funniest real comment and change the line to 'This one made me laugh out loud.'",
+   "Voiceover over b-roll is untested on his account.",
+   "The 1,800 comment count was read on 2026-11-16 and should be rechecked."
+  ]
+ }
+}

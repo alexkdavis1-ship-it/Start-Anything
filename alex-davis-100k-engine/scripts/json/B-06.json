@@ -1,0 +1,186 @@
+{
+ "ref_key": "B-06",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "I bought a Lexus at 23: three things nobody told me",
+ "batch_hint": "E",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@kevonstage",
+  "direct_video_url": "https://www.instagram.com/reel/DeKahtcv6MZ",
+  "publication_date": "2026-10-06",
+  "views": 2200000,
+  "creator_followers": 2700000,
+  "creator_median_views": 391400,
+  "outlier_multiple": 5.6,
+  "duration_seconds": 126.9,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "duration from the watch job, not the search index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"6 years ago I bought a Maserati and it was one of the worst financial decisions I've made in my life.\"",
+  "visual_hook": "A screenshot of the creator's own old X post showing him beside a black Maserati, with a red banner reading \"BIG MISTAKE!!\" and a circle around the 2020 timestamp. He appears in the lower-left corner via green screen.",
+  "narrative_structure": "Single uncut green-screen take, 2 minutes 7 seconds. Verdict first, then three itemized surprises in order (insurance, a $1,000 oil change, a $1,500 key), each told as a short scene with quoted dialogue, then a rating: \"0 out of 10, do not recommend.\"",
+  "viral_mechanism": "He uses his own celebratory post as evidence against himself. The stamp tells the viewer the outcome in the first frame, and the itemized prices give each section its own punchline.",
+  "observed_evidence": "2.2M views on a 2.7M-follower account, only 5.6x his 391.4K median. 0 cuts, no music, no CTA. Specific prices are spoken: $60 versus $1,000 for the oil change, $1,500 for the key.",
+  "performance_hypothesis": "Hypothesis: the low outlier multiple means the creator's audience explains most of the views, so the transferable part is the structure, not the reach. Concrete prices invite comments from owners of the same kind of car confirming or topping them, and people considering a similar purchase save it.",
+  "why_this_format_fits_alex": "He just bought a Lexus RC 350 F Sport at 23. Green screen in front of a still image is his highest-performing technique (Central Park). Admitting the costs is the opposite of a luxury flex, which matches the positioning he asked for.",
+  "originality_changes": "Borrowed: green screen over his own purchase photo with a stamp, then an itemized list of costs. New: it is cut to 40 seconds, the stamp and the items are his (insurance at 23, premium fuel, the back seat), and the verdict is the reverse of the reference: he would do it again."
+ },
+ "alex_adaptation": {
+  "concept": "Alex stands in front of his own photo from the day he got the Lexus and lists the three things a 23-year-old finds out afterwards. The stamp starts as 'NOBODY TOLD ME' and ends as 'WOULD DO IT AGAIN'.",
+  "target_audience": "Men 18 to 30 who want a nicer car than they should buy, and anyone who has bought one.",
+  "primary_emotion": "Honest regret played for laughs",
+  "estimated_duration_seconds": 40,
+  "first_frame": "Green screen. Background is Alex's own photo with the Lexus on the day he bought it. A red banner across it reads \"NOBODY TOLD ME\". Alex is in the lower-left corner, pointing up at the photo with his thumb.",
+  "first_spoken_line": "I'm twenty-three, I bought a Lexus RC 350, and nobody told me three things.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 5,
+    "speaker": "Alex",
+    "dialogue": "I'm twenty-three, I bought a Lexus RC 350, and nobody told me three things.",
+    "action": "Thumb jerks toward the photo on 'Lexus'. Holds up three fingers. Expression: a man reporting a crime that happened to him.",
+    "camera": "Front camera, green screen effect, Alex lower-left third.",
+    "on_screen_text": "Banner on photo: \"NOBODY TOLD ME\". Auto captions bottom.",
+    "editing": "No cuts. Banner present from frame 1.",
+    "audio": "Voice only, no music."
+   },
+   {
+    "start_second": 5,
+    "end_second": 15,
+    "speaker": "Alex",
+    "dialogue": "One. Insurance. I pay {{REAL: your actual monthly insurance payment}} a month. The quote didn't explain why. It didn't have to. It just said twenty-three, male, two doors. We both knew.",
+    "action": "One finger up. Reads the number flat. On 'twenty-three, male, two doors' he taps three imaginary boxes in the air. On 'We both knew' he lowers his eyes like a guilty man.",
+    "camera": "Same.",
+    "on_screen_text": "Pop-up: \"1. INSURANCE\" then the monthly figure.",
+    "editing": "Pop-up animates in on 'One'.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 15,
+    "end_second": 23,
+    "speaker": "Alex",
+    "dialogue": "Two. It only drinks premium. I used to look at the guy at the ninety-three pump and think, who does he think he is. He's me. He's doing math.",
+    "action": "Two fingers. Mimes holding a pump nozzle, staring at the price display with a thousand-yard look on 'doing math'.",
+    "camera": "Same.",
+    "on_screen_text": "Pop-up: \"2. PREMIUM ONLY\"",
+    "editing": "Pop-up on 'Two'.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 23,
+    "end_second": 31,
+    "speaker": "Alex",
+    "dialogue": "Three. It has a back seat. Legally. It fits one backpack and one friend you're not that close with.",
+    "action": "Three fingers. Air quotes with his eyebrows only on 'Legally'. Small apologetic wince on 'not that close with'.",
+    "camera": "Same.",
+    "on_screen_text": "Pop-up: \"3. THE 'BACK SEAT'\"",
+    "editing": "Pop-up on 'Three'.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 31,
+    "end_second": 36,
+    "speaker": "Alex",
+    "dialogue": "So would I tell another twenty-three-year-old to do this?",
+    "action": "Serious. Turns his head to look up at the photo behind him. Holds the look. His face slowly softens.",
+    "camera": "Same.",
+    "on_screen_text": "",
+    "editing": "Hold on the look for a full 2 seconds of silence.",
+    "audio": "Silence."
+   },
+   {
+    "start_second": 36,
+    "end_second": 40,
+    "speaker": "Alex",
+    "dialogue": "...Look at it, though.",
+    "action": "Turns back to the lens with a helpless grin, the same slow grin as the Central Park Reel.",
+    "camera": "Same.",
+    "on_screen_text": "Banner swaps to green: \"WOULD DO IT AGAIN\"",
+    "editing": "Banner swap on the grin. Hard cut out.",
+    "audio": "One clean engine-start sound on the banner swap."
+   }
+  ],
+  "alternate_hooks": [
+   "Banner only for the first 2 seconds, \"NOBODY TOLD ME\", then: \"Three things about buying your dream car at twenty-three.\"",
+   "\"Financial advisors hate this car. So does my insurance company. So do my friends, they don't fit in it.\"",
+   "\"I bought a sports car at twenty-three. Here's the bill nobody shows you.\""
+  ],
+  "alternate_endings": [
+   "\"Rating: two out of ten for my bank account. Eleven out of ten when I'm backing out of a parking space and someone's watching.\"",
+   "He says nothing after the question. He just looks at the photo, exhales, and the banner changes to \"DON'T ASK ME\"."
+  ],
+  "caption": "23 and financially humbled by a coupe. No regrets. Some regrets.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Anywhere indoors with even light. Green screen effect in the Instagram or CapCut editor.",
+  "props": [
+   "His own photo with the Lexus from purchase day, or any early photo of him with the car"
+  ],
+  "wardrobe": "Plain tee. Not the outfit from the photo.",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 25,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One green-screen take, full script. Do 4 takes. The 2-second silent look at 31 to 36s must not be rushed."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Add the red banner to the background photo before filming so it is baked into the green screen. Numbered pop-ups top-right, away from his face. Swap the banner to green on the final grin. Do not add music; one engine-start effect at the end only."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I bought a sports car at twenty-three. Here's the bill nobody shows you.\"",
+   "Alternate payoff: Split rating: two out of ten for the bank account, eleven when someone is watching"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote if 48h views reach 3x the trailing median and follows per 1,000 reached are top quartile; a high save count with average follows still earns a low-priority promote.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "\"Three things nobody told me about moving to Florida at 23\" over a photo from move-in day",
+   "\"Three things nobody told me about running an agency at 23\" over a screenshot of his first client invoice with numbers blurred",
+   "Six-month update over the same Lexus photo with a new stamp: \"STILL WOULD\""
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 13,
+  "follower_conversion_potential": 14,
+  "creative_execution_quality": 12,
+  "ease_of_production": 8,
+  "repeatability": 7
+ },
+ "creative_confidence": {
+  "rationale": "It uses green screen, which is his strongest technique, and each item has its own joke with a real turn at the end. Evidence quality is the weak point because the reference is a large account performing near its normal range.",
+  "uncertainties": [
+   "Needs his real monthly insurance figure. If he would rather not share it, replace the sentence with 'I'm not saying the number. My mom follows this account.'",
+   "Assumes he has a photo with the car from around purchase day.",
+   "Fuel line assumes he fills with 93 octane, which the RC 350 calls for; confirm.",
+   "A car video can read as a flex if the thumbnail is the car alone. Keep the red banner in the cover frame."
+  ]
+ }
+}

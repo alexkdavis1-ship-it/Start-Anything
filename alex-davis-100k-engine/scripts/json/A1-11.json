@@ -1,0 +1,190 @@
+{
+ "ref_key": "A1-11",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "Asking creators for growth advice, by follower count (I'm the last one)",
+ "batch_hint": "C",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@beav_matt",
+  "direct_video_url": "https://www.tiktok.com/@beav_matt/video/7691379088279309598",
+  "publication_date": "2026-09-30",
+  "views": 7500000,
+  "creator_followers": 1000000,
+  "creator_median_views": 753100,
+  "outlier_multiple": 10.0,
+  "duration_seconds": 17,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Hey bro, do you have time to hang out today?\" (off-screen). On-screen text: \"7am-2pm\" and \"POV:Asking your friend to hang out based on what shift they work\".",
+  "visual_hook": "A young man in a grey t-shirt stands outside against a chain-link fence and bushes, hands clasped in front of his chest, with two white text boxes low in the frame.",
+  "narrative_structure": "17 seconds, 3 jump cuts, 4 shots in one location. One question is asked off-screen once. Four labelled variants answer it. The first three are short and upbeat. The fourth switches to black and white with a zoom, ominous music and a distorted voice as he rants.",
+  "viral_mechanism": "A label swap sets a pattern in three fast beats, then the last entry breaks it in picture, sound and performance at once. The broken entry is the one the creator (and many viewers) identify with.",
+  "observed_evidence": "7.5M views, 10.0x the creator's 753.1K median, 1M followers. The label is the only thing that changes on screen for the first 10 seconds. The final entry takes 8 of the 17 seconds. Caption: \"The worst shift\".",
+  "performance_hypothesis": "Hypothesis: viewers comment with their own label ('2 to 11 gang') and tag the friend who has it. The black-and-white turn is a visible surprise at second 10 that holds people to the end. With a 10x multiple on a 1M account, the creator's reach is a large part of the number.",
+  "why_this_format_fits_alex": "It is short, acted, and one location. The pattern break lets him turn the joke on himself, which fits his self-aware side, and it lets him say his real follower count and his real 13.5M result in character.",
+  "originality_changes": "Borrowed: one off-screen question, changing label, three quick answers, a fourth that breaks into black and white. New: the question is growth advice, the labels are follower counts, the lines are new, and the breakdown is Alex himself at 42K admitting he does not know why his biggest video worked."
+ },
+ "alex_adaptation": {
+  "concept": "Someone asks four creators for advice on growing. The 300-follower creator has a nine-pillar framework. The 10K creator recites slogans. The 5-million creator has no idea. The 42K creator, labelled as Alex himself, spirals in black and white about posting at 6:14 instead of 6:15.",
+  "target_audience": "Creators, people trying to grow an account, anyone who has received growth advice from someone with fewer followers than them.",
+  "primary_emotion": "Laughing at a hierarchy everyone has noticed, then at Alex.",
+  "estimated_duration_seconds": 20,
+  "first_frame": "Alex standing outdoors against a plain wall or fence by the parking lot, already nodding eagerly. Two text boxes low in frame: \"300 followers\" and under it \"POV: asking a creator for growth advice, based on their follower count\".",
+  "first_spoken_line": "Off-screen: \"Hey, any advice for growing on Instagram?\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 1,
+    "speaker": "Off-screen voice (Alex, recorded separately)",
+    "dialogue": "Hey, any advice for growing on Instagram?",
+    "action": "Alex on screen lights up before the question is even finished.",
+    "camera": "Static, chest-up, outdoors, even shade.",
+    "on_screen_text": "300 followers / POV: asking a creator for growth advice, based on their follower count",
+    "editing": "POV line stays all video. Only the top label changes.",
+    "audio": "Outdoor ambience."
+   },
+   {
+    "start_second": 1,
+    "end_second": 5,
+    "speaker": "300 followers (Alex)",
+    "dialogue": "Oh, absolutely. So I actually built a framework. It's nine pillars. I do have a course.",
+    "action": "Thrilled to be asked. Talks fast, counts pillars on his fingers, leans in on 'course'.",
+    "camera": "Same.",
+    "on_screen_text": "300 followers",
+    "editing": "Jump cut at 5s.",
+    "audio": "Voice."
+   },
+   {
+    "start_second": 5,
+    "end_second": 8,
+    "speaker": "10K followers (Alex)",
+    "dialogue": "Consistency. Niche down. Hook, value, CTA. Link in bio.",
+    "action": "Sunglasses on. Dead monotone, like reading a label. Points down on 'link in bio'.",
+    "camera": "Same.",
+    "on_screen_text": "10K followers",
+    "editing": "Jump cut at 8s.",
+    "audio": "Voice."
+   },
+   {
+    "start_second": 8,
+    "end_second": 11,
+    "speaker": "5 million followers (Alex)",
+    "dialogue": "Honestly? No idea. I filmed my dog one time.",
+    "action": "Hood up, eating chips from a bag, barely looks up. Shrugs with the chip.",
+    "camera": "Same.",
+    "on_screen_text": "5 million followers",
+    "editing": "Jump cut at 11s.",
+    "audio": "Voice, chip crunch."
+   },
+   {
+    "start_second": 11,
+    "end_second": 18,
+    "speaker": "42K followers, me (Alex)",
+    "dialogue": "It's the audio. No. It's the time. I posted at six fourteen. Should've been six fifteen. I got thirteen million views on one video and I don't know why. I don't know why!",
+    "action": "No props. Starts quiet and intense, staring past the lens. Speeds up. Grabs his own hair on 'six fifteen'. The last 'I don't know why' is shouted at the sky.",
+    "camera": "Slow zoom from chest-up to tight on his eyes across the seven seconds.",
+    "on_screen_text": "42K followers (me)",
+    "editing": "Switch to black and white on the cut. Add a slight handheld shake.",
+    "audio": "Low ominous drone fades in. Pitch his voice down slightly on the last line."
+   },
+   {
+    "start_second": 18,
+    "end_second": 20,
+    "speaker": "Off-screen voice",
+    "dialogue": "So, should I post today or",
+    "action": "Alex, still in black and white, slowly turns his head to the person asking. Does not answer.",
+    "camera": "Tight.",
+    "on_screen_text": "42K followers (me)",
+    "editing": "Cut mid-sentence on 'or'.",
+    "audio": "Drone cuts to silence with the picture."
+   }
+  ],
+  "alternate_hooks": [
+   "POV text: \"Growth advice gets worse the more qualified the person is\"",
+   "Start with the off-screen question over a black frame for half a second, then the 300-follower answer",
+   "POV text: \"Who to take content advice from, ranked by how sure they sound\""
+  ],
+  "alternate_endings": [
+   "After the rant, colour snaps back and he says pleasantly, \"Anyway. I do have a course.\" He does not.",
+   "After the rant, a fifth label appears: \"100K followers (me, January)\" and Alex, calm in a clean shirt: \"Honestly? No idea.\""
+  ],
+  "caption": "13.5 million views and I learned nothing. Follow to watch me figure it out.",
+  "call_to_action": "Caption line only: follow to watch him figure it out."
+ },
+ "production": {
+  "location": "Outdoors by the parking lot against a plain wall or fence, open shade",
+  "props": [
+   "Sunglasses",
+   "Hoodie",
+   "Bag of chips"
+  ],
+  "wardrobe": "Plain tee as the base; sunglasses for 10K, hoodie for 5 million, plain tee again for 42K",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 30,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "Shot 1: 300 followers answer",
+   "Shot 2: 10K answer with sunglasses",
+   "Shot 3: 5 million answer with hoodie and chips",
+   "Shot 4: 42K rant, filmed slightly closer, plus the silent head turn",
+   "Audio-only: the off-screen question and the final half-question"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Keep the tripod locked for shots 1 to 3. For shot 4 apply black and white, a slow scale-up to his eyes, mild shake, and a royalty-free low drone. Pitch the final line down 2 semitones. The label in the top box is the only text that changes. Cut the last frame mid-word."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: POV text 'Growth advice gets worse the more qualified the person is'",
+   "Alternate payoff: the calm '100K followers (me, January)' tag"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3 (his real follower count and his 13.5M result are in the script). Promote at 48h if views are at least 3x the trailing median and follows per 1,000 reached are top quartile; this is the script most directly tied to the 100K goal, so log profile-visit-to-follow rate separately.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Asking business owners 'how's business?' by years in business, with year 2 as the black-and-white one",
+   "Asking 'are you free this weekend?' by job: employee, freelancer, founder",
+   "Asking 'what do you do?' at a party by how long someone has been self-employed"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 16,
+  "follower_conversion_potential": 18,
+  "creative_execution_quality": 13,
+  "ease_of_production": 8,
+  "repeatability": 8
+ },
+ "creative_confidence": {
+  "rationale": "Short, four characters, and the turn makes Alex the joke while stating who he is and what he is chasing. The caption gives a plain reason to follow.",
+  "uncertainties": [
+   "Reference multiple is 10x on a 1M-follower account, so the evidence is moderate",
+   "Creator-on-creator humour may land better with creators than with the business owners he sells to",
+   "The rant must stay under 7 seconds or the video drags"
+  ]
+ }
+}

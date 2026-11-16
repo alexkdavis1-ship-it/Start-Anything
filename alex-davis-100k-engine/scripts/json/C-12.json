@@ -1,0 +1,195 @@
+{
+ "ref_key": "C-12",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "\"A good video works everywhere\"? Same video: 2.8M on Instagram, 1,690 on YouTube",
+ "batch_hint": "E",
+ "original_reference": {
+  "platform": "YouTube Shorts",
+  "creator_handle": "John Casterline",
+  "direct_video_url": "https://www.youtube.com/shorts/_dvhmNu7KUk",
+  "publication_date": "2026-10-11",
+  "views": 5000000,
+  "creator_followers": 8500000,
+  "creator_median_views": null,
+  "outlier_multiple": 3.1,
+  "duration_seconds": 31,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "creator_median_views: the YouTube index returns only a breakout multiple",
+   "The channel has 8.5M subscribers and the breakout is 3.1x, so creator size explains much of the view count"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"So a lot of people are speculating that MrBeast has been selling ad space in his thumbnails...\"",
+  "visual_hook": "A young man in a white t-shirt standing behind a large black studio microphone in a dim room with purple and red light behind him.",
+  "narrative_structure": "States what 'a lot of people' believe, shows the evidence as image overlays, pivots at 0:17 with a direct disagreement, gives one insider reason from his own craft, and closes by admitting he could be wrong.",
+  "viral_mechanism": "Opening on a belief the audience already holds, then contradicting it with a reason only a practitioner would know. The admission of uncertainty at the end invites argument instead of shutting it down.",
+  "observed_evidence": "5.0M views, 31s, zero cuts, image overlays at four points, no CTA. Breakout only 3.1x on an 8.5M-subscriber channel, so this is the weakest evidence in the marketing set for the format itself.",
+  "performance_hypothesis": "Hypothesis: viewers who hold the belief stay to see it challenged, and the hedge at the end gives both sides something to comment. The format works when the speaker has standing; for a small account the standing has to come from showing his own numbers.",
+  "why_this_format_fits_alex": "He has a rare, checkable pair of numbers: the same client skit at 2.8M plays on Instagram and 1,690 views on YouTube, and Central Park at 13.5M on Instagram against 1.5M on TikTok. That is first-hand evidence against a belief most creators hold.",
+  "originality_changes": "Borrowed: 'a lot of people think X', evidence overlays, 'I don't think so', one insider reason, an honest hedge. New: the myth, the evidence (his own analytics screens), and every line. No other creator is discussed."
+ },
+ "alex_adaptation": {
+  "concept": "Alex takes on the belief that a good video performs anywhere you post it. He shows his own two cases as screenshots, says what he thinks it means for anyone judging their content by one platform, and admits the sample is two videos.",
+  "target_audience": "Creators and business owners who deleted or gave up on a video because it flopped on one platform.",
+  "primary_emotion": "Relief, plus the urge to argue",
+  "estimated_duration_seconds": 33,
+  "first_frame": "Alex chest-up to camera at his desk, a screenshot of his '2 Types of Clients' Reel showing 2.8M floating beside his head.",
+  "first_spoken_line": "A lot of people think if a video is good, it'll work wherever you post it.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "A lot of people think if a video is good, it'll work wherever you post it.",
+    "action": "Relaxed, conversational, hands open. Tone of someone repeating common advice he used to believe.",
+    "camera": "Static, chest-up, desk height, plain wall or shelf behind",
+    "on_screen_text": "'a good video works everywhere'",
+    "editing": "Captions word by word, lower third",
+    "audio": "His voice, no music"
+   },
+   {
+    "start_second": 4,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "This is a skit I made about clients. On Instagram: two point eight million plays.",
+    "action": "Points to the overlay beside his head, then gives a small proud nod.",
+    "camera": "Same. Overlay: screenshot of the Reel on his profile with the play count visible.",
+    "on_screen_text": "Instagram: 2.8M",
+    "editing": "Overlay slides in on 'This is'",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 10,
+    "end_second": 15,
+    "speaker": "Alex",
+    "dialogue": "Same skit. YouTube. One thousand, six hundred and ninety.",
+    "action": "Says the number slowly, one word at a time. The nod is gone. He looks at the second overlay like it insulted him.",
+    "camera": "Same. Second overlay appears next to the first: the YouTube Short with its view count.",
+    "on_screen_text": "YouTube: 1,690",
+    "editing": "Second overlay drops in with a dull thud. Hold both side by side.",
+    "audio": "His voice. One low thud SFX."
+   },
+   {
+    "start_second": 15,
+    "end_second": 20,
+    "speaker": "Alex",
+    "dialogue": "And this one. Thirteen and a half million on Instagram. One and a half on TikTok. Same nine seconds.",
+    "action": "Quicker now, ticking through it. Holds up nine fingers on 'nine seconds'.",
+    "camera": "Overlays swap to the Central Park Reel (13.5M) and the TikTok version (1.5M)",
+    "on_screen_text": "Instagram: 13.5M / TikTok: 1.5M",
+    "editing": "Swap both overlays at once",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 20,
+    "end_second": 27,
+    "speaker": "Alex",
+    "dialogue": "So I'm here to say I don't think 'good' lives inside the video. I think it's the video plus who that app decided to show it to. Different app, different people, different result.",
+    "action": "Leans in on 'I don't think'. Uses his two hands as two separate rooms on 'different app, different people'.",
+    "camera": "Overlays clear. Just Alex.",
+    "on_screen_text": "'good' = the video + who sees it",
+    "editing": "Text card replaces the opening myth card",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 27,
+    "end_second": 33,
+    "speaker": "Alex",
+    "dialogue": "That's two videos, so I could be wrong. But if one app told you your video was bad, I'd get a second opinion before you delete it.",
+    "action": "Half-smile on 'I could be wrong'. Direct eye contact on 'second opinion'. Small shrug to finish.",
+    "camera": "Same",
+    "on_screen_text": "before you delete it: second opinion",
+    "editing": "Cut on the shrug",
+    "audio": "His voice"
+   }
+  ],
+  "alternate_hooks": [
+   "The same video of mine got 2.8 million plays and 1,690 views. Same video.",
+   "If your video flopped, you probably asked the wrong app.",
+   "I'm 23, I make content for a living, and the best advice I believed for years is wrong."
+  ],
+  "alternate_endings": [
+   "After the numbers: 'So either YouTube is wrong, Instagram is wrong, or the video isn't the only thing that matters. I know which one I'm picking.' Cut.",
+   "After 'I could be wrong': 'YouTube certainly thinks so.' Glance at where the overlay was, cut."
+  ],
+  "caption": "Same file. 2.8M vs 1,690. Has this happened to you?",
+  "call_to_action": "The caption question. No spoken ask."
+ },
+ "production": {
+  "location": "Home desk",
+  "props": [
+   "Phone",
+   "Four screenshots from his own accounts (see b-roll)"
+  ],
+  "wardrobe": "Plain t-shirt",
+  "people_required": 1,
+  "filming_minutes_estimate": 12,
+  "editing_minutes_estimate": 25,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous 33-second take to camera; record three takes",
+   "Separate take of the 0-4s hook for the alternate-hook variant"
+  ],
+  "b_roll": [
+   "Screenshot: '2 Types of Clients' Reel on Instagram with play count",
+   "Screenshot: the matching YouTube Short ('Every type of client') with view count",
+   "Screenshot: Central Park Reel on Instagram with play count",
+   "Screenshot: Central Park TikTok on @itsalexdavis with view count"
+  ],
+  "editor_instructions": "Re-read all four numbers on the day of filming and change the spoken lines and overlays to match the screens exactly (the figures in this script were read on 2026-11-16). Before filming, confirm the YouTube Short is the same edit as the Instagram skit; if it is a different cut, say 'same idea' instead of 'same skit'. Only use the TikTok number if @itsalexdavis is his account. Overlays must be unedited screenshots. Keep the hedge line in: it is what makes the claim defensible."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'The same video of mine got 2.8 million plays and 1,690 views. Same video.'",
+   "Alternate payoff: 'YouTube certainly thinks so.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and either saves or shares per 1,000 reached is top quartile; this is a credibility piece, so also promote if follows per 1,000 are at least 2x median at any view count.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Myth: 'only push a video once it passes 10K views', using his first 30 Trial Reels scored by follows instead of views",
+   "Myth: 'you need to post at the right time', using his own Insights once he has 30 posts logged",
+   "Myth: 'longer videos get more reach', using his own 9-second and 35-second hits"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 8,
+  "follower_conversion_potential": 16,
+  "creative_execution_quality": 11,
+  "ease_of_production": 8,
+  "repeatability": 7
+ },
+ "creative_confidence": {
+  "rationale": "The numbers are his, public and striking, and the claim is modest enough to defend. It positions him as someone who tests instead of preaching. The reference is the weakest evidence in this pillar (3.1x on a huge channel) and talking-head explainers are unproven for him.",
+  "uncertainties": [
+   "Whether the YouTube Short is the identical edit of the Instagram skit is inferred from titles and length, not confirmed",
+   "TikTok account ownership was inferred in the audit",
+   "Two examples do not prove a general rule; the script says so",
+   "Reference evidence is weak for the format itself",
+   "All four numbers will have moved by filming day"
+  ]
+ }
+}

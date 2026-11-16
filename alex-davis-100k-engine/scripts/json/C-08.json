@@ -1,0 +1,223 @@
+{
+ "ref_key": "C-08",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "Can I make a gas station hot dog sound like fine dining using only Canva? (\"Le Chien Chaud\")",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@mattrosenman",
+  "direct_video_url": "https://www.tiktok.com/@mattrosenman/video/7676594617000676622",
+  "publication_date": "2026-08-21",
+  "views": 4600000,
+  "creator_followers": 512500,
+  "creator_median_views": 73800,
+  "outlier_multiple": 62.4,
+  "duration_seconds": 100,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"You could rebrand anything to sound healthy, but how easy would it be to do the opposite and rebrand blueberries to sound unhealthy?\"",
+  "visual_hook": "A man in glasses and a black t-shirt at a white desk with a clear clamshell of fresh blueberries in front of him, studio wall and neon sign behind.",
+  "narrative_structure": "A reverse-premise question, 'Let's find out', then a step-by-step build where each choice (container, name, mascot, tagline, background) is explained in one line while the product mockup changes on the desk, then the final reveal and a 'what should I rebrand next' prompt.",
+  "viral_mechanism": "The viewer watches a product change in stages and wants to see the finished object. Each step is a small design decision with a stated reason, so the entertainment doubles as a lesson without a lecture.",
+  "observed_evidence": "4.6M views, 62.4x the creator's 73.8K median, 100s, 512.5K followers. The mockup evolves on the desk through the video. Series prompt in the close. The original relies on custom illustration and motion graphics.",
+  "performance_hypothesis": "Hypothesis: the before/after object is the retention device, and asking what to rebrand next generates comments that double as a content queue. Viewers send it to a friend with the invented product name.",
+  "why_this_format_fits_alex": "It demonstrates what his agency sells (framing changes perceived value) on a three-dollar object, with a result anyone can judge on sight. His time in France gives him a real reason for the French name, and Canva keeps it inside his skills.",
+  "originality_changes": "Borrowed: 'can I rebrand X to sound like the opposite', staged build on a desk, series question at the end. New: the product, the direction (cheap to luxury, played for comedy), every name and line, no mascot or illustration, and a cut to about 45 seconds."
+ },
+ "alex_adaptation": {
+  "concept": "Alex puts a real gas station hot dog on his desk and upgrades it in four moves, each a real pricing or menu-design choice: a French name, a serif font with lots of empty space, a description that is technically true, and a price with no dollar sign. The reveal is the same hot dog on a white plate next to a printed menu card.",
+  "target_audience": "People who like watching something get transformed; restaurant and small-business owners; anyone who has overpaid for a small plate.",
+  "primary_emotion": "Amusement, then 'wait, that would actually work on me'",
+  "estimated_duration_seconds": 46,
+  "first_frame": "A gas station hot dog in its paper tray sitting alone in the middle of a clean desk, Alex behind it with his hands flat on the table, looking at it with respect.",
+  "first_spoken_line": "This is a gas station hot dog. Give me four changes in Canva and I'll make you want to pay fourteen dollars for it.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 5,
+    "speaker": "Alex",
+    "dialogue": "This is a gas station hot dog. Give me four changes in Canva and I'll make you want to pay fourteen dollars for it.",
+    "action": "Gestures at the hot dog with an open palm like a game show prize. Completely serious.",
+    "camera": "Static, phone on tripod at desk height, hot dog center foreground, Alex behind",
+    "on_screen_text": "gas station hot dog → fine dining. Canva only.",
+    "editing": "Text on from frame one. Word-by-word captions below.",
+    "audio": "His voice, no music"
+   },
+   {
+    "start_second": 5,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "I'm 23, I make content for brands, and this is basically the whole job.",
+    "action": "Picks up the hot dog tray, turns it 360 degrees, sets it down gently.",
+    "camera": "Same",
+    "on_screen_text": "(captions)",
+    "editing": "Small label in the corner: 'paid: ${{REAL: what he actually paid for the hot dog}}'",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 9,
+    "end_second": 17,
+    "speaker": "Alex",
+    "dialogue": "One. The name. I lived in France for a while, so I'm allowed to do this. It's now Le Chien Chaud. Which is just 'the hot dog'. In French. That's twelve dollars right there.",
+    "action": "Says 'Le Chien Chaud' with total commitment and a real accent, one hand doing a small chef's flourish. Drops back to normal voice for 'which is just the hot dog'.",
+    "camera": "Cut to laptop screen recording: blank Canva page, he types the name",
+    "on_screen_text": "1. THE NAME → Le Chien Chaud",
+    "editing": "Picture-in-picture: his face small in the corner over the Canva recording",
+    "audio": "His voice, soft keyboard clicks"
+   },
+   {
+    "start_second": 17,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "Two. The font. Thin, serif, and way too much empty space around it. Empty space is how a menu tells you it's expensive.",
+    "action": "In the corner inset he squints approvingly at the screen.",
+    "camera": "Screen recording: he changes the font to a thin serif, shrinks it, drags it to the center of a mostly empty page",
+    "on_screen_text": "2. THE FONT → more nothing = more money",
+    "editing": "Speed the screen recording up 2x",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 24,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "Three. The description. 'Slow-turned for six hours.' Which is true. It was on the roller since this morning.",
+    "action": "Deadpan on 'which is true'. Tiny pause before 'since this morning'.",
+    "camera": "Screen recording: he types the description in small italics under the name",
+    "on_screen_text": "3. THE DESCRIPTION → slow-turned for six hours",
+    "editing": "Normal speed for the typing so the line can be read",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 32,
+    "end_second": 38,
+    "speaker": "Alex",
+    "dialogue": "Four. The price. No dollar sign. No cents. Just 'fourteen'. A dollar sign reminds you it's money.",
+    "action": "Holds up four fingers, then mimes plucking a dollar sign out of the air and flicking it away.",
+    "camera": "Back to the desk shot. He holds the printed card up beside his face.",
+    "on_screen_text": "4. THE PRICE → 14",
+    "editing": "Cut back to camera",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 38,
+    "end_second": 43,
+    "speaker": "Alex",
+    "dialogue": "Same hot dog.",
+    "action": "He lifts a cloth napkin off a white plate: the same hot dog, off-center on the plate, three dots of mustard beside it, the printed card standing next to it. He steps back and folds his arms.",
+    "camera": "Slow push in from the desk shot to a close-up of the plate and card",
+    "on_screen_text": "Le Chien Chaud / slow-turned for six hours / 14",
+    "editing": "Split screen for the last two seconds: paper tray on the left, plate on the right",
+    "audio": "One soft piano note on the reveal, nothing else"
+   },
+   {
+    "start_second": 43,
+    "end_second": 46,
+    "speaker": "Alex",
+    "dialogue": "What should I make expensive next?",
+    "action": "Takes a bite straight off the fancy plate while keeping eye contact with the lens.",
+    "camera": "Close-up, plate and his face",
+    "on_screen_text": "what should I make expensive next?",
+    "editing": "Cut mid-chew",
+    "audio": "His voice, slightly muffled"
+   }
+  ],
+  "alternate_hooks": [
+   "I paid a couple dollars for this hot dog. Watch me turn it into a fourteen-dollar menu item without touching the food.",
+   "Restaurants do four things to make you pay more. I'm going to do all four to a gas station hot dog.",
+   "I lived in France. I'm about to misuse that."
+  ],
+  "alternate_endings": [
+   "After the reveal he slides the plate toward the lens: 'You'd order it. Don't lie.' Cut.",
+   "After the reveal: text only, 'the hot dog did not change. you did.' while he eats it in silence."
+  ],
+  "caption": "Nothing about the food changed. What should I make expensive next?",
+  "call_to_action": "'What should I make expensive next?' The comments become the series queue."
+ },
+ "production": {
+  "location": "Home desk",
+  "props": [
+   "One gas station hot dog in its paper tray",
+   "White plate",
+   "Cloth napkin",
+   "Mustard",
+   "Laptop with Canva open",
+   "One printed menu card (home printer or a pharmacy print for under a dollar), folded to stand"
+  ],
+  "wardrobe": "Plain dark t-shirt; optional: a kitchen towel over one shoulder for the reveal",
+  "people_required": 1,
+  "filming_minutes_estimate": 35,
+  "editing_minutes_estimate": 50,
+  "difficulty": "medium",
+  "can_batch_film": false,
+  "shot_list": [
+   "Desk shot: intro with hot dog in tray",
+   "Screen recording: name",
+   "Screen recording: font and spacing",
+   "Screen recording: description",
+   "Desk shot: price line with printed card",
+   "Reveal: napkin lift, push in",
+   "Close-up bite"
+  ],
+  "b_roll": [
+   "Buying the hot dog at the station (exterior and roller grill only, no staff)",
+   "Printer feeding the card",
+   "Mustard dots being placed"
+  ],
+  "editor_instructions": "Build the card in Canva on a white page: name in a thin serif at about 28 pt, description in 10 pt italics, price as the number alone, everything centered with wide margins. Record the screen while building it so the steps are real. Replace the {{REAL}} token with the price on his receipt. Keep each numbered text card in the same top-left position. The four reasons are common menu-design practice stated as his view; do not add statistics. Only say 'on the roller since this morning' if he bought it in the afternoon; otherwise use 'slow-turned for hours'. Cut anything that pushes it past 48 seconds."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'I lived in France. I'm about to misuse that.'",
+   "Alternate payoff: 'You'd order it. Don't lie.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and either follows or shares per 1,000 reached is top quartile; if comments are full of 'do X next', film the top request within 72 hours as the sequel.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "The most-requested item from the comments, same four moves",
+   "Reverse: make a nice restaurant's dish sound like a gas station item with the same four levers pushed the other way",
+   "A local business's real flyer, redone with the four moves, with the owner's permission"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 9,
+  "follower_conversion_potential": 17,
+  "creative_execution_quality": 13,
+  "ease_of_production": 5,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "A visible transformation with a real reveal, his France background used for a joke, and a built-in series question. It shows what his agency does on an object everyone understands. It is a 46-second multi-shot edit, longer and more work than his proven formats.",
+  "uncertainties": [
+   "One {{REAL}} token: the hot dog's price",
+   "The 'six hours' line must be true or be swapped for the safer wording",
+   "Menu-design reasons are presented as his view, not as cited research",
+   "Length and edit load are outside his proven range",
+   "His French pronunciation needs to be good enough to be funny on purpose"
+  ]
+ }
+}
