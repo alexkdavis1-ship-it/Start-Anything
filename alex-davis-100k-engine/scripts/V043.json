@@ -1,0 +1,262 @@
+{
+ "video_id": "V043",
+ "priority_rank": 28,
+ "scheduled_day": 7,
+ "production_batch": "Batch F: Out in public, street, collaborator",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "The client who wants everything \"authentic\"",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@liz_swami",
+  "direct_video_url": "https://www.instagram.com/reel/DdkB9F2icKe",
+  "publication_date": "2026-09-21",
+  "views": 1600000,
+  "creator_followers": 12700,
+  "creator_median_views": 528,
+  "outlier_multiple": 3067.6,
+  "duration_seconds": 47.6,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index",
+   "creator_median_views printed by the tool as 528.5, stored as 528"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"So tell me what you're thinking.\" Permanent on-screen text: \"Her business partner paid me to be the most annoying interior design client ever\".",
+  "visual_hook": "A woman with long brunette hair in a black top stands in a house entryway beside an open front door with wrought iron glass. Letterboxed portrait layout with a sparkling border and the permanent text at the top.",
+  "narrative_structure": "47.6 seconds, 7 cuts through different rooms. The person holding the camera plays the client. The designer asks a question or offers an idea, the client answers with a contradiction and ends on the same word, \"custom\". The designer mostly says \"Okay.\" Two reaction zooms with sting sound effects. Ends on her deadpan stare into the lens under soap-opera music.",
+  "viral_mechanism": "One recurring word does the writing. By the second use the viewer is waiting for it, so each new contradiction is a setup for a word they already know is coming. The professional's restrained 'Okay' is the audience's stand-in.",
+  "observed_evidence": "1.6M views on an account with a 528.5 median (3,067.6x) and 12.7K followers. The client is never on camera. Catchphrase used six times. Caption invites the trade to share their own stories (\"interior designers unite\").",
+  "performance_hypothesis": "Hypothesis: the caption turns the comments into a thread of professionals trading client stories, and people in any service trade swap the word for their own industry's version. The off-camera client means viewers project their own worst client onto the voice.",
+  "why_this_format_fits_alex": "It puts Alex on camera reacting, which is what carried his 13.5M Reel, and it is about clients, his one proven business topic. It needs only one friend holding the phone.",
+  "originality_changes": "Borrowed: camera-holder plays the client, one buzzword ends every line, professional under-reacts, stare to lens at the end. New: the word is \"authentic\", the setting is a content shoot, every line is new, and the final beat breaks the pattern: the client rejects the only authentic idea as \"fake\"."
+ },
+ "alex_adaptation": {
+  "concept": "A friend holds the camera and plays a client walking Alex through what they want from their videos. Every request is the opposite of authentic and every one ends with the word \"authentic\". When Alex suggests the client just talk to the camera for ten seconds, the client says that would feel fake.",
+  "target_audience": "Marketers, videographers, social media managers and business owners who have used the word 'authentic' in a brief.",
+  "primary_emotion": "Exasperated recognition.",
+  "estimated_duration_seconds": 36,
+  "first_frame": "Alex walking backwards through a doorway into a business space (or his own place), camera bag on his shoulder, looking at the person holding the phone. Permanent text at top: \"I asked my friend to play every client I've ever had, at once\".",
+  "first_spoken_line": "Okay, so what's the vision for the videos?",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 2,
+    "speaker": "Alex",
+    "dialogue": "Okay, so what's the vision for the videos?",
+    "action": "Open, friendly, professional. Notebook in hand.",
+    "camera": "Handheld POV from the collaborator, Alex chest-up, walking.",
+    "on_screen_text": "I asked my friend to play every client I've ever had, at once",
+    "editing": "Permanent top text all video. Word-by-word captions; the word 'authentic' always in yellow.",
+    "audio": "Natural room sound, no music."
+   },
+   {
+    "start_second": 2,
+    "end_second": 8,
+    "speaker": "Client (collaborator, off camera)",
+    "dialogue": "I want it real. Raw. Like we didn't plan any of it. So I'll need the full script by Monday. Authentic.",
+    "action": "Alex starts writing, stops at 'script by Monday', looks up.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "None.",
+    "audio": "Client voice close to the mic."
+   },
+   {
+    "start_second": 8,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "Okay.",
+    "action": "Tiny nod. Writes one word.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Cut to a second spot in the space.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 9,
+    "end_second": 14,
+    "speaker": "Client",
+    "dialogue": "And I don't want to be on camera. Or my staff. Or the building. But authentic.",
+    "action": "Alex looks around the room at everything he is not allowed to film.",
+    "camera": "POV, new spot.",
+    "on_screen_text": "Same.",
+    "editing": "None.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 14,
+    "end_second": 16,
+    "speaker": "Alex",
+    "dialogue": "So what am I filming?",
+    "action": "Genuinely asking. Pen hovering.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "None.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 16,
+    "end_second": 18,
+    "speaker": "Client",
+    "dialogue": "The vibe. Authentically.",
+    "action": "Alex's face goes blank.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Snap zoom to Alex's face on 'Authentically', hold 0.7 seconds.",
+    "audio": "One short orchestral sting on the zoom."
+   },
+   {
+    "start_second": 18,
+    "end_second": 23,
+    "speaker": "Client",
+    "dialogue": "Could we hire an actor to play me? Someone taller. Authentic.",
+    "action": "Alex is now sitting or leaning, rubbing his forehead. He does not look up until 'taller'.",
+    "camera": "POV, third spot.",
+    "on_screen_text": "Same.",
+    "editing": "Cut to third spot.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 23,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "Okay.",
+    "action": "Flatter than the first 'Okay'.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "None.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 24,
+    "end_second": 29,
+    "speaker": "Client",
+    "dialogue": "And when people comment, I want you to reply as me. Really be me. But don't ask me anything about myself. Authentic.",
+    "action": "Alex opens his mouth to ask a question and closes it at 'don't ask me anything'.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Second snap zoom on 'Authentic', hold 0.7 seconds.",
+    "audio": "Second sting, a different one (choir hit)."
+   },
+   {
+    "start_second": 29,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "What if you just talk to the camera for ten seconds? Like, right now. As you.",
+    "action": "Last attempt. Hopeful. He lifts his own phone toward the client.",
+    "camera": "POV.",
+    "on_screen_text": "Same.",
+    "editing": "None.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 32,
+    "end_second": 34,
+    "speaker": "Client",
+    "dialogue": "I hate that. Honestly, that would feel fake.",
+    "action": "Alex lowers his phone very slowly.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "None.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 34,
+    "end_second": 36,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex turns his head and looks straight into the lens. No expression. Holds it.",
+    "camera": "Slow push-in on his face.",
+    "on_screen_text": "Same.",
+    "editing": "Cut on the held stare.",
+    "audio": "Dramatic soap-style music swell from a royalty-free library."
+   }
+  ],
+  "alternate_hooks": [
+   "Permanent text: \"Every client brief I've ever received, in one meeting\"",
+   "Permanent text: \"I'm 23, I make content for brands, and this word haunts me\"",
+   "Cold open on the client line \"Could we hire an actor to play me? Authentic.\" then cut to the start"
+  ],
+  "alternate_endings": [
+   "After 'that would feel fake', Alex says \"Okay\" one last time, writes one word in the notebook and turns it to camera: \"AUTHENTIC\" with a question mark.",
+   "After the stare, the client adds: \"Oh, and can it go viral? Authentically.\" Alex walks out of frame."
+  ],
+  "caption": "Tell me your industry's version of this word.",
+  "call_to_action": "Caption prompt only."
+ },
+ "production": {
+  "location": "Any real business space a friend can lend for 20 minutes (gym, cafe, office). Fallback: Alex's own place, three different rooms",
+  "props": [
+   "Notebook and pen",
+   "Camera bag",
+   "Alex's phone"
+  ],
+  "wardrobe": "Work-casual, camera bag on shoulder so he reads as the content guy",
+  "people_required": 2,
+  "filming_minutes_estimate": 40,
+  "editing_minutes_estimate": 40,
+  "difficulty": "medium",
+  "can_batch_film": false,
+  "shot_list": [
+   "Spot 1 (entrance): lines 0 to 9s",
+   "Spot 2: lines 9 to 18s including the first reaction",
+   "Spot 3 (seated or leaning): lines 18 to 29s including the second reaction",
+   "Spot 3 continued: phone offer, 'fake', stare to lens"
+  ],
+  "b_roll": [],
+  "editor_instructions": "The collaborator reads the client lines from a note on Alex's back or just memorises them; record their voice on the filming phone, close to the mic. Use two different royalty-free stings for the two zooms and a third cue for the ending, all from a licensed library, not from the reference. Highlight 'authentic' in yellow every time. Keep Alex's three 'Okay's getting flatter."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: permanent text 'Every client brief I've ever received, in one meeting'",
+   "Alternate payoff: 'can it go viral? Authentically.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views are at least 3x the trailing median and comments or shares per 1,000 reached are top quartile; needs a collaborator, so only make sequels if follows per 1,000 beats the solo skits.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same friend, new word: the client who wants everything 'premium' on no budget",
+   "Same friend, new word: the client who says 'organic' but means paid",
+   "Roles reversed: Alex holds the camera and plays the agency guy who answers every client question with 'the algorithm'"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 76,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 15,
+   "follower_conversion_potential": 15,
+   "creative_execution_quality": 13,
+   "ease_of_production": 4,
+   "repeatability": 8
+  },
+  "rationale": "The reference is the highest outlier multiple in the comedy set and the mechanism is simple to write. The pattern-break ending gives it a real punchline instead of just a sixth repetition.",
+  "uncertainties": [
+   "Depends on a collaborator who can deliver six lines with a straight voice",
+   "The permanent text frames it as a friend playing a composite, which is honest but slightly softer than the reference's 'paid me to be the most annoying client' hook",
+   "36 seconds with seven cuts is slower to shoot than the solo skits"
+  ]
+ },
+ "research_key": "A1-07"
+}

@@ -1,0 +1,205 @@
+{
+ "video_id": "V026",
+ "priority_rank": 29,
+ "scheduled_day": 4,
+ "production_batch": "Batch C: Car (Lexus) and parking lot",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "This is what I drive. This is what it's actually for.",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@mrrice1976",
+  "direct_video_url": "https://www.instagram.com/reel/DdZwt0fyJ97",
+  "publication_date": "2026-09-17",
+  "views": 8200000,
+  "creator_followers": 533500,
+  "creator_median_views": 26100,
+  "outlier_multiple": 313.1,
+  "duration_seconds": 60.1,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music track: not identified (aspirational instrumental that starts on the reveal)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"This is what I drive.\"",
+  "visual_hook": "Close-up selfie of a man in a bucket hat in a suburban driveway, standing in front of the hood of a grey Honda Accord.",
+  "narrative_structure": "Two shots, one cut. 32 seconds beside the modest daily car explaining why he drives it, then a single cut to a garage and a second car that contradicts everything just shown. Music starts exactly on the cut.",
+  "viral_mechanism": "A long, plain setup that creates an expectation, then one cut that reverses it. The four-word opener is a promise that something about the car matters.",
+  "observed_evidence": "8.2M views, 313x the creator's 26.1K median, 533.5K followers. 1 cut at 0:32. No music for the first half, music from the reveal on. All-caps captions with emoji. No CTA.",
+  "performance_hypothesis": "Hypothesis: viewers stay through a slow first half because the opener implies a reveal, and the cut delivers a status reversal people argue about in comments (is it smart or is it a flex). The argument, not the car, drives distribution.",
+  "why_this_format_fits_alex": "He has the car and can do the reversal in the other direction: the car looks like success and the second location shows what it is really used for. That is true, self-deprecating, and shows his job. It is one cut and under 30 seconds.",
+  "originality_changes": "Borrowed: 'this is what I drive' opener, two locations, one cut, music beginning on the reveal. New: the direction is flipped from modest-then-rich to impressive-then-humbling, the reveal is the trunk and passenger seat full of filming gear, every line is his, and it runs half the length."
+ },
+ "alex_adaptation": {
+  "concept": "Alex presents the Lexus like a car reviewer, then the cut shows the same car from the other side: trunk packed with tripods and outfit changes, laptop on the passenger seat, him eating lunch behind the wheel in a parking lot. It is not a sports car, it is a content agency with a V6.",
+  "target_audience": "Freelancers and young business owners who work out of their cars, and anyone suspicious of young men with nice cars.",
+  "primary_emotion": "Deflation, then affection",
+  "estimated_duration_seconds": 28,
+  "first_frame": "Low three-quarter selfie angle, Alex in sunglasses with the front of the Lexus filling the frame behind him in good light. It looks like the start of a flex video.",
+  "first_spoken_line": "This is what I drive.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "This is what I drive.",
+    "action": "Cool, still, chin slightly up. Lets the car do the talking for a beat.",
+    "camera": "Handheld selfie, low angle, car's front end behind him.",
+    "on_screen_text": "\"THIS IS WHAT I DRIVE\"",
+    "editing": "No music. Captions in clean white.",
+    "audio": "Outdoor ambient only."
+   },
+   {
+    "start_second": 3,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "Lexus RC 350 F Sport. All-wheel drive. Three hundred eleven horsepower. I'm twenty-three.",
+    "action": "Walks slowly along the side of the car, running one hand an inch above the paint without touching it. Says 'I'm twenty-three' like the closing argument.",
+    "camera": "Selfie tracking shot along the driver's side.",
+    "on_screen_text": "\"RC 350 F SPORT / 311 HP / I'M 23\" stacking in as he says them",
+    "editing": "Each spec pops on its word.",
+    "audio": "Ambient only."
+   },
+   {
+    "start_second": 9,
+    "end_second": 13,
+    "speaker": "Alex",
+    "dialogue": "People see this and think I've got it all figured out. Let me show you the other side.",
+    "action": "Stops. Takes the sunglasses off. The confidence drops two notches on 'the other side'.",
+    "camera": "Selfie, medium close.",
+    "on_screen_text": "Auto captions.",
+    "editing": "Cut exactly on the last word.",
+    "audio": "Ambient. Silence for 4 frames before the cut."
+   },
+   {
+    "start_second": 13,
+    "end_second": 19,
+    "speaker": "Alex",
+    "dialogue": "This is the trunk. Two tripods, a ring light, four shirts, and a whiteboard. I run a content agency out of this car.",
+    "action": "He is at the open trunk, lifting items one at a time like evidence: tripod, ring light, a handful of shirts on hangers, the edge of a whiteboard.",
+    "camera": "Second phone propped inside the trunk looking out at him, or handheld by him pointing in.",
+    "on_screen_text": "\"THE OTHER SIDE\" then \"TRIPODS x2 / RING LIGHT / 4 SHIRTS / WHITEBOARD\"",
+    "editing": "Music starts on the first frame after the cut.",
+    "audio": "A cheerful, slightly sad ukulele or kazoo track starts on the cut, the opposite of aspirational."
+   },
+   {
+    "start_second": 19,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "This is my office. This is also the break room.",
+    "action": "In the driver's seat. Laptop balanced on the passenger seat on 'office'. On 'break room' he lifts a takeout container from the center console and takes a bite, looking straight ahead through the windshield.",
+    "camera": "Phone on the dash, wide.",
+    "on_screen_text": "\"OFFICE\" then \"BREAK ROOM\"",
+    "editing": "One cut inside this beat on 'This is also'.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 24,
+    "end_second": 28,
+    "speaker": "Alex",
+    "dialogue": "It does zero to sixty really fast. I mostly do zero.",
+    "action": "Still chewing. Deadpan. He closes the laptop lid with one finger and stares at a shopping-cart corral through the windshield.",
+    "camera": "Same dash shot, then a wide exterior of the Lexus sitting motionless in a mostly empty lot.",
+    "on_screen_text": "\"0-60: FAST\" then \"ME: MOSTLY 0\"",
+    "editing": "Cut to the wide exterior on 'mostly do zero'. Hold 1 second.",
+    "audio": "Music resolves on the wide shot."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I'm twenty-three and this is what I drive.\"",
+   "On-screen text only for 2 seconds over the glamour angle: \"What people think a 23-year-old with this car does all day\"",
+   "\"Everyone asks what I do for a living when they see this car. Fine. I'll show you.\""
+  ],
+  "alternate_endings": [
+   "Final line: \"Three hundred eleven horsepower. Today it carried a ring light to a gym.\" over the wide shot of the parked car.",
+   "No final line. After 'break room' he reclines the seat, puts the sunglasses back on and closes his eyes. Text: \"ALSO THE NAP ROOM\"."
+  ],
+  "caption": "311 horsepower. Mostly used for transporting tripods.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "A parking lot with good light for the first half. Same lot for the second half, car repositioned so the background looks plainer.",
+  "props": [
+   "Lexus RC 350",
+   "2 tripods",
+   "Ring light",
+   "4 shirts on hangers",
+   "Small whiteboard",
+   "Laptop",
+   "Takeout container with real food",
+   "Sunglasses"
+  ],
+  "wardrobe": "First half: sunglasses and a clean fitted tee. Second half: same clothes, sunglasses off, slightly rumpled.",
+  "people_required": 1,
+  "filming_minutes_estimate": 30,
+  "editing_minutes_estimate": 30,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Low selfie with front of car (3s)",
+   "Selfie tracking along driver's side (6s)",
+   "Selfie medium close, sunglasses off (4s)",
+   "Trunk shot lifting each item (6s)",
+   "Dash-mounted wide in driver's seat with laptop and food (9s)",
+   "Wide exterior of parked car in empty lot (2s)"
+  ],
+  "b_roll": [
+   "Wide exterior of the car alone in the lot"
+  ],
+  "editor_instructions": "First 13 seconds: no music, clean and a little too slick. The cut at 13.0s is the whole video: hard cut, music in on the same frame. Use only gear he really carries. Keep spec captions accurate."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I'm twenty-three and this is what I drive.\"",
+   "Alternate payoff: Reclines with sunglasses, text 'ALSO THE NAP ROOM'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote if 48h views reach 3x the trailing median and follows per 1,000 reached are top quartile. If retention drops before 13s, re-cut with the reveal at 8s before promoting.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "\"This is my office\": glamour shot of a coworking lobby, cut to where he actually edits",
+   "\"This is my morning routine\": the aspirational version for 8 seconds, cut to the real one",
+   "\"This is my team\": slow pan across an empty room, cut to him holding three phones"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 76,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 11,
+   "follower_conversion_potential": 17,
+   "creative_execution_quality": 13,
+   "ease_of_production": 6,
+   "repeatability": 7
+  },
+  "rationale": "Best evidence in this batch (8.2M, 313x) and the reversal is true by construction because he stages his real gear. It directly shows what he does. Risk is the first 13 seconds reading as a flex before the cut lands.",
+  "uncertainties": [
+   "If the first half loses viewers who dislike car flexes, the payoff is never seen. The alternate text hook is the fix.",
+   "Horsepower figure (311) is the published RC 350 spec; confirm it matches his model year.",
+   "The gear list must be what he actually keeps in the car. Swap items to match."
+  ]
+ },
+ "research_key": "B-07"
+}

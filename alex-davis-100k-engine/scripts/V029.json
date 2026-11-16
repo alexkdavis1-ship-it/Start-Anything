@@ -1,0 +1,160 @@
+{
+ "video_id": "V029",
+ "priority_rank": 20,
+ "scheduled_day": 5,
+ "production_batch": "Batch E: Green screen and screen breakdowns",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "\"As someone who does this for a living... no notes\": deadpan green screen over a brand's slang post",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@akuntbergwitz4",
+  "direct_video_url": "https://www.tiktok.com/@akuntbergwitz4/video/7681479570544971038",
+  "publication_date": "2026-09-04",
+  "views": 2900000,
+  "creator_followers": 1800,
+  "creator_median_views": 88000,
+  "outlier_multiple": 33.0,
+  "duration_seconds": 9,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"So, it seems like McDonald's has came up with a new marketing strategy, and...\"",
+  "visual_hook": "A man's face in low light looking into the camera, the text \"McDonald's marketing Strategy\" centered, and a green-screened screenshot of a brand's own social post in front of his chest.",
+  "narrative_structure": "One take. He introduces the brand post as a 'strategy', trails off, and under-reacts with a polite non-judgment. He never says what is odd about the image.",
+  "viral_mechanism": "The creator withholds the joke. The viewer sees the image, gets it on their own, and the comment section becomes the place where people say it out loud.",
+  "observed_evidence": "2.9M views on an account with 1.8K followers, 33.0x its 88K median, 9s, zero cuts, quiet atmospheric track, no CTA. The humour in the reference depends on a suggestive reading of the brand image.",
+  "performance_hypothesis": "Hypothesis: a nine-second clip where the punchline is left unsaid gets rewatched to confirm the reading, and viewers tag the brand or a friend. Brand posts are public and constantly renewed, so the format restocks itself.",
+  "why_this_format_fits_alex": "Green screen plus a deadpan face is exactly his 13.5M Reel, and his best share rate came from a brand reaction (AirPods, 0.92% on TikTok). The audit found his brand-tag jokes fail when the visual is unrelated; here the brand's own post is the visual.",
+  "originality_changes": "Borrowed: green screen over a brand's own post, polite under-reaction, joke left unsaid. New: no innuendo; the target is a serious company using stale slang, and the line is built on the fact that this is his profession."
+ },
+ "alex_adaptation": {
+  "concept": "Alex stands in front of a screenshot of a serious company's social post that uses slang or a meme format far past its date. He introduces himself as a professional, offers 'no notes', waits, and then admits he has notes. He never says what they are.",
+  "target_audience": "Anyone who has cringed at a brand trying to be relatable; social media managers; his existing meme audience.",
+  "primary_emotion": "Secondhand embarrassment, enjoyed",
+  "estimated_duration_seconds": 10,
+  "first_frame": "The brand's post fills the top two thirds of the frame with its handle visible. Alex is small at the bottom, eyes already on the lens, expression neutral. Centered text: '[Brand type]'s social media strategy'.",
+  "first_spoken_line": "So. As someone who does this for a living.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "So. As someone who does this for a living.",
+    "action": "Hands clasped in front of him like a consultant about to present. Neutral, respectful face. Does not look at the post.",
+    "camera": "Green screen. Alex bottom-center, chest up. Screenshot of the brand post behind and above him, handle visible.",
+    "on_screen_text": "a bank's social media strategy (swap 'bank' for the real category)",
+    "editing": "Text on from frame one. No zooms.",
+    "audio": "His voice, dry. Very quiet neutral room tone, no music."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Alex",
+    "dialogue": "No notes.",
+    "action": "Small, firm nod. Then he turns his head and actually looks at the post for the first time. Holds the look. His jaw tightens slightly.",
+    "camera": "Same",
+    "on_screen_text": "(text stays)",
+    "editing": "None. The pause is the content: hold a full two seconds of silence after the line.",
+    "audio": "Silence"
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "I have notes.",
+    "action": "Turns back to the lens. Same polite face, one notch more strained. A slow blink. He does not elaborate.",
+    "camera": "Same",
+    "on_screen_text": "(text stays)",
+    "editing": "Cut half a second after the blink so it loops back into 'So.'",
+    "audio": "His voice, quieter than before"
+   }
+  ],
+  "alternate_hooks": [
+   "I get paid to make content for brands, and I'd like to say one thing about this.",
+   "Somebody at this company approved this. In a meeting.",
+   "I'm 23 and even I don't say this anymore."
+  ],
+  "alternate_endings": [
+   "After the long look he turns back and says, 'I would like to meet whoever approved this. To hire them.' Straight face, cut.",
+   "After the long look he says nothing at all, just slowly raises a notepad and clicks a pen. Cut."
+  ],
+  "caption": "Respectfully. (screenshot from their public page)",
+  "call_to_action": "None"
+ },
+ "production": {
+  "location": "Home, any wall; Instagram green screen",
+  "props": [
+   "Phone",
+   "One screenshot (see editor instructions)",
+   "Notepad and pen for alternate ending 2"
+  ],
+  "wardrobe": "A collared shirt or quarter-zip so he looks like the professional in the room",
+  "people_required": 1,
+  "filming_minutes_estimate": 8,
+  "editing_minutes_estimate": 8,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One 10-second green-screen take per screenshot; shoot three different brand screenshots in one sitting"
+  ],
+  "b_roll": [],
+  "editor_instructions": "How to find the screenshot, any week: open the public Instagram, X or LinkedIn page of a company in a serious category (bank, insurer, airline, tax software, mattress brand) and scroll for a post that uses slang or a meme template that peaked at least six months earlier. Screenshot it with the handle and date visible. Do not edit the post. Do not say anything factual about the company: the video is opinion and the joke is his reaction. Skip posts about anything sensitive (layoffs, safety, health). Replace 'bank' in the on-screen text with the real category. Do not add music."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'Somebody at this company approved this. In a meeting.'",
+   "Alternate payoff: 'To hire them.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2: promote at 48h only if views are at least 3x his trailing median and shares per 1,000 reached is top quartile; if a version with the 'for a living' line converts better than one without, keep that line in every sequel.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Same reaction to a billboard he photographs himself while driving in Florida",
+   "Same reaction to a local business's flyer that does it right: 'No notes.' and this time he means it, and says why in the caption",
+   "Same reaction to one of his own old posts: 'I have notes.'"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 81,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 20,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 12,
+   "creative_execution_quality": 12,
+   "ease_of_production": 9,
+   "repeatability": 10
+  },
+  "rationale": "Closest structural match to his biggest Reel, with the one-line addition of his profession. It can be remade weekly with a new screenshot. The laugh depends on finding a post that is funny on sight and on him holding the silence.",
+  "uncertainties": [
+   "Quality of the screenshot decides the result",
+   "The audit shows his recent brand-tag memes averaged under 2,000 plays; the difference here is that the brand's post is the visual, which is a hypothesis",
+   "Brand fit is 2",
+   "A brand could respond; keep it to reaction and opinion"
+  ]
+ },
+ "research_key": "C-07"
+}

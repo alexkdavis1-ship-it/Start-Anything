@@ -1,0 +1,190 @@
+{
+ "ref_key": "D-09",
+ "content_pillar": "Personal growth and comeback series",
+ "working_title": "Day 1 of posting every day until 100K (whiteboard math)",
+ "batch_hint": "A",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@elisedanielbags",
+  "direct_video_url": "https://www.instagram.com/reel/Dc_uFYSxAQr",
+  "publication_date": "2026-09-07",
+  "views": 6000000,
+  "creator_followers": 384700,
+  "creator_median_views": 251700,
+  "outlier_multiple": 23.9,
+  "duration_seconds": 34,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)",
+   "duration from the search index (the 34 s figure comes from the watch pass)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"My name is Elijah, I'm the founder of Elise Daniel, and today is day 1 of posting until I go on Shark Tank.\" Static header: \"Day 1 of posting until I go on Shark Tank\"",
+  "visual_hook": "A young man in a white cap and a sweatshirt stands in an office or closet space holding two separate brown leather bag panels.",
+  "narrative_structure": "A static header names the series and the goal. In one 34-second take he gives his name, role and the public goal in the first 5 seconds, spends about 25 seconds demonstrating the product with his hands, and closes with a soft ask to like, comment or share.",
+  "viral_mechanism": "The goal is public, binary and checkable, which gives a stranger a reason to follow: to see if it happens. 'Day 1' tells the viewer they are early. The hands-on demo fills the middle with something to watch instead of talk.",
+  "observed_evidence": "6.0M views, 23.9x a 251.7K median, 384.7K followers. 34 seconds, 0 cuts, no music, zipper and hardware sounds, static header for the full duration, verbal CTA at the end.",
+  "performance_hypothesis": "Hypothesis: viewers follow to track a countdown they have been invited into, and comment to feel part of the outcome. The demo matters because it shows there is something real behind the goal. The account was already large, so the multiple (23.9x) is the fair signal.",
+  "why_this_format_fits_alex": "His goal is as checkable as the reference's: a follower count with a date. The whiteboard is the prop from his own 2.8M '2 Types of Clients' Reel, so the visual is already associated with him. A day-numbered series also gives him a reason to post daily, which fixes the consistency problem.",
+  "originality_changes": "Borrowed: static 'Day 1 of posting until [goal]' header, single take, goal stated in the first seconds, a physical thing shown on screen, soft ask. New: the goal is 100K followers by Dec 31, the thing shown is whiteboard math and a printed 50-video shot list, the stakes line is about his own clients, and the count on the board becomes the recurring end card."
+ },
+ "alex_adaptation": {
+  "concept": "Day 1 of a daily series. Alex writes the real math on a whiteboard: 42,700 today, 100,000 by Dec 31, how many a day that takes. He admits the number is brutal, shows the 50-video list he wrote this week, and logs Day 1 on the board.",
+  "target_audience": "Non-followers who enjoy public challenges, creators trying to grow, people curious whether a 'views guy' can do it for himself.",
+  "primary_emotion": "Curiosity about whether he will make it",
+  "estimated_duration_seconds": 32,
+  "first_frame": "Alex beside a whiteboard, marker in hand. '42,700' is already written large at the top left. Static header at the top of the frame.",
+  "first_spoken_line": "\"Forty-two thousand seven hundred. That's this account today.\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "Forty-two thousand seven hundred. That's this account today.",
+    "action": "Taps the number with the marker. Calm, direct, looking at the lens.",
+    "camera": "Tripod, medium shot, whiteboard fills two thirds of the frame, Alex on the right.",
+    "on_screen_text": "Header (pinned all video): Day 1 of posting every day until 100K",
+    "editing": "Single take. Subtitles lower third.",
+    "audio": "Voice and marker squeaks only. No music."
+   },
+   {
+    "start_second": 4,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "I told people a hundred thousand by December thirty-first.",
+    "action": "Writes '100,000' on the right side and 'DEC 31' under it. Draws one arrow between the two numbers.",
+    "camera": "Same shot.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Marker squeak."
+   },
+   {
+    "start_second": 9,
+    "end_second": 16,
+    "speaker": "Alex",
+    "dialogue": "That's fifty-seven thousand three hundred people in forty-five days. Twelve hundred and seventy-three a day.",
+    "action": "Writes '57,300' under the arrow, then '÷ 45 days', then '1,273 / day' and circles it twice. Steps back, looks at it, exhales through his nose.",
+    "camera": "Same shot.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Marker squeak. A beat of silence after the circle."
+   },
+   {
+    "start_second": 16,
+    "end_second": 22,
+    "speaker": "Alex",
+    "dialogue": "I'm twenty-three and getting brands views is literally my job. So either this works, or I have a very awkward call with my clients.",
+    "action": "Turns to camera. Dry on 'literally my job'. Grimace on 'awkward call'.",
+    "camera": "Same shot.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 22,
+    "end_second": 27,
+    "speaker": "Alex",
+    "dialogue": "So I've got fifty videos scripted. All of them are getting posted.",
+    "action": "Picks up a stapled stack of printed pages from the tray and fans it at the lens so the numbered list is visible, then drops it on the floor with a thud.",
+    "camera": "Same shot; he brings the pages within a foot of the lens for one second.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Paper flutter, thud."
+   },
+   {
+    "start_second": 27,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "Day one. Follow so the number moves. I'll update the board tomorrow.",
+    "action": "In the bottom corner of the board he writes 'DAY 1: 42,700' and boxes it. Caps the marker, points it at the lens, walks off.",
+    "camera": "Same shot. Board stays in frame after he exits.",
+    "on_screen_text": "Header stays.",
+    "editing": "Hold half a second on the empty board with the boxed tally, then cut.",
+    "audio": "Marker cap click."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I need twelve hundred and seventy-three of you a day. Let me show you the math.\"",
+   "\"My name's Alex, I'm twenty-three, and I just made a promise I might not be able to keep.\"",
+   "Silent first two seconds: he writes '42,700 → 100,000' and underlines 'DEC 31', then speaks."
+  ],
+  "alternate_endings": [
+   "He boxes 'DAY 1: 42,700', looks at '1,273 / day' one more time, and quietly writes a small question mark next to it. Walks off.",
+   "\"If I miss it, I'll post that too. Same board.\" He underlines DEC 31 and leaves."
+  ],
+  "caption": "Day 1. 42,700 → 100,000 by Dec 31. The board gets updated daily.",
+  "call_to_action": "\"Follow so the number moves. I'll update the board tomorrow.\""
+ },
+ "production": {
+  "location": "Home office with the whiteboard from the '2 Types of Clients' Reel",
+  "props": [
+   "Whiteboard",
+   "Two dry-erase markers",
+   "Printed, stapled, numbered list of the 50 video titles"
+  ],
+  "wardrobe": "Black tee, the same look as the whiteboard client skit",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 15,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous take, 32 s, starting with '42,700' pre-written. Shoot 4 takes, erasing the board between each.",
+   "Photograph the finished board for the story and for tomorrow's Day 2 open."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts. Pin the header for the full duration. Subtitles lower third. No music. Before filming, recompute the board with the real numbers for posting day: current followers, days left to Dec 31, and the per-day figure. The script uses the Nov 16 values (42,700, 45 days, 1,273)."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I need twelve hundred and seventy-three of you a day. Let me show you the math.\"",
+   "Alternate payoff: the small question mark next to 1,273 / day"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote Day 1 to the main audience if follows per 1,000 reached are at or above the trailing median, because the series needs existing followers to see the bet; continue the daily series only if Days 1 to 3 together beat median follows per 1,000.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Day 2: same board, new tally, plus the single best and worst video from yesterday in 20 seconds",
+   "Day 7: he recomputes the per-day number live and reacts to whether it went up or down",
+   "Day 15: halfway check where the audience's most-liked comment picks one video he has to make"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 13,
+  "follower_conversion_potential": 19,
+  "creative_execution_quality": 12,
+  "ease_of_production": 9,
+  "repeatability": 10
+ },
+ "creative_confidence": {
+  "rationale": "Gives strangers an explicit reason to follow (a dated, checkable bet), reuses his own proven whiteboard prop, and creates a daily series with a built-in end card. The 6.0M reference came from an account with a physical product and a famous goal; a follower-count goal is less visual.",
+  "uncertainties": [
+   "A follower goal is less tangible than a product demo; the whiteboard math has to carry the middle.",
+   "The numbers on the board must be recomputed for the real posting day.",
+   "Committing to a daily series in public raises the cost of missing a day.",
+   "'I wrote fifty videos this week' is true only once this 50-script package is in hand; keep the line only if all 50 will be posted."
+  ]
+ }
+}

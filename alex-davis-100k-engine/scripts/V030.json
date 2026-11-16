@@ -1,0 +1,182 @@
+{
+ "video_id": "V030",
+ "priority_rank": 21,
+ "scheduled_day": 5,
+ "production_batch": "Batch E: Green screen and screen breakdowns",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "\"Greatest Instagram bio OAT\": sports-commentary hype over a small business bio, then his own",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@weekleydial",
+  "direct_video_url": "https://www.tiktok.com/@weekleydial/video/7680276132024814879",
+  "publication_date": "2026-08-31",
+  "views": 2000000,
+  "creator_followers": 19300,
+  "creator_median_views": 32000,
+  "outlier_multiple": 62.5,
+  "duration_seconds": 16,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"They're saying it might be the greatest LinkedIn of all time.\"",
+  "visual_hook": "A young man in a black t-shirt speaking to camera in front of a green-screened screenshot of a career profile's Experience and Education sections, with the white text \"Greatest resume OAT:\" below his chest.",
+  "narrative_structure": "A superlative label fixed on screen, then six or seven short deadpan hype lines read off the screenshot in sports-commentary rhythm, ending on a one-word verdict.",
+  "viral_mechanism": "Treating a mundane document with the language of a highlight reel. The lines are short enough that each lands as its own beat, and the screenshot lets the viewer check every claim.",
+  "observed_evidence": "2.0M views on a 19.3K-follower account, 62.5x its 32K median, 16s, zero cuts, faint background music. Label stays on screen for the full video. The reference shows a private individual's profile and uses mild profanity.",
+  "performance_hypothesis": "Hypothesis: the mismatch between hype tone and boring subject is funny on first read, and viewers tag a coworker. Because the screenshot is the evidence, people pause to read it, which adds watch time to a 16-second clip.",
+  "why_this_format_fits_alex": "Green screen with a dry delivery is his proven grammar. Pointing the hype at a well-written business bio shows he knows what a profile is supposed to do, and ending on his own bio is a self-own that sends curious viewers to his profile.",
+  "originality_changes": "Borrowed: superlative label, rapid deadpan hype over a public screenshot. New: the subject is a small business's bio shown with permission and praised sincerely, no private person is mocked, the language is clean, and the turn to his own bio is new."
+ },
+ "alex_adaptation": {
+  "concept": "Alex commentates a small local business's Instagram bio like it is a championship play: it says what they sell, where they are, and how to book, in three lines. Then the background swaps to his own bio, which ends with 'Want 1M views?', and he loses confidence in real time.",
+  "target_audience": "Small-business owners, creators, and anyone who has written 'DM for inquiries'.",
+  "primary_emotion": "Amusement, with a useful takeaway owners can apply in a minute",
+  "estimated_duration_seconds": 18,
+  "first_frame": "Screenshot of a small business's Instagram bio filling the background, Alex lower-center in front of it mid-gesture, white label below his chest: 'Greatest Instagram bio OAT:'.",
+  "first_spoken_line": "People are calling this the cleanest bio in the state of Florida.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "People are calling this the cleanest bio in the state of Florida.",
+    "action": "Sportscaster energy held just under a shout. One hand pointing up at the bio, eyes on the lens.",
+    "camera": "Green screen. Alex lower-center, chest up. Bio screenshot behind him, handle visible.",
+    "on_screen_text": "Greatest Instagram bio OAT:",
+    "editing": "Label fixed for the first 12 seconds",
+    "audio": "His voice. Very faint stadium crowd bed, barely audible."
+   },
+   {
+    "start_second": 3,
+    "end_second": 7,
+    "speaker": "Alex",
+    "dialogue": "Line one. What they sell. Line two. What city. Line three. How to book. That's it. That's the whole thing.",
+    "action": "Taps the air at the height of each line as he names it. Shakes his head in disbelief on 'that's it'.",
+    "camera": "Same. Subtle zoom on each bio line as he names it.",
+    "on_screen_text": "(label stays)",
+    "editing": "Yellow underline appears under each line of the bio in turn",
+    "audio": "His voice"
+   },
+   {
+    "start_second": 7,
+    "end_second": 12,
+    "speaker": "Alex",
+    "dialogue": "No 'passionate about excellence.' No 'DM for inquiries' with the DMs closed. This person has never typed the word 'solutions.' Hall of fame.",
+    "action": "Counts the three 'no's on his fingers, faster each time. Hand over heart on 'Hall of fame'.",
+    "camera": "Same",
+    "on_screen_text": "(label stays)",
+    "editing": "None",
+    "audio": "His voice. Crowd bed swells slightly on 'Hall of fame'."
+   },
+   {
+    "start_second": 12,
+    "end_second": 15,
+    "speaker": "Alex",
+    "dialogue": "Now let's look at mine.",
+    "action": "Confident. Snaps his fingers and gestures behind him without looking.",
+    "camera": "Background swaps to a screenshot of his own bio: 'Helping brands get 1M views / Want 1M views?'",
+    "on_screen_text": "Label changes to: 'my bio:'",
+    "editing": "Hard swap on the snap",
+    "audio": "Crowd bed cuts to silence"
+   },
+   {
+    "start_second": 15,
+    "end_second": 18,
+    "speaker": "Alex",
+    "dialogue": "'Want one million views?' ... We're working on it.",
+    "action": "Turns, reads his own bio out loud, and the energy drains out of his voice word by word. Turns back to the lens with a tight, polite smile.",
+    "camera": "Same",
+    "on_screen_text": "(label stays 'my bio:')",
+    "editing": "Cut on the smile",
+    "audio": "His voice, quiet. One distant cough from the 'crowd' if available."
+   }
+  ],
+  "alternate_hooks": [
+   "They're saying no small business has ever written a bio this good.",
+   "I look at business Instagram pages for a living and I almost cried.",
+   "Three lines. Zero buzzwords. Give this person a trophy."
+  ],
+  "alternate_endings": [
+   "After the swap he reads his own bio silently, then turns back: 'I'm 23. It's a draft.' Cut.",
+   "No swap. After 'Hall of fame' he adds, 'If your bio doesn't say what you sell, where, and how to buy, you have a mystery, not a business.' Flat, cut."
+  ],
+  "caption": "What you sell, where you are, how to book. That's the whole bio. (shared with permission)",
+  "call_to_action": "None spoken. The self-own points viewers at his profile."
+ },
+ "production": {
+  "location": "Home, any wall; Instagram green screen",
+  "props": [
+   "Phone",
+   "Screenshot of a small business bio (with permission)",
+   "Screenshot of his own bio"
+  ],
+  "wardrobe": "Quarter-zip or polo so he reads as a commentator",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 15,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous 18-second green-screen take with the background swap done in the edit; record three takes"
+  ],
+  "b_roll": [],
+  "editor_instructions": "How to find the screenshot: search Instagram for local service businesses near him (barber, mobile detailer, bakery, gym) under about 10K followers and pick a bio that states what they sell, the city, and a booking method in three lines or fewer with no buzzwords. Message the owner, say he wants to praise their bio in a video, and tag them in the caption. Do not use an individual's personal profile. If the chosen bio differs from the three-line pattern, change his line-by-line call to match what it actually says. His own bio must be screenshotted on the day, since the joke quotes it."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'I look at business Instagram pages for a living and I almost cried.'",
+   "Alternate payoff: 'I'm 23. It's a draft.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and profile visits per 1,000 reached are above his median, since the ending is built to send people to his page.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Greatest Google Business listing OAT (hours, photos, replies to reviews)",
+   "Greatest storefront sign OAT, photographed while driving around his new town",
+   "Greatest client brief OAT: a made-up, clearly labelled example of a perfect two-line brief, then the kind he usually gets"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 80,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 15,
+   "follower_conversion_potential": 15,
+   "creative_execution_quality": 12,
+   "ease_of_production": 8,
+   "repeatability": 9
+  },
+  "rationale": "Proven green-screen setup, a clean 18 seconds, a useful point made through a joke, and a self-own that drives profile visits. It praises its subject, so there is no downside for the business shown.",
+  "uncertainties": [
+   "Needs an owner's permission before filming",
+   "The joke quotes his current bio; if he rewrites the bio, rewrite the last line",
+   "Commentary delivery has to stay dry; too much energy turns it into a parody of hype content",
+   "If the ending works too well he should actually fix the bio, which ends the sequel option"
+  ]
+ },
+ "research_key": "C-11"
+}

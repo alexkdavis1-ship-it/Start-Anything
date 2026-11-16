@@ -1,0 +1,148 @@
+{
+ "video_id": "V018",
+ "priority_rank": 18,
+ "scheduled_day": 3,
+ "production_batch": "Batch D: Home: bed, kitchen, couch silent gags",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "The corner office at 23 (bed selfie, two text cards)",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@patrinkk",
+  "direct_video_url": "https://www.tiktok.com/@patrinkk/video/7685735589609475342",
+  "publication_date": "2026-09-15",
+  "views": 4800000,
+  "creator_followers": 33800,
+  "creator_median_views": 10800,
+  "outlier_multiple": 444.3,
+  "duration_seconds": 5,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"Not gonna lie, when I was younger I always thought adults were being dramatic when they said “it’s one thing after another” I can now confirm, as an adult it’s literally one f*cking thing after another\"",
+  "visual_hook": "Close-up, upward-angled selfie of a bearded man lying on a white pillow in bed, looking into the camera with a neutral, weary expression, under a block of overlaid text.",
+  "narrative_structure": "One static shot, 4 seconds, zero cuts. A single long text block structured as past belief then present confirmation. Slowed vocal sample (\"I'm just a baby\") underneath. No CTA. Loops.",
+  "viral_mechanism": "The text takes longer to read than the clip lasts, so the video replays at least once before the viewer finishes it. The face gives the emotional reading in the first frame, so the viewer knows the tone before reading a word.",
+  "observed_evidence": "4.8M views against a 10.8K median (444.3x) on a 33.8K-follower account. 4 seconds, 0 cuts, no speech, one text block of 38 words. The walkthrough reports it is formatted to loop.",
+  "performance_hypothesis": "Hypothesis: watch time exceeds 100% because reading 38 words takes about 10 seconds against a 4-second clip, and the \"then I thought / now I know\" shape is general enough that viewers repost it to their story as a statement about themselves.",
+  "why_this_format_fits_alex": "This is the same grammar as his two largest Reels: one shot, no speech, text does the work, under 10 seconds (13.5M and 3.6M plays). The difference is that this version puts his age and his job in the text, which his recent meme Reels never do.",
+  "originality_changes": "Borrowed: bed selfie, weary face, past-belief-versus-present-reality text, loop length. New: the subject is owning a business at 23, the text is split into two short cards instead of one block, clean language, no borrowed song, and the second card carries a specific detail from agency life."
+ },
+ "alex_adaptation": {
+  "concept": "Alex in bed at dawn, already working from his phone. Two text cards contrast what 16-year-old him thought owning a business would look like with what it is.",
+  "target_audience": "Freelancers, young business owners, and anyone who works from their phone before getting up.",
+  "primary_emotion": "Rueful recognition",
+  "estimated_duration_seconds": 7,
+  "first_frame": "Upward-angled selfie, Alex flat on his pillow, hair a mess, phone glow on his face, eyes half open and already reading something. Text card 1 is on screen from frame one.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Lying on his back, pillow visible. Eyes move left to right as if reading a message on a second phone held out of frame. One slow blink. Jaw tightens slightly. He does not look at the lens yet.",
+    "camera": "Selfie from above the chest, phone held at arm's length, slightly crooked. Dim morning light from a window, no ring light.",
+    "on_screen_text": "At 16 I thought owning a business meant a corner office.",
+    "editing": "Text on screen from frame 0. White, bold, centered upper third, two lines.",
+    "audio": "Room tone only for the first second, then a soft, slow piano note sequence (royalty-free or Instagram library) at low volume."
+   },
+   {
+    "start_second": 3,
+    "end_second": 7,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "He turns his eyes to the lens and holds it. Tiny nod, lips pressed together, the look of someone who has accepted it. In the last second his thumb comes into frame typing on the other phone without looking.",
+    "camera": "Same shot, no cut. Very slight handheld drift.",
+    "on_screen_text": "I'm 23. This is the office. I've apologized twice already.",
+    "editing": "Card 1 swaps to card 2 at 3.0s with a hard cut of the text only. Last frame should match the first frame's pose closely so the loop is clean.",
+    "audio": "Piano continues, cut mid-note at 7s so it restarts with the loop."
+   }
+  ],
+  "alternate_hooks": [
+   "Card 1: \"Nobody told me the CEO works from the pillow.\"",
+   "Card 1: \"When I was a kid I thought business owners wore suits.\"",
+   "Card 1: \"My parents think I have an office.\""
+  ],
+  "alternate_endings": [
+   "Card 2: \"I'm 23. It's 6:48. A gym owner just sent me 'quick question' with no question.\"",
+   "Card 2: \"I'm 23. This is the office. The commute is great. Everything else is on fire.\""
+  ],
+  "caption": "Corner office. Great natural light. Zero boundaries.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "His bed, first light, before he has styled his hair.",
+  "props": [
+   "Second phone or tablet held out of frame to read from",
+   "Pillow"
+  ],
+  "wardrobe": "Whatever he slept in. No jewelry, no styled hair.",
+  "people_required": 1,
+  "filming_minutes_estimate": 8,
+  "editing_minutes_estimate": 8,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One 7-second selfie take from above, eyes reading then eyes to lens. Film 5 takes and keep the one with the smallest, most resigned nod.",
+   "Optional: the same take with a 6:48 alarm-clock glow visible on the nightstand for alternate ending 1."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts in the picture. Only the text changes at 3.0s. Do not add captions, emojis, zooms or a progress bar. Trim so the last frame and first frame nearly match. Export at exactly 7.0s. Add the text in the Instagram editor so it renders in the native font."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"My parents think I have an office.\"",
+   "Alternate payoff: the 6:48 'quick question' card"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2. Promote at 48h only if views are at least 3x the trailing median and shares per 1,000 reached is top quartile; if it spreads without follows, keep it as a trial and move the same text grammar onto a shot that shows his work.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Same two-card structure in the car outside a client's building: \"I thought 'meeting with a client' meant a boardroom.\" / \"It's a gym. I'm between two squat racks.\"",
+   "Same structure at the desk at midnight: \"I thought being my own boss meant setting my hours.\" / \"I did. All of them.\"",
+   "Same structure at the airport: \"I thought business travel was glamorous.\" / a shot of him on the floor by a charging outlet"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 81,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 10,
+   "creative_execution_quality": 11,
+   "ease_of_production": 10,
+   "repeatability": 10
+  },
+  "rationale": "Lowest-cost video in the set and the closest in form to his 13.5M and 3.6M Reels: one shot, silent, short text. The reference is a 444x outlier from a small account, which is strong evidence the format rather than the creator carried it. The second card is the weak point: it has to feel true, not written.",
+  "uncertainties": [
+   "\"I've apologized twice already\" must be plausible for his real mornings; swap to one of the alternate endings if not.",
+   "The reference used one 38-word block that forced rewatches. Two short cards are easier to read and may loop less. Test the single-block version as a fourth variant if retention is under 100%.",
+   "Identity signal is light (age and 'business' only), so follow conversion may be low even if it travels."
+  ]
+ },
+ "research_key": "B-15"
+}

@@ -1,0 +1,138 @@
+{
+ "video_id": "V002",
+ "priority_rank": 2,
+ "scheduled_day": 1,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "Telling people I run a content agency at 23 (four reactions)",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@bethonthego_",
+  "direct_video_url": "https://www.instagram.com/reel/Dej94WNR-QJ",
+  "publication_date": "2026-10-16",
+  "views": 5000000,
+  "creator_followers": 19000,
+  "creator_median_views": 2500,
+  "outlier_multiple": 1994.8,
+  "duration_seconds": 6.2,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music track: not identified by name with confidence (upbeat pop track)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"Tell me your generation without telling me your generation / Airport Edition\"",
+  "visual_hook": "A static shot of an airport gate area with seated passengers and windows onto the tarmac, almost entirely covered by a large color-coded block of text.",
+  "narrative_structure": "A 5-second static clip under a dense list: a header, then four labeled groups (Boomers, Gen X, Millennials, Gen Z) with 3 to 9 short lines each. There is no sequence. Everything is on screen at once.",
+  "viral_mechanism": "More text than can be read in the clip's length. Viewers pause or let it loop several times to finish, find their own group, and comment on whether it is accurate. The longest block belongs to the group most likely to be reading.",
+  "observed_evidence": "5.0M views from a 19K-follower account with a 2.5K median, a 1,995x outlier. 0 cuts, no speech, about 110 words on screen for 5 seconds, loops, pop music. The header works as a comment prompt.",
+  "performance_hypothesis": "Hypothesis: each loop counts as another play and holds watch time above 100%, which is why a 5-second clip could reach 5M. People send it to someone in a different group with 'this is you'.",
+  "why_this_format_fits_alex": "Silent, one static shot, under 10 seconds: the form of his top two Reels. The list is built around the sentence that defines him (he runs a content agency at 23), so a non-follower learns who he is by reading the joke.",
+  "originality_changes": "Borrowed: a header plus four labeled groups of short lines over a static looping clip, too long to read in one pass. New: the groups are the people who react to his job (his mom, friends with jobs, other agency owners, his landlord), all lines are new, the last group breaks the pattern by repeating one question, and he is visibly in the shot."
+ },
+ "alex_adaptation": {
+  "concept": "A 7-second static shot of Alex at his desk on a call, under a dense four-block list of how different people respond when he says what he does. The fourth block is one question asked three ways.",
+  "target_audience": "Freelancers, creators and self-employed people in their twenties, plus their friends with regular jobs.",
+  "primary_emotion": "Recognition",
+  "estimated_duration_seconds": 7,
+  "first_frame": "Alex at a desk with a laptop and headphones, mid-call, nodding patiently. The full text block covers the upper two thirds of the frame from the first frame.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 7,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex listens on a call, nods slowly, opens his mouth to answer, gets cut off, closes it, and nods again. Patient face with dead eyes. He repeats the cycle once.",
+    "camera": "Phone on a tripod, static medium shot from slightly to the side of the desk.",
+    "on_screen_text": "HEADER: \"Telling people I run a content agency at 23\"\n\nMY MOM\n\"So like a YouTuber?\"\nSends me job listings.\nTells her friends I \"do computers.\"\n\nFRIENDS WITH JOBS\n\"Must be nice.\"\nText me at 2pm on a Tuesday to ask if I'm \"busy.\"\nThink I wake up at noon.\n(Sometimes I wake up at noon.)\n\nOTHER AGENCY OWNERS\n\"What's your MRR, bro.\"\nHave a course.\nAre also 23.\n\nMY LANDLORD\n\"Do you have pay stubs?\"\n\"Any pay stubs?\"\n\"So no pay stubs.\"",
+    "editing": "No cuts. All text visible for the full 7 seconds. Each group label in its own color, body lines in white, small but legible on a phone.",
+    "audio": "Upbeat neutral track from the Instagram library. No voice."
+   }
+  ],
+  "alternate_hooks": [
+   "Header: \"What people hear when I say I own a content agency\"",
+   "Header: \"Tell me you're self-employed at 23 without telling me\"",
+   "Header: \"Who asks what I do for work, ranked by how the conversation goes\""
+  ],
+  "alternate_endings": [
+   "Replace the landlord block with: THE BANK / \"And your employer is?\" / \"And your employer's phone number?\" / \"Sir, that's your phone number.\"",
+   "Add a fifth one-line block at the bottom in small text: ME / Also not totally sure what I do."
+  ],
+  "caption": "Which one are you. Be honest, Mom.",
+  "call_to_action": "The caption question is the only prompt."
+ },
+ "production": {
+  "location": "Home desk.",
+  "props": [
+   "Laptop",
+   "Headphones or earbuds",
+   "Tripod"
+  ],
+  "wardrobe": "Whatever he wears on real client calls.",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 20,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static medium shot, 20 seconds of fake-call nodding. Use the best 7 seconds."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Build the text block in the editor with four colored labels. Check it on a phone: every line must be readable when paused. Keep his face visible in the lower third. Loop cleanly. Do not animate the text in; the point is that it is all there at once."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: Header: \"What people hear when I say I own a content agency\"",
+   "Alternate payoff: Bank block replaces the landlord block"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote if 48h views reach 3x the trailing median and follows per 1,000 reached are top quartile; an average watch time above the 7-second length confirms the re-read mechanic is working.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "\"Types of clients on a first call\": four labeled blocks, same shot",
+   "\"Moving to Florida at 23: who says what\" with blocks for locals, his friends back home, his car insurance, and the weather app",
+   "\"What each platform thinks I do\": Instagram, TikTok, LinkedIn, my bank"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 87,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 24,
+   "fit_with_alex_historical_winners": 16,
+   "follower_conversion_potential": 16,
+   "creative_execution_quality": 12,
+   "ease_of_production": 9,
+   "repeatability": 10
+  },
+  "rationale": "Silent, static and short like his hits, with the strongest small-account evidence in this batch (1,995x), and the header is literally his positioning. All the value is in the writing, so the lines need to be true to his life.",
+  "uncertainties": [
+   "The mom, friends and landlord lines are written as archetypes. He should swap in the real things those people say; the real version will be funnier and avoids putting words in his mother's mouth.",
+   "Dense text can be suppressed if it is unreadable at small sizes; test legibility before posting.",
+   "Text-list Reels build less personal connection than acted pieces."
+  ]
+ },
+ "research_key": "B-11"
+}

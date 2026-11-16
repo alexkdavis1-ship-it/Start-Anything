@@ -1,0 +1,248 @@
+{
+ "video_id": "V041",
+ "priority_rank": 45,
+ "scheduled_day": 6,
+ "production_batch": "Batch G: Voiceover + b-roll and straight-to-camera",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "I'm 23 and I want eleven things that cancel each other out",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@samwitnesss",
+  "direct_video_url": "https://www.instagram.com/reel/DeqsJVrRYJn",
+  "publication_date": "2026-10-22",
+  "views": 1600000,
+  "creator_followers": 77000,
+  "creator_median_views": 22500,
+  "outlier_multiple": 69.4,
+  "duration_seconds": 73.3,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "duration: not returned by search, taken from the watch job"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"I have no idea what I'm doing with my life.\"",
+  "visual_hook": "Close-up selfie of a young man by an alpine lake with the Matterhorn behind him. Centered white text reads \"i have no idea\".",
+  "narrative_structure": "Confession cold open (0-2s). Seven rapid \"I want X, but I want Y\" pairs, one every 2 to 3 seconds (2-22s). One-word pivot, \"Wait.\" (22s). A long sentence that restates the list as one impossible demand (23-33s). Then a 35-second sincere reframe about choosing. 26 shots, word-by-word lowercase captions, acoustic music, no CTA.",
+  "viral_mechanism": "Each pair is a separate recognition test. A viewer only needs to see themselves in one pair to keep watching, and the pairs arrive faster than they can scroll. The pivot word resets attention at the 30% mark.",
+  "observed_evidence": "1.6M views against a 22.5K median (69.4x) on a 77K account. 73 seconds long, so the views were earned with a long video, which implies the list section held people. The first 22 seconds contain 7 pairs and 10 shots. No speech-free section; captions cover every word.",
+  "performance_hypothesis": "Hypothesis: viewers send it to one specific friend with \"this is literally us\" because a pair names a tension they have said out loud. The comment behaviour is quoting the pair that hit. The sincere back half is where drop-off is likely, which is why the adaptation cuts it.",
+  "why_this_format_fits_alex": "His audit shows no working narrative lifestyle video yet, and his feed never says he is 23 or what he is building. The contradiction list lets him state his real facts (agency, Florida move, the Lexus, months of not posting, the 100K goal) as jokes rather than as a flex. It is spoken, so it uses the delivery that drove comments on the 2.8M client skit.",
+  "originality_changes": "Borrowed: confession opener, the \"I want X but Y\" list rhythm, the one-word pivot, the restated impossible demand. New: every pair is written from his own life, the tone is comic instead of earnest, the footage is his ordinary day instead of travel b-roll, the sincere 35-second reframe is replaced by a 6-second decision tied to his public goal, and the runtime drops from 73s to 38s."
+ },
+ "alex_adaptation": {
+  "concept": "Alex lists the contradictions of being 23 and running a business, each one specific to him, then resolves it by picking exactly one thing: posting every day until 100K.",
+  "target_audience": "People 18 to 30 who are building something or want to, and feel pulled in six directions.",
+  "primary_emotion": "Recognition, then relief",
+  "estimated_duration_seconds": 38,
+  "first_frame": "Tight selfie, Alex in his car in a parking lot, engine off, staring just past the lens like he has been sitting there a while. Text: \"i'm 23 and i want things that cancel each other out\".",
+  "first_spoken_line": "I'm twenty-three and everything I want cancels out something else I want.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "I'm twenty-three and everything I want cancels out something else I want.",
+    "action": "Flat, tired, not sad. Eyes drift to the lens on \"cancels\". No smile.",
+    "camera": "Selfie, arm's length, car interior, natural light.",
+    "on_screen_text": "i'm 23 and i want things that cancel each other out",
+    "editing": "Hard start on the first syllable, no lead-in frames.",
+    "audio": "Dry voice, no music yet."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Alex (VO)",
+    "dialogue": "I want to run a company. I also want someone to tell me what to do.",
+    "action": "B-roll: Alex alone at his desk, opens laptop, looks left and right for a boss who is not there.",
+    "camera": "Locked-off wide of the desk from a shelf.",
+    "on_screen_text": "run a company / be told what to do",
+    "editing": "Cut on \"I also\". Captions lowercase, two lines, word groups pop in.",
+    "audio": "Soft plucked guitar loop starts at 3s, low under voice."
+   },
+   {
+    "start_second": 6,
+    "end_second": 9,
+    "speaker": "Alex (VO)",
+    "dialogue": "I want to wake up at five. I want to answer emails at one a.m. like a hero.",
+    "action": "Shot 1: alarm on phone reading 5:00, his hand slaps snooze. Shot 2: face lit by laptop in the dark, typing proudly.",
+    "camera": "Close-up phone on nightstand, then low-light close-up.",
+    "on_screen_text": "up at 5am / emails at 1am",
+    "editing": "Two shots, 1.5s each.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 9,
+    "end_second": 13,
+    "speaker": "Alex (VO)",
+    "dialogue": "I moved to Florida to focus. I live very close to a beach.",
+    "action": "Shot 1: laptop open on a table. Slow pan to a window or balcony showing bright sun and palm trees. Alex's head turns with the pan. He closes the laptop gently.",
+    "camera": "Handheld pan, one move.",
+    "on_screen_text": "moved to florida to focus",
+    "editing": "Hold the last second on the closed laptop.",
+    "audio": "Music continues. Faint outdoor ambience under the pan."
+   },
+   {
+    "start_second": 13,
+    "end_second": 17,
+    "speaker": "Alex (VO)",
+    "dialogue": "I want a hundred thousand followers. I don't want anyone from high school to see me trying.",
+    "action": "Alex films himself on a tripod doing a take, notices a passer-by, immediately pretends to be on a phone call.",
+    "camera": "Wide from across a parking lot or sidewalk so the tripod is visible.",
+    "on_screen_text": "100,000 followers / nobody watching",
+    "editing": "Speed-ramp the pretend phone grab slightly.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 17,
+    "end_second": 20,
+    "speaker": "Alex (VO)",
+    "dialogue": "I bought a car with a sport mode. I drive it to get groceries.",
+    "action": "Close-up of the drive-mode dial or button in the Lexus. Cut to a grocery bag on the passenger seat, seatbelt on it.",
+    "camera": "Two inserts, macro.",
+    "on_screen_text": "sport mode / groceries",
+    "editing": "Add a tiny engine rev sound on the dial, then silence on the grocery bag.",
+    "audio": "Rev SFX, then music."
+   },
+   {
+    "start_second": 20,
+    "end_second": 23,
+    "speaker": "Alex (VO)",
+    "dialogue": "I want to post every single day. I vanished for months.",
+    "action": "Screen recording of his own profile grid scrolling fast, then stopping. Alex in frame corner, looking away from it.",
+    "camera": "Screen recording with face-cam inset, or phone held to camera.",
+    "on_screen_text": "post every day / vanished for months",
+    "editing": "Stop the scroll dead on the beat of \"vanished\".",
+    "audio": "Music dips on \"vanished\"."
+   },
+   {
+    "start_second": 23,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "Wait.",
+    "action": "Back in the car selfie. He has just heard himself. Small frown, one finger up.",
+    "camera": "Same selfie as the opening.",
+    "on_screen_text": "wait.",
+    "editing": "Music cuts out completely.",
+    "audio": "Silence."
+   },
+   {
+    "start_second": 24,
+    "end_second": 31,
+    "speaker": "Alex",
+    "dialogue": "So what I'm saying is, I want to be disciplined, spontaneous, rich, relaxed, famous, and left alone. By Friday.",
+    "action": "Counts each word on his fingers, runs out of fingers at \"famous\", switches hands. Deadpan stare on \"By Friday.\"",
+    "camera": "Selfie, slow digital push-in across the line.",
+    "on_screen_text": "disciplined. spontaneous. rich. relaxed. famous. left alone. / by friday.",
+    "editing": "Each word lands as its own caption. \"by friday.\" alone on screen.",
+    "audio": "No music. Voice only."
+   },
+   {
+    "start_second": 31,
+    "end_second": 38,
+    "speaker": "Alex",
+    "dialogue": "So I picked one. I'm posting every day until a hundred thousand. Everything else can be confused in the background.",
+    "action": "Starts the car on \"picked one\". On the last line he gestures over his shoulder with his thumb at the empty back seat, as if the other goals are sitting there. Pulls out of the space.",
+    "camera": "Selfie, then the phone drops to the dash mount as he drives off.",
+    "on_screen_text": "i picked one. / posting every day until 100K",
+    "editing": "Guitar loop comes back in on \"picked one\". End on the car moving, no fade.",
+    "audio": "Engine start, music returns."
+   }
+  ],
+  "alternate_hooks": [
+   "I have a business, a car, and no idea what I want. Let me list it.",
+   "Being 23 is wanting two opposite things, eleven times a day.",
+   "Text-only open over the closed laptop: \"things i want that cancel each other out, a list\" with Alex walking into frame."
+  ],
+  "alternate_endings": [
+   "After \"By Friday.\" he says: \"Anyway, I have a client call in four minutes,\" and gets out of the car. Cut on the door closing.",
+   "After \"So I picked one,\" cut to him setting up the tripod in the same parking lot from the 13s shot, this time not hiding when someone walks by. No more words. Text: \"day 1.\""
+  ],
+  "caption": "I picked one. Ask me in six weeks if it was the right one.",
+  "call_to_action": "Soft, in caption only: follow to see whether the one thing works."
+ },
+ "production": {
+  "location": "His car (parked), his desk, his bedroom at night, one outdoor spot near home, a grocery run.",
+  "props": [
+   "Laptop",
+   "Phone with a 5:00 alarm set",
+   "Tripod",
+   "Grocery bag"
+  ],
+  "wardrobe": "Whatever he actually wears on a normal workday. One outfit for car and desk, a different T-shirt for the night shot.",
+  "people_required": 1,
+  "filming_minutes_estimate": 45,
+  "editing_minutes_estimate": 50,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Car selfie: opening line, \"Wait.\", finger-count line, closing line and drive-off (film all four in one sitting)",
+   "Desk wide: looking for a boss",
+   "Nightstand close-up: 5:00 alarm and snooze",
+   "Dark room: laptop glow typing",
+   "Pan from laptop to sunny window",
+   "Wide: filming himself on tripod, hiding from a passer-by",
+   "Macro: drive-mode control",
+   "Insert: grocery bag wearing a seatbelt",
+   "Screen recording: his grid scrolling and stopping"
+  ],
+  "b_roll": [
+   "Extra 2-second inserts of the palm trees, the tripod legs, and the steering wheel badge for cutaways if a line is re-recorded"
+  ],
+  "editor_instructions": "Record the six VO pairs as clean audio in the parked car, same sitting as the selfie lines, so the room tone matches. Lowercase captions, max two lines, centered at 60% height. One pair per 3 to 4 seconds, never longer. Kill the music entirely from \"Wait.\" until \"So I picked one.\" That silence is the retention reset. No zoom transitions, hard cuts only."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"Being 23 is wanting two opposite things, eleven times a day.\"",
+   "Alternate payoff: the silent tripod ending with \"day 1.\""
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views are at least 3x the trailing median and follows per 1,000 reached is in the top quartile; if follows are high under 6K views, re-film only the first 3 seconds with the alternate hooks.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same list structure, subject: running an agency (\"I want clients who trust me. I want to be left alone by clients.\")",
+   "Same list, subject: moving to a new state alone at 23",
+   "A reply version where each pair is a real comment from this video, read out and answered"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 68,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 18,
+   "fit_with_alex_historical_winners": 9,
+   "follower_conversion_potential": 17,
+   "creative_execution_quality": 12,
+   "ease_of_production": 5,
+   "repeatability": 7
+  },
+  "rationale": "The list section is the part of the reference that the data most plausibly rewards, and every pair here is anchored to a stated fact about Alex. It tells a non-follower his age, his business, his move and his goal in 38 seconds, which none of his recent Reels do. It is spoken and 38 seconds, which is outside his proven silent sub-10-second zone, so reach is less certain than conversion.",
+  "uncertainties": [
+   "The sport-mode and beach lines are jokes built on real facts (the Lexus, Florida). Alex should cut any pair that is not true for him.",
+   "\"I don't want anyone from high school to see me trying\" must be something he actually feels or it will read as borrowed.",
+   "Nine setups make this one of the slower videos to shoot."
+  ]
+ },
+ "research_key": "B-14"
+}

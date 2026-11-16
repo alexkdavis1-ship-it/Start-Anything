@@ -1,0 +1,244 @@
+{
+ "video_id": "V010",
+ "priority_rank": 17,
+ "scheduled_day": 2,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Can we get it sooner?\": the edit gets worse every time the deadline moves",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@coleevanderproductions",
+  "direct_video_url": "https://www.tiktok.com/@coleevanderproductions/video/7693588144616181022",
+  "publication_date": "2026-10-06",
+  "views": 2200000,
+  "creator_followers": 16400,
+  "creator_median_views": 10800,
+  "outlier_multiple": 204.2,
+  "duration_seconds": 49,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index",
+   "same video also indexed on Instagram at 1.9M views (https://www.instagram.com/reel/DeKbI2IA1qD); that upload was not watched separately"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Hey, quick update before we start filming.\" (off-screen client). Static header text: \"POV: When a client changes their budget last minute\".",
+  "visual_hook": "A man stands in a hotel parking lot smiling into the camera while holding a heavy dual-handle gimbal camera rig with monitor and mic, under a white text box.",
+  "narrative_structure": "49 seconds, 4 jump cuts. An off-screen client lowers the budget in steps ($1,200, $750, $300, $75). After each step a jump cut shows the videographer holding worse equipment (full rig, bare camera, laptop webcam, old iPhone). He stays cheerful and literal. Ends with him sighing 'All right, let's shoot' and walking off.",
+  "viral_mechanism": "An escalation ladder where the visual is the punchline. Each cut answers the client's ask with an object, so the joke lands even without the dialogue, and the viewer stays to see how low it goes.",
+  "observed_evidence": "2.2M views on TikTok (204.2x the creator's 10.8K median, 16.4K followers) and 1.9M on Instagram. One performer, one location, four prop swaps. The client is never seen. Low music bed under clean dialogue.",
+  "performance_hypothesis": "Hypothesis: service providers tag the client-facing person on their team, and each downgrade resets attention so retention holds through 49 seconds. The pattern is predictable by step two, which lets viewers anticipate and enjoy step four.",
+  "why_this_format_fits_alex": "It is a one-man client skit like his 2.8M '2 Types of Clients', and the downgrade gag is visual enough to work muted, which matches how his biggest Reels play.",
+  "originality_changes": "Borrowed: off-screen client, a stepped demand, a jump cut to a visibly worse version after each step. New: the variable is the deadline, not the budget. What degrades is the finished video itself, ending with Alex performing the ad live through a cardboard phone frame. All dialogue is new."
+ },
+ "alex_adaptation": {
+  "concept": "A client keeps moving the deadline up. Each time, Alex cheerfully shows what that timeline buys: a full edit, a rough phone cut, raw footage, and finally Alex himself performing the gym ad live inside a cardboard phone frame.",
+  "target_audience": "Editors, videographers, agency owners, and anyone who has been asked for something 'by end of day'.",
+  "primary_emotion": "Amused vindication.",
+  "estimated_duration_seconds": 36,
+  "first_frame": "Alex at a desk, proudly turning a laptop toward the camera. On its screen a polished vertical video with captions is paused. Header text: \"POV: the client moves the deadline\".",
+  "first_spoken_line": "Client (off-screen): \"Hey, love the plan. Any chance we get it Friday instead of next week?\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Client (off-screen, Alex's voice pitched slightly down)",
+    "dialogue": "Hey, love the plan. Any chance we get it Friday instead of next week?",
+    "action": "Alex nods like a good sport, still presenting the laptop with the polished edit on screen.",
+    "camera": "Static, waist-up, desk in front of him. Client voice comes from camera-left, so Alex looks just left of lens.",
+    "on_screen_text": "POV: the client moves the deadline",
+    "editing": "Header stays all video. Word-by-word captions. Small label bottom-left: \"NEXT WEEK\".",
+    "audio": "Voice only, quiet upbeat bed at 8%."
+   },
+   {
+    "start_second": 4,
+    "end_second": 7,
+    "speaker": "Alex",
+    "dialogue": "Friday. Yeah, we can do Friday.",
+    "action": "Easy smile. Closes the laptop halfway.",
+    "camera": "Same.",
+    "on_screen_text": "Label: \"NEXT WEEK\"",
+    "editing": "Jump cut at 7s.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 7,
+    "end_second": 11,
+    "speaker": "Client",
+    "dialogue": "Amazing. Wait. Why does it look like that?",
+    "action": "After the cut Alex holds up his phone showing the same video with no captions, no color, a visible 'DRAFT' watermark. Same smile.",
+    "camera": "Same framing.",
+    "on_screen_text": "Label changes to \"FRIDAY\"",
+    "editing": "Hard jump cut, no transition.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 11,
+    "end_second": 13,
+    "speaker": "Alex",
+    "dialogue": "That's the Friday one.",
+    "action": "Shrugs, completely pleasant.",
+    "camera": "Same.",
+    "on_screen_text": "FRIDAY",
+    "editing": "Jump cut at 13s after next line.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 13,
+    "end_second": 17,
+    "speaker": "Client",
+    "dialogue": "Okay, so the boss just asked, could we actually have it tomorrow morning?",
+    "action": "Alex's eyebrows go up. Slow inhale. He nods.",
+    "camera": "Same.",
+    "on_screen_text": "FRIDAY",
+    "editing": "Jump cut at 17s.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 17,
+    "end_second": 22,
+    "speaker": "Alex",
+    "dialogue": "Tomorrow. Love tomorrow. Here you go.",
+    "action": "After the cut he holds the phone showing shaky raw footage of a gym floor, his own thumb over half the lens, him saying 'is it recording' on the clip.",
+    "camera": "Same.",
+    "on_screen_text": "Label: \"TOMORROW\"",
+    "editing": "Hard jump cut. Let one second of the raw clip's audio play.",
+    "audio": "Raw clip audio: \"is it recording?\""
+   },
+   {
+    "start_second": 22,
+    "end_second": 26,
+    "speaker": "Client",
+    "dialogue": "That's just the footage. Look, honestly, we kind of need it right now.",
+    "action": "Alex stares just left of lens for a full beat. No smile. Then one small nod.",
+    "camera": "Same.",
+    "on_screen_text": "TOMORROW",
+    "editing": "Jump cut at 26s.",
+    "audio": "Music bed drops out at 'right now'."
+   },
+   {
+    "start_second": 26,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "Tired of gyms that don't care? Come to the one that does. Join today. Swipe up.",
+    "action": "After the cut he holds a cardboard cutout of a phone frame around his own face and performs the ad in a huge commercial voice, flexing one arm on 'Join today', pointing up on 'Swipe up'. Full commitment, no wink.",
+    "camera": "Same framing. The cardboard frame is the screen.",
+    "on_screen_text": "Label: \"RIGHT NOW\"",
+    "editing": "Hard jump cut. No effects on the performance.",
+    "audio": "His voice only. No music, which makes it worse and funnier."
+   },
+   {
+    "start_second": 32,
+    "end_second": 34,
+    "speaker": "Client",
+    "dialogue": "Can you add music?",
+    "action": "Alex freezes mid-point, still inside the frame. Eyes slide to the client.",
+    "camera": "Same.",
+    "on_screen_text": "RIGHT NOW",
+    "editing": "None.",
+    "audio": "Silence."
+   },
+   {
+    "start_second": 34,
+    "end_second": 36,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He holds eye contact with the client and starts humming an upbeat tune, bobbing the cardboard frame to the beat. Dead eyes.",
+    "camera": "Same.",
+    "on_screen_text": "RIGHT NOW",
+    "editing": "Cut mid-hum.",
+    "audio": "Alex humming."
+   }
+  ],
+  "alternate_hooks": [
+   "Header: \"What the client thinks 'can we get it sooner' costs: nothing\"",
+   "Open on the cardboard frame performance for 1.5 seconds, then text \"3 deadline changes earlier\" and cut to the start",
+   "Header: \"I'm 23 and I run a content agency. This is every week.\""
+  ],
+  "alternate_endings": [
+   "Client: \"Perfect. Can you send the file?\" Alex slowly lowers the cardboard frame, looks at it, and hands the cardboard toward the camera.",
+   "Client: \"Actually, the launch got pushed. Next week is fine.\" Alex sets the cardboard down very gently and walks out of frame without a word."
+  ],
+  "caption": "You can have it fast or you can have it. #clientsbelike",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk or office desk",
+  "props": [
+   "Laptop with a finished vertical video on screen",
+   "Phone with a draft version and a raw clip saved",
+   "Cardboard cut into a phone-shaped frame, about 18 by 30 inches, with a hole for his face"
+  ],
+  "wardrobe": "Same outfit in every shot so the jump cuts read as one conversation",
+  "people_required": 1,
+  "filming_minutes_estimate": 30,
+  "editing_minutes_estimate": 35,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Shot 1: laptop with polished edit (0 to 7s)",
+   "Shot 2: phone with draft cut (7 to 17s)",
+   "Shot 3: phone with raw footage (17 to 26s)",
+   "Shot 4: cardboard frame live performance, music question, hum (26 to 36s)",
+   "Audio-only: all client lines"
+  ],
+  "b_roll": [
+   "A real finished vertical video from his own library for the laptop screen",
+   "A deliberately bad 5-second raw clip of a gym floor or any location, thumb in frame"
+  ],
+  "editor_instructions": "Lock the tripod and do not move it between shots so each jump cut only changes what Alex is holding. Change the corner label on each cut (NEXT WEEK, FRIDAY, TOMORROW, RIGHT NOW). Pitch the client voice down two semitones and pan it slightly left. Kill the music bed at 22s and keep it off to the end."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: cold open on the cardboard performance, then '3 deadline changes earlier'",
+   "Alternate payoff: client asks for the file and Alex hands over the cardboard"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views are at least 3x the trailing median and either follows or shares per 1,000 reached are top quartile; if 3-second retention is weak but completion is strong, re-post with the cold-open hook.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same ladder with the budget: full shoot, one take, a photo, a text description of what the video would have been",
+   "Same ladder with 'can you make it shorter': 60s, 15s, 3s, a single frame",
+   "Same ladder with the number of people who need to appear on camera, ending with Alex playing the whole staff"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 81,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 17,
+   "follower_conversion_potential": 15,
+   "creative_execution_quality": 13,
+   "ease_of_production": 6,
+   "repeatability": 8
+  },
+  "rationale": "Strongest physical payoff in this batch. The cardboard-frame performance uses his acting and reads with no sound, and the ladder structure is proven on two platforms by the reference.",
+  "uncertainties": [
+   "36 seconds is longer than his silent hits; the first cut must arrive by second 7",
+   "Needs three pieces of real footage prepared in advance",
+   "The humming button is delivery-dependent"
+  ]
+ },
+ "research_key": "A1-04"
+}

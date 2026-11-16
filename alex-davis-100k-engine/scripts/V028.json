@@ -1,0 +1,197 @@
+{
+ "video_id": "V028",
+ "priority_rank": 19,
+ "scheduled_day": 4,
+ "production_batch": "Batch E: Green screen and screen breakdowns",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "Why my 9-second video with no words got 13.5 million plays (breakdown of his own Central Park Reel)",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@ameliagonzamonte",
+  "direct_video_url": "https://www.instagram.com/reel/De2nFEHx4Uy",
+  "publication_date": "2026-10-23",
+  "views": 7200000,
+  "creator_followers": 272100,
+  "creator_median_views": 130800,
+  "outlier_multiple": 55.4,
+  "duration_seconds": 49.4,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"This video proves that curiosity gaps sell.\"",
+  "visual_hook": "A presenter holding a small clip-on mic to her mouth, looking into the lens, with an inset screenshot of the video she is about to break down in front of her chest.",
+  "narrative_structure": "One-sentence claim, then the weak version the creator could have made, then the view count, then 'two elements of psychology' numbered on screen (one for watch, one for follow), a 'did you spot it yet?' beat, and an ending that cuts off mid-sentence toward the caption.",
+  "viral_mechanism": "A numbered promise in the first ten seconds (two things, one makes you watch, one makes you follow) with the subject video visible the whole time, so the viewer checks each claim against the picture.",
+  "observed_evidence": "7.2M views, 55.4x the creator's 130.8K median, 49.4s. The subject video's on-screen text and its view count are shown. On-screen counters '1 -> watch' and '2 -> follow'. Ending is cut mid-sentence by design.",
+  "performance_hypothesis": "Hypothesis: creators and business owners save and send breakdowns that give them two named, reusable moves, and the 'did you spot it' beat makes them rewatch the inset. The cut-off ending pushes people to the caption, which adds watch time.",
+  "why_this_format_fits_alex": "He owns a better subject than most breakdown creators: a 9-second silent Reel at 13.5M plays. Breaking down his own hit proves expertise with his own receipts and needs no third-party footage. Green screen is the grammar of that same hit.",
+  "originality_changes": "Borrowed: claim-first open, numbered reasons, a spot-it beat, an abrupt end. New: the subject is his own video, the reasons are his own reading of it, and the ending is a joke about not explaining jokes instead of a caption push."
+ },
+ "alex_adaptation": {
+  "concept": "Alex green-screens himself over his own Central Park Reel and gives three reasons it travelled, each one visible in the frame behind him. He labels them as his read, not proof, and ends by refusing to explain the ending.",
+  "target_audience": "Creators, marketers and business owners who want to know why a specific video worked; anyone who saw the original.",
+  "primary_emotion": "Curiosity with a payoff of 'oh, that's why'",
+  "estimated_duration_seconds": 38,
+  "first_frame": "Alex small in the lower third, the Central Park-as-parking-lot Reel paused behind him, a view counter graphic reading 13.5M above his head.",
+  "first_spoken_line": "This video is nine seconds long, I don't say a single word, and it got thirteen and a half million plays.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 5,
+    "speaker": "Alex",
+    "dialogue": "This video is nine seconds long, I don't say a single word, and it got thirteen and a half million plays.",
+    "action": "Points up over his shoulder at the Reel without looking at it. Straight face, like a lawyer presenting exhibit A.",
+    "camera": "Green screen. Alex lower third, chest up. His own Reel fills the background, playing muted.",
+    "on_screen_text": "9 seconds. 0 words. 13.5M plays.",
+    "editing": "Counter graphic ticks up to 13.5M in the first second",
+    "audio": "His voice only. The original accordion track very low under it."
+   },
+   {
+    "start_second": 5,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "I make videos for brands for a living, so let me tell you what I think actually happened.",
+    "action": "Small shrug on 'I think'. Leans a little toward the lens.",
+    "camera": "Same",
+    "on_screen_text": "my read, not science",
+    "editing": "None",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 9,
+    "end_second": 17,
+    "speaker": "Alex",
+    "dialogue": "One. The picture looks wrong. That's Central Park as a parking lot. Your brain goes, wait, is that real, and now you've stopped scrolling to check.",
+    "action": "Turns and looks at the background for the first time on 'wait, is that real', squints at it, turns back.",
+    "camera": "Background freezes on the aerial image. Slow zoom into the parking grid.",
+    "on_screen_text": "1 → it looks wrong, so you stop",
+    "editing": "Yellow circle drawn around the parking lot",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 17,
+    "end_second": 25,
+    "speaker": "Alex",
+    "dialogue": "Two. It's nine seconds and it's silent. By the time you decide if you like it, you've already watched it twice.",
+    "action": "Holds up two fingers, then taps his wrist where a watch would be.",
+    "camera": "Background resumes playing and visibly loops once during this line",
+    "on_screen_text": "2 → too short to leave",
+    "editing": "Small 'loop 1, loop 2' counter in the corner",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 25,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "Three. Watch my face. I don't react right away. That slow grin tells you it's a joke without me telling you it's a joke.",
+    "action": "He does the same slow grin live, in sync with the grin in the background clip, then drops it instantly.",
+    "camera": "Background zooms to his face in the original Reel. Side-by-side grin for two seconds.",
+    "on_screen_text": "3 → the face does the talking",
+    "editing": "Split the frame for the two-second double grin",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 32,
+    "end_second": 38,
+    "speaker": "Alex",
+    "dialogue": "And the reason it works is I never explained it. Which is why I'm also not going to explain",
+    "action": "Deadpan. Mid-sentence he reaches toward the phone to stop recording.",
+    "camera": "Same framing, his hand comes up to the lens",
+    "on_screen_text": "(no text)",
+    "editing": "Hard cut to black exactly on 'explain'. No end card.",
+    "audio": "Voice cuts with the picture"
+   }
+  ],
+  "alternate_hooks": [
+   "I'm 23 and the most successful thing I've ever made is nine seconds of me not talking.",
+   "Thirteen and a half million people watched this and I still get asked if it's real.",
+   "Here's the video that got me most of my followers. I say nothing in it."
+  ],
+  "alternate_endings": [
+   "After reason three: 'Anyway, I've posted about forty videos since then trying to do it again. This is one of them.' Flat look, cut.",
+   "After reason three the background switches to one of his 1,800-play Reels. He looks at it, looks back: 'This one I explained.' Cut."
+  ],
+  "caption": "My read on why 9 silent seconds beat everything else I've posted. The original is pinned on my page.",
+  "call_to_action": "None spoken. The caption points to the pinned original, which sends profile visits."
+ },
+ "production": {
+  "location": "Home, in front of any plain wall; Instagram or CapCut green screen",
+  "props": [
+   "Phone",
+   "Screen recording of his own Central Park Reel (pinned on his profile)"
+  ],
+  "wardrobe": "Same plain top he wore in the original if he still has it, otherwise any solid dark t-shirt",
+  "people_required": 1,
+  "filming_minutes_estimate": 15,
+  "editing_minutes_estimate": 30,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous green-screen take of all six beats",
+   "A second take of only the 0-5s hook for the alternate-hook variant"
+  ],
+  "b_roll": [
+   "Screen recording of the Reel playing twice",
+   "Still frame of the aerial image",
+   "Zoomed crop of his face in the original"
+  ],
+  "editor_instructions": "Use the Reel's own Insights screen for the 13.5M figure if he wants proof on screen; do not add any number that is not on that screen. Keep the three numbered text cards in the same position every time. The final cut must land in the middle of the word flow, with no fade."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'I'm 23 and the most successful thing I've ever made is nine seconds of me not talking.'",
+   "Alternate payoff: 'This one I explained.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and either follows per 1,000 reached or shares per 1,000 reached is top quartile; this is a profile-visit driver, so also check profile visits before deciding.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same breakdown of the '2 Types of Clients' skit: why a whiteboard and a meltdown got 2.8M",
+   "Breakdown of one of his own flops next to a hit: same day, 115 plays vs 35.8K",
+   "Breakdown of the 8-second 'buy the whole row' clip: why a claim that sounds too simple gets shared"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 81,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 14,
+   "follower_conversion_potential": 18,
+   "creative_execution_quality": 12,
+   "ease_of_production": 9,
+   "repeatability": 7
+  },
+  "rationale": "It reuses his proven green-screen grammar, the subject is his own verified hit, and it is the clearest statement in the package of what he does and why to follow. The risk is that a 38-second talking breakdown is a different viewing behaviour from the 9-second gag it describes.",
+  "uncertainties": [
+   "The three reasons are his interpretation; the script labels them that way",
+   "A spoken breakdown is unproven for him on Instagram",
+   "The abrupt ending may read as an upload error to some viewers; the alternate endings are safer",
+   "13.5M is the public play count on 2026-11-16 and should be re-read on the day of filming"
+  ]
+ },
+ "research_key": "C-02"
+}

@@ -1,0 +1,226 @@
+{
+ "ref_key": "D-03",
+ "content_pillar": "Street interviews and social formats",
+ "working_title": "Doing the math out loud with a local business owner, then asking how many customers come from Instagram",
+ "batch_hint": "F",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@lunarosendorff",
+  "direct_video_url": "https://www.instagram.com/reel/DdEUNEXtAbw",
+  "publication_date": "2026-09-16",
+  "views": 1800000,
+  "creator_followers": 6500,
+  "creator_median_views": 803,
+  "outlier_multiple": 2246.7,
+  "duration_seconds": 120.3,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "duration: not returned by search, taken from the watch job"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"How much do you charge to walk a dog?\"",
+  "visual_hook": "Close-up walking selfie of a woman with long blonde hair and dark sunglasses on a paved, tree-lined trail; beside her a man in a bright yellow T-shirt holds several dog leashes.",
+  "narrative_structure": "A price question as the first words. A one-number answer. The creator multiplies it out loud, in real time, with the worker correcting her inputs, until an hourly figure lands. A static text overlay states the surprising conclusion for the first 6 seconds. Single take, 0 cuts, 120 seconds.",
+  "viral_mechanism": "The viewer does the multiplication alongside the creator, so the surprise is something they compute rather than something they are told. The price question needs no setup, and the overlay tells sound-off viewers the payoff is a number worth waiting for.",
+  "observed_evidence": "1.8M views against an 803 median (2,246.7x) on a 6.5K-follower account, the largest multiple in the street group. The first spoken words are the price question. The overlay reads \"Dog walking is lucrative AF / like $300K a year, actually\"; that annual figure is the creator's extrapolation and is not stated by the worker. The video is 120 seconds and loose after the first 30.",
+  "performance_hypothesis": "Hypothesis: people send it to a friend with \"we're in the wrong job\" and argue about the math in the comments (hours, costs, taxes). The comment disputes extend distribution. The first 30 seconds hold nearly all the value.",
+  "why_this_format_fits_alex": "An agency owner asking a local business about unit price and daily volume is in character, and the follow-up question, how many of those customers come from Instagram, turns a curiosity video into a demonstration of what he does. Keeping it under 45 seconds removes the slack in the reference.",
+  "originality_changes": "Borrowed: price question as the first words, arithmetic done out loud with the owner, a number as the landing point. New: the subject is a Florida small business of Alex's choosing, the math stops at a per-day figure the owner has confirmed (no extrapolated annual income), a second question about social media is added, the take is cut to 40 seconds, and the on-screen text states only what was actually said."
+ },
+ "alex_adaptation": {
+  "concept": "Alex asks a local owner-operator (barber, food truck, car detailer, coffee cart) what one unit costs and how many they do a day, multiplies it out loud with them, and then asks how many of those customers found them on Instagram. The answer to the second question is the ending.",
+  "target_audience": "Small business owners, people curious about what local businesses make per day, and marketers.",
+  "primary_emotion": "Curiosity, then a small jolt",
+  "estimated_duration_seconds": 40,
+  "first_frame": "Selfie two-shot, Alex and the owner side by side at their place of work, tools or product visible. Overlay: \"Asked a {{REAL: trade, e.g. barber}} what one {{REAL: unit, e.g. haircut}} costs. Then did the math.\"",
+  "first_spoken_line": "How much is one {{REAL: unit}}?",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "How much is one {{REAL: unit}}?",
+    "action": "Direct, friendly, no preamble. Eyes on the owner, not the lens.",
+    "camera": "Selfie two-shot at arm's length, or phone on a small tripod at chest height.",
+    "on_screen_text": "Asked a {{REAL: trade}} what one {{REAL: unit}} costs. Then did the math. (holds 0-6s)",
+    "editing": "First frame is the question. Any greeting is cut.",
+    "audio": "Natural sound, lav on Alex, his phone mic or second lav for the owner."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted price]",
+    "action": "Alex repeats the number back exactly, once, nodding.",
+    "camera": "Same shot.",
+    "on_screen_text": "Their price, large",
+    "editing": "Number pops on screen as they say it.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "And how many do you do on a normal day? Not your best day. Normal.",
+    "action": "Holds up a flat hand on \"normal\" to stop them from bragging. Small smile.",
+    "camera": "Same shot.",
+    "on_screen_text": "× how many a day?",
+    "editing": "Trim pauses.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 10,
+    "end_second": 14,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted number per day]",
+    "action": "Alex looks up and to the side, lips moving, doing the multiplication. Uses his free hand as a calculator in the air.",
+    "camera": "Same shot.",
+    "on_screen_text": "Their number, beside the price with a × between",
+    "editing": "Build the sum on screen as a running equation.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 14,
+    "end_second": 20,
+    "speaker": "Alex",
+    "dialogue": "So that's... {{REAL: price × units, said out loud}} a day. Before costs. Did I get that right?",
+    "action": "Works it out audibly, gets it, turns to the lens for half a second with raised eyebrows on the total, then back to the owner for confirmation.",
+    "camera": "Same shot; slight push-in on the total.",
+    "on_screen_text": "= {{REAL: daily total}} a day (before costs, their numbers)",
+    "editing": "Total lands with a single ding. Keep the \"before costs\" label on screen.",
+    "audio": "Ding."
+   },
+   {
+    "start_second": 20,
+    "end_second": 24,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted confirmation or correction]",
+    "action": "Alex accepts any correction immediately and restates the corrected figure.",
+    "camera": "Same shot.",
+    "on_screen_text": "Corrected figure if they correct him",
+    "editing": "If they correct the math, keep it. It makes the video more credible.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 24,
+    "end_second": 29,
+    "speaker": "Alex",
+    "dialogue": "Okay. Last one. Out of those, how many found you on Instagram?",
+    "action": "Leans in slightly. This is the question he actually came for; let that show.",
+    "camera": "Same shot.",
+    "on_screen_text": "how many came from Instagram?",
+    "editing": "Pause the equation graphic. Small beat of silence before the answer.",
+    "audio": "Natural sound, half a second of quiet."
+   },
+   {
+    "start_second": 29,
+    "end_second": 35,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted answer]",
+    "action": "Alex does not react yet. Stays on the owner until they finish.",
+    "camera": "Same shot.",
+    "on_screen_text": "Their exact answer as a caption",
+    "editing": "Do not trim their answer.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 35,
+    "end_second": 40,
+    "speaker": "Alex",
+    "dialogue": "BRANCH A, if the answer is low or zero: \"So there's a whole second line out the door you haven't met yet.\"  BRANCH B, if the answer is high: \"So the phone is the best employee you have.\"",
+    "action": "Says it to the owner, then one look to the lens, one eyebrow, and out. No lecture, no pitch.",
+    "camera": "Same shot, end on the look.",
+    "on_screen_text": "I'm Alex. I get businesses seen for a living.",
+    "editing": "Cut 0.3s after the look. No end card.",
+    "audio": "Natural sound, hard out."
+   }
+  ],
+  "alternate_hooks": [
+   "Overlay only, same first words: \"I thought I knew what a {{REAL: trade}} makes in a day. I was off.\"",
+   "\"What does one of these cost?\" while pointing at the product, camera already on the product",
+   "Open cold on the daily total being said out loud, then cut back to the price question with \"30 seconds earlier\""
+  ],
+  "alternate_endings": [
+   "End on the owner's Instagram answer and Alex's silent look to camera. No last line.",
+   "Alex asks: \"If I got you one more of those a day, what's that worth in a year?\" and the video ends on the owner doing that math out loud."
+  ],
+  "caption": "His numbers, my multiplication. The last answer is the one I think about.",
+  "call_to_action": "None spoken. On-screen identity line only."
+ },
+ "production": {
+  "location": "An owner-operated local business in Florida where the owner is present and the product or service has one clear unit price: barber shop, food truck, mobile detailer, coffee cart, market stall.",
+  "props": [
+   "Phone",
+   "Two lav mics or one lav plus a handheld",
+   "Small tripod (optional)"
+  ],
+  "wardrobe": "Casual and clean. Nothing with the agency name on it, so it does not look like a sales call.",
+  "people_required": 2,
+  "filming_minutes_estimate": 75,
+  "editing_minutes_estimate": 40,
+  "difficulty": "hard",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous selfie two-shot of the full exchange, 60 to 120 seconds raw",
+   "A 3-second insert of the product or service being done, for a cover frame",
+   "A 2-second exterior of the business with its sign, only if the owner wants the name shown"
+  ],
+  "b_roll": [
+   "Hands at work: clippers, grill, espresso machine, pressure washer"
+  ],
+  "editor_instructions": "Before each interview say on camera: \"I'm filming for my Instagram, are you okay with me posting this?\" Keep that clip in your files as the consent record; it does not go in the edit. If they say no or hesitate, thank them and delete the clip. Also ask: \"Are you okay with your prices and daily numbers being in the video?\" and \"Do you want the business name shown or hidden?\" Approach 5 businesses in a session and buy something at each. Usable = owner on camera, a single unit price, a daily volume they state themselves, and consent to post the numbers. Expect 1 to 2 usable out of 5. Cut the raw take to 40 seconds with jump cuts; keep every number the owner says in their own voice. On-screen math must use only figures spoken in the video and must carry the label \"before costs, their numbers\". Do not multiply to a monthly or yearly income and do not put any income claim in the hook text. Fallback if no owner agrees to share numbers: ask only the Instagram question (\"Out of ten customers, how many found you on Instagram?\") to five owners and cut a 20-second supercut of the five answers."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: opening cold on the daily total, then '30 seconds earlier'",
+   "Alternate payoff: ending on the owner's Instagram answer with no last line"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views reach 3x the trailing median and follows per 1,000 reached is top quartile; if a business owner inquiry arrives from it, log that as a qualified lead regardless of views.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same three questions asked at a gym: price of one membership, sign-ups per week, how many came from Instagram",
+   "Follow-up visit two weeks later after filming one free Reel for that owner, with the new Instagram answer",
+   "Five owners, one question: \"What's the one post that actually brought someone in?\""
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 6,
+  "follower_conversion_potential": 16,
+  "creative_execution_quality": 11,
+  "ease_of_production": 2,
+  "repeatability": 8
+ },
+ "creative_confidence": {
+  "rationale": "The reference is a 2,246x outlier from a 6.5K account, so the format carried it, and the first 30 seconds contain the whole mechanism. Adding the Instagram question makes the same structure demonstrate Alex's job and can produce real business inquiries. It is the most logistically demanding of the street scripts.",
+  "uncertainties": [
+   "All owner lines are unscripted; the ending line has two prepared branches and may need a third improvised on the spot.",
+   "Owners may decline to share prices or volume on camera.",
+   "The reference's overlay used an extrapolated annual income to hook viewers. This version deliberately does not, which is more honest and may hook less.",
+   "Trade, unit and totals are filled in live from what the owner says; none are Alex's own income.",
+   "40 seconds of two people talking is outside his proven format."
+  ]
+ }
+}

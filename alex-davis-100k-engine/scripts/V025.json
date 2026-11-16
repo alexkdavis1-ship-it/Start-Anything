@@ -1,0 +1,149 @@
+{
+ "video_id": "V025",
+ "priority_rank": 26,
+ "scheduled_day": 4,
+ "production_batch": "Batch C: Car (Lexus) and parking lot",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "Florida was designed by someone who really loved parking",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@yadidamin",
+  "direct_video_url": "https://www.tiktok.com/@yadidamin/video/7675438850285653278",
+  "publication_date": "2026-08-18",
+  "views": 3900000,
+  "creator_followers": 5700,
+  "creator_median_views": 14800,
+  "outlier_multiple": 263.5,
+  "duration_seconds": 9,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music track: not identified (pizzicato comedic instrumental)",
+   "the index's concept description (a pan revealing a person placing bags) does not match the watched footage (bags falling off the belt); the watched footage is used here"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"Nashville airport baggage claim was designed by elite engineers\"",
+  "visual_hook": "Wide static shot of baggage carousel 12 with two suitcases already lying on the floor beside the moving belt.",
+  "narrative_structure": "One static 8-second shot with one sarcastic caption. The footage supplies the punchline on its own: around 0:05 another suitcase falls off the belt, and at 0:07 a passenger walks up to collect his bag from the floor.",
+  "viral_mechanism": "Sarcastic praise over real footage of something obviously badly designed. The creator adds nothing but the caption, and the viewer does the work of noticing.",
+  "observed_evidence": "3.9M views, 263.5x the creator's 14.8K median, 5.7K followers. 0 cuts, no speech, comedic pizzicato music plus the thud of a bag falling. Loops. No CTA. The caption tags the specific airport.",
+  "performance_hypothesis": "Hypothesis: naming a specific place pulls in everyone who has been there to confirm it in the comments, and locals share it. The loop lets viewers wait for the bag to fall a second time.",
+  "why_this_format_fits_alex": "His biggest Reel is a place joke about a parking lot (Central Park, 13.5M). He now lives in a state famous for enormous parking lots, so he can make the real-footage version of his own hit with no editing.",
+  "originality_changes": "Borrowed: static real-world shot plus one line of sarcastic praise naming a place. New: the place is Florida, the subject is a vast empty parking lot with his car alone in it and him as a tiny figure walking across, and it links back to his own Central Park joke."
+ },
+ "alex_adaptation": {
+  "concept": "A locked-off wide shot of an absurdly large, nearly empty Florida parking lot. One small car far away. A tiny Alex walks the whole distance toward a store on the horizon. The caption praises the planners.",
+  "target_audience": "Floridians, anyone who has visited Florida, and the audience that shared the Central Park Reel.",
+  "primary_emotion": "Dry amusement, local recognition",
+  "estimated_duration_seconds": 9,
+  "first_frame": "Extreme wide shot of a huge sun-bleached parking lot, hundreds of empty spaces, one Lexus parked alone in the middle distance, a store entrance tiny at the top of the frame. Text is on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex, very small in frame, gets out of the Lexus, shuts the door, and starts walking toward the distant store. Normal pace. He does not acknowledge the camera.",
+    "camera": "Phone on a tall tripod or resting on a car roof at the far edge of the lot, widest lens, locked off.",
+    "on_screen_text": "\"Florida was designed by someone who really loved parking\"",
+    "editing": "No cuts. Text on for the full 9 seconds, top third, over sky.",
+    "audio": "Light, slightly silly instrumental from the Instagram library. Distant traffic."
+   },
+   {
+    "start_second": 4,
+    "end_second": 9,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "He keeps walking. He is not noticeably closer to the store. Around 6 seconds he stops, puts his hands on his hips, looks at how far is left, looks back at the car, and resumes walking with his shoulders dropped.",
+    "camera": "Same locked-off wide.",
+    "on_screen_text": "Same text.",
+    "editing": "End while he is still mid-lot so the loop restarts with him at the car.",
+    "audio": "Music continues. A single seagull cry at 6s when he stops."
+   }
+  ],
+  "alternate_hooks": [
+   "\"Florida saw my Central Park video and took notes\"",
+   "\"Moved to Florida. Found where they put Central Park.\"",
+   "\"Florida's city planners are visionaries\""
+  ],
+  "alternate_endings": [
+   "At 6 seconds he gives up, turns around, walks back to the car and drives the remaining distance to a closer space.",
+   "Hold the wide shot with no person in it at all for the last 3 seconds, just heat shimmer, then a second line: \"I'm in this photo. Good luck.\""
+  ],
+  "caption": "I made a joke about paving Central Park. Florida didn't know it was a joke.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "The largest, emptiest parking lot he can find: a mall, stadium or big-box store at an off hour. Film from the far edge.",
+  "props": [
+   "Lexus RC 350",
+   "Tall tripod or a stable high surface"
+  ],
+  "wardrobe": "Something with contrast against asphalt so the tiny figure reads: white tee, dark shorts.",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 5,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One locked-off extreme wide, record 60 seconds: exit car, walk, stop at the midpoint with hands on hips, continue. Do 2 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Pick the 9 seconds where he exits the car and reaches the hands-on-hips stop. No zoom: the smallness is the joke. Text over the sky. Do not show store signage or other people's license plates legibly."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"Florida saw my Central Park video and took notes\"",
+   "Alternate payoff: He gives up and drives to a closer space"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2 (3 if the Central Park callback hook is used). Promote if 48h views reach 3x the trailing median and shares per 1,000 reached are top quartile; treat as a reach play and judge the series on whether profile visits rise.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Static shot of a sidewalk that ends in grass: \"Florida's walking infrastructure is world class\"",
+   "Static shot of a six-lane road with one crosswalk in the distance: \"Florida wants you to drive to the mailbox\"",
+   "Static shot of three identical strip malls in a row: \"Florida has incredible variety\""
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 78,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 9,
+   "creative_execution_quality": 11,
+   "ease_of_production": 9,
+   "repeatability": 9
+  },
+  "rationale": "A real-footage sequel to his biggest hit, in the same silent one-shot form, and it takes twenty minutes. On its own it could sit on a meme page, so the caption and the callback hook are doing the identity work.",
+  "uncertainties": [
+   "The picture is less surprising than a doctored Central Park; reach could be far lower.",
+   "The callback hook only works for people who saw the first Reel.",
+   "He needs to find a lot that is visibly huge and visibly empty."
+  ]
+ },
+ "research_key": "B-10"
+}

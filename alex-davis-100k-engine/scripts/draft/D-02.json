@@ -1,0 +1,168 @@
+{
+ "ref_key": "D-02",
+ "content_pillar": "Street interviews and social formats",
+ "working_title": "Strangers test the marketing guy: any business word in five words or I do push-ups",
+ "batch_hint": "F",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@joshmattb",
+  "direct_video_url": "https://www.instagram.com/reel/Deukd-xxYzT",
+  "publication_date": "2026-10-20",
+  "views": 1900000,
+  "creator_followers": 47000,
+  "creator_median_views": 24800,
+  "outlier_multiple": 75.0,
+  "duration_seconds": 6.3,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "duration: not returned by search, taken from the watch job"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"I do stocks.\"",
+  "visual_hook": "Full shot inside a bright multi-level shopping mall. A man in a black hoodie with the hood up and glasses holds a shopping bag; a young interviewer in a cream T-shirt holds a small wireless mic toward him. \"I DO STOCKS.\" is on screen in bold white.",
+  "narrative_structure": "One continuous take, 6 seconds, 0 cuts. The stranger states his field. The interviewer claims to share it and asks for one basic term from that field. The stranger gives a confident wrong answer. Hard cut on the answer.",
+  "viral_mechanism": "The entire video is a claim and an immediate test of the claim. The viewer hears the question, forms their own answer, and gets the outcome within 2 seconds. Cutting on the answer leaves no reaction to watch, so the loop restarts before the viewer has finished processing it.",
+  "observed_evidence": "1.9M views against a 24.8K median (75x) on a 47K account. 6.3 seconds, single take, five caption lines. The research index logged three more entries by the same creator in the same format, so it is a repeated series for him.",
+  "performance_hypothesis": "Hypothesis: viewers tag a friend who claims the same expertise, and people in that field comment the correct answer. The 6-second length means most views include a replay.",
+  "why_this_format_fits_alex": "The length and single-take form match his 13.5M and 3.6M Reels. The reference gets its laugh at a stranger's expense, which is a consent and reputation risk for an agency owner, so the test is turned on Alex. Being quizzed on marketing terms shows his job in the first second and lets him use timing and physical comedy when he fails.",
+  "originality_changes": "Borrowed: claim-then-instant-test structure, single take, hard cut on the answer, sub-12-second length. New: the expert being tested is Alex, the stranger chooses the word, the answer has a five-word limit he counts on his fingers, and a failed answer is paid for with push-ups on the spot. The stranger is never the punchline."
+ },
+ "alex_adaptation": {
+  "concept": "Alex tells a stranger he runs a marketing agency and dares them to give him any business word. He must explain it in exactly five words, counted on his fingers. If he goes over or blanks, he drops and does push-ups where he stands.",
+  "target_audience": "Marketers, business students, small business owners, and people who enjoy watching a confident person get tested.",
+  "primary_emotion": "Playful tension",
+  "estimated_duration_seconds": 12,
+  "first_frame": "Medium two-shot outdoors. Alex holds a small mic toward a stranger, already mid-sentence. Banner: \"I run a marketing agency. Strangers test me.\"",
+  "first_spoken_line": "I run a marketing agency. Give me any business word.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "I run a marketing agency. Give me any business word. Five words or I do push-ups.",
+    "action": "Confident, quick, holding up five fingers on \"five words\". Slight grin, like he has never lost.",
+    "camera": "Static two-shot from a tripod or collaborator at chest height, 3 meters back.",
+    "on_screen_text": "I run a marketing agency. Strangers test me. (banner, stays)",
+    "editing": "Start on the first syllable. Captions for every word.",
+    "audio": "Natural sound, lav mic on Alex, handheld mic toward stranger."
+   },
+   {
+    "start_second": 3,
+    "end_second": 5,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted word]",
+    "action": "Alex repeats the word once under his breath, eyes up and to the side, thinking.",
+    "camera": "Same shot, no cut.",
+    "on_screen_text": "Their word, large, center screen",
+    "editing": "Pop the word on screen the instant they say it.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 5,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "[live five-word answer, counted on fingers; prepared answers for likely words are in editor_instructions]",
+    "action": "Counts each word on one hand, thumb first, held up to the lens. If he lands exactly five: freezes with the open hand up, smug. If he runs out of fingers or stalls for more than two seconds: his face drops.",
+    "camera": "Same shot.",
+    "on_screen_text": "A counter 1 to 5 ticking under his hand",
+    "editing": "Each word gets its own caption beat.",
+    "audio": "A soft tick per word."
+   },
+   {
+    "start_second": 9,
+    "end_second": 12,
+    "speaker": "Alex",
+    "dialogue": "PASS branch: \"Five. Next.\"  FAIL branch: \"...That's six.\"",
+    "action": "PASS: closes the hand into a fist and points off-screen for the next person. FAIL: hands the mic to the stranger without a word and drops to push-ups on the pavement; the stranger is left holding the mic.",
+    "camera": "Same shot. On FAIL, tilt down to follow him.",
+    "on_screen_text": "PASS: ✅ 5/5   FAIL: ❌ push-ups owed: 10",
+    "editing": "Cut hard on \"Next\" or on his first push-up.",
+    "audio": "PASS: one ding. FAIL: a buzzer, then just his breathing."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I get brands a million views for a living. Try to stump me with one word.\"",
+   "Open cold on the stranger saying their word, then Alex's face, with the banner explaining the rule",
+   "\"Ask me any marketing word. If I need more than five words, I owe you ten push-ups.\""
+  ],
+  "alternate_endings": [
+   "On a pass, the stranger immediately says a second, harder word and the video cuts on Alex's face before he answers.",
+   "On a fail, the stranger counts the push-ups out loud into the mic, cut at \"three\"."
+  ],
+  "caption": "Running record in the comments. Current streak: {{REAL: his actual pass count}}.",
+  "call_to_action": "None spoken. The series is the reason to follow."
+ },
+ "production": {
+  "location": "Outside a coworking space, a business school, or a downtown lunch area on a weekday, where people are likely to know business words.",
+  "props": [
+   "Small handheld wireless mic",
+   "Lav mic for Alex",
+   "Tripod or collaborator"
+  ],
+  "wardrobe": "T-shirt and shorts or pants he can do push-ups in.",
+  "people_required": 2,
+  "filming_minutes_estimate": 60,
+  "editing_minutes_estimate": 25,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Static two-shot: the dare, their word, his answer, pass or fail (repeat with 15 people)",
+   "Tilt-down coverage of push-ups for every fail",
+   "One wide of the location for a cover frame"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Before each interview say on camera: \"I'm filming for my Instagram, are you okay with me posting this?\" Keep that clip in your files as the consent record; it does not go in the edit. If they say no or hesitate, thank them and delete the clip. Ask 15 people in one session; each exchange is its own Reel. Usable = the stranger gave a real word unprompted and agreed to be posted. Post the fails as readily as the passes; a fail is the stronger video. Never tell the stranger what word to say and never re-shoot an answer. Prepared five-word answers Alex should rehearse so passes are real: ROI: \"Money back versus money spent.\" SEO: \"Getting Google to like you.\" Brand: \"What they say without you.\" Algorithm: \"A robot guessing your attention.\" Funnel: \"Strangers in, customers out, hopefully.\" Engagement: \"People doing anything but scrolling.\" Viral: \"Strangers sharing it for free.\" KPI: \"The number your boss watches.\" Conversion: \"Looker becomes buyer. That's it.\" Niche: \"Fewer people, more money, allegedly.\" Synergy: \"Nobody knows. Meeting word. Next.\" Inflation: \"That's economics. I do Reels.\" Fallback if fewer than three people play after 30 minutes: Alex films the same game with one willing person who gives five words in a row, cut as a 20-second gauntlet."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: opening cold on the stranger's word",
+   "Alternate payoff: the stranger counting his push-ups into the mic"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views reach 3x the trailing median and either follows or shares per 1,000 reached is top quartile; post one pass and one fail as separate trials on the same day to see which the audience prefers.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same game inside a client's gym: members give him fitness-business words",
+   "Reverse round: he gives strangers one marketing word and they get five words, he does the push-ups if they succeed",
+   "Hard mode: three words instead of five"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 11,
+  "follower_conversion_potential": 16,
+  "creative_execution_quality": 12,
+  "ease_of_production": 4,
+  "repeatability": 10
+ },
+ "creative_confidence": {
+  "rationale": "The reference proves a 6-second claim-and-test exchange can reach 1.9M from a 47K account, and it is a series for that creator. Turning the test on Alex removes the consent problem and puts \"I run a marketing agency\" in the first second of every episode. His acting carries the fail branch.",
+  "uncertainties": [
+   "His answer is live and cannot be fully scripted; only the dare, the rule and the pass or fail lines are fixed.",
+   "The reference's humor came from a stranger being wrong. A version where the host is tested is a different comedic engine and has no direct view evidence.",
+   "Depends on strangers offering interesting words; 'money' or 'sales' make dull episodes.",
+   "Needs a collaborator or a tripod in a public place."
+  ]
+ }
+}

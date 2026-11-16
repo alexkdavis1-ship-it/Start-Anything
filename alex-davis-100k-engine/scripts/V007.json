@@ -1,0 +1,159 @@
+{
+ "video_id": "V007",
+ "priority_rank": 10,
+ "scheduled_day": 1,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "\"Rebranding is REBRANDING\": 7-second text joke about moving to Florida",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@titan.plumbinggroup",
+  "direct_video_url": "https://www.instagram.com/reel/DeAUEl0PIhW",
+  "publication_date": "2026-10-02",
+  "views": 5900000,
+  "creator_followers": 15800,
+  "creator_median_views": 3400,
+  "outlier_multiple": 1754.9,
+  "duration_seconds": 6.6,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "Music track not identified by the walkthrough"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"Yesterday I commented “I miss you 😘” on a random girls video …\"",
+  "visual_hook": "Top-down close-up of an excavator bucket digging into sandy soil in a trench. The footage has nothing to do with the text.",
+  "narrative_structure": "Three text beats over one uncut shot: 'Yesterday I...' (a small outrageous act), 'Today...' (an absurdly large consequence that happens to advertise the business), then a two-word tautology as the button.",
+  "viral_mechanism": "The viewer reads a confession, expects embarrassment, and gets a business plug instead. The last line is a slogan built by repeating one word, which is easy to quote in comments.",
+  "observed_evidence": "5.9M views on a 15.8K-follower trade account, 1,754.9x its 3.4K median. 6.6s, zero cuts, no speech, loops. Text only over routine work footage.",
+  "performance_hypothesis": "Hypothesis: at under seven seconds with three lines of text, most viewers read it twice, which doubles watch time, and they send it to a friend who owns a business with 'this is you'. The repeated-word slogan gets copied in comments.",
+  "why_this_format_fits_alex": "It is the same grammar as his two biggest Reels: silent, one shot, under 10 seconds, text does the work. Unlike his recent text memes, this one tells the viewer his age, his job and his move.",
+  "originality_changes": "Borrowed: yesterday/today structure, absurd overreaction that turns into a plug, repeated-word button. New: the anecdote is an obviously comic overreaction built on his real move to Florida, and the slogan is his own."
+ },
+ "alex_adaptation": {
+  "concept": "Three text cards over a shot of Alex working at his laptop. A tiny social embarrassment (waving back at someone who was not waving at him) is 'solved' by moving to Florida and starting an agency. The move and the agency are real; the cause is plainly a joke.",
+  "target_audience": "Anyone 18-34 who has waved at the wrong person; people who follow self-deprecating founders.",
+  "primary_emotion": "Recognition and amusement",
+  "estimated_duration_seconds": 7,
+  "first_frame": "Alex at a desk typing on a laptop, not looking at the camera, first text card already on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 2,
+    "speaker": "On-screen text",
+    "dialogue": "",
+    "action": "Alex types, focused, completely normal. He must not acknowledge the camera in this beat.",
+    "camera": "Static, phone propped at desk height, medium shot, slightly off to one side",
+    "on_screen_text": "Yesterday I waved back at someone who wasn't waving at me",
+    "editing": "Text is on screen from frame one, centered, white with black outline",
+    "audio": "Calm, upbeat instrumental from the Instagram library, starts on frame one"
+   },
+   {
+    "start_second": 2,
+    "end_second": 5,
+    "speaker": "On-screen text",
+    "dialogue": "",
+    "action": "Still typing. On the word 'Florida' he pauses for half a second, stares at nothing, remembering it, then keeps typing.",
+    "camera": "Same shot, no cut",
+    "on_screen_text": "Today I'm 23, living in Florida, running a content agency where nobody saw it",
+    "editing": "Second card replaces the first with a hard swap, no animation",
+    "audio": "Music continues"
+   },
+   {
+    "start_second": 5,
+    "end_second": 7,
+    "speaker": "On-screen text",
+    "dialogue": "",
+    "action": "He finally glances at the camera, gives one small professional nod, like this was a sound business decision, and looks back at the screen.",
+    "camera": "Same shot",
+    "on_screen_text": "Rebranding is REBRANDING",
+    "editing": "Third card. 'REBRANDING' in capitals. Cut right after the nod so the first frame and last frame match for the loop.",
+    "audio": "Music continues, cut on a beat"
+   }
+  ],
+  "alternate_hooks": [
+   "Yesterday I said 'you too' when the waiter said enjoy your meal",
+   "Yesterday I held a door for someone who was way too far away",
+   "Yesterday I called a client 'bro' on a sales call"
+  ],
+  "alternate_endings": [
+   "Last card reads 'Relocating is a STRATEGY' and he gives a thumbs up without looking up.",
+   "Last card reads 'New state. Same guy. Unfortunately.' and he exhales and keeps typing."
+  ],
+  "caption": "It was the only option.",
+  "call_to_action": "None"
+ },
+ "production": {
+  "location": "Home desk",
+  "props": [
+   "Laptop",
+   "Phone on a small tripod or stack of books"
+  ],
+  "wardrobe": "Whatever he works in; a plain t-shirt reads best under text",
+  "people_required": 1,
+  "filming_minutes_estimate": 5,
+  "editing_minutes_estimate": 8,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One 10-second static take of him typing with a glance and nod at the 5-second mark; record three takes"
+  ],
+  "b_roll": [],
+  "editor_instructions": "One shot, no cuts. Keep every card under 14 words and on screen long enough to read once at normal speed. Trim so the clip ends just after the nod. Do not add a voiceover. Film the three alternate hooks in the same sitting by changing only card one."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'Yesterday I called a client bro on a sales call' (more business-coded)",
+   "Alternate payoff: 'New state. Same guy. Unfortunately.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2: promote at 48h only if views are at least 3x his trailing median and shares per 1,000 reached is top quartile; if follows per 1,000 are at least 2x median under 6,000 views, post the 'called a client bro' variant next.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "'Yesterday a client said make the logo bigger. Today the video is a logo. Feedback is FEEDBACK'",
+   "'Yesterday I told my mom I make videos for brands. Today she told the family I'm between jobs. Awareness is AWARENESS'",
+   "'Yesterday I posted once. Today I'm asking why I'm not at 100K. Consistency is CONSISTENCY'"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 84,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 24,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 11,
+   "creative_execution_quality": 11,
+   "ease_of_production": 10,
+   "repeatability": 10
+  },
+  "rationale": "Cheapest video in the pillar and the closest match to his proven silent sub-10-second format, with his identity written into the text. The joke is light, so it depends on the read-twice effect rather than a big laugh.",
+  "uncertainties": [
+   "Text-only jokes over desk footage did poorly for him recently when the text was a wealth opinion; this differs by being a self-own, which is untested",
+   "Brand fit is 2: it says who he is but shows no work",
+   "The third card must be readable in two seconds"
+  ]
+ },
+ "research_key": "C-04"
+}

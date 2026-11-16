@@ -1,0 +1,238 @@
+{
+ "ref_key": "D-05",
+ "content_pillar": "Street interviews and social formats",
+ "working_title": "Screen Time chain, episode N: five strangers, each reacts to the last person's number",
+ "batch_hint": "F",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@yashixv",
+  "direct_video_url": "https://www.tiktok.com/@yashixv/video/7684093645712100621",
+  "publication_date": "2026-09-11",
+  "views": 4000000,
+  "creator_followers": 1300000,
+  "creator_median_views": 461900,
+  "outlier_multiple": 8.7,
+  "duration_seconds": 93,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"How much is in your bank account?\"",
+  "visual_hook": "A man in a dark brown T-shirt with a backpack stands half-turned from the camera on a boardwalk near Redondo Landing, interviewing a woman walking past.",
+  "narrative_structure": "Numbered episode with a location. Five strangers each reveal a number and their job. Before revealing their own, each new stranger is told the previous stranger's number and reacts to it. A five-icon tally at the bottom fills in as each person is added. Each number is shown as a card. About 93 seconds, roughly 20 cuts, a second person filming two-shots.",
+  "viral_mechanism": "Every stranger is both a judge and a contestant. The viewer hears an opinion about a number, then immediately gets to compare the judge's own number against it. The tally shows how many reveals are left, which holds viewers to the fifth.",
+  "observed_evidence": "4.0M views against a 461.9K median (8.7x) on a 1.3M-follower account. Captioned as a numbered episode. The cards carry the line \"Screenshot for illustrative purposes. Numbers are verified by me.\" Five people, five cards. The interviewer's lines are re-voiced with text-to-speech.",
+  "performance_hypothesis": "Hypothesis: the chain produces hypocrisy and humility moments (someone mocks a number, then reveals a worse one), and those are the clips viewers replay and quote in comments. The episode numbering produces follows because the format is identical every time.",
+  "why_this_format_fits_alex": "The chain-and-tally structure does not depend on the number being money. Daily Screen Time is on every iPhone, is verifiable on camera, is not financially invasive, and is on-brand for someone who makes short-form video for a living. The final reveal can be his own number, which is the punchline an agency owner can deliver.",
+  "originality_changes": "Borrowed: numbered location episode, five people, react-to-the-previous-person chain, running five-slot tally. New: the number is today's Screen Time shown on the person's own phone, no bank balances or jobs-plus-money pairing, Alex speaks his own questions (no text-to-speech), the real phone screen is filmed instead of an illustrative card, and a sixth reveal, Alex's own Screen Time, closes the episode."
+ },
+ "alex_adaptation": {
+  "concept": "Episode-numbered street series. Alex asks five strangers for today's Screen Time. Each one first judges the previous person's number, then shows their own on their phone. A five-slot tally fills along the bottom. Last, the fifth stranger judges Alex's number.",
+  "target_audience": "Everyone with a phone; skews 16 to 30. Location tag pulls local viewers.",
+  "primary_emotion": "Judgment, then being caught",
+  "estimated_duration_seconds": 56,
+  "first_frame": "Two-shot on a busy pier, boardwalk or downtown sidewalk. Alex holds a mic toward a stranger who is pulling their phone out. Title bar: \"Screen Time · Episode {{REAL: number}} · {{REAL: location}}\". Five empty circles along the bottom.",
+  "first_spoken_line": "What's your screen time today?",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "What's your screen time today? Don't guess. Open it.",
+    "action": "Quick, cheerful, pointing at their phone. Already knows this will hurt.",
+    "camera": "Two-shot filmed by a collaborator, waist up.",
+    "on_screen_text": "Screen Time · Episode {{REAL: number}} · {{REAL: location}}",
+    "editing": "Five empty circles at the bottom from frame 0.",
+    "audio": "Natural sound. Light percussion loop at low volume."
+   },
+   {
+    "start_second": 3,
+    "end_second": 8,
+    "speaker": "Stranger 1 (real, unscripted)",
+    "dialogue": "[unscripted; shows their Screen Time screen]",
+    "action": "Alex leans in to read it, says the number out loud exactly as shown, then gives one beat of silent reaction scaled to the number.",
+    "camera": "Insert: close-up of their phone screen held to the lens, 1.5s. Back to two-shot.",
+    "on_screen_text": "Their number, large. Circle 1 fills with it.",
+    "editing": "Ding as the circle fills.",
+    "audio": "Ding."
+   },
+   {
+    "start_second": 8,
+    "end_second": 12,
+    "speaker": "Alex",
+    "dialogue": "Okay. The person before you had {{REAL: stranger 1's number}}. Thoughts?",
+    "action": "New stranger. Alex asks it neutrally, giving nothing away.",
+    "camera": "Two-shot, new background a few meters along.",
+    "on_screen_text": "Last person: {{REAL: stranger 1's number}}. Thoughts?",
+    "editing": "Hard cut from the previous person.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 12,
+    "end_second": 17,
+    "speaker": "Stranger 2 (real, unscripted)",
+    "dialogue": "[unscripted judgment of the previous number]",
+    "action": "Alex nods along, encouraging, like a lawyer letting a witness talk.",
+    "camera": "Hold on stranger 2.",
+    "on_screen_text": "Caption of their exact words",
+    "editing": "Keep their strongest sentence only.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 17,
+    "end_second": 22,
+    "speaker": "Alex",
+    "dialogue": "Great. Now open yours.",
+    "action": "Says it with a small, slow smile. Holds the mic closer.",
+    "camera": "Two-shot, then insert of their phone screen.",
+    "on_screen_text": "Their number. Circle 2 fills.",
+    "editing": "Freeze 0.3s on their face as they see their own number.",
+    "audio": "Ding."
+   },
+   {
+    "start_second": 22,
+    "end_second": 31,
+    "speaker": "Alex + Stranger 3 (real, unscripted)",
+    "dialogue": "Alex: \"Last person had {{REAL: stranger 2's number}}. Thoughts?\" Stranger 3: [unscripted judgment]. Alex: \"Now yours.\" Stranger 3: [shows screen]",
+    "action": "Same pattern. Alex speeds up his delivery each round; the audience knows the game now.",
+    "camera": "Two-shot, insert, two-shot.",
+    "on_screen_text": "Circle 3 fills.",
+    "editing": "Tighter cuts than round 2.",
+    "audio": "Ding."
+   },
+   {
+    "start_second": 31,
+    "end_second": 40,
+    "speaker": "Alex + Stranger 4 (real, unscripted)",
+    "dialogue": "Alex: \"Last person: {{REAL: stranger 3's number}}.\" Stranger 4: [unscripted judgment]. Alex: \"Yours.\" Stranger 4: [shows screen]",
+    "action": "Alex now only says the number and one word. Raises eyebrows at the lens if stranger 4's number is worse than the one they judged.",
+    "camera": "Two-shot, insert, two-shot.",
+    "on_screen_text": "Circle 4 fills.",
+    "editing": "Fastest round.",
+    "audio": "Ding."
+   },
+   {
+    "start_second": 40,
+    "end_second": 48,
+    "speaker": "Alex + Stranger 5 (real, unscripted)",
+    "dialogue": "Alex: \"Last person: {{REAL: stranger 4's number}}.\" Stranger 5: [unscripted judgment]. Alex: \"Yours.\" Stranger 5: [shows screen]",
+    "action": "Same pattern.",
+    "camera": "Two-shot, insert, two-shot.",
+    "on_screen_text": "Circle 5 fills. All five visible.",
+    "editing": "Hold the full tally for one second.",
+    "audio": "Ding, then the percussion loop stops."
+   },
+   {
+    "start_second": 48,
+    "end_second": 53,
+    "speaker": "Alex",
+    "dialogue": "I make videos for a living, so be nice. This is mine.",
+    "action": "Hands the mic to stranger 5. Pulls out his own phone, opens Screen Time, turns it to them first, then to the lens. Braces.",
+    "camera": "Two-shot, then insert of Alex's real Screen Time screen.",
+    "on_screen_text": "Alex (makes Reels for a living): {{REAL: his actual Screen Time today}}",
+    "editing": "A sixth circle appears, larger, and fills with his number.",
+    "audio": "Silence, then a low drum hit on the reveal."
+   },
+   {
+    "start_second": 53,
+    "end_second": 56,
+    "speaker": "Stranger 5 (real, unscripted)",
+    "dialogue": "[unscripted reaction to Alex's number]",
+    "action": "Alex takes it. Nods slowly, puts the phone away, walks off.",
+    "camera": "Hold on stranger 5, Alex exits frame.",
+    "on_screen_text": "Caption of their exact words",
+    "editing": "Cut on his exit.",
+    "audio": "Natural sound, hard out."
+   }
+  ],
+  "alternate_hooks": [
+   "Open on stranger 2 judging the unseen number harshly, then cut to the title bar",
+   "\"Guess the screen time of the last person I stopped.\"",
+   "Title bar only, first words from the stranger reading their own number in shock"
+  ],
+  "alternate_endings": [
+   "After his reveal, Alex asks stranger 5: \"What should my limit be?\" and the episode ends on their unscripted number, shown as \"Episode goal\".",
+   "End card: the six numbers ranked, Alex's highlighted, with \"Episode {{REAL: next number}} tomorrow\"."
+  ],
+  "caption": "Episode {{REAL: number}}, {{REAL: location}}. I lost again.",
+  "call_to_action": "Soft, on the end card only: next episode number."
+ },
+ "production": {
+  "location": "A busy walkable public place in Florida: pier, boardwalk, downtown strip, campus edge.",
+  "props": [
+   "Handheld wireless mic",
+   "Lav for Alex",
+   "Collaborator's phone on a gimbal or held steady",
+   "Alex's own phone for the final reveal"
+  ],
+  "wardrobe": "Same outfit for the whole episode. A recognisable cap or jacket helps the series read as a series.",
+  "people_required": 2,
+  "filming_minutes_estimate": 90,
+  "editing_minutes_estimate": 75,
+  "difficulty": "hard",
+  "can_batch_film": true,
+  "shot_list": [
+   "Stranger 1: question and reveal with phone-screen insert",
+   "Strangers 2 to 5: judgment of the previous number, then their own reveal with insert",
+   "Alex's own Screen Time reveal to stranger 5 and their reaction",
+   "Two wide establishing shots of the location for the title frame"
+  ],
+  "b_roll": [
+   "Close inserts of each phone's Screen Time screen (shoot every one, they are the proof)"
+  ],
+  "editor_instructions": "Before each interview say on camera: \"I'm filming for my Instagram, are you okay with me posting this?\" Keep that clip in your files as the consent record; it does not go in the edit. If they say no or hesitate, thank them and delete the clip. Also ask each person: \"Okay if I show your Screen Time number?\" Film only the daily total, never the app list or notifications; if the app breakdown is visible, crop or blur it. Stop 12 to 15 people to get 5 who will open Screen Time on camera. The chain must be real: stranger N is told stranger N-1's actual number, in the order filmed. Do not reorder people to manufacture a better contrast. Build the tally as five circles plus one larger sixth for Alex. Round lengths shrink: about 5s, 9s, 9s, 9s, 8s. Alex's number must be his real Screen Time on the filming day. Fallback if fewer than five agree: publish a three-person episode with three circles; do not pad with staged participants. Android users can show Digital Wellbeing instead."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: opening on stranger 2's harsh judgment before the title",
+   "Alternate payoff: the ranked end card with next episode number"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2. Promote at 48h if views reach 3x the trailing median and shares per 1,000 reached is top quartile; make three episodes before judging follows, since the reference format converts through episode numbering.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Same chain with 'views on your best post ever', ending on Alex's 13.5M Reel",
+   "Same chain with follower counts at a creator meetup or campus",
+   "Same chain with 'unread notifications right now'"
+  ]
+ },
+ "rubric": {
+  "fit_with_alex_historical_winners": 5,
+  "follower_conversion_potential": 12,
+  "creative_execution_quality": 12,
+  "ease_of_production": 2,
+  "repeatability": 9
+ },
+ "creative_confidence": {
+  "rationale": "The react-to-the-previous-person chain is a strong structural idea that survives changing the number from bank balance to Screen Time, and the swap makes it verifiable on camera and safe to film. Ending on Alex's own number ties it to what he does. Evidence is weaker than the view count suggests: the reference is a 1.3M-follower account at only 8.7x its median, and money is a stronger hook than Screen Time.",
+  "uncertainties": [
+   "Every stranger line is unscripted, and the best moments depend on someone judging a number and then revealing a worse one.",
+   "Longest script in the street group (56s) and the heaviest edit.",
+   "Needs a collaborator to film.",
+   "Bank balance to Screen Time lowers the stakes; test the 'best post views' variant if the first episode is flat.",
+   "Episode number, location and all six numbers are filled in from the real shoot."
+  ]
+ }
+}

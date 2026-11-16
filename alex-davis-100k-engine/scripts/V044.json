@@ -1,0 +1,175 @@
+{
+ "video_id": "V044",
+ "priority_rank": 32,
+ "scheduled_day": 7,
+ "production_batch": "Batch F: Out in public, street, collaborator",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "Self-employed at 2 pm on a Tuesday: \"she thinks I'm unemployed\"",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@christianjmaldonado",
+  "direct_video_url": "https://www.tiktok.com/@christianjmaldonado/video/7701826894039207182",
+  "publication_date": "2026-10-28",
+  "views": 7300000,
+  "creator_followers": 2700000,
+  "creator_median_views": 151700,
+  "outlier_multiple": 48.1,
+  "duration_seconds": 13,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Why's nobody working?\" On-screen text for the full video: \"Me when I go anywhere Monday - Friday from 9-5\"",
+  "visual_hook": "A young man in a cream overshirt holds a bag of apples over a cart in a warehouse-store produce section, looking around confused.",
+  "narrative_structure": "One persistent caption. Four everyday locations in 13 seconds, 3 cuts. An internal-monologue voiceover judges everyone else for being out during work hours, and the last line reveals he has the same excuse he denies them.",
+  "viral_mechanism": "The voiceover says a thought most people have had and never said, the side-eye acting sells it with sound off, and the button line turns the judgment back on the narrator.",
+  "observed_evidence": "7.3M views, 48.1x a 151.7K median, 2.7M followers. 13 seconds, 3 cuts, 4 scenes, persistent caption, no CTA. Final line in the transcript: \"I mean, I'm personally here because it's my day off. But what are they doing here?\"",
+  "performance_hypothesis": "Hypothesis: people who are out on weekdays (shift workers, remote workers, students) tag each other, and the hypocritical last line prompts 'this is me' comments. The large account explains part of the reach, so treat the multiple, not the raw views, as the signal.",
+  "why_this_format_fits_alex": "The inner-monologue voice over silent side-eye acting is a character piece like his client skit (2.8M). Flipping the paranoia onto himself lets him say 'I'm 23 and I run a company' without it being a flex.",
+  "originality_changes": "Borrowed: persistent caption, four quick locations, internal-monologue voiceover, a button that undercuts the narrator. New: the point of view is reversed (he is the one being judged, in his own head), all lines are new, and the button is a loud fake business call in a grocery aisle."
+ },
+ "alex_adaptation": {
+  "concept": "Alex runs errands at 2 pm on a Tuesday and is convinced every stranger thinks he is unemployed. His inner voice gets more defensive at each stop until he overcorrects in public.",
+  "target_audience": "Self-employed and remote workers, students, anyone out on a weekday.",
+  "primary_emotion": "Embarrassed recognition",
+  "estimated_duration_seconds": 17,
+  "first_frame": "Alex in gym clothes holding a basket in a grocery aisle, catching the eye of someone off camera and looking away too fast. Caption on screen.",
+  "first_spoken_line": "(inner voice) \"She thinks I'm unemployed.\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex (inner-monologue voiceover)",
+    "dialogue": "She thinks I'm unemployed. It's two p.m. and I'm buying one avocado.",
+    "action": "Makes eye contact with someone off camera, gives a tight closed-mouth smile, looks at the single avocado in his basket.",
+    "camera": "Phone propped on a shelf or held low by himself, waist-up, grocery aisle. Keep bystanders out of frame.",
+    "on_screen_text": "Self-employed at 23, anywhere at 2 pm on a Tuesday",
+    "editing": "Persistent caption all video.",
+    "audio": "Voiceover close and dry. Quiet store ambience."
+   },
+   {
+    "start_second": 4,
+    "end_second": 8,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "He definitely thinks I'm unemployed. I'm not. I have a company.",
+    "action": "Gym. Mid-set on a machine, nearly empty room. He glances at an older man off camera, then sits up straighter as if posture proves employment.",
+    "camera": "Phone on the floor against a water bottle, low angle.",
+    "on_screen_text": "Same caption.",
+    "editing": "Hard cut.",
+    "audio": "Gym ambience under voiceover."
+   },
+   {
+    "start_second": 8,
+    "end_second": 12,
+    "speaker": "Alex (voiceover)",
+    "dialogue": "I have clients. I have a laptop. It's in the car, but I have it.",
+    "action": "Coffee shop line or outdoor walk-up window. He pats his pockets, then mimes typing in the air very slightly, catches himself.",
+    "camera": "Selfie at arm's length, chest-up.",
+    "on_screen_text": "Same caption.",
+    "editing": "Hard cut.",
+    "audio": "Cafe ambience under voiceover."
+   },
+   {
+    "start_second": 12,
+    "end_second": 17,
+    "speaker": "Alex (out loud, on a phone that is clearly on the lock screen)",
+    "dialogue": "Yeah. Send the INVOICE. To my BUSINESS.",
+    "action": "Back in the grocery aisle. Phone to his ear, speaking far too loudly, scanning to see who heard. The lock screen with the clock is visible to camera. He nods at no one, satisfied.",
+    "camera": "Phone propped on shelf, same framing as shot 1 so it bookends.",
+    "on_screen_text": "Same caption.",
+    "editing": "Hard cut in. End on his satisfied nod, cut before he lowers the phone.",
+    "audio": "His real voice, loud, roomy. Voiceover stops. Faint store music."
+   }
+  ],
+  "alternate_hooks": [
+   "Caption: \"Running errands on a weekday when you work for yourself\"",
+   "First line: \"Nobody here knows I have a job.\"",
+   "Caption: \"23, self-employed, and the cashier asked if it's my day off\""
+  ],
+  "alternate_endings": [
+   "He says 'Send the invoice' loudly, and the phone rings in his hand mid-sentence.",
+   "Inner voice: \"I should just tell her.\" Cut to him at the self-checkout, saying to the machine: \"I own a company.\" Machine: \"Unexpected item in bagging area.\""
+  ],
+  "caption": "I have a company. I promise.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Grocery store, gym, coffee shop or walk-up window (all within one errand loop)",
+  "props": [
+   "Shopping basket",
+   "One avocado",
+   "Phone"
+  ],
+  "wardrobe": "Gym shorts and a tee, the same outfit in every location",
+  "people_required": 1,
+  "filming_minutes_estimate": 45,
+  "editing_minutes_estimate": 20,
+  "difficulty": "medium",
+  "can_batch_film": false,
+  "shot_list": [
+   "Grocery aisle, propped phone, eye-contact-and-avocado beat (4 s)",
+   "Gym, low angle, posture beat (4 s)",
+   "Coffee line selfie, air-typing beat (4 s)",
+   "Grocery aisle again, fake phone call out loud (5 s)",
+   "Record the voiceover separately in the car, flat and anxious"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Four clips, hard cuts, no transitions. Persistent caption top-center. Voiceover over clips 1 to 3 only; clip 4 uses location audio. Blur any bystander face that ends up in frame. Subtitles for every line, small, lower third."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"Nobody here knows I have a job.\"",
+   "Alternate payoff: self-checkout: \"Unexpected item in bagging area.\""
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote if 48h views are at least 3x the trailing median and follows per 1,000 reached are top quartile; if views are low but comments say 'this is me', refilm with the self-checkout ending.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same inner voice at a family dinner when someone asks 'so are you still doing the video thing'",
+   "Same inner voice at the airport on a Wednesday with a laptop bag",
+   "Same inner voice when the neighbor sees him take out the trash at 11 am three days in a row"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 73,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 20,
+   "fit_with_alex_historical_winners": 13,
+   "follower_conversion_potential": 15,
+   "creative_execution_quality": 12,
+   "ease_of_production": 5,
+   "repeatability": 8
+  },
+  "rationale": "States his age and that he runs a company inside a joke at his own expense, which is the positioning the feed lacks. Needs three public locations, so it is slower to shoot than the desk pieces.",
+  "uncertainties": [
+   "Reference account has 2.7M followers, so its reach is partly distribution.",
+   "Filming in stores and a gym needs permission or discretion; bystanders must stay out of frame.",
+   "The loud phone call has to read as fake instantly, so the lock screen must be visible."
+  ]
+ },
+ "research_key": "A2-05"
+}

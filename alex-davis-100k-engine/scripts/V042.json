@@ -1,0 +1,162 @@
+{
+ "video_id": "V042",
+ "priority_rank": 16,
+ "scheduled_day": 6,
+ "production_batch": "Batch F: Out in public, street, collaborator",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "Moved to Florida so I can work from the beach",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@gmorg31",
+  "direct_video_url": "https://www.tiktok.com/@gmorg31/video/7675872536281812254",
+  "publication_date": "2026-08-19",
+  "views": 6600000,
+  "creator_followers": 41700,
+  "creator_median_views": 21600,
+  "outlier_multiple": 305.9,
+  "duration_seconds": 5,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music/sound: synth chord and snore effect, not identified as a named track"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"Wearing sunglasses on my flight so nobody can tell I'm sleeping\"",
+  "visual_hook": "A man in an airplane seat wearing a backward cap and oversized dark sunglasses, holding the edge of the glasses and looking at the camera.",
+  "narrative_structure": "One 5-second take. Text states a clever plan. For 3 seconds he looks pleased with it. In the last 2 seconds his own body ruins it: head snaps back, mouth open, snore sound effect.",
+  "viral_mechanism": "A stated plan that the same person disproves on camera within seconds. The text is the setup, the body is the punchline, and nothing has to be explained.",
+  "observed_evidence": "6.6M views, 306x the creator's 21.6K median, 41.7K followers. 0 cuts, no speech, one line of text for the full duration, a snore sound effect at 0:04. No CTA.",
+  "performance_hypothesis": "Hypothesis: at 5 seconds almost everyone who starts it finishes it, and the punchline lands so late that many watch twice. People tag the friend or partner who sleeps like that on flights.",
+  "why_this_format_fits_alex": "Closest possible match to his 3.6M plane-row Reel: a one-line 'hack' over a single silent shot. This version swaps in his Florida move and his laptop business, so it carries identity that the plane clip did not.",
+  "originality_changes": "Borrowed: one line stating a smart plan, then his own body proving it wrong in one take. New: the plan is working from the beach after moving to Florida, the failure is screen glare and a towel tent instead of falling asleep, and there is no snore effect or sunglasses gag."
+ },
+ "alex_adaptation": {
+  "concept": "Text announces the dream: he moved to Florida so he can work from the beach. He opens the laptop like a man who has won, discovers he cannot see the screen at all, and ends up typing blind under a beach towel.",
+  "target_audience": "Remote workers, freelancers, and anyone who has posted or envied a laptop-on-the-beach photo.",
+  "primary_emotion": "Smug, then instantly humbled",
+  "estimated_duration_seconds": 9,
+  "first_frame": "Alex in a beach chair on bright sand, closed laptop on his knees, ocean behind him, giving the camera a slow satisfied nod. Text is already on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Slow satisfied nod at the camera. He opens the laptop with a small flourish and cracks his knuckles. Face: a man whose life plan worked.",
+    "camera": "Phone on a short tripod in the sand, slightly low, medium shot, ocean in the background.",
+    "on_screen_text": "\"Moved to Florida so I can work from the beach\"",
+    "editing": "No cuts in the video. Text stays on for the full duration.",
+    "audio": "Breezy tropical instrumental from the Instagram library. Waves."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "He looks at the screen. Squints. Leans in until his nose nearly touches it. Tilts the lid back, forward, turns the whole laptop 90 degrees, shades it with one hand, then both. The smugness is gone by the second tilt.",
+    "camera": "Same shot.",
+    "on_screen_text": "Same text.",
+    "editing": "None.",
+    "audio": "Music keeps going, oblivious."
+   },
+   {
+    "start_second": 6,
+    "end_second": 9,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "He pulls a beach towel over his head and the laptop so he is a lumpy towel tent. Two seconds of the tent sitting there. One hand comes out, feels around for his drink, and pulls it inside.",
+    "camera": "Same shot.",
+    "on_screen_text": "Same text.",
+    "editing": "End on the hand disappearing into the tent, which cuts cleanly back to the first nod.",
+    "audio": "Muffled keyboard typing under the towel, mixed loud enough to hear over the music."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I run my business from a laptop so I moved somewhere I can work on the beach\"",
+   "\"Remote work hack: just move to Florida\"",
+   "\"Day 1 of working from the beach like the guys on Instagram\""
+  ],
+  "alternate_endings": [
+   "Instead of the towel, he gives up, shuts the laptop, and uses it as a sun shade over his face while lying back.",
+   "After the towel tent, a second line of text appears under the first: \"Update: I work from a Starbucks\""
+  ],
+  "caption": "Nobody tells you the sun is also at the beach.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Any Florida beach at midday, when glare is worst. Midday light makes the gag real.",
+  "props": [
+   "Beach chair",
+   "Laptop",
+   "Large beach towel",
+   "Drink in a cup",
+   "Short tripod"
+  ],
+  "wardrobe": "Swim trunks and a tee, or shirtless with sunglasses pushed up on his head.",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 10,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static medium shot, full 9-second action in a single take. Do 6 takes, vary how fast the smugness drops."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts. Text on from frame 1, upper third, two lines maximum. Add a recorded keyboard-typing sound under the towel at 6.0s. Trim so the last frame matches the opening pose for the loop. Keep sand out of the laptop: put it in a clear zip bag if needed, the bag will not read on camera."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"Remote work hack: just move to Florida\"",
+   "Alternate payoff: Second text line: 'Update: I work from a Starbucks'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2. Promote if 48h views reach 3x the trailing median and shares per 1,000 reached are top quartile; do not promote on views alone, and count it as a series only if follows per 1,000 are at or above median.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "\"Bought a standing desk so I'd be more productive\" then he is leaning on it asleep within 4 seconds",
+   "\"Taking calls from the car so I look professional\" then a drive-through speaker interrupts",
+   "\"Working from a coffee shop to focus\" then the blender starts every time he unmutes"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 82,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 24,
+   "fit_with_alex_historical_winners": 19,
+   "follower_conversion_potential": 10,
+   "creative_execution_quality": 12,
+   "ease_of_production": 8,
+   "repeatability": 9
+  },
+  "rationale": "Nearly identical grammar to his 3.6M Reel and to a 6.6M reference, and the gag is physical and true. It says less about his business than the acted pieces, so expect reach more than follows.",
+  "uncertainties": [
+   "Identity signal is light: 'run my business from a laptop' only appears in the alternate hook.",
+   "Needs a beach trip and a bright day.",
+   "Physical comedy has to read at phone size; the squint and tilts must be big."
+  ]
+ },
+ "research_key": "B-09"
+}

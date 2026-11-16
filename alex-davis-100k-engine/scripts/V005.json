@@ -1,0 +1,150 @@
+{
+ "video_id": "V005",
+ "priority_rank": 8,
+ "scheduled_day": 1,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "13.5M views on a parking lot, 115 on my business tutorial",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@coachbriton",
+  "direct_video_url": "https://www.instagram.com/reel/DdmzEKyh21Y",
+  "publication_date": "2026-09-22",
+  "views": 1900000,
+  "creator_followers": 1300,
+  "creator_median_views": 3600,
+  "outlier_multiple": 521.1,
+  "duration_seconds": 7.9,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music track: not identified by the watch pass (rap track, lyrics only)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"Being owed $76000 in invoices with $11 in the bank is an excitement most people never get to feel\"",
+  "visual_hook": "Wide static interior shot of a construction site. Two men on step ladders hold a drywall sheet to the ceiling while a third man in black lifts it overhead in the foreground.",
+  "narrative_structure": "One uncut 7-second shot of ordinary work. A single text line sits on screen the whole time. No setup, no reveal. The line itself is the joke: a painful business fact phrased as a privilege.",
+  "viral_mechanism": "Ironic reframe. The text describes a stressful cash-flow gap in the tone of a brag, while the picture shows the owner calmly doing manual labor. The specific numbers ($76000 owed, $11 in the bank) make it read as true.",
+  "observed_evidence": "1.9M views from a 1.3K-follower account, 521x the creator's 3.6K median. 0 cuts, 0 spoken words, music only, loops. No CTA.",
+  "performance_hypothesis": "Hypothesis: the line takes about 4 seconds to read on a 7-second clip, so most viewers finish it and the loop restarts before they scroll. Business owners send it to other owners with 'this is us', and non-owners comment asking if the numbers are real. The exact figures are what make people believe it.",
+  "why_this_format_fits_alex": "Same grammar as his two biggest Reels (Central Park 13.5M, plane row 3.6M): one shot, no speech, one line of text, readable with sound off. Unlike those, this version puts his job on screen, which the audit flagged as missing from every recent Reel.",
+  "originality_changes": "Borrowed: static shot of routine work plus one deadpan line that states a painful fact as a perk. New: the fact is Alex's own (13.5M plays on a parking-lot joke versus 115 plays on a business Reel, both from his public numbers), the setting is him filming alone, and the line is split into two cards with a one-word button."
+ },
+ "alex_adaptation": {
+  "concept": "Alex is seen through a static wide shot doing the unglamorous version of his job: alone in a room, talking with full energy to a phone on a tripod. The text states his two real extremes as if it were a flex.",
+  "target_audience": "Creators, freelancers and small-business owners who post content and know the feeling of the wrong video winning.",
+  "primary_emotion": "Amused recognition",
+  "estimated_duration_seconds": 8,
+  "first_frame": "Wide static shot of a plain room. Alex stands in front of a phone on a tripod with a ring light, mid-gesture, clearly performing to the phone. Both text lines are already on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 5,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Alex performs to the tripod phone with big hands and full presenter energy, as if delivering the most important business tip ever recorded. He does not look at the wide camera. Face: sincere, eyebrows up, nodding at his own point.",
+    "camera": "Second phone on a shelf or chair, wide, static, slightly off to the side so we see Alex in profile and the tripod he is talking to.",
+    "on_screen_text": "Line 1 (top): \"13.5M views on a joke about a parking lot.\"  Line 2 (below): \"115 views on my business tutorial.\"",
+    "editing": "No cuts. Both lines on screen from frame 1. White text, black outline, upper third.",
+    "audio": "Low-key instrumental from the Instagram library, something with a confident strut. No voice."
+   },
+   {
+    "start_second": 5,
+    "end_second": 8,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "He finishes the take, drops the presenter face instantly, walks to the tripod, checks the phone, gives one small defeated nod, and walks back to his mark to go again.",
+    "camera": "Same static wide.",
+    "on_screen_text": "Line 3 appears under the others: \"Thriving.\"",
+    "editing": "Line 3 pops in at 5.0s. Cut on him raising his hands to start the next take so it loops into the first frame.",
+    "audio": "Music continues. Loop point on the beat."
+   }
+  ],
+  "alternate_hooks": [
+   "Single line: \"Getting 13.5M views on a parking lot and 115 on my business is a feeling most people never get to have\"",
+   "\"I help brands go viral for a living. My most viral video is a parking lot.\"",
+   "\"23, own a content agency, peaked on a photo of a parking lot\""
+  ],
+  "alternate_endings": [
+   "No third line. At 5s he checks the phone, looks straight into the wide camera for one beat with a flat face, then goes back to his mark.",
+   "Line 3 reads \"Take 41.\" and he claps once to slate the next take."
+  ],
+  "caption": "The algorithm has a sense of humor. I'm 23 and I do this for a living.",
+  "call_to_action": "None on screen. The caption carries the identity line."
+ },
+ "production": {
+  "location": "Any plain room at home. A wall with nothing on it is better than a styled set.",
+  "props": [
+   "Tripod",
+   "Ring light",
+   "Second phone or camera for the wide shot"
+  ],
+  "wardrobe": "Plain tee, the same thing he wears in the business Reels.",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 10,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static wide, 20 seconds, of Alex performing to the tripod then checking the phone and resetting. Do 3 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Trim to 8.0s. Lines 1 and 2 on from frame 1, line 3 at 5.0s. End frame must match the first frame pose so the loop is clean. No captions, no zooms."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I help brands go viral for a living. My most viral video is a parking lot.\"",
+   "Alternate payoff: No third line, flat stare into the wide camera"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote if 48h views reach 3x the trailing median and follows per 1,000 reached land in the top quartile; if follows per 1,000 are 2x median at any view count above 500 reached, re-film with the second hook before promoting.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same shot, new true pair: \"2.8M on a skit I filmed in one take. 1,300 on the one that took two days.\"",
+   "Same shot at a client shoot: \"Got a gym a million views. My own gym video got 35.\" using only his own public numbers",
+   "Same shot in the Lexus: \"Posted 9 times this week. Median: 1,800 views. Career: content expert.\""
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 84,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 15,
+   "creative_execution_quality": 12,
+   "ease_of_production": 10,
+   "repeatability": 8
+  },
+  "rationale": "It is his proven silent one-shot format with his own verifiable numbers, and the numbers are odd enough to be believed. The weak point is that the picture is less striking than a doctored skyline.",
+  "uncertainties": [
+   "The 115 figure was read on 2026-11-16 from a Reel under 48 hours old. Check the current count and use the true number.",
+   "Whether a text joke about views travels outside the creator audience.",
+   "Reference is a single outlier from a 1.3K account.",
+   "The 115 figure was read on 2026-11-16 when that Reel (Dfx90CVPuaP) was under 48 hours old. Re-check the number on filming day and use the current one, or use another real low-performing business Reel."
+  ]
+ },
+ "research_key": "B-01"
+}

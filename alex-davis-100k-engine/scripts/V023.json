@@ -1,0 +1,172 @@
+{
+ "video_id": "V023",
+ "priority_rank": 24,
+ "scheduled_day": 4,
+ "production_batch": "Batch C: Car (Lexus) and parking lot",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Your client's video hits 1 million\" / the next morning",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@tobybrittan",
+  "direct_video_url": "https://www.instagram.com/reel/DfCyoK9N1qk",
+  "publication_date": "2026-10-29",
+  "views": 2100000,
+  "creator_followers": 21100,
+  "creator_median_views": 156500,
+  "outlier_multiple": 13.4,
+  "duration_seconds": 12.2,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No full sentence. Opens on an excited yell: \"Woohoo! Let's go! Ah! Woo!\" with on-screen text \"POV: You’re a business owner\".",
+  "visual_hook": "Close-up selfie inside a car at night: a man yelling with his mouth open in the dark.",
+  "narrative_structure": "Three seconds of euphoria under the first caption, one hard cut to \"Literally the next day…\" with a drained daytime face for about 8 seconds under a borrowed somber voiceover clip. One cut, 12.2 seconds.",
+  "viral_mechanism": "The cut is the joke: peak emotion to flat exhaustion with nothing in between. Two captions tell the story with sound off, and the same framing in both halves makes the contrast instant.",
+  "observed_evidence": "2.1M views, 13.4x a 156.5K median, 21.1K followers. 12.2 seconds, 1 cut, no CTA, no loop. The second half uses a dramatic voiceover from a film or TV source.",
+  "performance_hypothesis": "Hypothesis: owners tag business partners and comment their own 'next day'. The 13.4x multiple is modest, so this is a reliable relatable format rather than a breakout format.",
+  "why_this_format_fits_alex": "Two acting beats (mania, then deadness) with no dialogue plays to his performance background, and the first caption names what his agency sells: a million views. The Lexus is the natural set.",
+  "originality_changes": "Borrowed: euphoric night-car selfie, one hard cut to a drained next-day face, two captions. New: the trigger is a client's video hitting 1 million views, the second half is a client asking for 2 million, there is no borrowed voiceover clip, and the ending is a silent reaction to a text card."
+ },
+ "alex_adaptation": {
+  "concept": "Night: Alex celebrates alone in the Lexus because a client's video just hit a million views. Next morning, same seat: the client's reply is 'So 2 million next week?'",
+  "target_audience": "Agency owners, freelancers, social media managers, anyone with clients.",
+  "primary_emotion": "Shared exasperation",
+  "estimated_duration_seconds": 13,
+  "first_frame": "Night, inside the parked Lexus, selfie close-up of Alex mid-scream of joy, fist hitting the roof. Caption on screen.",
+  "first_spoken_line": "\"LET'S GO! One million! ONE MILLION!\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "LET'S GO! One million! ONE MILLION!",
+    "action": "Full-body celebration in the driver's seat: fist to the roof, shaking the steering wheel, pointing at his phone, laughing like he won a title.",
+    "camera": "Selfie, phone on a dash mount, night, interior light on.",
+    "on_screen_text": "POV: your client's video just hit 1 million views",
+    "editing": "Slight shake added in edit. Caption 1.",
+    "audio": "His real yelling. A hype track drops on frame 1 (royalty-free, stadium-anthem feel)."
+   },
+   {
+    "start_second": 4,
+    "end_second": 5,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Smash cut. Same seat, same framing, harsh morning light. He holds a gas-station coffee and stares at his phone. Face completely empty.",
+    "camera": "Same dash-mount framing so the two halves match exactly.",
+    "on_screen_text": "The next morning:",
+    "editing": "Hard cut. Music stops dead on the cut.",
+    "audio": "Silence. One text-message ding."
+   },
+   {
+    "start_second": 5,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He reads. Nothing moves except his eyes. A text card shows what he is reading.",
+    "camera": "Same shot.",
+    "on_screen_text": "The next morning: / Client: \"Love it. So 2 million next week?\"",
+    "editing": "The client line fades in under 'The next morning:' at 5.5 s, styled as a plain quote, not a fake screenshot.",
+    "audio": "Car ambience. Distant bird."
+   },
+   {
+    "start_second": 9,
+    "end_second": 13,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He slowly lowers the phone, looks through the windshield, takes one long sip of coffee, and types a reply with one thumb. Tiny forced smile while typing.",
+    "camera": "Same shot.",
+    "on_screen_text": "Client: \"Love it. So 2 million next week?\" / Me: \"Absolutely!\"",
+    "editing": "'Me: \"Absolutely!\"' appears at 11 s. Cut on the forced smile.",
+    "audio": "Sip sound. Keyboard tick sounds on the typing."
+   }
+  ],
+  "alternate_hooks": [
+   "Caption: \"POV: you run a content agency and the video finally hits\"",
+   "Caption: \"23, and my client's video just crossed a million\"",
+   "Open on the phone screen showing a view counter rolling to 1,000,000 (your own analytics mockup), then the scream."
+  ],
+  "alternate_endings": [
+   "Client text card reads: \"Nice. My nephew says he could've done that.\" Alex stares, then starts the car.",
+   "Client text card reads: \"Can we make it go viral again but with our logo bigger?\" He rests his forehead on the steering wheel; the horn sounds."
+  ],
+  "caption": "The goalposts have a motor. #agencylife",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Parked Lexus, once at night and once in the morning",
+  "props": [
+   "Phone dash mount",
+   "Second phone or the same phone as a prop",
+   "Gas-station coffee cup"
+  ],
+  "wardrobe": "Same hoodie in both halves so it reads as the next morning",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 15,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "Night: 6 s celebration, dash mount, interior light on",
+   "Morning: 12 s of reading, lowering phone, sip, one-thumb reply, same mount position (mark it with tape)"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Two clips, one hard cut at 4.0 s. Hype track for 0-4 s, then silence. Captions as plain text cards, never as a fake message screenshot. Match framing across the cut. Add ding at 4.0 s, sip at 10 s."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"23, and my client's video just crossed a million\"",
+   "Alternate payoff: \"Can we make it go viral again but with our logo bigger?\" (forehead on the horn)"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote if 48h views are at least 3x the trailing median and follows per 1,000 reached are top quartile; the reference was only 13.4x, so treat a below-median result as normal and try one alternate ending before dropping it.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "\"POV: you finally sign the dream client\" / the next morning: their 14-page brand guidelines",
+   "\"POV: you hit your follower goal\" / the next morning: the next goal",
+   "\"POV: the invoice gets paid on time\" / the next morning: \"quick revision\""
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 79,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 19,
+   "fit_with_alex_historical_winners": 15,
+   "follower_conversion_potential": 16,
+   "creative_execution_quality": 12,
+   "ease_of_production": 8,
+   "repeatability": 9
+  },
+  "rationale": "Says what his agency does in the first caption and gives him two contrasting acting beats in 13 seconds. The reference evidence is the weakest in this batch (13.4x), so expectations should be moderate.",
+  "uncertainties": [
+   "Lowest outlier multiple of the eight comedy references here.",
+   "The celebration must not be read as a real client result; it is a POV skit and names no client or number beyond the generic million.",
+   "Night and morning shoots must match framing or the cut loses its force."
+  ]
+ },
+ "research_key": "A2-11"
+}

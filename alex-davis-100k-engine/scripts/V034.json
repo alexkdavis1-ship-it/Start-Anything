@@ -1,0 +1,209 @@
+{
+ "video_id": "V034",
+ "priority_rank": 27,
+ "scheduled_day": 5,
+ "production_batch": "Batch G: Voiceover + b-roll and straight-to-camera",
+ "content_pillar": "Personal growth and comeback series",
+ "working_title": "Day N of the road to 100K: the daily public ledger",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@_mirrsyyy",
+  "direct_video_url": "https://www.tiktok.com/@_mirrsyyy/video/7691310658817707278",
+  "publication_date": "2026-09-30",
+  "views": 1200000,
+  "creator_followers": 11300,
+  "creator_median_views": 1800,
+  "outlier_multiple": 671.5,
+  "duration_seconds": 50,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "the on-screen payment date in the video (August 3, 2026) conflicts with the indexed post date; the index date is recorded"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Today is day 21 of paying off $55,000 in debt until I'm absolutely debt-free.\"",
+  "visual_hook": "Close-up selfie of a man in a black baseball cap and over-ear protective earmuffs, grey T-shirt, standing outdoors in front of a red brick building under an overcast sky.",
+  "narrative_structure": "Day number and the total goal in the first sentence. The same short identity recap every episode (job, family, side work). Yesterday's results converted into today's action, with screenshots as proof. A small surprise. A dated mini-goal. An end card with the remaining balance. About 50 seconds, word-by-word captions, a direct ask for engagement at the end.",
+  "viral_mechanism": "The first sentence is identical every day except the number, so returning viewers recognise it within one second and new viewers get the whole premise at once. Yesterday's audience response changes today's number, which gives viewers a reason to believe their watching matters.",
+  "observed_evidence": "1.2M views against a 1.8K median (671.5x) on an 11.3K-follower account. It is day 21, so 20 earlier episodes existed. The first sentence states the day count and the total. Screenshots appear on screen as receipts. The caption says \"I'm proud of what we have achieved in just 21 days\".",
+  "performance_hypothesis": "Hypothesis: the daily repetition is what produced the outlier. By day 21 the account had a small returning audience that watched in the first hour, and one episode with an unusual result broke out. Viewers follow to see the balance reach zero. The explicit engagement ask in the reference is not needed for that and is left out.",
+  "why_this_format_fits_alex": "He already has a public number (42,700), a target (100,000) and a date (Dec 31). He posts 4 to 10 Trial Reels daily, so there is a new result to report every morning. A daily ledger gives new viewers the reason to follow that his meme Reels lack, and it documents the rebuild after months of not posting.",
+  "originality_changes": "Borrowed: day count plus total goal in the first sentence, a fixed identity recap, yesterday's numbers shown with screenshots, a remaining-balance end card. New: the subject is follower growth, no money appears, there is no engagement-bait ask, the spoken script never changes so only the on-screen numbers are edited daily, and the tone is dry and self-mocking."
+ },
+ "alex_adaptation": {
+  "concept": "A 30-second daily episode, same words every day. Alex states the day, who he is and why he is being 'punished', then points at four screenshots: yesterday's best reel, worst reel, followers gained and followers left, and whether the current pace beats the deadline.",
+  "target_audience": "People who followed after one viral Reel, other creators, and anyone who likes a public countdown with a real chance of failure.",
+  "primary_emotion": "Suspense with a side of schadenfreude",
+  "estimated_duration_seconds": 30,
+  "first_frame": "Walking selfie outdoors in Florida morning light, Alex already talking. Pinned header at the top: \"Day {{REAL: day number}} · road to 100K by Dec 31\".",
+  "first_spoken_line": "Day {{REAL: day number}} of getting to a hundred thousand followers by December thirty-first.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "Day {{REAL: day number}} of getting to a hundred thousand followers by December thirty-first.",
+    "action": "Walking, brisk. Says it like a weather report. Eyes on the lens.",
+    "camera": "Walking selfie, arm's length, eye level. Same route every day.",
+    "on_screen_text": "Day {{REAL: day number}} · road to 100K by Dec 31 (pinned header, stays all video)",
+    "editing": "No intro frames. Header is on from frame 0.",
+    "audio": "Voice and street ambience only. No music."
+   },
+   {
+    "start_second": 4,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "I'm Alex, I'm twenty-three, I run a content agency, and I stopped posting for months. So this is the punishment.",
+    "action": "Counts the four facts on his fingers. Flat smile on \"punishment\".",
+    "camera": "Same shot, continuous.",
+    "on_screen_text": "Alex · 23 · runs a content agency · disappeared for months",
+    "editing": "Word-group captions in the lower third.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 9,
+    "end_second": 13,
+    "speaker": "Alex",
+    "dialogue": "Yesterday's best video did this.",
+    "action": "Points up and to his left with one finger, where the screenshot will sit. Eyebrows up if it is a good number, a slow nod if it is not.",
+    "camera": "Same shot. Leave empty space over his left shoulder for the graphic.",
+    "on_screen_text": "Screenshot of the reel's insights with the view count circled: {{REAL: best reel views}}",
+    "editing": "Screenshot slides in at 10s, holds 2.5s.",
+    "audio": "Small ding when the screenshot lands."
+   },
+   {
+    "start_second": 13,
+    "end_second": 17,
+    "speaker": "Alex",
+    "dialogue": "The worst one did this. We don't talk about it.",
+    "action": "Points to the other side without looking at it. On \"we don't talk about it\" he looks away from the lens for the first time.",
+    "camera": "Same shot.",
+    "on_screen_text": "Screenshot with the count circled: {{REAL: worst reel views}}",
+    "editing": "Screenshot slides in on the opposite side, shrinks away fast on \"we don't talk about it\".",
+    "audio": "Low thud."
+   },
+   {
+    "start_second": 17,
+    "end_second": 22,
+    "speaker": "Alex",
+    "dialogue": "Followers gained. Followers left.",
+    "action": "Two points, one per phrase, like a flight attendant showing exits.",
+    "camera": "Same shot.",
+    "on_screen_text": "+{{REAL: followers gained yesterday}} / {{REAL: followers still needed}} to go",
+    "editing": "Two number cards, first green, second white. Each lands on its phrase.",
+    "audio": "Two dings."
+   },
+   {
+    "start_second": 22,
+    "end_second": 27,
+    "speaker": "Alex",
+    "dialogue": "At this pace I get there on this date.",
+    "action": "Stops walking. Looks at where the date will appear, then back at the lens. If the date is after Dec 31, a long blink. If before, one eyebrow.",
+    "camera": "He stops, the frame settles.",
+    "on_screen_text": "Projected date at current pace: {{REAL: (followers needed ÷ average daily gain so far) days from today}}",
+    "editing": "Date types on letter by letter. Colour it red if after Dec 31, green if on or before.",
+    "audio": "Typewriter ticks."
+   },
+   {
+    "start_second": 27,
+    "end_second": 30,
+    "speaker": "Alex",
+    "dialogue": "So today I'm posting more. See you tomorrow.",
+    "action": "Already walking again before the sentence ends. Does not wave.",
+    "camera": "He walks, camera follows. Cut mid-stride.",
+    "on_screen_text": "see you tomorrow",
+    "editing": "Cut 0.3s after \"tomorrow\". No end card.",
+    "audio": "Voice only, hard out."
+   }
+  ],
+  "alternate_hooks": [
+   "Day {{REAL}}. I need fifty-seven thousand followers in six weeks and yesterday I got {{REAL}}.",
+   "Text-first open: a full-screen card \"{{REAL: followers still needed}} to go\" for one second, then the walking selfie.",
+   "I'm publicly trying to hit a hundred thousand followers by New Year's and I'm showing you every number, including the bad ones. Day {{REAL}}."
+  ],
+  "alternate_endings": [
+   "If the projected date is after Dec 31: \"That's {{REAL: number}} days late. So today I'm posting more.\" If it is before: \"That's early. I don't trust it. See you tomorrow.\"",
+   "Replace the last line with: \"If you want to watch this go wrong in real time, it's daily.\""
+  ],
+  "caption": "Day {{REAL: day number}}. Every number, including the bad ones.",
+  "call_to_action": "Soft, spoken: \"See you tomorrow.\" No like, comment or share request."
+ },
+ "production": {
+  "location": "The same outdoor walking route near home every morning.",
+  "props": [
+   "Phone",
+   "Yesterday's Reel insights screenshots (best and worst)",
+   "Profile screenshot with follower count"
+  ],
+  "wardrobe": "Whatever he is wearing that morning. Different each day so episodes are distinguishable on the grid.",
+  "people_required": 1,
+  "filming_minutes_estimate": 6,
+  "editing_minutes_estimate": 15,
+  "difficulty": "easy",
+  "can_batch_film": false,
+  "shot_list": [
+   "One continuous 30-second walking selfie with a stop at 22s. Film it twice, keep the better one."
+  ],
+  "b_roll": [
+   "Insights screenshot of yesterday's best reel",
+   "Insights screenshot of yesterday's worst reel",
+   "Profile header screenshot"
+  ],
+  "editor_instructions": "Build one template and duplicate it daily. Only five things change: the day number in the header, two screenshots, the gained and to-go numbers, and the projected date. Projected date = today + (followers still needed ÷ average followers gained per day since Day 1). Show it even when it is far past the deadline. Never crop the screenshots so tightly that the Reel cannot be identified. No music, so the daily repetition does not depend on a track."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I need fifty-seven thousand followers in six weeks and yesterday I got {{REAL}}.\"",
+   "Alternate payoff: the conditional 'days late / I don't trust it' line"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Evaluate after 5 consecutive daily episodes, not one: continue if the 5-episode average of follows per 1,000 reached is above the account median, and promote the single best episode each week.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Weekly recap every Sunday: the same ledger for seven days, with the best and worst reel of the week",
+   "A 'deadline day' episode on Dec 31 that states the final number, hit or miss",
+   "A halfway episode that reads out the three most accurate and three most wrong predictions from the comments"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 77,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 7,
+   "follower_conversion_potential": 19,
+   "creative_execution_quality": 11,
+   "ease_of_production": 9,
+   "repeatability": 10
+  },
+  "rationale": "The reference shows a small account breaking out on episode 21 of a daily numeric ledger, and Alex has the three ingredients it needs: a number, a target and a date. The spoken script is fixed, so the daily cost is one take and five graphic swaps. It is a spoken 30-second walking video, which is untested for him, and the reference's outlier arrived only after three weeks of repetition, so early episodes may be flat.",
+  "uncertainties": [
+   "The ledger needs five real numbers on screen each day; the spoken script needs only the day number. None are income figures.",
+   "Evidence is one TikTok account; the reference's own on-screen date conflicts with its indexed date.",
+   "If daily gains are small, the projected date will look absurd. That is usable as comedy only if he keeps posting it.",
+   "Overlaps in subject with the Day-1 launch video and the silent tally series. Run the launch once, then choose between this and the silent tally after 5 episodes of each."
+  ]
+ },
+ "research_key": "D-12"
+}

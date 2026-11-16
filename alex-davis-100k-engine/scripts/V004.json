@@ -1,0 +1,171 @@
+{
+ "video_id": "V004",
+ "priority_rank": 6,
+ "scheduled_day": 1,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "First call with the client who said \"we're super easy to work with\"",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@codedbylee",
+  "direct_video_url": "https://www.instagram.com/reel/DfZ9WdEM-fA",
+  "publication_date": "2026-11-06",
+  "views": 4400000,
+  "creator_followers": 347,
+  "creator_median_views": 3100,
+  "outlier_multiple": 1409.0,
+  "duration_seconds": 9.5,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "First audio (a voiceover clip, cutting in mid-thought): \"Touch base on February one by time.\" On-screen text for the whole video: \"When u finally land that big client and u get on ur first call and realise why they're a big client...\"",
+  "visual_hook": "A young man in a white long-sleeve polo and black over-ear headphones sits at a dark desk in front of an open laptop, left hand against his chin, with one centered block of text over the shot. White wall and a wooden door behind him.",
+  "narrative_structure": "One static take, 0 cuts, about 10 seconds. The caption gives the situation. A dense stream of corporate jargon plays as if from the call. He listens, taps his chin, nods, and answers with one word, \"Right.\"",
+  "viral_mechanism": "The caption supplies the context and the audio supplies the overwhelm, so the performer only has to under-react. The one-word reply is the punchline because it is what everyone does on a call they are not following.",
+  "observed_evidence": "4.4M views on an account with 347 followers, 1,409x its 3.1K median. No cuts, no music, a single caption. The walkthrough identifies the audio as a pre-existing viral sound that the creator did not write.",
+  "performance_hypothesis": "Hypothesis: at under 10 seconds with a long caption, people watch twice (once to read, once to listen), which lifts watch time above 100%. Service providers send it to the one colleague who sits on those calls with them.",
+  "why_this_format_fits_alex": "Sub-10-second, one shot, caption-led and face-driven is exactly the shape of his 13.5M and 3.6M Reels. This puts that shape on an agency situation.",
+  "originality_changes": "Borrowed: static shot, one caption, performer reacting to call audio with a tiny reply. New: the audio is written and recorded for this video (an approval chain that keeps growing), the caption is new, and the reaction is a muted scream followed by two cheerful words."
+ },
+ "alex_adaptation": {
+  "concept": "The client said they were easy to work with. On the first call they list who needs to approve every video. The list never ends. Alex mutes himself, silently loses it, unmutes and says \"Love that.\"",
+  "target_audience": "Freelancers, agency people, anyone who has waited on client approvals.",
+  "primary_emotion": "Recognition, the laugh of 'I have been on this exact call'.",
+  "estimated_duration_seconds": 11,
+  "first_frame": "Alex at his desk in over-ear headphones, laptop open, polite listening face, pen in hand. Centered caption already on screen.",
+  "first_spoken_line": "Client voice: \"So approvals are simple. It goes to me\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Client (Alex's voice, recorded separately, laptop-speaker filter)",
+    "dialogue": "So approvals are simple. It goes to me, then Deb,",
+    "action": "Alex nods along, writes 'me' and 'Deb' on a sticky note. Pleasant face.",
+    "camera": "Static, chest-up, laptop edge visible bottom of frame.",
+    "on_screen_text": "First call with the client who said \"we're super easy to work with\"",
+    "editing": "Caption stays for the entire video. No captions for speech except the final line.",
+    "audio": "Client voice through a thin laptop-speaker EQ. No music."
+   },
+   {
+    "start_second": 3,
+    "end_second": 7,
+    "speaker": "Client",
+    "dialogue": "then Deb's husband, he's not with the company but he has a great eye, then legal, then we all sleep on it,",
+    "action": "Alex stops writing at 'Deb's husband'. The pen hovers. His smile stays on but his eyes go dead. He slowly puts the pen down.",
+    "camera": "Same.",
+    "on_screen_text": "Same caption.",
+    "editing": "None.",
+    "audio": "Client voice continues without a breath."
+   },
+   {
+    "start_second": 7,
+    "end_second": 9,
+    "speaker": "Client",
+    "dialogue": "and then my daughter, she's fourteen, she gets TikTok,",
+    "action": "Alex reaches forward and taps one key (mute). He turns his head away from the laptop and does a full silent scream at the wall, fists clenched, two seconds, then snaps back to the polite face and taps the key again.",
+    "camera": "Same.",
+    "on_screen_text": "Same caption. Small red 'MUTED' tag appears top-left while he is muted.",
+    "editing": "'MUTED' tag on at 7.2s, off at 8.8s.",
+    "audio": "Client voice ducks to 30% while muted, returns to full when he unmutes."
+   },
+   {
+    "start_second": 9,
+    "end_second": 11,
+    "speaker": "Alex",
+    "dialogue": "Love that.",
+    "action": "Bright, warm, thumbs up to the laptop. Completely sincere voice. Hold the smile until the cut.",
+    "camera": "Same.",
+    "on_screen_text": "Love that.",
+    "editing": "Cut on the held smile so it loops back into the listening face.",
+    "audio": "Client starts the next sentence under the cut: \"And then if Deb\""
+   }
+  ],
+  "alternate_hooks": [
+   "Caption: \"Client: we move fast here.\" then smaller underneath: \"The approval process:\"",
+   "Caption: \"I asked one question: who signs off on the videos?\"",
+   "Caption: \"Day 1 with a new client. I'm 23. I was not ready.\""
+  ],
+  "alternate_endings": [
+   "Instead of 'Love that', Alex unmutes and asks sweetly, \"And does Deb's husband have an email?\"",
+   "He does not unmute. He stays muted, smiling and nodding, while the client keeps listing names and the caption changes to \"It has been 40 minutes.\""
+  ],
+  "caption": "Deb's husband had notes. #agencylife",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk",
+  "props": [
+   "Laptop",
+   "Over-ear headphones",
+   "Sticky notes and pen"
+  ],
+  "wardrobe": "Clean collared shirt, first-call-with-a-client presentable",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 15,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static 11-second take reacting to the pre-recorded client audio played out loud",
+   "Audio-only recording of the client lines in one breath, friendly and fast"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Record the client run-on first as one unbroken sentence. Thin it with a laptop-speaker EQ. The silent scream must be fully silent: mute Alex's mic track for those two seconds and let the ducked client voice carry. End the clip one frame after 'Love that' with the client's next words starting, so the loop feels like the call never ends."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I asked one question: who signs off on the videos?\"",
+   "Alternate payoff: stay muted, caption changes to 'It has been 40 minutes'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views are at least 3x the trailing median and shares per 1,000 reached are top quartile (this one is built to be sent); follows per 1,000 at 2x median at any view count means remake with the alternate captions.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same desk: \"Client: just a few small notes\" and the notes are read out as one endless sentence",
+   "\"Client said they have a clear vision\" and the audio is five contradictory adjectives",
+   "\"Client: we'll get you the footage by Friday\" told as a time-lapse of Alex ageing at the desk across four outfit changes"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 84,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 12,
+   "creative_execution_quality": 12,
+   "ease_of_production": 10,
+   "repeatability": 10
+  },
+  "rationale": "Closest structural match to his proven sub-10-second single-shot hits, with a physical beat (the muted scream) that reads with the sound off, and it uses audio he owns.",
+  "uncertainties": [
+   "The reference rode an existing popular sound; an original recording has no built-in familiarity",
+   "Identity is weak: nothing on screen says he runs an agency unless the alternate hook with his age is used",
+   "The muted scream has to be big enough to read on a phone and short enough to stay under 11 seconds"
+  ]
+ },
+ "research_key": "A1-03"
+}

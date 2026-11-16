@@ -1,0 +1,253 @@
+{
+ "video_id": "V015",
+ "priority_rank": 5,
+ "scheduled_day": 3,
+ "production_batch": "Batch B: Desk phone skits with wardrobe changes",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Say it slower.\" Three business owners hear themselves",
+ "original_reference": {
+  "platform": "YouTube Shorts",
+  "creator_handle": "Jamie Brindle",
+  "direct_video_url": "https://www.youtube.com/shorts/-1D9KJsMZng",
+  "publication_date": "2026-10-15",
+  "views": 2000000,
+  "creator_followers": 41600,
+  "creator_median_views": null,
+  "outlier_multiple": 844,
+  "duration_seconds": 60,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index",
+   "creator_median_views: the YouTube outlier tool returns only a breakout multiple (844x)",
+   "creator_followers is YouTube subscribers (41.6K)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"We thought we needed you, but we're just going to use AI for this.\"",
+  "visual_hook": "Medium close-up of a bearded man in round glasses and a grey zip-up jacket, looking slightly off camera and gesturing, labelled \"Client\".",
+  "narrative_structure": "60 seconds, 14 cuts, three mini-scenes. In each, the same actor plays a labelled Client (new outfit per scene) and a labelled Freelancer. The client opens with a common unfair ask and the freelancer answers calmly in a way that flips the status. In the third scene the freelancer's reply becomes a repeated line (\"Ask me again\") and the video ends on its second use.",
+  "viral_mechanism": "Wish fulfilment for freelancers: the reply they wish they had given. The on-screen role labels make every cut instantly readable, and the repeated closing line gives the last scene a rhythm the viewer can predict.",
+  "observed_evidence": "2M views, 844x breakout, 41.6K subscribers. Title is a share instruction: \"Send to a freelancer who's working too hard\". No music. Word-by-word captions. Outfit changes separate the scenes.",
+  "performance_hypothesis": "Hypothesis: the title tells viewers who to send it to, and freelancers forward it as a stand-in for what they cannot say to their own client. The repeated line is quotable, so it shows up in comments.",
+  "why_this_format_fits_alex": "Labelled one-man client dialogue is the grammar of his 2.8M skit, and three short scenes let him play three distinct characters, which is where his acting background shows.",
+  "originality_changes": "Borrowed: labels, one actor in two roles, three quick scenes, a repeated button line. New: the seller does not argue or win with policy. He says three words, \"Say it slower\", and the business owner defeats their own objection by repeating it. Scenarios are about content and marketing, and the third scene breaks the pattern."
+ },
+ "alex_adaptation": {
+  "concept": "Three business owners each give Alex a reason they do not need content. He answers every one with the same three words: \"Say it slower.\" Hearing their own sentence at half speed, each owner realises the problem. The third refuses to repeat it, and that is how Alex knows he has him.",
+  "target_audience": "Business owners who are on the fence about content, and the marketers who pitch them.",
+  "primary_emotion": "Satisfaction, the 'he got him' feeling.",
+  "estimated_duration_seconds": 38,
+  "first_frame": "Alex as Owner 1: quarter-zip pullover, reading glasses pushed up on his head, arms crossed, mid-sentence. Label top-left: \"Business owner\".",
+  "first_spoken_line": "We want it to feel totally natural, so we wrote a script, and our CEO's going to read it off a screen.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 5,
+    "speaker": "Business owner 1 (Alex, quarter-zip, glasses on head)",
+    "dialogue": "We want it to feel totally natural, so we wrote a script, and our CEO's going to read it off a screen.",
+    "action": "Confident, pleased with himself, nodding at his own plan.",
+    "camera": "Chest-up, angled 30 degrees to camera-right.",
+    "on_screen_text": "Business owner",
+    "editing": "Word-by-word captions throughout. Label on for each character.",
+    "audio": "Voice only. No music."
+   },
+   {
+    "start_second": 5,
+    "end_second": 7,
+    "speaker": "Alex (plain black tee)",
+    "dialogue": "Say it slower.",
+    "action": "Still, kind, almost gentle. Slight head tilt.",
+    "camera": "Chest-up, angled 30 degrees to camera-left so the two shots face each other.",
+    "on_screen_text": "Me",
+    "editing": "Hard cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 7,
+    "end_second": 13,
+    "speaker": "Business owner 1",
+    "dialogue": "We want it... natural. So we wrote... a script. And he'll read it... off a... oh.",
+    "action": "Starts patient, like he is humouring a kid. Slows on each chunk. On 'off a' his face drops. 'Oh' is small.",
+    "camera": "Owner angle.",
+    "on_screen_text": "Business owner",
+    "editing": "Add a 4% push-in across the line.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 13,
+    "end_second": 18,
+    "speaker": "Business owner 2 (Alex, polo, lanyard, holding a coffee)",
+    "dialogue": "We don't have budget for content right now. It's all going to ads. The ads aren't really working because nobody watches them.",
+    "action": "Brisk, a little stressed, checks watch.",
+    "camera": "Owner angle.",
+    "on_screen_text": "Business owner",
+    "editing": "Hard cut to new outfit.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 18,
+    "end_second": 19,
+    "speaker": "Alex",
+    "dialogue": "Say it slower.",
+    "action": "Exactly the same delivery as the first time.",
+    "camera": "Alex angle.",
+    "on_screen_text": "Me",
+    "editing": "Hard cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 19,
+    "end_second": 25,
+    "speaker": "Business owner 2",
+    "dialogue": "No budget for content. Because it's going to ads. That nobody... watches... Hm.",
+    "action": "Annoyed at first. Slows. Looks into his coffee on 'Hm'.",
+    "camera": "Owner angle.",
+    "on_screen_text": "Business owner",
+    "editing": "Push-in.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 25,
+    "end_second": 30,
+    "speaker": "Business owner 3 (Alex, hoodie, backwards cap, leaning back)",
+    "dialogue": "My competitor posts every single day and he's taking all my customers. But I don't think social media works.",
+    "action": "Leaning back, dismissive, waving a hand.",
+    "camera": "Owner angle.",
+    "on_screen_text": "Business owner",
+    "editing": "Hard cut to new outfit.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 30,
+    "end_second": 31,
+    "speaker": "Alex",
+    "dialogue": "Say it slower.",
+    "action": "Same again.",
+    "camera": "Alex angle.",
+    "on_screen_text": "Me",
+    "editing": "Hard cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 31,
+    "end_second": 33,
+    "speaker": "Business owner 3",
+    "dialogue": "No.",
+    "action": "Immediate. Arms cross. He knows what happens if he does.",
+    "camera": "Owner angle.",
+    "on_screen_text": "Business owner",
+    "editing": "Hard cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 33,
+    "end_second": 36,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Alex says nothing. He just waits, eyebrows slightly raised, the smallest smile.",
+    "camera": "Alex angle.",
+    "on_screen_text": "Me",
+    "editing": "Hold the silence for the full three seconds.",
+    "audio": "Silence."
+   },
+   {
+    "start_second": 36,
+    "end_second": 38,
+    "speaker": "Business owner 3",
+    "dialogue": "Just send the contract.",
+    "action": "Mutters it fast, looking at the floor, already reaching for his phone.",
+    "camera": "Owner angle.",
+    "on_screen_text": "Business owner",
+    "editing": "Cut to black on the last word.",
+    "audio": "Voice only."
+   }
+  ],
+  "alternate_hooks": [
+   "Text for the first 2 seconds: \"The only sales script I use is three words\"",
+   "Open on the third owner (\"My competitor posts every day and takes all my customers, but I don't think social media works\") and run the scenes in reverse order of length",
+   "Text: \"Send this to a business owner who 'doesn't need content'\""
+  ],
+  "alternate_endings": [
+   "Owner 3 gives in and says it slowly, gets to \"taking... all... my\" and stops. Cut to Alex already holding out a pen.",
+   "After 'Just send the contract', a fourth person appears labelled \"My mom\": \"I still don't understand what your job is.\" Alex: \"Say it slower.\" Mom: \"No, you say it slower.\" Alex has no answer."
+  ],
+  "caption": "Works every time. Almost.",
+  "call_to_action": "None on screen."
+ },
+ "production": {
+  "location": "One wall at home or the office, two marks on the floor for the two angles",
+  "props": [
+   "Reading glasses",
+   "Lanyard",
+   "Coffee cup",
+   "Backwards cap"
+  ],
+  "wardrobe": "Four looks: black tee (Me), quarter-zip, polo with lanyard, hoodie with cap",
+  "people_required": 1,
+  "filming_minutes_estimate": 35,
+  "editing_minutes_estimate": 40,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Alex angle: 'Say it slower' three times plus the 3-second silent wait, all in one sitting",
+   "Owner 1: both lines",
+   "Owner 2: both lines",
+   "Owner 3: all three lines"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Film all of 'Me' first without moving the camera so the three 'Say it slower' reads match exactly. Cut tight: no air before owner lines. Add a slow push-in only on the three 'slower' repeats. No music. Do not shorten the silent wait at 33 to 36 seconds; it is the laugh."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: text 'The only sales script I use is three words'",
+   "Alternate payoff: the mom tag where Alex gets the line used on him"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views are at least 3x the trailing median and follows per 1,000 reached are top quartile; this is a catchphrase format, so if comments quote 'say it slower' make the sequel regardless of views.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "'Say it slower' with three creators explaining why they do not post consistently",
+   "'Say it slower' with three friends explaining why they have not quit the job they hate",
+   "'Say it slower' where a client uses it on Alex after he explains why his own posting fell off for months"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 85,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 18,
+   "follower_conversion_potential": 17,
+   "creative_execution_quality": 13,
+   "ease_of_production": 5,
+   "repeatability": 10
+  },
+  "rationale": "A repeatable three-word device that sells his service without a pitch, three characters for his acting, and a pattern break in scene three so the ending is not predictable.",
+  "uncertainties": [
+   "Four wardrobe looks and about ten cuts make this one of the slower skits to produce",
+   "The 'slower' repeats depend on timing; rushed, they are not funny",
+   "The hook is dialogue, so the first 2 seconds are weaker with sound off than his silent formats"
+  ]
+ },
+ "research_key": "A1-05"
+}

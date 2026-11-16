@@ -1,8 +1,10 @@
 {
- "ref_key": "D-09",
+ "video_id": "V008",
+ "priority_rank": 11,
+ "scheduled_day": 2,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
  "content_pillar": "Personal growth and comeback series",
  "working_title": "Day 1 of posting every day until 100K (whiteboard math)",
- "batch_hint": "A",
  "original_reference": {
   "platform": "Instagram",
   "creator_handle": "@elisedanielbags",
@@ -95,7 +97,7 @@
     "start_second": 22,
     "end_second": 27,
     "speaker": "Alex",
-    "dialogue": "So I wrote fifty videos this week. All of them are getting posted.",
+    "dialogue": "So I've got fifty videos scripted. All of them are getting posted.",
     "action": "Picks up a stapled stack of printed pages from the tray and fans it at the lens so the numbered list is visible, then drops it on the floor with a thud.",
     "camera": "Same shot; he brings the pages within a foot of the lens for one second.",
     "on_screen_text": "Header stays.",
@@ -171,14 +173,17 @@
    "Day 15: halfway check where the audience's most-liked comment picks one video he has to make"
   ]
  },
- "rubric": {
-  "fit_with_alex_historical_winners": 13,
-  "follower_conversion_potential": 19,
-  "creative_execution_quality": 12,
-  "ease_of_production": 9,
-  "repeatability": 10
- },
  "creative_confidence": {
+  "score_out_of_100": 83,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 20,
+   "fit_with_alex_historical_winners": 13,
+   "follower_conversion_potential": 19,
+   "creative_execution_quality": 12,
+   "ease_of_production": 9,
+   "repeatability": 10
+  },
   "rationale": "Gives strangers an explicit reason to follow (a dated, checkable bet), reuses his own proven whiteboard prop, and creates a daily series with a built-in end card. The 6.0M reference came from an account with a physical product and a famous goal; a follower-count goal is less visual.",
   "uncertainties": [
    "A follower goal is less tangible than a product demo; the whiteboard math has to carry the middle.",
@@ -186,5 +191,6 @@
    "Committing to a daily series in public raises the cost of missing a day.",
    "'I wrote fifty videos this week' is true only once this 50-script package is in hand; keep the line only if all 50 will be posted."
   ]
- }
+ },
+ "research_key": "D-09"
 }

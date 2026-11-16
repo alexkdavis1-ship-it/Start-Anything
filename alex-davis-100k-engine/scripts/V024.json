@@ -1,0 +1,192 @@
+{
+ "video_id": "V024",
+ "priority_rank": 25,
+ "scheduled_day": 4,
+ "production_batch": "Batch C: Car (Lexus) and parking lot",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "\"The worst thing that can happen to a video is the owner liking it\" (pinned-text opinion, one take in the car)",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@deanwlin",
+  "direct_video_url": "https://www.tiktok.com/@deanwlin/video/7700571991966780703",
+  "publication_date": "2026-10-25",
+  "views": 5500000,
+  "creator_followers": 181400,
+  "creator_median_views": 13400,
+  "outlier_multiple": 411.8,
+  "duration_seconds": 34,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"And if you are ever ambitious and a creative, I hate to be the one to say this, or tell you this...\"",
+  "visual_hook": "Medium selfie of a man in a grey tank top at home, hand behind his head, already mid-thought. The full opinion is pinned as static text in the upper-middle of the frame from the first frame.",
+  "narrative_structure": "The whole claim is readable on screen at second zero. The speech delays it with a reluctant wind-up, states it at 0:04-0:10, laughs, gives the reasoning as a chain of 'and then', and ends on a loud laugh and a quiet 'Yeah.'",
+  "viral_mechanism": "The viewer agrees or disagrees with the pinned sentence before he finishes saying it, then stays to hear the justification. The laugh at the end releases the tension and makes a harsh claim feel friendly.",
+  "observed_evidence": "5.5M views, 411.8x the creator's 13.4K median, 34s, zero cuts, no music, no CTA. One static line of text for the entire video.",
+  "performance_hypothesis": "Hypothesis: a blunt sentence about a group the viewer belongs to produces 'this happened to me' comments and sends to one specific person. No music and one take make it feel unplanned, which lowers resistance to the opinion.",
+  "why_this_format_fits_alex": "He holds a real, defensible position from agency work that owners and creators will both argue about. It is one take in the Lexus with no edit, and his acting carries the wind-up and the laugh. It also states his job in the first ten seconds.",
+  "originality_changes": "Borrowed: opinion pinned as text for the full video, reluctant wind-up, single unbroken take, laugh as the button. New: the opinion, every line, the car setting, and the 'make the logo bigger' closer."
+ },
+ "alex_adaptation": {
+  "concept": "One unbroken selfie take in the parked Lexus. The opinion is pinned on screen the whole time: business videos fail at the moment the owner approves them, because owners approve the version that flatters the business and viewers scroll past that version.",
+  "target_audience": "Business owners, marketers, freelancers and editors who have had a good idea approved into a boring one.",
+  "primary_emotion": "Recognition, with some irritation from owners",
+  "estimated_duration_seconds": 32,
+  "first_frame": "Alex in the driver's seat, parked, phone on the dash mount, looking out the windshield and exhaling before he turns to the lens. Pinned text already visible.",
+  "first_spoken_line": "I don't want to be the 23-year-old who says this to business owners, but somebody has to.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "I don't want to be the 23-year-old who says this to business owners, but somebody has to.",
+    "action": "Exhales, rubs the back of his neck, turns from the windshield to the lens. Half-smile of someone about to get in trouble.",
+    "camera": "Phone on dash mount, chest-up selfie, daylight, car parked",
+    "on_screen_text": "the worst thing that can happen to a video is the owner liking it",
+    "editing": "Pinned text sits in the upper-middle of the frame for the entire video. No captions, no cuts.",
+    "audio": "His voice only. No music."
+   },
+   {
+    "start_second": 4,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "The worst thing that can happen to your video is you liking it.",
+    "action": "Points at the lens on 'you'. Then leans back and lets out one short laugh at how that sounds.",
+    "camera": "Same",
+    "on_screen_text": "(pinned text stays)",
+    "editing": "None",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 9,
+    "end_second": 16,
+    "speaker": "Alex",
+    "dialogue": "I make content for brands. That's the job. And the video the owner loves is always the same video. Logo's huge. Everybody's smiling. Nobody's confused.",
+    "action": "Counts the three things off on his fingers, each one a little more tired than the last.",
+    "camera": "Same",
+    "on_screen_text": "(pinned text stays)",
+    "editing": "None",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 16,
+    "end_second": 22,
+    "speaker": "Alex",
+    "dialogue": "That's an ad. People don't hate you. They just scroll ads.",
+    "action": "Flat, matter-of-fact. Small shake of the head on 'they just scroll'.",
+    "camera": "Same",
+    "on_screen_text": "(pinned text stays)",
+    "editing": "None",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 22,
+    "end_second": 28,
+    "speaker": "Alex",
+    "dialogue": "The one that works is the one where you watch it and go, we can't post that. That's the one. Every time.",
+    "action": "Does a quick impression of the owner on 'we can't post that': chin tucked, eyebrows up, pushing an invisible phone away.",
+    "camera": "Same",
+    "on_screen_text": "(pinned text stays)",
+    "editing": "None",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 28,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "And then they go, okay, but can you make the logo bigger.",
+    "action": "Says it in the owner voice again, holds a straight face for one beat, then breaks into a real, wheezing laugh and looks out the side window. Quiet 'Yep.' at the very end.",
+    "camera": "Same, he leans toward the lens on the laugh",
+    "on_screen_text": "(pinned text stays)",
+    "editing": "Cut one second into the laugh, right after 'Yep.'",
+    "audio": "Voice only"
+   }
+  ],
+  "alternate_hooks": [
+   "If you own a business, this is going to annoy you, and I'm fine with that.",
+   "Every video I've made that worked, somebody tried to stop me from posting.",
+   "Your favorite video of your own business is the worst one. Let me explain."
+  ],
+  "alternate_endings": [
+   "After 'Every time.': 'I'm 23. Convincing someone twice my age to post the video they hate is the entire job.' Small shrug, cut.",
+   "After the logo line he says nothing, just slowly pinches two fingers apart like zooming in on a logo, staring at the lens, cut."
+  ],
+  "caption": "Said with love. Mostly.",
+  "call_to_action": "None"
+ },
+ "production": {
+  "location": "Parked Lexus, daytime, engine off for clean audio",
+  "props": [
+   "Phone",
+   "Dash or vent phone mount"
+  ],
+  "wardrobe": "Plain t-shirt or the shirt he wears to client shoots",
+  "people_required": 1,
+  "filming_minutes_estimate": 10,
+  "editing_minutes_estimate": 8,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous 32-second take; record four to five full takes and pick the one with the most natural laugh"
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts, no music, no auto-captions. Add only the pinned sentence, upper-middle, small enough not to cover his face. If the laugh is not real in any take, use alternate ending 1 instead of faking it. Do not name or describe any real client."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'Every video I've made that worked, somebody tried to stop me from posting.'",
+   "Alternate payoff: Silent logo-zoom pinch"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and comments are above his median rate; if comments are mostly owners disagreeing, promote anyway, since that argument is the distribution.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Pinned: 'if your video needs the caption to make sense, it's a bad video'",
+   "Pinned: 'your followers are the worst people to test a new idea on' (ties to Trial Reels)",
+   "Pinned: 'a video with 2,000 views that got you a customer beat the one with 2 million'"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 79,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 10,
+   "follower_conversion_potential": 16,
+   "creative_execution_quality": 12,
+   "ease_of_production": 10,
+   "repeatability": 9
+  },
+  "rationale": "A real position from his work, delivered with character, in one take. It names his job and age inside ten seconds. Talking-head opinion is not one of his proven formats, and it only works if the laugh and the owner impression land.",
+  "uncertainties": [
+   "Spoken one-take opinion is untested for him",
+   "Depends on a natural laugh; a forced one will read as copying the format",
+   "Some owners will take offense; that is expected and should not be softened",
+   "32 seconds with no cuts and no captions loses sound-off viewers except for the pinned line"
+  ]
+ },
+ "research_key": "C-05"
+}

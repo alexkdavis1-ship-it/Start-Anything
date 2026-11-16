@@ -1,0 +1,238 @@
+{
+ "video_id": "V046",
+ "priority_rank": 43,
+ "scheduled_day": 7,
+ "production_batch": "Batch F: Out in public, street, collaborator",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "Can I get a local business to say yes to a free video before the ice in this coffee melts?",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@charleshayes.png",
+  "direct_video_url": "https://www.instagram.com/reel/Dc_4XF3hT-b",
+  "publication_date": "2026-09-07",
+  "views": 6100000,
+  "creator_followers": 118900,
+  "creator_median_views": 286900,
+  "outlier_multiple": 21.1,
+  "duration_seconds": 129.9,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Y'all think I can start an entire clothing brand before my train ends?\"",
+  "visual_hook": "Low-angle selfie of a young man outside beside a passenger train, holding a small wireless mic with a fuzzy windscreen.",
+  "narrative_structure": "A business task bounded by a real-world clock, an on-screen countdown, three labelled steps (STEP 1/3, 2/3, 3/3), narration that names its own story beats, and a 'follow to see if I make any money' close.",
+  "viral_mechanism": "The deadline is physical and outside the creator's control, so the viewer can judge progress against the clock. The three-step counter tells the viewer how much is left, which holds them through a long video.",
+  "observed_evidence": "6.1M views, 21.1x the creator's 286.9K median, 129.9s, about 37 cuts. Countdown timestamps on screen throughout. Step cards. A follow CTA tied to an unresolved outcome.",
+  "performance_hypothesis": "Hypothesis: people stay because a visible clock plus 'step 2 of 3' makes quitting feel like leaving before the result, and the open outcome gives a concrete reason to follow. Comments are likely predictions and advice.",
+  "why_this_format_fits_alex": "His only YouTube breakout was a real challenge with an outcome (saxophone in one day, 30x his median). Pitching a business is his actual job, so the challenge demonstrates the agency without a pitch. Florida heat gives him a clock nobody else has.",
+  "originality_changes": "Borrowed: a task raced against a physical clock, three on-screen steps, an honest open result. New: the clock is melting ice in Florida, the task is landing a yes from a real business for a free video, the narration is his, and the video is cut to about a minute."
+ },
+ "alex_adaptation": {
+  "concept": "Alex buys an iced coffee, sets it on the hood of the Lexus in the Florida sun, and has until the ice is gone to walk a strip of shops and get one owner to agree to let him make them a free video. Real attempts, real answers, and the result is shown either way.",
+  "target_audience": "People who like real challenges with a result; aspiring freelancers and agency owners; local business owners.",
+  "primary_emotion": "Suspense with secondhand awkwardness",
+  "estimated_duration_seconds": 60,
+  "first_frame": "Iced coffee sitting on the hood of the Lexus in direct sun, Alex's face low in the corner of the selfie frame, a strip of storefronts behind him.",
+  "first_spoken_line": "I have until the ice in this coffee melts to get one business on this street to say yes.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 5,
+    "speaker": "Alex",
+    "dialogue": "I have until the ice in this coffee melts to get one business on this street to say yes.",
+    "action": "Sets the cup down on the hood, taps the lid, already walking backwards away from it. Bright, slightly out of breath energy.",
+    "camera": "Selfie, low angle, cup and storefronts both in frame",
+    "on_screen_text": "until the ice melts: get ONE yes",
+    "editing": "Ice-cube icon timer appears top right and stays for the whole video",
+    "audio": "Live voice through a clip-on mic, street sound"
+   },
+   {
+    "start_second": 5,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "I'm 23, I make videos for brands, and I moved to Florida recently, so nobody here knows me. The offer is one free video. That's it.",
+    "action": "Walking fast toward the shops, talking sideways to the phone.",
+    "camera": "Walking selfie",
+    "on_screen_text": "STEP 1/3: PICK A DOOR",
+    "editing": "Step card slides in",
+    "audio": "Live voice"
+   },
+   {
+    "start_second": 10,
+    "end_second": 18,
+    "speaker": "Alex",
+    "dialogue": "Hi, are you the owner? I'm Alex. I make short videos for businesses. I'd like to make one for you today, for free, and you only post it if you like it. I'm filming this for my page. Is that okay?",
+    "action": "Inside or at the door of shop one. Open posture, phone held low so it is not in their face. This is the full pitch, said the same way every time.",
+    "camera": "Phone at chest height pointed at Alex, the owner only in frame if they said yes to being filmed",
+    "on_screen_text": "STEP 2/3: THE PITCH",
+    "editing": "Speed-ramp the walk up to the door, normal speed for the pitch",
+    "audio": "Live voice"
+   },
+   {
+    "start_second": 18,
+    "end_second": 24,
+    "speaker": "Business owner 1 (real, unscripted)",
+    "dialogue": "[unscripted answer]",
+    "action": "Alex listens without interrupting. If it is a no: nods, 'No problem, thank you', and leaves. Keep his face on the way out, that reaction is the content.",
+    "camera": "Same. If no consent to film them, hold on Alex's face and subtitle their words with their permission, or summarize in text.",
+    "on_screen_text": "door 1: [their answer in 4 words or fewer]",
+    "editing": "Cut on the answer",
+    "audio": "Live audio"
+   },
+   {
+    "start_second": 24,
+    "end_second": 30,
+    "speaker": "Alex",
+    "dialogue": "And that's what we call the rising conflict.",
+    "action": "Cut to the coffee on the hood: visibly less ice. Alex leans into frame next to it, looks at the cup, looks at the lens.",
+    "camera": "Static shot of the cup, Alex enters frame",
+    "on_screen_text": "ice check: [honest description, e.g. 'half gone']",
+    "editing": "Insert shot. Timer icon shrinks.",
+    "audio": "Live voice"
+   },
+   {
+    "start_second": 30,
+    "end_second": 40,
+    "speaker": "Alex",
+    "dialogue": "Hi, are you the owner? I'm Alex. Free video, today, you only post it if you like it.",
+    "action": "Doors two and three, same pitch, cut tighter each time. Show every real answer, including the ones where the owner is not in.",
+    "camera": "Same chest-height framing",
+    "on_screen_text": "door 2: [answer] / door 3: [answer]",
+    "editing": "Quick cuts, about three seconds per door",
+    "audio": "Live audio"
+   },
+   {
+    "start_second": 40,
+    "end_second": 46,
+    "speaker": "Alex",
+    "dialogue": "Okay. The ice is basically a rumor at this point.",
+    "action": "Back at the car. Picks up the cup, swirls it, holds it to the lens so the viewer can see what is left.",
+    "camera": "Close-up on the cup held up to the sun",
+    "on_screen_text": "STEP 3/3: LAST DOOR",
+    "editing": "Step card",
+    "audio": "Live voice"
+   },
+   {
+    "start_second": 46,
+    "end_second": 54,
+    "speaker": "Alex",
+    "dialogue": "IF A YES HAPPENED: She said yes. I have never been this happy about a smoothie shop. IF NO YES HAPPENED: Five doors. Zero yeses. One person asked if I was selling solar.",
+    "action": "Use whichever is true. Yes version: disbelieving grin, small fist pump kept low. No version: sits on the curb next to the watery coffee, deadpan.",
+    "camera": "Yes version: selfie outside the shop. No version: wide shot, curb, cup beside him.",
+    "on_screen_text": "YES: 'door [N] said YES' / NO: '0 for [N]'",
+    "editing": "Hold on his face for a beat before the line",
+    "audio": "Live voice. No music sting."
+   },
+   {
+    "start_second": 54,
+    "end_second": 60,
+    "speaker": "Alex",
+    "dialogue": "IF YES: I'm making their video tomorrow. I'll post it here so you can tell me if it's any good. IF NO: I'm coming back tomorrow with a bigger coffee.",
+    "action": "Drinks the melted coffee, winces slightly, keeps eye contact.",
+    "camera": "Selfie, cup in hand",
+    "on_screen_text": "part 2 tomorrow",
+    "editing": "End on the sip. No outro.",
+    "audio": "Live voice"
+   }
+  ],
+  "alternate_hooks": [
+   "I moved to Florida, I know nobody, and I'm about to ask five strangers for a favor on camera.",
+   "This coffee is my deadline. When the ice is gone, I'm done.",
+   "Watch a 23-year-old get told no by small businesses in real time."
+  ],
+  "alternate_endings": [
+   "Yes version: end inside the shop with the owner (with consent) saying in their own words what they want the video to be about, then cut.",
+   "No version: he hands the watery coffee to the camera: 'You hold this. I'm going back in.' Cut as he walks to door one again."
+  ],
+  "caption": "One free video. One street. One melting coffee. Part 2 tomorrow.",
+  "call_to_action": "'Part 2 tomorrow.' Only promise it if he will post the follow-up within 24 hours."
+ },
+ "production": {
+  "location": "A walkable strip of independent shops in his Florida area (gym, smoothie bar, barber, boutique), Lexus parked in sun nearby",
+  "props": [
+   "Iced coffee in a clear cup",
+   "Clip-on wireless mic",
+   "Phone",
+   "Lexus hood"
+  ],
+  "wardrobe": "Clean t-shirt, shorts, nothing that looks like a salesman",
+  "people_required": 1,
+  "filming_minutes_estimate": 60,
+  "editing_minutes_estimate": 75,
+  "difficulty": "hard",
+  "can_batch_film": false,
+  "shot_list": [
+   "Cup on hood with storefronts behind",
+   "Walking selfie intro",
+   "Pitch at each door (minimum 5 doors)",
+   "Ice-check insert after every second door",
+   "Last-door approach",
+   "Result shot (outside shop or on curb)",
+   "Final sip"
+  ],
+  "b_roll": [
+   "Time-lapse of the cup on the hood from a second phone if one is available",
+   "Storefront signs (exteriors only)",
+   "His shoes walking between doors"
+  ],
+  "editor_instructions": "Nothing in this video is staged. Ask for the owner, say the consent line every time, and blur or cut anyone who did not agree to be on camera. Keep to five doors maximum so it stays under an hour. Use the real answers as the on-screen 'door N' text in four words or fewer. Use only the true outcome branch in rows 46-60 and delete the other. The ice timer is a simple shrinking icon, not a fake clock. If a business says yes, the Part 2 video must actually get made."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'I moved to Florida, I know nobody, and I'm about to ask five strangers for a favor on camera.'",
+   "Alternate payoff: He goes back in for a second round"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median, and because this is a two-part series, promote it regardless of views if follows per 1,000 reached is at least 2x his median.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Part 2: the free video he made for the business that said yes, with the owner's reaction",
+   "Same challenge at gyms only, since gyms are a niche he already works in",
+   "Reverse version: he has until the ice melts to get a stranger to explain what they think he does for work"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 69,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 20,
+   "fit_with_alex_historical_winners": 9,
+   "follower_conversion_potential": 19,
+   "creative_execution_quality": 12,
+   "ease_of_production": 2,
+   "repeatability": 7
+  },
+  "rationale": "Highest follow motivation in the marketing pillar: it shows his job, his age, his move, and leaves an open result. It is also the hardest shoot here: public filming, real rejection, and a 60-second edit, and the outcome is out of his control.",
+  "uncertainties": [
+   "Outcome is unknown; the script has lines for both results and only the true one may be used",
+   "Owners may refuse to be filmed; the plan covers that with face-on-Alex framing",
+   "A 60-second multi-cut video is a new length for him",
+   "Ice may melt faster or slower than the walk; that is the point, do not fake it",
+   "The interviewee lines cannot be scripted"
+  ]
+ },
+ "research_key": "C-03"
+}

@@ -1,0 +1,248 @@
+{
+ "video_id": "V048",
+ "priority_rank": 48,
+ "scheduled_day": 7,
+ "production_batch": "Batch F: Out in public, street, collaborator",
+ "content_pillar": "Street interviews and social formats",
+ "working_title": "60 seconds to guess what a stranger does for work, yes-or-no questions only",
+ "original_reference": {
+  "platform": "YouTube Shorts",
+  "creator_handle": "Max Klymenko",
+  "direct_video_url": "https://www.youtube.com/shorts/Yllerhv7A60",
+  "publication_date": "2026-09-04",
+  "views": 10600000,
+  "creator_followers": 4800000,
+  "creator_median_views": null,
+  "outlier_multiple": 4.1,
+  "duration_seconds": 143,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "creator_median_views: the YouTube tool returns a breakout multiple only",
+   "outlier_multiple is the tool's breakout score (4.1), not views divided by median",
+   "URL built from the video ID the tool returned"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Less than a hundred people in the world do what I do, to have me you have to have me on the ladder.\"",
+  "visual_hook": "Medium close-up of a woman with dark hair, sunglasses and gold hoop earrings in a burgundy tank top, hands on hips on a sunny street, talking animatedly. Yellow subtitles read \"LESS THAN / 100 PEOPLE\".",
+  "narrative_structure": "Cold open on the guest's intriguing clue about her own job. Name and where she is from. The rule: the host has 2 minutes to guess the job. A visible countdown. Rapid yes-or-no and lateral questions with meme inserts. The timer hits zero, a banner declares the host did not guess, and the guest reveals the job to camera with proof footage. 143 seconds, about 47 cuts, two camera angles, a jingle.",
+  "viral_mechanism": "The viewer plays along. Each answer narrows the possibilities, the countdown sets a deadline, and the opening clue (\"less than a hundred people\") promises the answer will be worth it. The reveal is withheld to the last seconds, so leaving early means not finding out.",
+  "observed_evidence": "10.6M views, the highest in the street group, on a 4.8M-subscriber channel with a breakout score of only 4.1. 143 seconds. A 2-minute on-screen countdown. The host fails to guess; the answer is \"My partner and I run an analog photo booth company in Australia.\" A proof clip follows the reveal.",
+  "performance_hypothesis": "Hypothesis: comments fill with viewers' own guesses and with the timestamp where they worked it out, and people rewatch to see which clue should have given it away. Much of the view count is explained by the channel's size, so the format evidence is weaker than the raw number.",
+  "why_this_format_fits_alex": "It is a performance format: thinking out loud under a clock is where an actor is entertaining. The reveal can be flipped at the end so the stranger gets 10 seconds to guess his job, which puts \"I get brands a million views\" on screen. The reference's ladder, jingle and two-camera setup are not needed for the mechanism.",
+  "originality_changes": "Borrowed: guess-the-job game, visible countdown, yes-or-no questioning, reveal at the end. New: 60 seconds instead of 120, one phone, no ladder, no jingle, no meme inserts, an original fixed question list, and a 10-second reverse round where the stranger guesses what Alex does."
+ },
+ "alex_adaptation": {
+  "concept": "Alex gets 60 seconds of yes-or-no questions to guess what a stranger does for work, with a countdown on screen. Win or lose, the stranger reveals the answer, then gets 10 seconds to guess his job. Edited to about 50 seconds.",
+  "target_audience": "Game and street-interview viewers; local Florida audience; anyone who plays along in the comments.",
+  "primary_emotion": "Play-along suspense",
+  "estimated_duration_seconds": 50,
+  "first_frame": "Medium shot of the stranger alone, mid-sentence, giving their one clue. Countdown clock reading 60 in the top corner, not yet running. Text: \"60 seconds to guess their job\".",
+  "first_spoken_line": "Give me one clue about your job that sounds made up but is true.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted one-sentence clue about their job, recorded in answer to Alex's off-camera prompt: \"Give me one clue about your job that sounds made up but is true.\"]",
+    "action": "Stranger alone in frame. Alex is beside the camera, silent.",
+    "camera": "Medium close-up, phone on a tripod or held by a collaborator, eye level.",
+    "on_screen_text": "60 seconds to guess their job",
+    "editing": "Cold open on their clue. Alex's prompt is cut out.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 4,
+    "end_second": 8,
+    "speaker": "Alex",
+    "dialogue": "I'm Alex. I have sixty seconds and you can only say yes or no. Go.",
+    "action": "Steps into frame beside them, rolls his shoulders like a boxer, claps once on \"Go\".",
+    "camera": "Two-shot, same camera position, slightly wider.",
+    "on_screen_text": "yes or no only · clock starts now",
+    "editing": "Countdown begins at the clap.",
+    "audio": "A soft clock tick starts and runs under everything to 0."
+   },
+   {
+    "start_second": 8,
+    "end_second": 14,
+    "speaker": "Alex",
+    "dialogue": "Do you work indoors? ... Would a ten-year-old understand what you do?",
+    "action": "Fast. Points at them for each answer. Reacts with his whole face to each yes or no.",
+    "camera": "Two-shot.",
+    "on_screen_text": "Countdown running. Their yes or no pops up as a green or red tag.",
+    "editing": "Cut out every pause; keep only question, answer, reaction.",
+    "audio": "Tick. Small pop on each tag."
+   },
+   {
+    "start_second": 14,
+    "end_second": 20,
+    "speaker": "Alex",
+    "dialogue": "Do people pay you directly? ... Do you wear a uniform?",
+    "action": "Starts pacing a half step left and right. Thinking out loud between answers, muttering one wrong guess.",
+    "camera": "Two-shot.",
+    "on_screen_text": "Countdown. Running list of what he knows in small text at the side: \"indoors ✔ uniform ✖\"",
+    "editing": "Jump cuts.",
+    "audio": "Tick."
+   },
+   {
+    "start_second": 20,
+    "end_second": 26,
+    "speaker": "Alex",
+    "dialogue": "Would I be nervous if you showed up at my house for work? ... Is it legal in all fifty states?",
+    "action": "Asks the second one completely straight. Holds eye contact until they answer.",
+    "camera": "Two-shot, slow push-in.",
+    "on_screen_text": "Countdown at about 30.",
+    "editing": "Keep their laugh if they laugh.",
+    "audio": "Tick, slightly faster."
+   },
+   {
+    "start_second": 26,
+    "end_second": 32,
+    "speaker": "Alex",
+    "dialogue": "Do you need Instagram for it? ... Have I used what you do this month?",
+    "action": "Getting desperate. Hands in his hair on the second question.",
+    "camera": "Two-shot.",
+    "on_screen_text": "Countdown at about 15.",
+    "editing": "Tightest cuts of the video.",
+    "audio": "Tick, faster."
+   },
+   {
+    "start_second": 32,
+    "end_second": 37,
+    "speaker": "Alex",
+    "dialogue": "Final answer: [live guess, based on their answers].",
+    "action": "Stops moving. Points at them with both hands. Commits fully to the guess even if it is absurd.",
+    "camera": "Tight two-shot.",
+    "on_screen_text": "Countdown hits 0 on his guess.",
+    "editing": "Freeze on his pointing pose for 0.5s as the clock zeroes.",
+    "audio": "Tick stops. One buzzer or one bell, decided by the next beat."
+   },
+   {
+    "start_second": 37,
+    "end_second": 43,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted reveal of their actual job]",
+    "action": "Alex's reaction: if right, arms up and a lap around them. If wrong, drops to a squat with his head in his hands.",
+    "camera": "Hold on the stranger for the reveal, then widen for Alex.",
+    "on_screen_text": "\"ALEX GOT IT\" in green or \"ALEX: 0 for {{REAL: number of episodes so far}}\" in red. Their job as a caption.",
+    "editing": "Banner slams in. If they offer a photo of their work on their phone, insert 1.5s of it here.",
+    "audio": "Bell for a win, buzzer for a loss."
+   },
+   {
+    "start_second": 43,
+    "end_second": 47,
+    "speaker": "Alex",
+    "dialogue": "Okay. Your turn. Ten seconds. What do I do?",
+    "action": "Stands like a suspect in a lineup: arms out, slow turn.",
+    "camera": "Two-shot.",
+    "on_screen_text": "10-second mini countdown",
+    "editing": "Speed-ramp the turn.",
+    "audio": "Fast tick."
+   },
+   {
+    "start_second": 47,
+    "end_second": 50,
+    "speaker": "Stranger (real, unscripted) + Alex",
+    "dialogue": "Stranger: [unscripted guess]. Alex: \"I get brands a million views. You were closer than I was.\"",
+    "action": "Deadpan on the last line whether or not they were close. Offers a handshake.",
+    "camera": "Two-shot, end on the handshake.",
+    "on_screen_text": "he gets brands 1,000,000 views",
+    "editing": "Cut on hands meeting.",
+    "audio": "Natural sound, hard out."
+   }
+  ],
+  "alternate_hooks": [
+   "Open on Alex's wrong final guess and the buzzer, then \"60 seconds earlier\"",
+   "Text only: \"I have never guessed one of these right. Attempt {{REAL: number}}.\"",
+   "Open on the stranger laughing at the 'legal in all fifty states' question, then the rules"
+  ],
+  "alternate_endings": [
+   "Skip the reverse round. End on the reveal banner and Alex's reaction, with text: \"Guess before he does. Next one tomorrow.\"",
+   "After the reveal, Alex asks: \"What's the one thing people get wrong about that job?\" and it ends on their unscripted answer."
+  ],
+  "caption": "Record so far: {{REAL: wins}} for {{REAL: attempts}}. Did you get it before I did?",
+  "call_to_action": "Caption question only. No spoken ask."
+ },
+ "production": {
+  "location": "Public place with people who are not rushing: a park, pier, farmers market or outdoor cafe strip in Florida.",
+  "props": [
+   "Phone on a tripod or with a collaborator",
+   "Handheld wireless mic or two lavs",
+   "A 60-second timer running on a second phone for Alex to see"
+  ],
+  "wardrobe": "Same outfit every episode of the series so it is recognisable.",
+  "people_required": 2,
+  "filming_minutes_estimate": 90,
+  "editing_minutes_estimate": 70,
+  "difficulty": "hard",
+  "can_batch_film": true,
+  "shot_list": [
+   "Stranger alone: the one-sentence clue",
+   "Two-shot: rules and clap",
+   "Two-shot: the full 60-second question round, uncut in camera",
+   "Reveal and Alex's reaction",
+   "Reverse round: stranger guesses his job",
+   "Insert: stranger's phone showing proof of their work, if offered"
+  ],
+  "b_roll": [
+   "Wide of the location for the cover frame"
+  ],
+  "editor_instructions": "Before each interview say on camera: \"I'm filming for my Instagram, are you okay with me posting this?\" Keep that clip in your files as the consent record; it does not go in the edit. If they say no or hesitate, thank them and delete the clip. Explain the game before rolling and ask them not to say their job. Play 6 to 8 rounds in a session; post only rounds where the job is interesting to hear, and post losses as readily as wins. The questions are fixed and asked in this order so episodes are comparable; if an answer makes a later question pointless, skip it and go to the next. His final guess is always live. Never learn the job in advance and never re-shoot a guess. The on-screen countdown must reflect real elapsed time in the round even though pauses are cut: place the timer values at the true time each question was asked. Keep the win or loss record honest and cumulative. Fallback if nobody has a guessable job after 8 rounds: cut the three funniest wrong guesses into a 25-second reel titled \"Three jobs I got very wrong today\"."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: opening on the wrong guess and buzzer, then '60 seconds earlier'",
+   "Alternate payoff: no reverse round, ending on the reveal banner"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2. Promote at 48h if views reach 3x the trailing median and comments per 1,000 reached is the highest of that day's batch, since the format is built to collect guesses; make three episodes before applying the kill rule.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Business-owner edition: guess what the shop sells from outside, 60 seconds, owner answers yes or no",
+   "Reverse-only edition: strangers get 30 seconds of yes-or-no questions to guess what Alex does",
+   "Client edition: he guesses a gym member's day job between sets"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 59,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 18,
+   "fit_with_alex_historical_winners": 6,
+   "follower_conversion_potential": 12,
+   "creative_execution_quality": 12,
+   "ease_of_production": 2,
+   "repeatability": 9
+  },
+  "rationale": "The play-along guessing game with a visible clock is a durable structure and suits a performer. The simplification to one phone and 60 seconds keeps the mechanism and removes the production cost. The reference's 10.6M views come from a 4.8M-subscriber channel at only a 4.1 breakout score, so the number says more about the channel than the format.",
+  "uncertainties": [
+   "All stranger lines and Alex's final guess are unscripted.",
+   "Weakest format evidence in the street group despite the highest view count.",
+   "Evidence is a 143-second YouTube Short; a 50-second Instagram cut is an untested compression.",
+   "Needs a collaborator and a location where people have a few minutes.",
+   "'Is it legal in all fifty states?' is a joke question; drop it if the person seems uncomfortable."
+  ]
+ },
+ "research_key": "D-07"
+}

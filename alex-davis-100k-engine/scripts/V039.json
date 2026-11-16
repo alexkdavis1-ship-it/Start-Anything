@@ -1,0 +1,194 @@
+{
+ "video_id": "V039",
+ "priority_rank": 41,
+ "scheduled_day": 6,
+ "production_batch": "Batch G: Voiceover + b-roll and straight-to-camera",
+ "content_pillar": "Personal growth and comeback series",
+ "working_title": "\"Nobody posts this part\": the views guy who stopped posting",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@ianbwilson",
+  "direct_video_url": "https://www.instagram.com/reel/DfQfejhEWec",
+  "publication_date": "2026-11-02",
+  "views": 1000000,
+  "creator_followers": 87500,
+  "creator_median_views": 2400,
+  "outlier_multiple": 435.7,
+  "duration_seconds": 63,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)",
+   "duration from the search index (the 63 s figure comes from the watch pass)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"I don't care anymore.\" Static tweet-style header on screen: \"36, just moved back in with my parents, no money, no family. nobody posts this part.\"",
+  "visual_hook": "A bearded man in a trucker cap and black t-shirt walks along a suburban road filming himself, with a social-post overlay across the top of the frame.",
+  "narrative_structure": "A pinned tweet-style header states the whole situation in one line. Under it, a 63-second single-take walking selfie lists concrete failures in short sentences, turns at \"But...\" toward \"you're not alone\", and ends on \"And I'm not going to quit.\" Music enters around 0:22. No CTA.",
+  "viral_mechanism": "The header does the hook's job for the entire runtime: anyone joining at any second knows the stakes. The spoken part is specific facts with ages and counts, not feelings, and the phrase 'nobody posts this part' frames the video as the thing other accounts hide.",
+  "observed_evidence": "1.0M views on an account with a 2.4K median (435.7x) and 87.5K followers. Single take, walking, dynamic subtitles, static header, music from about 0:22, no explicit CTA. Caption: \"Not the highlight reel. Just where I'm actually at right now.\"",
+  "performance_hypothesis": "Hypothesis: viewers in a similar spot comment their own age and situation, and people send it to one friend who is struggling. The follow motive is wanting to see whether he recovers. This is the lowest raw view count in the package, and the broader 'I stopped posting' search returned almost nothing above 1M, so the evidence for this lane is thin.",
+  "why_this_format_fits_alex": "It gives a new viewer the three facts the current feed hides: he is 23, he runs a company that gets brands views, and he is restarting in public. His irony (a views agency owner who stopped posting) lets him keep the format honest without the heaviness of the original.",
+  "originality_changes": "Borrowed: pinned one-line header ending in a 'nobody posts this' frame, single-take walking selfie, short factual sentences, a turn, a resolute last line. New: every fact and line is his, the tone is self-mocking rather than raw, it runs 38 seconds instead of 63, there is no music swell, and it ends on a public bet with a date."
+ },
+ "alex_adaptation": {
+  "concept": "Alex walks and admits the awkward truth: he gets paid to make brands consistent on social media, and he went quiet on his own account for months. He names the gap, makes the bet (100K by Dec 31), and invites people to watch him hit it or miss it.",
+  "target_audience": "Creators and founders 18-34 who have fallen off their own posting, plus anyone who likes watching a public bet.",
+  "primary_emotion": "Respect for honesty, with a laugh",
+  "estimated_duration_seconds": 38,
+  "first_frame": "Alex walking toward the lens outdoors in Florida, selfie framing, palm trees behind, plain tee. Tweet-style header pinned at the top.",
+  "first_spoken_line": "\"I get paid to make brands show up on social media every single day.\"",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "I get paid to make brands show up on social media every single day.",
+    "action": "Walking, looking straight into the lens. Matter-of-fact, slight smile like he knows where this is going.",
+    "camera": "Walking selfie at arm's length, slightly below eye level, morning light.",
+    "on_screen_text": "Header (pinned all video): Alex Davis @alexanderkdavis / \"23. I get brands millions of views for a living. I barely posted on my own account for months. nobody posts this part.\"",
+    "editing": "Single take. Word-by-word subtitles lower third.",
+    "audio": "Voice and outdoor ambience only. No music."
+   },
+   {
+    "start_second": 4,
+    "end_second": 9,
+    "speaker": "Alex",
+    "dialogue": "And for months, I barely posted on my own account. That's a personal trainer who gets winded on the stairs.",
+    "action": "Small laugh at himself on 'stairs', shakes his head.",
+    "camera": "Same shot.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 9,
+    "end_second": 16,
+    "speaker": "Alex",
+    "dialogue": "There's no dramatic reason. Nothing happened. I kept doing everybody else's content and told myself mine could wait a week. Then the week turned into a season.",
+    "action": "Slower. Looks off to the side on 'nothing happened', back to lens on 'a season'.",
+    "camera": "Same shot.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 16,
+    "end_second": 22,
+    "speaker": "Alex",
+    "dialogue": "And the longer you're gone, the weirder it is to come back. It's like walking into a party three hours late. Everyone's already got their people.",
+    "action": "Uses his free hand to mime opening a door and peeking in.",
+    "camera": "Same shot.",
+    "on_screen_text": "Header stays.",
+    "editing": "No cut.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 22,
+    "end_second": 30,
+    "speaker": "Alex",
+    "dialogue": "So I'm walking in three hours late. I'm twenty-three, I've got forty-two thousand seven hundred followers, and I told people a hundred thousand by December thirty-first.",
+    "action": "Stops walking on 'So'. Squares up to the camera. Counts the three facts on his fingers.",
+    "camera": "He stops; frame steadies.",
+    "on_screen_text": "Header stays. Pop-up numbers as he says them: 42,700 → 100,000 / Dec 31",
+    "editing": "Numbers pop in sync with speech.",
+    "audio": "Voice only."
+   },
+   {
+    "start_second": 30,
+    "end_second": 38,
+    "speaker": "Alex",
+    "dialogue": "That math is terrible. I'm doing it anyway, on camera, every day. If I miss, you get to watch that too.",
+    "action": "Deadpan on 'terrible'. A real grin on 'you get to watch that too'. Starts walking again and exits past the lens.",
+    "camera": "Same shot, he walks out of frame.",
+    "on_screen_text": "Header stays. Final card for the last second: Day 1 is tomorrow.",
+    "editing": "Cut as his shoulder passes the lens.",
+    "audio": "Voice only, footsteps."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I run a company that gets brands a million views. Guess whose account I ignored for months.\"",
+   "\"This is embarrassing for someone with my job.\"",
+   "Header only for the first second, silent, then: \"Yeah. That's me.\""
+  ],
+  "alternate_endings": [
+   "\"That math is terrible. I checked it twice. I'm posting every day until it stops being terrible.\"",
+   "\"I'd tell a client in my position to stop explaining and start posting. So that's the last explanation you're getting.\" He lowers the phone mid-word."
+  ],
+  "caption": "Not the highlight reel. 42,700 today. #buildinpublic",
+  "call_to_action": "Soft and spoken inside the script: \"If I miss, you get to watch that too.\""
+ },
+ "production": {
+  "location": "Quiet sidewalk or path near home in Florida, morning",
+  "props": [
+   "Phone",
+   "Lavalier or wired earbud mic for clean walking audio"
+  ],
+  "wardrobe": "Plain tee, no sunglasses",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 25,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One continuous walking selfie take, 38 to 42 s, stopping at the line 'So I'm walking in three hours late'. Shoot 4 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Single take, no jump cuts. Build the tweet-style header as a static graphic with his real profile photo, name and handle, pinned for the full duration. Word-by-word subtitles. Number pop-ups at 22 to 30 s. No music. Update 42,700 to the real follower count on the day of posting."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"This is embarrassing for someone with my job.\"",
+   "Alternate payoff: \"That's the last explanation you're getting.\""
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: this is a conversion piece, so judge it on follows per 1,000 reached, not views; promote to the main audience if follows per 1,000 are top quartile even at modest reach, and post it the day before the Day 1 video (D-09).",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "One week later, same walk, same header format: what the first 7 days actually did to the number",
+   "\"Nobody posts this part\": the worst-performing video of the week and why he thinks it failed",
+   "\"Nobody posts this part\": showing the drafts folder of videos he was too embarrassed to post"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 70,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 19,
+   "fit_with_alex_historical_winners": 7,
+   "follower_conversion_potential": 18,
+   "creative_execution_quality": 11,
+   "ease_of_production": 9,
+   "repeatability": 6
+  },
+  "rationale": "The strongest identity statement in the package: age, job, number, deadline and stakes in 38 seconds, with a reason to follow. It is a format he has never run and the reference is the lowest-view item selected, so it is a conversion bet, not a reach bet.",
+  "uncertainties": [
+   "The line 'There's no dramatic reason... I kept doing everybody else's content' is written from the brief (inconsistent for several months). Alex must confirm it is true and replace it with the real reason if not.",
+   "Reference has only 1.0M views, and the comeback search returned little above 1M, so the lane is weakly evidenced.",
+   "Talking-head at 38 seconds is far from his silent sub-10-second hits.",
+   "The follower number must be updated to the real count on posting day."
+  ]
+ },
+ "research_key": "D-08"
+}

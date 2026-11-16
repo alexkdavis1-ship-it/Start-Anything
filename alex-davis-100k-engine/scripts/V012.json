@@ -1,0 +1,147 @@
+{
+ "video_id": "V012",
+ "priority_rank": 23,
+ "scheduled_day": 2,
+ "production_batch": "Batch A: Desk and whiteboard, solo",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"I became my own boss so nobody could deny my vacation\" (two-line text joke)",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@soldesignandbuild",
+  "direct_video_url": "https://www.instagram.com/reel/DegJKxvN2hA",
+  "publication_date": "2026-10-16",
+  "views": 2800000,
+  "creator_followers": 914,
+  "creator_median_views": 3400,
+  "outlier_multiple": 824.1,
+  "duration_seconds": 7.78,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes (not returned by the index)",
+   "comments (not returned by the index)",
+   "shares (not returned by the index)",
+   "metrics_source_url (view count comes from the vidIQ index, not a public page)"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "No speech. On-screen text: \"I opened my own business so no one could tell me “you have 30 minutes to eat”\" (top) and \"Now I don't eat\" (bottom).",
+  "visual_hook": "A young business owner seen from behind on a residential driveway near work trucks, an excavator and a portable toilet.",
+  "narrative_structure": "Two lines of text over ordinary work b-roll for under 8 seconds. Line one states why he started the business. Line two states the outcome, which is worse. One cut, no speech, loops.",
+  "viral_mechanism": "The setup is the standard reason people quit jobs, and the punchline is four words that reverse it. The joke is complete in the text, so it works muted and on the first pass, and the short length loops.",
+  "observed_evidence": "2.8M views on an account with 914 followers and a 3.4K median (824.1x). 7.78 seconds, 1 cut, no dialogue, no CTA, loops.",
+  "performance_hypothesis": "Hypothesis: self-employed viewers share it to stories and send it to other owners because it says their situation in two lines. The 914-follower account shows the text alone carried it, so the b-roll matters little.",
+  "why_this_format_fits_alex": "Text-only joke over a single shot, under 8 seconds: the format of his travel-hack Reel (3.6M). It needs no acting, so it is a fast volume play for Trial Reels.",
+  "originality_changes": "Borrowed: two-line structure where line two reverses the reason in line one, over mundane work footage. New: the rule is vacation approval, the punchline is that he denies his own request, and the b-roll is him at a laptop at night."
+ },
+ "alex_adaptation": {
+  "concept": "Two lines of text over Alex working late: he became his own boss so nobody could deny his time off, and his boss denied it.",
+  "target_audience": "Self-employed people, freelancers, anyone thinking about quitting a job.",
+  "primary_emotion": "Rueful laugh",
+  "estimated_duration_seconds": 7,
+  "first_frame": "Alex from behind at his desk at night, lit only by the laptop, shoulders slightly slumped. Top text line on screen.",
+  "first_spoken_line": "None (silent)",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "Typing, back to camera. Stops, rubs the back of his neck, keeps typing.",
+    "camera": "Tripod behind and slightly to the side, medium shot, laptop screen glow visible. Dark room.",
+    "on_screen_text": "I became my own boss at 23 so nobody could deny my vacation request",
+    "editing": "One shot. Top line appears on frame 1.",
+    "audio": "Slow, slightly sad lo-fi piano, royalty-free."
+   },
+   {
+    "start_second": 4,
+    "end_second": 7,
+    "speaker": "Alex",
+    "dialogue": "",
+    "action": "He turns his head just enough to look at the camera over his shoulder. Blank. Turns back and keeps typing.",
+    "camera": "Same shot.",
+    "on_screen_text": "Top line stays. Bottom line appears: My boss denied it.",
+    "editing": "Bottom line pops in at 4.0 s. No cut. End on typing so it loops.",
+    "audio": "Music continues. One soft keyboard clack on the text pop."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I started my own company so I'd never have to ask for a day off\"",
+   "\"Quit my job so nobody could tell me when to clock out\"",
+   "\"I work for myself so I can take a vacation whenever I want\""
+  ],
+  "alternate_endings": [
+   "Bottom line: \"Request still pending.\"",
+   "Bottom line: \"I asked. He said we're short-staffed. It's just me.\""
+  ],
+  "caption": "He's a tough guy to work for.",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk at night",
+  "props": [
+   "Laptop"
+  ],
+  "wardrobe": "Hoodie",
+  "people_required": 1,
+  "filming_minutes_estimate": 5,
+  "editing_minutes_estimate": 5,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One 10 s take from behind, including the over-the-shoulder look at about 4 s. Shoot 3 takes."
+  ],
+  "b_roll": [],
+  "editor_instructions": "Single clip, 7 s. Top line on from frame 1, bottom line pops at 4.0 s, both white bold with black stroke. Keep both lines inside the center-safe area. Loop point on typing."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I work for myself so I can take a vacation whenever I want\"",
+   "Alternate payoff: \"I asked. He said we're short-staffed. It's just me.\""
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2: promote only if 48h views are at least 3x the trailing median and shares per 1,000 reached are top quartile; with a brand fit of 2, cap at one promotion of this format per day.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "\"I started a business so nobody could micromanage me\" / \"I check my own work 9 times\"",
+   "\"I work for myself so I'd never have a Monday meeting\" / \"I have one. With myself. I was late.\"",
+   "\"I became my own boss for the unlimited PTO\" / \"I've used zero\""
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 79,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 17,
+   "follower_conversion_potential": 9,
+   "creative_execution_quality": 11,
+   "ease_of_production": 10,
+   "repeatability": 10
+  },
+  "rationale": "Five minutes to film, proven on a 914-follower account, and endlessly repeatable. It is the weakest of the batch at telling a viewer who Alex is, so it is a reach play, not a conversion play.",
+  "uncertainties": [
+   "Back-to-camera framing hides his face, which lowers recognition; test a version where he faces camera.",
+   "The joke is all text, so a weak line means a dead video.",
+   "Low identity signal may produce views without follows."
+  ]
+ },
+ "research_key": "A2-07"
+}

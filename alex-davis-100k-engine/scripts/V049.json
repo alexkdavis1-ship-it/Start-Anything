@@ -1,0 +1,200 @@
+{
+ "video_id": "V049",
+ "priority_rank": 49,
+ "scheduled_day": 7,
+ "production_batch": "Batch F: Out in public, street, collaborator",
+ "content_pillar": "Street interviews and social formats",
+ "working_title": "I just moved to Florida: asking strangers what they do, with a proof cutaway",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@trwlsh",
+  "direct_video_url": "https://www.instagram.com/reel/Deh-3QtvNv2",
+  "publication_date": "2026-10-15",
+  "views": 3200000,
+  "creator_followers": 348200,
+  "creator_median_views": 93900,
+  "outlier_multiple": 34.2,
+  "duration_seconds": 15.9,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Yo, excuse me.\"",
+  "visual_hook": "Wide, low-angle shot on a busy New York sidewalk. A woman in a white ribbed tank top and sparkling light-blue jeans, holding a denim handbag and phone, walks toward the camera past parked black SUVs.",
+  "narrative_structure": "Approach and compliment in one breath, straight into \"what do you do for a living?\" (0-2s). Unexpected answer (2-4s). A 2-second cutaway of the person doing that job, with her own handle overlaid (4-6s). Interviewer's disbelief (6-9s). A playful physical button from the interviewee (11-13s). 16 seconds, 2 cuts, burned-in captions.",
+  "viral_mechanism": "The question is answered by second 4, and the answer contradicts what the first frame led the viewer to expect. The cutaway then proves it before the viewer can doubt it. The whole arc of guess, surprise and proof finishes in 6 seconds, and the rest is charm.",
+  "observed_evidence": "3.2M views against a 93.9K median (34.2x) on a 348K account. 16 seconds, 2 cuts. The answer \"I'm a professional boxer\" lands at 0:02 to 0:04. The proof cutaway carries the interviewee's own handle. The interviewer's lines total 21 words.",
+  "performance_hypothesis": "Hypothesis: the share is driven by the mismatch between appearance and job, which viewers pass on with \"did not expect that\". The interviewee also reposts it because her handle and her work are shown, which adds her audience.",
+  "why_this_format_fits_alex": "He is new to Florida, which is a true reason to be asking. It is 16 seconds and mostly reaction, which suits an actor. Street interviews are untested for him, so this is the smallest possible version to test: one question, one phone.",
+  "originality_changes": "Borrowed: compliment-then-question open, proof cutaway from the interviewee's own phone, a playful closing beat. New: the framing is that he just moved to Florida and is finding out what people here do; the closing beat is the stranger guessing his job; the compliment must be specific and true each time; nothing the stranger says is scripted."
+ },
+ "alex_adaptation": {
+  "concept": "Alex, new to Florida, stops people and asks what they do for work. Only answers that contradict first impressions make the cut. Each is proved with two seconds of footage from the person's own phone, then the stranger guesses what Alex does.",
+  "target_audience": "Local Florida viewers, people who like street interviews, and whoever the interviewee tags.",
+  "primary_emotion": "Surprise",
+  "estimated_duration_seconds": 18,
+  "first_frame": "Low, wide shot on a busy sidewalk or outdoor plaza. A person is walking toward the camera. Banner at the top: \"I just moved to Florida. Asking what people do here.\"",
+  "first_spoken_line": "Hey, sorry, quick one.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 3,
+    "speaker": "Alex",
+    "dialogue": "Hey, sorry, quick one. I really like the {{REAL: one specific thing they are wearing or carrying}}. What do you do for work?",
+    "action": "Friendly, open hands, a half step back so he is not crowding them. Genuine smile. The compliment must be true.",
+    "camera": "POV or chest-height phone, wide lens, both people in frame if a collaborator films; otherwise Alex holds the phone low and wide.",
+    "on_screen_text": "I just moved to Florida. Asking what people do here. (banner, stays all video)",
+    "editing": "Captions burned in for every spoken word.",
+    "audio": "Natural street sound. No music."
+   },
+   {
+    "start_second": 3,
+    "end_second": 6,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted answer]",
+    "action": "Alex's face: real reaction only. If he is surprised, let it show; do not perform it.",
+    "camera": "Hold on the stranger, medium shot.",
+    "on_screen_text": "Caption of their exact words",
+    "editing": "Keep their first full sentence. Cut any 'um' at the head.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 6,
+    "end_second": 8,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "Cutaway: two seconds of a photo or video from the stranger's own phone showing them doing the job, filmed off their screen with permission, or a clip they send afterwards.",
+    "camera": "Close-up of their phone screen, or their supplied clip full-frame.",
+    "on_screen_text": "Their handle, only if they ask for it to be shown",
+    "editing": "Hard cut in, hard cut out. Two seconds exactly.",
+    "audio": "Their clip's audio at low volume, or a single whoosh."
+   },
+   {
+    "start_second": 8,
+    "end_second": 12,
+    "speaker": "Alex",
+    "dialogue": "No way. Okay, your turn. What do you think I do?",
+    "action": "Points at himself with both thumbs. Stands like he is being appraised: arms out, slow quarter turn.",
+    "camera": "Back to the two-shot.",
+    "on_screen_text": "what do you think I do?",
+    "editing": "Speed-ramp the quarter turn slightly.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 12,
+    "end_second": 15,
+    "speaker": "Stranger (real, unscripted)",
+    "dialogue": "[unscripted guess]",
+    "action": "Alex takes the guess seriously for half a second, whatever it is.",
+    "camera": "Hold on the stranger, then pan to Alex.",
+    "on_screen_text": "Caption of their exact guess",
+    "editing": "Keep the first guess only.",
+    "audio": "Natural sound."
+   },
+   {
+    "start_second": 15,
+    "end_second": 18,
+    "speaker": "Alex",
+    "dialogue": "Close. I get brands a million views. You're the first one today.",
+    "action": "Deadpan on \"Close\" no matter how far off the guess was. Offers a fist bump on the last line.",
+    "camera": "Two-shot, end on the fist bump.",
+    "on_screen_text": "\"close.\" / he makes videos for a living",
+    "editing": "Cut on fist contact.",
+    "audio": "Natural sound, hard out."
+   }
+  ],
+  "alternate_hooks": [
+   "Banner: \"I've lived in Florida for {{REAL: number}} weeks. Meeting my neighbors by asking their job.\"",
+   "Open cold on the stranger's answer, then rewind with a quick reverse to the question",
+   "Banner: \"Guess their job before they say it\" with a 1-second freeze on the stranger before the answer"
+  ],
+  "alternate_endings": [
+   "After their guess, Alex says only: \"I make these,\" and points at the camera. Cut.",
+   "Alex asks: \"One thing nobody knows about that job?\" and the video ends on their unscripted one-line answer."
+  ],
+  "caption": "New in Florida. Learning what everyone does, one stranger at a time.",
+  "call_to_action": "None spoken. Caption may add: \"Part 2 tomorrow.\""
+ },
+ "production": {
+  "location": "A walkable area with steady foot traffic near home: a downtown strip, a farmers market, or an outdoor shopping plaza. Avoid malls and private property without permission.",
+  "props": [
+   "Phone with wide lens",
+   "Small wireless lav or handheld mic",
+   "A second phone or AirDrop ready to receive the stranger's proof clip"
+  ],
+  "wardrobe": "Clean, plain, approachable. No sunglasses, so people can see his eyes.",
+  "people_required": 2,
+  "filming_minutes_estimate": 90,
+  "editing_minutes_estimate": 35,
+  "difficulty": "hard",
+  "can_batch_film": true,
+  "shot_list": [
+   "Approach and question (repeat with 15 to 20 people)",
+   "Stranger's answer in a medium shot",
+   "Their phone screen showing proof, or collect a clip by AirDrop or DM",
+   "The 'what do I do' quarter turn and their guess",
+   "Reveal and fist bump"
+  ],
+  "b_roll": [
+   "Three 2-second establishing shots of the location for covers and alternate opens"
+  ],
+  "editor_instructions": "Before anything else, say on camera: \"I'm filming for my Instagram, are you okay with me posting this?\" and keep that clip in your files as the consent record; it does not go in the edit. Ask 15 to 20 people in one session. A usable answer meets all three: (1) the job is not what the first frame suggests, (2) they can show proof on their phone within 30 seconds, (3) they said yes to posting. Expect 2 to 4 usable interviews; each becomes its own Reel. Fallback if none qualify after 20: cut a 15-second supercut of five answers back to back with the banner \"5 strangers, 5 jobs, Florida\" and no proof cutaways. Never re-voice, reorder words within an answer, or stage a stranger. Blur any bystander who looks at the camera and did not consent."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: opening cold on the stranger's answer, then rewinding",
+   "Alternate payoff: \"I make these,\" pointing at the camera"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 2. Promote at 48h if views reach 3x the trailing median and shares per 1,000 reached is top quartile; this format is a reach test, so do not expect top-quartile follows on the first one.",
+  "brand_fit": 2,
+  "follow_up_variations_if_successful": [
+   "Same question asked only to people working at local small businesses, with the proof cutaway being their storefront",
+   "Same format at a gym at 6 a.m.: \"What do you do that you're up this early?\"",
+   "A version where the stranger guesses his job first and he has to live with the worst guess as the on-screen title"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 56,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 18,
+   "fit_with_alex_historical_winners": 6,
+   "follower_conversion_potential": 10,
+   "creative_execution_quality": 10,
+   "ease_of_production": 3,
+   "repeatability": 9
+  },
+  "rationale": "The reference is a clean 16-second structure with the surprise delivered by second 4 and proof by second 6, and it is repeatable daily. The move to Florida gives Alex an honest premise. The outcome depends on who he happens to stop, and the reference account is large (348K), so the evidence that the format alone drives views is moderate.",
+  "uncertainties": [
+   "The stranger's lines cannot be written; quality depends on finding a real mismatch between look and job.",
+   "The compliment token must be filled in live and must be sincere.",
+   "Filming people in public needs explicit consent on camera every time; some locations prohibit filming.",
+   "A collaborator makes the two-shot far better. Solo is possible with a wide lens but weaker.",
+   "Untested category for his account."
+  ]
+ },
+ "research_key": "D-01"
+}

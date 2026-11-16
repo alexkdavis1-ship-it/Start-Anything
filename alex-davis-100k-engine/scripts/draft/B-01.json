@@ -1,7 +1,7 @@
 {
  "ref_key": "B-01",
  "content_pillar": "Entrepreneur lifestyle and storytelling",
- "working_title": "13.5M views on a parking lot, 115 on my actual job",
+ "working_title": "13.5M views on a parking lot, 115 on my business tutorial",
  "batch_hint": "A",
  "original_reference": {
   "platform": "Instagram",
@@ -53,7 +53,7 @@
     "dialogue": "",
     "action": "Alex performs to the tripod phone with big hands and full presenter energy, as if delivering the most important business tip ever recorded. He does not look at the wide camera. Face: sincere, eyebrows up, nodding at his own point.",
     "camera": "Second phone on a shelf or chair, wide, static, slightly off to the side so we see Alex in profile and the tripod he is talking to.",
-    "on_screen_text": "Line 1 (top): \"13.5M views on a joke about a parking lot.\"  Line 2 (below): \"115 views on the video about my actual job.\"",
+    "on_screen_text": "Line 1 (top): \"13.5M views on a joke about a parking lot.\"  Line 2 (below): \"115 views on my business tutorial.\"",
     "editing": "No cuts. Both lines on screen from frame 1. White text, black outline, upper third.",
     "audio": "Low-key instrumental from the Instagram library, something with a confident strut. No voice."
    },
@@ -137,7 +137,8 @@
   "uncertainties": [
    "The 115 figure was read on 2026-11-16 from a Reel under 48 hours old. Check the current count and use the true number.",
    "Whether a text joke about views travels outside the creator audience.",
-   "Reference is a single outlier from a 1.3K account."
+   "Reference is a single outlier from a 1.3K account.",
+   "The 115 figure was read on 2026-11-16 when that Reel (Dfx90CVPuaP) was under 48 hours old. Re-check the number on filming day and use the current one, or use another real low-performing business Reel."
   ]
  }
 }

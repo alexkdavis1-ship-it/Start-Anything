@@ -95,7 +95,7 @@ Reel 12 opens on "$35,632" beside the Whop and Claude logos and ends on a dashbo
 
 ## 7. What this audit changes in the plan
 
-- 60%+ of the 50 scripts are built to work with sound off and to land in under 20 seconds, because that is where your three largest results came from.
+- Every script is written to read with sound off (the point is carried by picture and on-screen text), and 14 of the 50 run 15 seconds or less, because that is where your two largest results came from.
 - Character skits are the largest pillar (18) because the client skit is your only proven acted format and the only top post tied to your business.
 - No script is a tips list, a ranking of gurus, or a comment-keyword funnel.
 - Every script puts either your job, your age, or your move/rebuild on screen, so a profile visitor can tell what the account is.

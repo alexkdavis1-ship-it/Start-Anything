@@ -1,0 +1,195 @@
+{
+ "video_id": "V016",
+ "priority_rank": 13,
+ "scheduled_day": 3,
+ "production_batch": "Batch B: Desk phone skits with wardrobe changes",
+ "content_pillar": "Business comedy and skits",
+ "working_title": "\"Did the video go up?\" Four answers, four hang-ups",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@gringohandyman",
+  "direct_video_url": "https://www.instagram.com/reel/DfYTdTAh9tJ",
+  "publication_date": "2026-11-06",
+  "views": 1200000,
+  "creator_followers": 7400,
+  "creator_median_views": 1800,
+  "outlier_multiple": 660.8,
+  "duration_seconds": 19.8,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the vidIQ index",
+   "comments: not returned by the vidIQ index",
+   "shares: not returned by the vidIQ index"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"Hello?\" (the contractor answering). Persistent on-screen text: \"RED FLAGS FOR CONTRACTORS\".",
+  "visual_hook": "A man in an orange hoodie and backwards black cap sits at a desk with a laptop, a plant and a pile of $100 bills, reaching for a corded desk phone, under bold red and white text.",
+  "narrative_structure": "19.8 seconds, 3 cuts, 4 scenes at the same desk. In each scene he wears a different outfit, a caller on a phone-filtered voice says one red-flag sentence, and he hangs up. The hang-ups get more forceful, ending with a slam and a thrown hand.",
+  "viral_mechanism": "A fast type-list where every entry ends with the same physical punchline. The outfit change signals 'new caller' without a word, and the hang-up lets the viewer enjoy a response they are not allowed to give in real life.",
+  "observed_evidence": "1.2M views on a 7.4K-follower account with a 1.8K median (660.8x). Four one-line callers in under 20 seconds. Phone ring and receiver slam sound effects. No music. Caption: \"I can't be the only one that deals with this.\"",
+  "performance_hypothesis": "Hypothesis: the caption invites people in the same trade to confirm it happens to them, and each line is short enough to quote in a comment. At 20 seconds with four payoffs, completion is high.",
+  "why_this_format_fits_alex": "It is the '2 Types of Clients' idea (client behaviour, acted, at a desk) compressed to 20 seconds with four characters. The repeated physical action reads without sound.",
+  "originality_changes": "Borrowed: same desk, outfit per caller, one line each on a filtered voice, a physical sign-off every time. New: it is one repeated question from Alex after delivering a video, the four answers are new, the action is placing the phone face down, and the last beat changes the action (phone goes in a drawer, the drawer buzzes)."
+ },
+ "alex_adaptation": {
+  "concept": "Alex has delivered the video. He calls to ask one thing: did it go up? Four clients give four reasons it has not been posted. Each time he calmly sets the phone face down. The fourth time the phone goes in a drawer.",
+  "target_audience": "Agency owners, freelancers, social media managers. Also business owners sitting on unposted content.",
+  "primary_emotion": "Recognition and quiet rage.",
+  "estimated_duration_seconds": 21,
+  "first_frame": "Alex at the desk, phone to his ear, hopeful face, mid-question. Bold text at top: \"ME: 'DID THE VIDEO GO UP?'\"",
+  "first_spoken_line": "Hey! Just checking, did the video go up?",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 2,
+    "speaker": "Alex",
+    "dialogue": "Hey! Just checking, did the video go up?",
+    "action": "Bright, hopeful, leaning in. Grey tee.",
+    "camera": "Static, chest-up at the desk, locked tripod.",
+    "on_screen_text": "ME: \"DID THE VIDEO GO UP?\"",
+    "editing": "Top text stays all video. Captions for client lines only, in yellow.",
+    "audio": "Voice. No music."
+   },
+   {
+    "start_second": 2,
+    "end_second": 6,
+    "speaker": "Client 1 (Alex's voice, phone filter)",
+    "dialogue": "Not yet. We're waiting for the right moment.",
+    "action": "Alex listens. Smile fades to neutral. He takes the phone from his ear, looks at it, and sets it face down on the desk with two fingers.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Jump cut at 6s on the phone touching the desk.",
+    "audio": "Phone-filtered voice. Soft 'tap' as the phone lands."
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Client 2",
+    "dialogue": "So my mom watched it, and she says my voice sounds weird.",
+    "action": "New outfit: hoodie. Phone already at his ear. Eyes close for a full second on 'my mom'. Phone face down, a little firmer.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Jump cut at 10s.",
+    "audio": "Tap, louder."
+   },
+   {
+    "start_second": 10,
+    "end_second": 15,
+    "speaker": "Client 3",
+    "dialogue": "We actually want to grow our followers first. Then we'll start posting.",
+    "action": "New outfit: button-up. He hears it, blinks twice, mouths 'grow first' to himself, looks at the camera for half a second. Phone face down, firm.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "Jump cut at 15s.",
+    "audio": "Tap, louder again."
+   },
+   {
+    "start_second": 15,
+    "end_second": 19,
+    "speaker": "Client 4",
+    "dialogue": "Oh, we posted it! Yeah. To Close Friends.",
+    "action": "New outfit: jacket. Alex nods slowly. He opens the desk drawer, places the phone inside, closes the drawer, folds his hands on the desk and looks ahead.",
+    "camera": "Same.",
+    "on_screen_text": "Same.",
+    "editing": "No cut. Let the drawer action play in real time.",
+    "audio": "Drawer slide and shut."
+   },
+   {
+    "start_second": 19,
+    "end_second": 21,
+    "speaker": "None",
+    "dialogue": "",
+    "action": "The drawer buzzes. Alex does not move. Only his eyes go down to the drawer, then back up.",
+    "camera": "Same.",
+    "on_screen_text": "Small text near the drawer: \"quick thought\"",
+    "editing": "Cut on his eyes returning forward.",
+    "audio": "Phone vibration inside the drawer, two pulses."
+   }
+  ],
+  "alternate_hooks": [
+   "Top text: \"REASONS THE VIDEO ISN'T POSTED YET\"",
+   "Top text: \"I'm 23 and my whole job is getting brands to press 'post'\"",
+   "Open on client 4's line (\"We posted it! To Close Friends.\") with the drawer, then text \"Earlier that week\" and run the other three"
+  ],
+  "alternate_endings": [
+   "Fifth caller: \"We posted it and it got a million views.\" Alex freezes, then very carefully sets the phone down face up and backs away from it.",
+   "After the drawer closes, Alex pulls out a second phone, dials, and says \"Hey! Just checking, did the video go up?\" (loops)"
+  ],
+  "caption": "The video is done. It has been done. #agencylife",
+  "call_to_action": "None."
+ },
+ "production": {
+  "location": "Home desk with a drawer",
+  "props": [
+   "Phone",
+   "Desk with a working drawer"
+  ],
+  "wardrobe": "Four tops kept within reach: grey tee, hoodie, button-up, jacket",
+  "people_required": 1,
+  "filming_minutes_estimate": 20,
+  "editing_minutes_estimate": 25,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "Outfit 1: opening question plus client 1 reaction and phone down",
+   "Outfit 2: client 2 reaction and phone down",
+   "Outfit 3: client 3 reaction, look to camera, phone down",
+   "Outfit 4: client 4 reaction, drawer, buzz, eyes",
+   "Audio-only: four client lines in four slightly different voices"
+  ],
+  "b_roll": [],
+  "editor_instructions": "Lock the tripod so only the outfit changes between cuts. Start each new scene with the phone already at his ear to save time. Phone-filter all four client lines and pitch each one slightly differently. Raise the volume of each phone 'tap' a little more than the last. Add a real phone-vibration sound for the drawer. No music."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: top text 'REASONS THE VIDEO ISN'T POSTED YET'",
+   "Alternate payoff: the client whose video hit a million views"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote at 48h if views are at least 3x the trailing median and shares per 1,000 reached are top quartile; if follows per 1,000 is 2x median at low views, re-film with the age-and-job top text.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same desk: four responses to 'can you film on Thursday?'",
+   "Same desk: four responses to the first invoice",
+   "Same desk: four different clients reacting to their first viral video, each one worse at handling it"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 82,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 17,
+   "follower_conversion_potential": 14,
+   "creative_execution_quality": 12,
+   "ease_of_production": 8,
+   "repeatability": 10
+  },
+  "rationale": "Twenty seconds, four payoffs, one desk, and the phone-down action reads with the sound off. 'Grow our followers first, then post' is the line most likely to be quoted.",
+  "uncertainties": [
+   "Client lines are comedic composites and must not be captioned as real quotes from named clients",
+   "The reference used escalating slams; a quiet phone-down is subtler and relies on Alex's face",
+   "Top text carries the setup, so the first frame must hold it long enough to read"
+  ]
+ },
+ "research_key": "A1-08"
+}

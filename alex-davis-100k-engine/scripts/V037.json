@@ -1,0 +1,182 @@
+{
+ "video_id": "V037",
+ "priority_rank": 37,
+ "scheduled_day": 6,
+ "production_batch": "Batch G: Voiceover + b-roll and straight-to-camera",
+ "content_pillar": "Entrepreneur lifestyle and storytelling",
+ "working_title": "I can work from anywhere on earth and I picked Florida",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@ashnadvice",
+  "direct_video_url": "https://www.tiktok.com/@ashnadvice/video/7683999690521726240",
+  "publication_date": "2026-09-10",
+  "views": 1700000,
+  "creator_followers": 8900,
+  "creator_median_views": 895,
+  "outlier_multiple": 1898.4,
+  "duration_seconds": 23,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "music track: not identified (soft indie-pop vocal)",
+   "creator_median_views is 895.5 in the index, rounded here"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"I got my heart broken so much that it made me move country.\"",
+  "visual_hook": "A young man seated at a weathered picnic table looking straight at the camera, with a turquoise lake, pine forest and mountains behind him.",
+  "narrative_structure": "One uncut 23-second take. Sentence one is the whole story as cause and effect. A short explanation follows, then a general lesson, then he cancels his own advice and reaches forward to stop recording.",
+  "viral_mechanism": "The first sentence is a complete, slightly extreme life decision, so there is nothing to wait for and no reason to distrust it. The scenery proves the move happened. The self-cancelled advice at the end keeps it from sounding like a guru.",
+  "observed_evidence": "1.7M views from an 8.9K-follower account whose median is under 900, a 1,898x outlier. 0 cuts, auto captions, soft music under clear speech, no CTA. He chuckles at 0:04 and ends by reaching to the lens.",
+  "performance_hypothesis": "Hypothesis: viewers who have made or wanted a big move comment their own version of the sentence, and the unpolished ending makes it feel like a friend's story, which gets it sent to one specific person rather than reshared publicly.",
+  "why_this_format_fits_alex": "He has two real moves (France, then Florida at 23) and no content about either in the visible feed. It is a single take that depends on delivery, which is where an acting background helps. It also answers the profile visitor's question of who this person is.",
+  "originality_changes": "Borrowed: opening sentence that is the entire story, scenic proof behind him, advice that he immediately takes back. New: the subject is choosing Florida when his work lets him live anywhere, the lines and the reason are his, and the ending is a different undercut built on how recently he arrived."
+ },
+ "alex_adaptation": {
+  "concept": "Alex sits somewhere unmistakably Florida and admits, with a straight face, that out of every place on earth he could run a laptop business from, this is the one he chose. He tries to turn it into wisdom and then disqualifies himself.",
+  "target_audience": "People in their twenties thinking about moving, and remote workers who could live anywhere and have not decided.",
+  "primary_emotion": "Self-aware humor with a little real restlessness under it",
+  "estimated_duration_seconds": 24,
+  "first_frame": "Alex seated on a bench or low wall, palm trees and water behind him, bright flat sun, already looking into the lens. He is visibly warm.",
+  "first_spoken_line": "I can do my job from anywhere on earth, and I picked Florida.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "I can do my job from anywhere on earth, and I picked Florida.",
+    "action": "Dead level delivery, no smile. Tiny pause before 'Florida' as if he still has to say it out loud to believe it. After the line he glances left at the scenery, then back.",
+    "camera": "Phone on a small tripod at eye level, medium close-up, static.",
+    "on_screen_text": "Auto captions, bottom third.",
+    "editing": "No cuts in the whole video.",
+    "audio": "Natural outdoor sound. Very quiet mellow track from the Instagram library underneath."
+   },
+   {
+    "start_second": 4,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "I'm twenty-three. I run a content agency off a laptop. I lived in France. I've seen the options.",
+    "action": "Counts the facts off lightly with one hand. On 'I've seen the options' he gives a small shrug that says he has no defense.",
+    "camera": "Same shot.",
+    "on_screen_text": "Auto captions.",
+    "editing": "None.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 10,
+    "end_second": 15,
+    "speaker": "Alex",
+    "dialogue": "It's November. I'm sweating. A man at the gas station called me 'boss' and I think he meant it.",
+    "action": "Wipes his forehead with the back of his hand on 'sweating'. Quick proud half-smile on 'meant it'.",
+    "camera": "Same shot.",
+    "on_screen_text": "Auto captions.",
+    "editing": "None.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 15,
+    "end_second": 20,
+    "speaker": "Alex",
+    "dialogue": "Turns out when you can live anywhere, you find out you have no idea where you want to live.",
+    "action": "Slower. This is the one sincere line. He looks slightly past the lens for the first half, then back into it.",
+    "camera": "Same shot.",
+    "on_screen_text": "Auto captions.",
+    "editing": "None.",
+    "audio": "Same."
+   },
+   {
+    "start_second": 20,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "So just pick somewhere and go. Actually, I've been here {{REAL: number of weeks you have lived in Florida}} weeks. Don't listen to me.",
+    "action": "Starts the advice with confidence, hears himself, stops, deflates. On 'Don't listen to me' he is already leaning in to stop the recording.",
+    "camera": "Same shot. His hand covers the lens on the last word.",
+    "on_screen_text": "Auto captions.",
+    "editing": "Cut on the hand reaching the lens.",
+    "audio": "Music ends with the cut."
+   }
+  ],
+  "alternate_hooks": [
+   "\"I lived in France, came back to America, and chose Florida. On purpose.\"",
+   "\"My whole business fits in a backpack, so naturally I moved to the most humid place I could find.\"",
+   "\"I'm twenty-three and I moved to a state where I'm the youngest person at the grocery store.\""
+  ],
+  "alternate_endings": [
+   "After the sincere line: \"Anyway, that's the deepest thought I've had since I got here. It's the heat.\" He stands up and walks out of frame, leaving the scenery.",
+   "\"So if you're thinking about moving, do it. Not here. It's full. I just got here and it's full.\""
+  ],
+  "caption": "23, moved to Florida, business fits in a backpack. Reviews pending.",
+  "call_to_action": "None in the video. Caption only."
+ },
+ "production": {
+  "location": "A waterfront spot with palms visible behind him: marina walkway, beach access bench or a park by the water. Late morning sun.",
+  "props": [
+   "Small tripod"
+  ],
+  "wardrobe": "Tee or tank. Looking slightly overheated helps the line.",
+  "people_required": 1,
+  "filming_minutes_estimate": 15,
+  "editing_minutes_estimate": 10,
+  "difficulty": "easy",
+  "can_batch_film": true,
+  "shot_list": [
+   "One static medium close-up, full monologue in a single take. Do 5 takes and keep the one where the turn at 20s feels unplanned."
+  ],
+  "b_roll": [],
+  "editor_instructions": "No cuts, no zooms. Auto captions corrected for accuracy. Keep the outdoor sound. Music at 8 to 10% so the voice sounds unproduced. End on the hand over the lens."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"I lived in France, came back to America, and chose Florida. On purpose.\"",
+   "Alternate payoff: Walks out of frame after 'It's the heat'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. Promote if 48h views reach 3x the trailing median and either follows per 1,000 reached or shares per 1,000 reached is top quartile; comments from people naming their own move are a signal to make the sequels even if views are modest.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same seat, same framing, one month later: \"Florida update. I own a hat now.\"",
+   "The France version: \"I lived in France and the hardest part was coming back to American portions\" using only things that are true for him",
+   "\"I moved states and kept the same four clients on Zoom. Nobody noticed.\" if true"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 72,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 9,
+   "follower_conversion_potential": 16,
+   "creative_execution_quality": 11,
+   "ease_of_production": 9,
+   "repeatability": 6
+  },
+  "rationale": "The opening sentence is complete and true on the facts he gave, and the format costs fifteen minutes. Talking-to-camera has no track record on his account, so this is a test of the lane, not a safe bet.",
+  "uncertainties": [
+   "The line 'I can do my job from anywhere' assumes his client work is location-independent. If he needs to be on site for shoots, change it to 'Most of my job fits in a laptop'.",
+   "The gas-station 'boss' line must have happened or be replaced with a small true Florida moment of his own.",
+   "'It's November. I'm sweating.' only works if filmed on a warm day.",
+   "Reference is one outlier from a creator with a sub-1K median."
+  ]
+ },
+ "research_key": "B-05"
+}

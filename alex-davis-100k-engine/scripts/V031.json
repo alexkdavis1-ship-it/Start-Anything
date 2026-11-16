@@ -1,0 +1,201 @@
+{
+ "video_id": "V031",
+ "priority_rank": 40,
+ "scheduled_day": 5,
+ "production_batch": "Batch E: Green screen and screen breakdowns",
+ "content_pillar": "Marketing experiments and case studies",
+ "working_title": "\"I misspelled Florida on purpose\": split-screen breakdown of his own typo experiment",
+ "original_reference": {
+  "platform": "TikTok",
+  "creator_handle": "@roiinmarketing_",
+  "direct_video_url": "https://www.tiktok.com/@roiinmarketing_/video/7699585023061789972",
+  "publication_date": "2026-10-22",
+  "views": 2700000,
+  "creator_followers": 3600,
+  "creator_median_views": 6200,
+  "outlier_multiple": 433.8,
+  "duration_seconds": 41,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "The reference's spoken result figure (over 500,000) conflicts with its on-screen slide (373 K), so its campaign numbers are not relied on here"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"This chocolate brand literally sold chocolate bars with a piece missing on purpose.\"",
+  "visual_hook": "Stacked split screen. Top: hands tearing open a chocolate wrapper to show a bar with a corner missing, under a white header box reading \"This is WILD marketing 🤯\". Bottom: the presenter in a white shirt with a clip-on mic against a dark background.",
+  "narrative_structure": "Fixed headline for the whole video. A brand does something that looks like a mistake, the public gets angry, 'then the twist hit', a result number, and a question to the audience at the end.",
+  "viral_mechanism": "The top panel shows the 'mistake' as proof while the bottom panel tells the story, so the viewer never has to take the claim on trust. The mistake-anger-twist order is a three-act story in under 45 seconds.",
+  "observed_evidence": "2.7M views on a 3.6K-follower account, 433.8x its 6.2K median, 41s. Fixed header, word-by-word subtitles, campaign footage on top. Caption ends with a question to the viewer.",
+  "performance_hypothesis": "Hypothesis: 'on purpose' plus visible evidence makes people watch for the twist, and the closing question produces comments naming a person or an opinion. A tiny account reaching 2.7M suggests the structure does the work.",
+  "why_this_format_fits_alex": "He can be both the brand and the narrator: he runs the stunt on his own Trial Reel and reports the real result. That removes any unverified brand claim, shows a marketing experiment with his own numbers, and uses the Trial Reel workflow he already runs daily.",
+  "originality_changes": "Borrowed: stacked split screen, fixed headline, mistake then reaction then twist then result then question. New: the campaign is his own deliberate typo, the evidence is his own comment section, and the result is whatever his Insights show, including a failure."
+ },
+ "alex_adaptation": {
+  "concept": "Step one, before this video: he posts any silent Trial Reel from this package with 'Florida' spelled 'Flordia' in the on-screen text. Step two, 48 hours later: this split-screen video shows that Reel and its comments on top while he explains below that the typo was planted, and reports honestly whether corrections raised the comment count against his recent average.",
+  "target_audience": "Creators and marketers curious about engagement tactics; viewers who enjoy being let in on a trick.",
+  "primary_emotion": "Surprise at being shown the trick, then curiosity about the number",
+  "estimated_duration_seconds": 34,
+  "first_frame": "Split screen. Top: his own Reel paused on the frame where the text reads 'Flordia', with a red circle around the word. Header: 'I did this on purpose'. Bottom: Alex chest-up with a clip-on mic.",
+  "first_spoken_line": "Two days ago I posted a video where I spelled Florida wrong. On purpose.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex",
+    "dialogue": "Two days ago I posted a video where I spelled Florida wrong. On purpose.",
+    "action": "Bottom panel: calm, slightly smug, hands folded. Glances up toward the top panel on 'wrong'.",
+    "camera": "Bottom half: static chest-up. Top half: screen recording of the typo Reel, paused on the misspelling.",
+    "on_screen_text": "Header (fixed all video): I did this on purpose",
+    "editing": "Red circle draws around 'Flordia' in the first second",
+    "audio": "His voice only"
+   },
+   {
+    "start_second": 4,
+    "end_second": 10,
+    "speaker": "Alex",
+    "dialogue": "I live here. I know how to spell it. I'm 23 and I make videos for brands for a living, and I wanted to test something.",
+    "action": "Counts 'I live here, I know how to spell it' on two fingers. Flat delivery.",
+    "camera": "Same. Top panel plays the Reel once at normal speed.",
+    "on_screen_text": "(header stays) / subtitles word by word in the bottom panel",
+    "editing": "None",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 10,
+    "end_second": 17,
+    "speaker": "Alex",
+    "dialogue": "Because here's what happens. People can scroll past a good video. They cannot scroll past a spelling mistake.",
+    "action": "Leans in on 'cannot'. Slight eyebrow raise.",
+    "camera": "Top panel switches to a screen recording scrolling his real comment section on that Reel.",
+    "on_screen_text": "(header stays)",
+    "editing": "Highlight two or three real correction comments in yellow as they pass. Blur usernames.",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 17,
+    "end_second": 24,
+    "speaker": "Alex",
+    "dialogue": "And every person who types 'it's Florida' is leaving a comment. Which tells Instagram people are talking about this video.",
+    "action": "Mimes typing an angry comment with two thumbs, then gestures 'keep going' with one hand.",
+    "camera": "Top panel keeps scrolling comments",
+    "on_screen_text": "(header stays)",
+    "editing": "Counter graphic counts the highlighted corrections",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 24,
+    "end_second": 31,
+    "speaker": "Alex",
+    "dialogue": "IF IT WORKED: That video got {{REAL: comment count on the typo Reel at 48 hours}} comments. My last five averaged {{REAL: average comments on his previous five Trial Reels at 48 hours}}. IF IT DID NOT: It got {{REAL: comment count}} comments. Same as always. Nobody corrected me. I spelled my own state wrong for nothing.",
+    "action": "Worked version: reads the numbers like a scientist, small nod. Failed version: long pause before 'for nothing', stares at the lens.",
+    "camera": "Top panel: screenshot of the Reel's Insights showing the comment count",
+    "on_screen_text": "typo video: {{REAL}} comments / my usual: {{REAL}}",
+    "editing": "Use only the true branch. Numbers appear as he says them.",
+    "audio": "Voice only"
+   },
+   {
+    "start_second": 31,
+    "end_second": 34,
+    "speaker": "Alex",
+    "dialogue": "There's a typo in this video too. I'm not telling you where.",
+    "action": "Completely straight face. Does not blink. Reaches off-frame to stop recording.",
+    "camera": "Both panels hold",
+    "on_screen_text": "(header stays, and somewhere earlier in the subtitles one word is misspelled, e.g. 'brnads')",
+    "editing": "Cut on his reach",
+    "audio": "Voice only"
+   }
+  ],
+  "alternate_hooks": [
+   "There's a spelling mistake in one of my videos and I put it there.",
+   "I got corrected by strangers for 48 hours straight. That was the plan.",
+   "The cheapest marketing trick I know costs one wrong letter."
+  ],
+  "alternate_endings": [
+   "'Is this a cheap trick? Yes. Did you stay to see the number? Also yes.' Small shrug, cut.",
+   "Failed-result version only: 'So either the trick is dead or you've all stopped caring how Florida is spelled. Tell me which.' Cut."
+  ],
+  "caption": "I planted one mistake and watched what happened. Would you ever do this on a business account?",
+  "call_to_action": "The caption question. No spoken ask."
+ },
+ "production": {
+  "location": "Home, plain wall; split-screen layout in CapCut",
+  "props": [
+   "Phone",
+   "Clip-on mic",
+   "Screen recordings of the typo Reel, its comments and its Insights"
+  ],
+  "wardrobe": "Solid t-shirt, different from the one in the typo Reel so the panels are easy to tell apart",
+  "people_required": 1,
+  "filming_minutes_estimate": 15,
+  "editing_minutes_estimate": 40,
+  "difficulty": "medium",
+  "can_batch_film": false,
+  "shot_list": [
+   "Bottom-panel talking take, all six beats, twice",
+   "Second take of only beat five for whichever outcome is true"
+  ],
+  "b_roll": [
+   "Screen recording: the typo Reel playing",
+   "Screen recording: scrolling its comments",
+   "Screenshot: its Insights with the comment count",
+   "Screenshot: comment counts of his previous five Trial Reels"
+  ],
+  "editor_instructions": "Prerequisite: post one silent Trial Reel with 'Flordia' in the text at least 48 hours before filming this, and note the comment counts of the previous five trials at their own 48-hour mark. Fill the {{REAL}} tokens only from Insights. Keep only the true outcome branch. Blur every commenter's username. Plant exactly one misspelled word in this video's subtitles for the ending. Five videos is a small sample: the script reports the numbers and does not claim the typo caused them."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: 'I got corrected by strangers for 48 hours straight. That was the plan.'",
+   "Alternate payoff: 'Did you stay to see the number? Also yes.'"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3: promote at 48h if views are at least 3x his trailing median and comments per 1,000 reached is top quartile; the typo Reel itself stays a trial and is not promoted.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Same split-screen report on a different test: identical video posted with and without on-screen text",
+   "Report on a hook test: the same Reel with two different first lines, both numbers shown",
+   "Report on length: a 9-second and a 30-second cut of the same joke"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 71,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 22,
+   "fit_with_alex_historical_winners": 8,
+   "follower_conversion_potential": 17,
+   "creative_execution_quality": 12,
+   "ease_of_production": 4,
+   "repeatability": 8
+  },
+  "rationale": "A real experiment with his own receipts and an ending that turns the viewer into a participant. It shows the agency's thinking with no client and no income claim. It needs a prior post, a 48-hour wait and a fiddly split-screen edit.",
+  "uncertainties": [
+   "Result is unknown until the typo Reel runs; both branches are scripted and only the true one may be used",
+   "{{REAL}} tokens must come from Insights",
+   "A five-video comparison cannot prove cause; the script avoids saying it does",
+   "Some viewers consider typo bait cheap; the script admits that rather than hiding it",
+   "Split-screen explainer is a new format for him"
+  ]
+ },
+ "research_key": "C-06"
+}

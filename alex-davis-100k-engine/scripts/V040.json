@@ -1,0 +1,241 @@
+{
+ "video_id": "V040",
+ "priority_rank": 44,
+ "scheduled_day": 6,
+ "production_batch": "Batch G: Voiceover + b-roll and straight-to-camera",
+ "content_pillar": "Personal growth and comeback series",
+ "working_title": "Reintroduction: I'm the guy who paved Central Park (name and age held to the last line)",
+ "original_reference": {
+  "platform": "Instagram",
+  "creator_handle": "@parth_jairam.exe",
+  "direct_video_url": "https://www.instagram.com/reel/DcLA633pvGy",
+  "publication_date": "2026-08-18",
+  "views": 2300000,
+  "creator_followers": 41200,
+  "creator_median_views": 28800,
+  "outlier_multiple": 79.1,
+  "duration_seconds": 53.4,
+  "likes": null,
+  "comments": null,
+  "shares": null,
+  "metrics_checked_at": "2026-11-16",
+  "metrics_source": "vidIQ outlier index",
+  "metrics_source_url": null,
+  "verification_status": "verified",
+  "footage_reviewed": true,
+  "missing_data": [
+   "likes: not returned by the index",
+   "comments: not returned by the index",
+   "shares: not returned by the index",
+   "duration: not returned by search, taken from the watch job"
+  ]
+ },
+ "research_analysis": {
+  "exact_observed_hook": "\"I am the guy who is going to buy a private plane for my dad before I turn 25.\"",
+  "visual_hook": "Low-angle street shot in Toronto with the CN Tower against a sunset sky; the creator is seen from behind at bottom right in a black hoodie with one earbud.",
+  "narrative_structure": "Bold future claim as the cold open (0-3s). \"Allow me to introduce myself\" (3-5s). Rapid credential list, one claim every 2 to 3 seconds with document and logo overlays (5-22s). Pivot: \"these facts don't impress my dad. So what really does matter?\" (23-27s). Values section (28-42s). What followers will get (43-48s). Name and age withheld until the final line (49-52s). 19 walking shots, lo-fi beat, voiceover.",
+  "viral_mechanism": "The viewer is told what he will do before being told who he is, so the question \"who is this\" stays open for 49 seconds. The credential list is paced as proof for the opening claim, and the pivot line undercuts it just as it starts to sound like bragging.",
+  "observed_evidence": "2.3M views against a 28.8K median (79.1x) on a 41.2K account, almost the same size as Alex's. Caption: \"My Introduction. I respond to all dms.\" Name and age appear only at 0:49. The profile overlay in the video shows 10.6K followers at time of filming.",
+  "performance_hypothesis": "Hypothesis: this is a follow-conversion video more than a reach video. A stranger who watches to the end has been given a claim to check back on, a list of reasons to believe it and a name. The comments on videos like this are split between \"following to see it\" and people disputing the credentials, and both raise distribution.",
+  "why_this_format_fits_alex": "His feed has no introduction. A visitor arriving from a meme cannot tell he is 23, runs an agency, or has a dated goal. He is also at nearly the same follower count the reference creator was. His credentials can be delivered as jokes because he has a real 13.5M-play video and a real stretch of not posting to puncture them with.",
+  "originality_changes": "Borrowed: future-or-proof claim first, \"introduce myself\" line, fast credential list over walking shots, a pivot line that dismisses the list, name and age last. New: the opening claim is something he already did rather than a promise, every credential is immediately undercut by a self-deprecating fact, no income or IQ claims, the pivot is about the algorithm not a parent, and the close is a dated public goal he may miss."
+ },
+ "alex_adaptation": {
+  "concept": "A 36-second reintroduction. Alex opens on his strangest true credential, lists the rest with a puncture after each, admits his recent videos have been flopping, states the 100K-by-Dec-31 goal as a bad plan, and gives his name and age last.",
+  "target_audience": "Non-followers who have never seen him, plus the people who followed after one viral Reel and do not know what he does.",
+  "primary_emotion": "Curiosity that turns into rooting for him",
+  "estimated_duration_seconds": 36,
+  "first_frame": "Alex walking toward the camera on a Florida sidewalk, mid-stride, already mid-sentence. Behind his head, as a picture-in-picture card, a screenshot of his own Central Park Reel with the play count visible.",
+  "first_spoken_line": "I'm the guy who turned Central Park into a parking lot, and thirteen million people watched.",
+  "full_script": [
+   {
+    "start_second": 0,
+    "end_second": 4,
+    "speaker": "Alex (VO + lip-synced walking shot)",
+    "dialogue": "I'm the guy who turned Central Park into a parking lot, and thirteen million people watched.",
+    "action": "Walking toward camera, relaxed, a half-smile on \"parking lot\" like he knows how it sounds.",
+    "camera": "Low angle, phone on the ground or held low by a tripod, he walks into a medium shot.",
+    "on_screen_text": "I turned Central Park into a parking lot. / 13.5M views",
+    "editing": "Screenshot of his own Reel (handle and view count visible) pops in at 1s and out at 4s.",
+    "audio": "Clean VO recorded separately. Light, bouncy instrumental at low volume from 0s."
+   },
+   {
+    "start_second": 4,
+    "end_second": 6,
+    "speaker": "Alex (VO)",
+    "dialogue": "Let me reintroduce myself.",
+    "action": "Walks past the camera, taps the lens with one finger as he passes.",
+    "camera": "Same low angle, he exits frame right.",
+    "on_screen_text": "let me reintroduce myself",
+    "editing": "Cut on the finger tap.",
+    "audio": "Music up one notch."
+   },
+   {
+    "start_second": 6,
+    "end_second": 10,
+    "speaker": "Alex (VO)",
+    "dialogue": "I run an agency that gets brands a million views. My own videos lately get about eighteen hundred.",
+    "action": "Shot 1: at a desk, laptop open, pointing confidently at the screen. Shot 2: same framing, he turns the laptop to camera, shrugs.",
+    "camera": "Medium shot at desk, static.",
+    "on_screen_text": "I get brands 1,000,000 views / mine lately: ~1,800",
+    "editing": "Two shots, 2s each. The second number appears with a small deflating SFX.",
+    "audio": "Deflate SFX at 8s."
+   },
+   {
+    "start_second": 10,
+    "end_second": 14,
+    "speaker": "Alex (VO)",
+    "dialogue": "I trained as an actor. My biggest role is 'man smiling in front of a photo.'",
+    "action": "Shot 1: delivers a huge silent Shakespearean gesture in a parking lot. Shot 2: recreates the exact slow grin from the Central Park Reel, straight to lens.",
+    "camera": "Wide for the gesture, tight for the grin.",
+    "on_screen_text": "trained actor / biggest role: guy smiling at photo",
+    "editing": "Match the grin timing to the original Reel.",
+    "audio": "Music continues."
+   },
+   {
+    "start_second": 14,
+    "end_second": 18,
+    "speaker": "Alex (VO)",
+    "dialogue": "I hosted a business podcast. I lived in France. I moved to Florida. I bought a Lexus.",
+    "action": "Four one-second shots: headphones on at a mic, a coffee cup raised with a nod, palm trees with him squinting, the Lexus key fob held up.",
+    "camera": "Four quick static shots, different locations or corners.",
+    "on_screen_text": "podcast host / France / Florida / Lexus",
+    "editing": "One second each, cut on the beat.",
+    "audio": "Four light percussion hits on the cuts."
+   },
+   {
+    "start_second": 18,
+    "end_second": 21,
+    "speaker": "Alex",
+    "dialogue": "None of that impresses the algorithm.",
+    "action": "Stops walking. Looks at the phone in his hand, then at the lens, flat.",
+    "camera": "Selfie or tripod close-up, eye level.",
+    "on_screen_text": "none of this impresses the algorithm",
+    "editing": "Music cuts out.",
+    "audio": "Silence, voice only, recorded on location."
+   },
+   {
+    "start_second": 21,
+    "end_second": 29,
+    "speaker": "Alex (VO)",
+    "dialogue": "So here's the plan. Forty-two thousand followers today. A hundred thousand by December thirty-first. I stopped posting for months, so I'm doing it in six weeks. Which is a bad plan.",
+    "action": "Walking again, faster. He holds up fingers for the numbers, then drops the hand on \"bad plan\" and keeps walking.",
+    "camera": "Tracking shot from the front, handheld by tripod-on-chest or a friend; or three static pass-bys.",
+    "on_screen_text": "42,700 today / 100,000 by Dec 31 / it's a bad plan",
+    "editing": "Counter graphic 42,700 at left, 100,000 at right with a thin line between them. Music returns at 21s.",
+    "audio": "Music returns."
+   },
+   {
+    "start_second": 29,
+    "end_second": 33,
+    "speaker": "Alex (VO)",
+    "dialogue": "I'm posting up to ten videos a day until it works or it's embarrassing.",
+    "action": "Montage of three half-second setups: tripod going up, whiteboard marker cap off, car door closing.",
+    "camera": "Inserts.",
+    "on_screen_text": "up to 10 videos a day",
+    "editing": "Fast cuts, 0.5s to 1s each.",
+    "audio": "Music builds."
+   },
+   {
+    "start_second": 33,
+    "end_second": 36,
+    "speaker": "Alex",
+    "dialogue": "Oh. I'm twenty-three, my name's Alex. It's going to be one or the other.",
+    "action": "Stops, turns back to camera as if he forgot. Small wave. Walks off before the last word finishes.",
+    "camera": "Wide, he is already ten steps away and turns around.",
+    "on_screen_text": "23. Alex. follow to find out which.",
+    "editing": "End on him walking away, 0.5s after the last word. No end card.",
+    "audio": "Music ends on a clean hit at 36s."
+   }
+  ],
+  "alternate_hooks": [
+   "I get brands a million views for a living, and my last ten videos averaged eighteen hundred. Let me reintroduce myself.",
+   "Thirteen million people have seen my face and none of them know my name.",
+   "I have six weeks to gain fifty-seven thousand followers. Here's who's asking."
+  ],
+  "alternate_endings": [
+   "Final line instead: \"I'm twenty-three, my name's Alex, and if this doesn't work you watched it fail for free.\"",
+   "After the name, cut to a 1-second card: his real follower count as a screenshot, text \"day 1\", nothing else."
+  ],
+  "caption": "Reintroduction. 100K by Dec 31 or a very public lesson.",
+  "call_to_action": "Soft, spoken: \"It's going to be one or the other.\" On-screen: \"follow to find out which.\""
+ },
+ "production": {
+  "location": "A sidewalk and a parking lot near home in Florida, his desk, the Lexus.",
+  "props": [
+   "Laptop",
+   "Podcast headphones and a mic (or any mic)",
+   "Coffee cup",
+   "Lexus key fob",
+   "Tripod",
+   "Screenshot of his Central Park Reel showing handle and play count"
+  ],
+  "wardrobe": "One outfit throughout, plain T-shirt and the denim jacket from his profile photo if he still has it.",
+  "people_required": 1,
+  "filming_minutes_estimate": 50,
+  "editing_minutes_estimate": 60,
+  "difficulty": "medium",
+  "can_batch_film": true,
+  "shot_list": [
+   "Low-angle walk-up and pass with lens tap",
+   "Desk: confident point, then laptop turn and shrug",
+   "Parking lot: big silent stage gesture (wide)",
+   "Tight: the Central Park grin",
+   "Four 1-second inserts: mic, coffee, palm trees, key fob",
+   "Stop-and-look close-up for the algorithm line (sync sound)",
+   "Fast walk with finger counts",
+   "Three setup inserts: tripod, marker, car door",
+   "Wide: turn back, wave, walk away (sync sound)"
+  ],
+  "b_roll": [
+   "Screen recording of his own Reel insights page for the 13.5M figure",
+   "A 2-second shot of his real profile header showing the follower count on the day of posting"
+  ],
+  "editor_instructions": "Update the two numbers (follower count and days left) to the real figures on the day it posts. The spoken \"forty-two thousand\" must match the profile on that day; re-record that one line if it has moved. Keep every shot under 2.5s except the algorithm line, which holds 3s in silence. Captions in his normal bold white style, max six words on screen. Do not add a logo or an end card."
+ },
+ "testing": {
+  "trial_reel": true,
+  "variants_to_test": [
+   "Original adaptation",
+   "Alternate hook: \"Thirteen million people have seen my face and none of them know my name.\"",
+   "Alternate payoff: the screenshot 'day 1' card"
+  ],
+  "primary_metric": "Follows per 1000 non-follower accounts reached",
+  "secondary_metrics": [
+   "Shares per reach",
+   "Retention",
+   "Non-follower reach"
+  ],
+  "review_after_hours": [
+   24,
+   48
+  ],
+  "promotion_decision": "Brand fit 3. This is a conversion asset: promote at 48h if follows per 1,000 reached is top quartile even when views are only 3x median, then pin it to the profile grid.",
+  "brand_fit": 3,
+  "follow_up_variations_if_successful": [
+   "Reintroduction part 2 at 50K: same structure, updated numbers, opening on whichever video got him there",
+   "A 12-second cutdown: hook, the 1,800 line, the bad-plan line, name",
+   "The same script delivered to a client's camera at a gym, as 'the guy your gym hired'"
+  ]
+ },
+ "creative_confidence": {
+  "score_out_of_100": 68,
+  "score_type": "Subjective production-priority score, not predicted viral probability",
+  "score_breakdown": {
+   "reference_evidence_quality": 21,
+   "fit_with_alex_historical_winners": 8,
+   "follower_conversion_potential": 19,
+   "creative_execution_quality": 12,
+   "ease_of_production": 4,
+   "repeatability": 4
+  },
+  "rationale": "The reference came from an account the same size as his and is the clearest evidence in the set for an introduction video. Every claim in this script is a fact he supplied or a number observed on his public profile on 2026-11-16. It is the only script that gives a stranger his name, age, job and goal, so it is worth making even if reach is modest, because it raises what every other video converts at once pinned.",
+  "uncertainties": [
+   "\"About eighteen hundred\" is the median of his 9 most recent public Reels on 2026-11-16. If the median has changed, change the line.",
+   "\"Six weeks\" is correct only if posted by about Nov 19. Recount on the posting day.",
+   "\"Up to ten videos a day\" is his stated workflow. If he is doing fewer, say the real number.",
+   "Spoken, 36 seconds, nine setups: outside his proven short silent format."
+  ]
+ },
+ "research_key": "B-02"
+}
