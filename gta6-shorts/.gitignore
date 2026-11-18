@@ -1,0 +1,5 @@
+footage/
+renders/
+videos/*/assets/
+videos/*/.hyperframes/
+node_modules/

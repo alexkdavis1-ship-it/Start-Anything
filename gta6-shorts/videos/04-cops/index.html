@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>GTA 6 cops don't work like GTA 5 cops</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=block" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--font); color: var(--ink); }
+      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
+      #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+      .cap { position: absolute; left: 70px; right: 70px; top: 1130px; text-align: center; font-size: 112px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
+             -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
+      .cap .hot { color: var(--hot); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="37.572" data-width="1080" data-height="1920">
+      <div id="bgwrap">
+        <video id="bg" class="clip" data-start="0" data-duration="37.572" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
+      </div>
+      <div id="shade"></div>
+      <div id="bar"></div>
+      <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>THE COPS HAVE TO FIND YOU</span></div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="0.712" data-track-index="3">In <span class="hot">GTA</span> <span class="hot">5,</span></div>
+      <div class="clip cap" id="c1" data-start="0.712" data-duration="1.14" data-track-index="3">the cops always</div>
+      <div class="clip cap" id="c2" data-start="1.852" data-duration="1.069" data-track-index="3">knew where you</div>
+      <div class="clip cap" id="c3" data-start="2.921" data-duration="0.712" data-track-index="3">were.</div>
+      <div class="clip cap" id="c4" data-start="3.633" data-duration="0.712" data-track-index="3">In <span class="hot">GTA</span> <span class="hot">6,</span></div>
+      <div class="clip cap" id="c5" data-start="4.346" data-duration="0.926" data-track-index="3">they have to</div>
+      <div class="clip cap" id="c6" data-start="5.272" data-duration="0.997" data-track-index="3">find you.</div>
+      <div class="clip cap" id="c7" data-start="6.269" data-duration="0.954" data-track-index="3">Police now work</div>
+      <div class="clip cap" id="c8" data-start="7.223" data-duration="0.775" data-track-index="3">from witness</div>
+      <div class="clip cap" id="c9" data-start="7.999" data-duration="0.716" data-track-index="3">reports and</div>
+      <div class="clip cap" id="c10" data-start="8.714" data-duration="0.835" data-track-index="3">evidence.</div>
+      <div class="clip cap" id="c11" data-start="9.549" data-duration="0.716" data-track-index="3">A body.</div>
+      <div class="clip cap" id="c12" data-start="10.264" data-duration="0.596" data-track-index="3">A car you</div>
+      <div class="clip cap" id="c13" data-start="10.861" data-duration="0.894" data-track-index="3">abandoned.</div>
+      <div class="clip cap" id="c14" data-start="11.755" data-duration="0.652" data-track-index="3">They call in</div>
+      <div class="clip cap" id="c15" data-start="12.407" data-duration="0.552" data-track-index="3">a sighting</div>
+      <div class="clip cap" id="c16" data-start="12.959" data-duration="0.853" data-track-index="3">before they even</div>
+      <div class="clip cap" id="c17" data-start="13.812" data-duration="0.652" data-track-index="3">know who you</div>
+      <div class="clip cap" id="c18" data-start="14.464" data-duration="0.452" data-track-index="3">are.</div>
+      <div class="clip cap" id="c19" data-start="14.916" data-duration="0.796" data-track-index="3">So what gets</div>
+      <div class="clip cap" id="c20" data-start="15.712" data-duration="0.98" data-track-index="3">you caught?</div>
+      <div class="clip cap" id="c21" data-start="16.693" data-duration="0.98" data-track-index="3">Your outfit and</div>
+      <div class="clip cap" id="c22" data-start="17.673" data-duration="0.858" data-track-index="3">your car.</div>
+      <div class="clip cap" id="c23" data-start="18.53" data-duration="0.919" data-track-index="3">Cops recognise</div>
+      <div class="clip cap" id="c24" data-start="19.449" data-duration="0.613" data-track-index="3">both.</div>
+      <div class="clip cap" id="c25" data-start="20.062" data-duration="0.743" data-track-index="3">That's why you</div>
+      <div class="clip cap" id="c26" data-start="20.805" data-duration="0.446" data-track-index="3">can keep</div>
+      <div class="clip cap" id="c27" data-start="21.251" data-duration="0.792" data-track-index="3"><span class="hot">5</span> outfits in</div>
+      <div class="clip cap" id="c28" data-start="22.043" data-duration="0.792" data-track-index="3">your trunk.</div>
+      <div class="clip cap" id="c29" data-start="22.835" data-duration="0.743" data-track-index="3">Change clothes</div>
+      <div class="clip cap" id="c30" data-start="23.578" data-duration="0.693" data-track-index="3">and your heat</div>
+      <div class="clip cap" id="c31" data-start="24.272" data-duration="0.545" data-track-index="3">drops.</div>
+      <div class="clip cap" id="c32" data-start="24.816" data-duration="0.914" data-track-index="3">They also have</div>
+      <div class="clip cap" id="c33" data-start="25.731" data-duration="0.853" data-track-index="3">K9 units that</div>
+      <div class="clip cap" id="c34" data-start="26.584" data-duration="1.158" data-track-index="3">can sense you.</div>
+      <div class="clip cap" id="c35" data-start="27.742" data-duration="0.599" data-track-index="3">And if you</div>
+      <div class="clip cap" id="c36" data-start="28.341" data-duration="0.653" data-track-index="3">rob a place</div>
+      <div class="clip cap" id="c37" data-start="28.994" data-duration="0.653" data-track-index="3">with Lucia,</div>
+      <div class="clip cap" id="c38" data-start="29.648" data-duration="0.871" data-track-index="3">they're looking</div>
+      <div class="clip cap" id="c39" data-start="30.519" data-duration="0.817" data-track-index="3">for a duo.</div>
+      <div class="clip cap" id="c40" data-start="31.336" data-duration="0.926" data-track-index="3">So split up.</div>
+      <div class="clip cap" id="c41" data-start="32.261" data-duration="1.104" data-track-index="3">One more thing.</div>
+      <div class="clip cap" id="c42" data-start="33.365" data-duration="0.938" data-track-index="3">Enemies are <span class="hot">gone</span></div>
+      <div class="clip cap" id="c43" data-start="34.303" data-duration="1.159" data-track-index="3">from your radar.</div>
+      <div class="clip cap" id="c44" data-start="35.462" data-duration="0.662" data-track-index="3">You have to</div>
+      <div class="clip cap" id="c45" data-start="36.124" data-duration="1.048" data-track-index="3">actually look.</div>
+      <audio id="vo" data-start="0" data-duration="37.172" data-track-index="4" data-volume="1" src="assets/vo.mp3"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const caps = [0,0.712,1.852,2.921,3.633,4.346,5.272,6.269,7.223,7.999,8.714,9.549,10.264,10.861,11.755,12.407,12.959,13.812,14.464,14.916,15.712,16.693,17.673,18.53,19.449,20.062,20.805,21.251,22.043,22.835,23.578,24.272,24.816,25.731,26.584,27.742,28.341,28.994,29.648,30.519,31.336,32.261,33.365,34.303,35.462,36.124];
+      const beats = [0,6.269,11.755,14.916,20.062,24.816,27.742,32.261];
+      tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 37.572, ease: "none" }, 0);
+      tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
+      tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
+      caps.forEach((t, i) => {
+        tl.fromTo("#c" + i, { scale: 0.72, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.1, ease: "back.out(2.4)" }, t);
+      });
+      // Punch-in on the gameplay at the start of every spoken line.
+      beats.forEach((t) => {
+        tl.fromTo("#bgwrap", { scale: 1.09 }, { scale: 1, duration: 0.45, ease: "power3.out" }, t);
+      });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

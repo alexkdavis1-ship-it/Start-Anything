@@ -1,0 +1,11 @@
+{
+  "name": "gta6-shorts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download": "./download-clips.sh",
+    "build": "node build.mjs",
+    "render": "./render-all.sh",
+    "preview": "cd videos/${npm_config_video:-04-cops} && npx --yes hyperframes@0.9.68 preview"
+  }
+}

@@ -1,0 +1,5 @@
+# One URL per line. Lines starting with # are ignored.
+# Paste YouTube, TikTok or Instagram links to raw gameplay here, then run ./download-clips.sh
+#
+# Rockstar Games official: Grand Theft Auto VI Trailer 2
+https://www.youtube.com/watch?v=VQRLujxTm3c
