@@ -54,4 +54,4 @@ History (long-established):
 - "Biggest day in human history" is deliberate hyperbole; the script walks it back in the next sentence.
 - "25 games, 2001-2013" counts Rockstar-published titles including ports and handheld entries.
 - The Scotland aerial b-roll is Edinburgh, not Dundee; it is labeled "Scotland".
-- The 1997 Bigfoot/moon-theory section is fan lore, presented as lore.
+- The Bigfoot, Mount Chiliad and moon-theory section is fan lore, presented as lore.
