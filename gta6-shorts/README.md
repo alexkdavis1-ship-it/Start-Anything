@@ -6,9 +6,10 @@ Needs Node 22+, ffmpeg, yt-dlp (`brew install node ffmpeg yt-dlp`).
 
 1. Add links to `urls.txt`, then `./download-clips.sh` (clips land in `footage/pool/`).
    Or drop your own captures into `footage/pool/`, or `footage/<slug>/` for one video only.
-2. `npm run build` cuts the footage into a 9:16 bed (a new shot every 2.4 s) and writes `videos/<slug>/`.
+2. `npm run build` cuts the footage into a 9:16 bed (a new shot every 1.8 s), mixes voiceover,
+   music (`music/bed.mp3`) and sound effects, and writes `videos/<slug>/`.
 3. `npm run render` writes `renders/<slug>.mp4`. One video: `./render-all.sh 04-cops`.
 4. `npm run preview --video=04-cops` opens the live HyperFrames preview.
 
-Edit words in `scripts.json`. Changing a spoken line means regenerating that voiceover and
+Edit words, the top title card (`pill`) and favoured clips (`footage`) in `scripts.json`. Changing a spoken line means regenerating that voiceover and
 updating its timings in `vo.json`. Caption look and pacing live in `build.mjs`.

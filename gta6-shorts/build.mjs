@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 // Builds one HyperFrames project per script in scripts.json:
 //   videos/<slug>/index.html      captions + hook + progress bar, timed to the voiceover
-//   videos/<slug>/assets/vo.mp3   voiceover
+//   videos/<slug>/assets/mix.mp3  voiceover + music bed + whoosh/impact effects
 //   videos/<slug>/assets/bg.mp4   9:16 gameplay bed, hard cut every CUT_SECONDS
 //
 // Footage: put clips in footage/<slug>/ (used only for that video) or footage/pool/ (shared).
+// A script's "footage" list names clips (by part of the filename) to favour for that video.
 // With no footage a dark placeholder bed is generated so the edit can still be previewed.
 //
 // Usage: node build.mjs [slug ...]
@@ -18,7 +19,10 @@ const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const W = 1080;
 const H = 1920;
 const FPS = 30;
-const CUT_SECONDS = 2.4; // length of each gameplay shot
+const CUT_SECONDS = 1.8; // length of each gameplay shot
+const HEAD_TRIM = 2; // skip rating cards at the start of a clip
+const TAIL_TRIM = 0.24; // skip end slates: this share of each clip's tail
+const MUSIC_VOLUME = 0.2;
 const TAIL = 0.4; // hold after the last word
 
 const scripts = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts.json"), "utf8"));
@@ -54,6 +58,8 @@ const DISPLAY = [
   ["twice the size", "2x the size"],
 ];
 
+const STAMPS = { one: "#1", two: "#2", three: "#3", four: "#4", five: "#5", six: "#6", bonus: "BONUS" };
+const STAMP = /^(one|two|three|four|five|six|bonus)\.$/i;
 const HOT = /^(\$?\d[\d,.]*(\+|%|p|K|x|s)?|'95|FPS|GTA|broke|free|gone|removed|never|limited|hard)$/i;
 
 function tokenize(line) {
@@ -147,6 +153,8 @@ function html(video, timing, caps) {
           return HOT.test(bare) ? `<span class="hot">${esc(w)}</span>` : esc(w);
         })
         .join(" ");
+      const stamp = c.words.length === 1 && STAMP.test(c.words[0]);
+      if (stamp) return `      <div class="clip cap stamp" id="c${i}" data-start="${r(c.start)}" data-duration="${r(c.duration)}" data-track-index="3">${esc(STAMPS[c.words[0].replace(/\W/g, "").toLowerCase()])}</div>`;
       return `      <div class="clip cap" id="c${i}" data-start="${r(c.start)}" data-duration="${r(c.duration)}" data-track-index="3">${words}</div>`;
     })
     .join("\n");
@@ -158,7 +166,7 @@ function html(video, timing, caps) {
     <meta name="viewport" content="width=${W}, height=${H}" />
     <title>${esc(video.title)}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=block" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
       :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
@@ -169,11 +177,15 @@ function html(video, timing, caps) {
       #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
-      #hook { position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
+      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
+      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-      .cap { position: absolute; left: 70px; right: 70px; top: 1130px; text-align: center; font-size: 112px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
+      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
   <body>
@@ -182,10 +194,12 @@ function html(video, timing, caps) {
         <video id="bg" class="clip" data-start="0" data-duration="${D}" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
       </div>
       <div id="shade"></div>
+      <div id="flash"></div>
       <div id="bar"></div>
+      <div id="pill"><span>${esc(video.pill ?? video.title)}</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="${hookEnd}" data-track-index="2"><span>${esc(video.hook)}</span></div>
 ${capHtml}
-      <audio id="vo" data-start="0" data-duration="${r(timing.duration)}" data-track-index="4" data-volume="1" src="assets/vo.mp3"></audio>
+      <audio id="mix" data-start="0" data-duration="${D}" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -195,12 +209,19 @@ ${capHtml}
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: ${D}, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, ${r(hookEnd - 0.12)});
+      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
-        tl.fromTo("#c" + i, { scale: 0.72, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.1, ease: "back.out(2.4)" }, t);
+        const el = document.getElementById("c" + i);
+        const stamp = el.classList.contains("stamp");
+        const tilt = stamp ? -6 : i % 2 ? 2 : -2;
+        tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
       });
-      // Punch-in on the gameplay at the start of every spoken line.
-      beats.forEach((t) => {
-        tl.fromTo("#bgwrap", { scale: 1.09 }, { scale: 1, duration: 0.45, ease: "power3.out" }, t);
+      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      beats.forEach((t, i) => {
+        const next = i + 1 < beats.length ? beats[i + 1] : ${D};
+        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
+        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
+        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
       });
       window.__timelines["main"] = tl;
       tl.seek(0);
@@ -217,7 +238,7 @@ const VIDEO_EXT = /\.(mp4|mov|mkv|webm|m4v)$/i;
 const listClips = (dir) =>
   fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => VIDEO_EXT.test(f)).sort().map((f) => path.join(dir, f)) : [];
 
-function buildBed(slug, duration, outFile) {
+function buildBed(slug, duration, outFile, prefer = []) {
   let clips = listClips(path.join(ROOT, "footage", slug));
   if (!clips.length) clips = listClips(path.join(ROOT, "footage", "pool"));
   if (!clips.length) {
@@ -226,18 +247,30 @@ function buildBed(slug, duration, outFile) {
     return "placeholder (no footage found)";
   }
   const tmp = fs.mkdtempSync(path.join(path.dirname(outFile), "seg-"));
-  const info = clips.map((f) => ({ f, d: probe(f) })).filter((c) => c.d > CUT_SECONDS + 0.5);
-  if (!info.length) throw new Error(`footage for ${slug} is shorter than ${CUT_SECONDS}s per clip`);
+  const info = clips
+    .map((f) => {
+      const d = probe(f);
+      const head = Math.min(HEAD_TRIM, d * 0.1);
+      return { f, head, span: d * (1 - TAIL_TRIM) - head - CUT_SECONDS };
+    })
+    .filter((c) => c.span > 0);
+  if (!info.length) throw new Error(`footage for ${slug} is too short for ${CUT_SECONDS}s shots`);
+  const isPreferred = (c) => prefer.some((p) => path.basename(c.f).includes(p));
+  const fav = info.filter(isPreferred);
+  const rest = info.filter((c) => !isPreferred(c));
   const n = Math.ceil(duration / CUT_SECONDS);
   const used = new Map();
   const list = [];
+  let fi = 0;
+  let ri = 0;
   for (let i = 0; i < n; i++) {
-    const c = info[i % info.length];
+    // Favoured clips take the opening shots and every other shot after that.
+    const useFav = fav.length && (i < 2 || i % 2 === 0 || !rest.length);
+    const c = useFav ? fav[fi++ % fav.length] : rest[ri++ % rest.length];
     const k = used.get(c.f) ?? 0;
     used.set(c.f, k + 1);
-    // Walk through each clip in strides so repeat visits land on unseen footage.
-    const span = c.d - CUT_SECONDS - 0.2;
-    const offset = (0.1 + ((k * 0.381966) % 1) * span).toFixed(2);
+    // Step through each clip shot by shot so repeat visits land on unseen footage.
+    const offset = (c.head + ((k * CUT_SECONDS * 1.5) % c.span)).toFixed(2);
     const seg = path.join(tmp, `s${String(i).padStart(3, "0")}.mp4`);
     ff(["-ss", offset, "-t", String(CUT_SECONDS), "-i", c.f, "-an",
       "-vf", `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},fps=${FPS},setsar=1`,
@@ -251,6 +284,39 @@ function buildBed(slug, duration, outFile) {
   return `${n} cuts from ${info.length} clip(s)`;
 }
 
+// Voiceover + looped music bed + a whoosh on every new line + an impact on the hook and each stamp.
+function buildMix(slug, timing, caps, duration, outFile) {
+  const voFile = path.join(ROOT, "voiceovers", `${slug}.mp3`);
+  const music = path.join(ROOT, "music", "bed.mp3");
+  const hasMusic = fs.existsSync(music);
+  const whooshes = timing.starts.slice(1);
+  const hits = [0, ...caps.filter((c) => c.words.length === 1 && STAMP.test(c.words[0])).map((c) => c.start)];
+  const args = ["-i", voFile];
+  if (hasMusic) args.push("-stream_loop", "-1", "-i", music);
+  const base = hasMusic ? 2 : 1;
+  args.push("-f", "lavfi", "-i", "anoisesrc=d=0.42:c=white:a=0.7:r=44100", "-f", "lavfi", "-i", "sine=f=52:d=0.7:r=44100");
+  const fx = [];
+  const outs = ["[v]"];
+  fx.push(`[0:a]aresample=44100,volume=1.5[v]`);
+  if (hasMusic) {
+    fx.push(`[1:a]aresample=44100,volume=${MUSIC_VOLUME},atrim=0:${duration},afade=t=out:st=${(duration - 0.6).toFixed(2)}:d=0.6[m]`);
+    outs.push("[m]");
+  }
+  fx.push(`[${base}:a]highpass=f=900,lowpass=f=7000,afade=t=in:d=0.3:curve=qua,afade=t=out:st=0.3:d=0.12,volume=0.3,asplit=${Math.max(1, whooshes.length)}${whooshes.map((_, i) => `[w${i}]`).join("") || "[w0]"}`);
+  fx.push(`[${base + 1}:a]afade=t=out:st=0.03:d=0.67:curve=exp,volume=2.2,asplit=${hits.length}${hits.map((_, i) => `[h${i}]`).join("")}`);
+  whooshes.forEach((t, i) => {
+    fx.push(`[w${i}]adelay=${Math.max(0, Math.round((t - 0.3) * 1000))}:all=1[wd${i}]`);
+    outs.push(`[wd${i}]`);
+  });
+  if (!whooshes.length) fx.push("[w0]anullsink");
+  hits.forEach((t, i) => {
+    fx.push(`[h${i}]adelay=${Math.round(t * 1000)}:all=1[hd${i}]`);
+    outs.push(`[hd${i}]`);
+  });
+  fx.push(`${outs.join("")}amix=inputs=${outs.length}:normalize=0:duration=longest,alimiter=limit=0.95,atrim=0:${duration}[out]`);
+  ff([...args, "-filter_complex", fx.join(";"), "-map", "[out]", "-b:a", "192k", outFile]);
+}
+
 for (const video of scripts.videos) {
   if (only.length && !only.includes(video.slug)) continue;
   const timing = vo[video.slug];
@@ -258,9 +324,9 @@ for (const video of scripts.videos) {
   if (timing.starts.length !== video.lines.length) throw new Error(`${video.slug}: ${video.lines.length} lines but ${timing.starts.length} timings`);
   const dir = path.join(ROOT, "videos", video.slug);
   fs.mkdirSync(path.join(dir, "assets"), { recursive: true });
-  fs.copyFileSync(path.join(ROOT, "voiceovers", `${video.slug}.mp3`), path.join(dir, "assets", "vo.mp3"));
-  const bed = buildBed(video.slug, timing.duration + TAIL, path.join(dir, "assets", "bg.mp4"));
   const caps = captionsFor(video, timing);
+  buildMix(video.slug, timing, caps, timing.duration + TAIL, path.join(dir, "assets", "mix.mp3"));
+  const bed = buildBed(video.slug, timing.duration + TAIL, path.join(dir, "assets", "bg.mp4"), video.footage);
   fs.writeFileSync(path.join(dir, "index.html"), html(video, timing, caps));
   fs.writeFileSync(path.join(dir, "hyperframes.json"), JSON.stringify({
     $schema: "https://hyperframes.heygen.com/schema/hyperframes.json",
