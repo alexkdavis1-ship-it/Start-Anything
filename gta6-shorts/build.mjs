@@ -333,7 +333,11 @@ function buildBed(slug, duration, outFile, prefer = [], only = false) {
   if (!info.length) throw new Error(`footage for ${slug} is too short for ${CUT_SECONDS}s shots`);
   const isPreferred = (c) => prefer.some((p) => path.basename(c.f).includes(p));
   const fav = info.filter(isPreferred);
-  const rest = only && fav.length ? [] : info.filter((c) => !isPreferred(c));
+  // Each video starts its other clips at a different clip and a different point, so two videos
+  // never share the same run of shots.
+  const seed = [...slug].reduce((n, ch) => (n * 31 + ch.charCodeAt(0)) >>> 0, 7);
+  const others = info.filter((c) => !isPreferred(c));
+  const rest = only && fav.length ? [] : others.map((_, i) => others[(i + seed) % others.length]);
   const n = Math.ceil(duration / CUT_SECONDS);
   const used = new Map();
   const list = [];
@@ -346,7 +350,8 @@ function buildBed(slug, duration, outFile, prefer = [], only = false) {
     const k = used.get(c.f) ?? 0;
     used.set(c.f, k + 1);
     // Step through each clip shot by shot so repeat visits land on unseen footage.
-    const offset = (c.head + ((k * CUT_SECONDS) % c.span)).toFixed(2);
+    const base = isPreferred(c) ? 0 : ((seed % 97) / 97) * c.span;
+    const offset = (c.head + ((base + k * CUT_SECONDS) % c.span)).toFixed(2);
     const seg = path.join(tmp, `s${String(i).padStart(3, "0")}.mp4`);
     ff(["-ss", offset, "-t", String(CUT_SECONDS), "-i", c.f, "-an",
       "-filter_complex", `[0:v]fps=${FPS},split[a][b];` +
