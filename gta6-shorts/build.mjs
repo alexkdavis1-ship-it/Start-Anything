@@ -23,6 +23,9 @@ const CUT_SECONDS = 1.3; // length of each gameplay shot
 const HEAD_TRIM = 2; // skip rating cards at the start of a clip
 const TAIL_TRIM = 0.24; // skip end slates: this share of each clip's tail
 const MUSIC_VOLUME = 0.2;
+// Boxed layout: sharp gameplay in a band, a blurred copy of it filling the rest of the frame.
+const BOX_Y = 450;
+const BOX_H = 1020;
 const TAIL = 0.4; // hold after the last word
 
 const scripts = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts.json"), "utf8"));
@@ -162,17 +165,17 @@ function insertsFor(video, timing, caps, D, hookEnd) {
     const first = caps.find((c) => Math.abs(c.start - lineStart) < 0.01);
     if (first && first.words.length === 1 && STAMP.test(first.words[0])) start = Math.max(start, first.start + first.duration + 0.05);
     const end = lineEnd - 0.08;
-    const sized = (t) => (t.length <= 4 ? 250 : t.length <= 7 ? 190 : t.length <= 10 ? 150 : 118);
+    const sized = (t) => (t.length <= 4 ? 210 : t.length <= 7 ? 160 : t.length <= 10 ? 128 : 100);
     let body = "";
     if (ins.kind === "stat") {
       body = `<div class="big" style="font-size:${sized(ins.big)}px">${esc(ins.big)}</div><div class="label">${esc(ins.label)}</div>`;
     } else if (ins.kind === "compare") {
-      const col = (c, cls) => `<div class="col ${cls}"><div class="top">${esc(c.top)}</div><div class="big" style="font-size:${Math.min(170, sized(c.big))}px">${esc(c.big)}</div></div>`;
+      const col = (c, cls) => `<div class="col ${cls}"><div class="top">${esc(c.top)}</div><div class="big" style="font-size:${Math.min(130, sized(c.big))}px">${esc(c.big)}</div></div>`;
       body = `<div class="cols">${col(ins.left, "")}<div class="join">${esc(ins.joiner ?? "VS")}</div>${col(ins.right, "win")}</div>`;
     } else if (ins.kind === "list") {
       // Long lists get smaller rows so the card never reaches the captions.
-      const dense = ins.items.length > 4 ? ' style="font-size:46px;padding:8px 0 8px 8px"' : "";
-      body = `<div class="title">${esc(ins.title)}</div>` + ins.items.map((it, j) => `<div class="item" id="i${k}_${j}"${dense}><i></i>${esc(it)}</div>`).join("");
+      const dense = ins.items.length > 4 ? ' style="font-size:40px;padding:6px 20px;margin:6px auto"' : "";
+      body = `<div class="title">${esc(ins.title)}</div>` + ins.items.map((it, j) => `<div class="item" id="i${k}_${j}"${dense}>${esc(it)}</div>`).join("");
     } else if (ins.kind === "broll") {
       body = `<video class="clip" data-start="${r(start)}" data-duration="${r(end - start)}" data-track-index="${6 + k}" src="assets/${ins.clip}.mp4" muted playsinline></video>` +
         (ins.label ? `<div class="label">${esc(ins.label)}</div>` : "");
@@ -186,7 +189,7 @@ function insertsFor(video, timing, caps, D, hookEnd) {
 
 function html(video, timing, caps) {
   const D = r(timing.duration + TAIL);
-  const hookEnd = r(Math.min(timing.starts[1] ?? 3, 3.2));
+  const hookEnd = r(Math.min(timing.starts[1] ?? 3, 4.5));
   const inserts = insertsFor(video, timing, caps, D, hookEnd);
   const wordTimes = [];
   const capHtml = caps
@@ -222,38 +225,32 @@ function html(video, timing, caps) {
     <meta name="viewport" content="width=${W}, height=${H}" />
     <title>${esc(video.title)}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:wght@500;700;800&family=Montserrat:wght@700;800&display=block" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
-      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
+      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "TikTok Sans", "Montserrat", sans-serif; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: var(--ground); }
       #root { position: relative; width: ${W}px; height: ${H}px; overflow: hidden; font-family: var(--font); color: var(--ink); }
-      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 50%; }
       #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-      #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
-      #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
-      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
-      #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
-             -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .w { display: inline-block; margin: 0 0.16em; }
-      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
-             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
-      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
-      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
-      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
-      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
-      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
-      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
-      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
-      .ins .col .big { color: #fff; }
-      .ins .col.win .big { color: var(--hot); }
-      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
-      .ins.broll { padding: 18px 18px 30px; }
+      .label, .title, .item, #hook span { font-family: var(--font); font-weight: 700; background: #fff; color: #111; border-radius: 18px;
+             box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+      #hook { position: absolute; left: 70px; right: 70px; top: 170px; text-align: center; font-size: 58px; line-height: 1.52; }
+      #hook span { padding: 8px 24px; }
+      .cap { position: absolute; left: 60px; right: 60px; top: 1270px; text-align: center; font-size: 84px; font-weight: 800; line-height: 1.12;
+             -webkit-text-stroke: 12px #000; paint-order: stroke fill; text-shadow: 0 6px 14px rgba(0,0,0,.55); }
+      .cap .w { display: inline-block; margin: 0 0.13em; }
+      .cap.stamp { top: 780px; font-size: 300px; }
+      .ins { position: absolute; left: 50px; right: 50px; top: 130px; visibility: hidden; text-align: center; }
+      .ins .big { font-weight: 800; color: #fff; line-height: 1.05; -webkit-text-stroke: 14px #000; paint-order: stroke fill; }
+      .ins .label { display: inline-block; font-size: 46px; line-height: 1.25; padding: 10px 24px; margin-top: 12px; }
+      .ins .title { display: inline-block; font-size: 46px; font-weight: 800; padding: 10px 26px; margin-bottom: 8px; background: #111; color: #fff; }
+      .ins .item { display: table; margin: 10px auto; font-size: 48px; line-height: 1.2; padding: 10px 24px; }
+      .ins .cols { display: flex; align-items: center; justify-content: center; gap: 30px; }
+      .ins .col .top { font-size: 38px; font-weight: 700; -webkit-text-stroke: 8px #000; paint-order: stroke fill; }
+      .ins .join { font-size: 70px; font-weight: 800; -webkit-text-stroke: 10px #000; paint-order: stroke fill; }
       .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
-      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
   <body>
@@ -261,10 +258,7 @@ function html(video, timing, caps) {
       <div id="bgwrap">
         <video id="bg" class="clip" data-start="0" data-duration="${D}" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
       </div>
-      <div id="shade"></div>
-      <div id="flash"></div>
-      <div id="bar"></div>
-      <div id="hook" class="clip" data-start="0" data-duration="${hookEnd}" data-track-index="2"><span>${esc(video.hook)}</span></div>
+      <div id="hook" class="clip" data-start="0" data-duration="${hookEnd}" data-track-index="2"><span>${esc(video.sticker ?? video.hook)}</span></div>
 ${inserts.map((x) => x.html).join("\n")}
 ${capHtml}
       <audio id="mix" data-start="0" data-duration="${D}" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
@@ -274,8 +268,7 @@ ${capHtml}
       const tl = gsap.timeline({ paused: true });
       const caps = ${JSON.stringify(caps.map((c) => r(c.start)))};
       const beats = ${JSON.stringify(timing.starts.map(r))};
-      tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: ${D}, ease: "none" }, 0);
-      tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
+      tl.fromTo("#hook", { scale: 0.8, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: "back.out(2)" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, ${r(hookEnd - 0.12)});
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
@@ -297,16 +290,14 @@ ${capHtml}
         tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
         const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
         for (let j = 0; j < x.items; j++) {
-          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+          tl.fromTo(el + "_" + j, { scale: 0.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.14, ease: "back.out(2)" }, x.start + 0.15 + j * step);
         }
         tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
-      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      // A small punch-in on every spoken line.
       beats.forEach((t, i) => {
         const next = i + 1 < beats.length ? beats[i + 1] : ${D};
-        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
-        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
-        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
+        tl.fromTo("#bgwrap", { scale: 1.05 }, { scale: 1, duration: 0.28, ease: "power3.out" }, t);
       });
       window.__timelines["main"] = tl;
       tl.seek(0);
@@ -323,7 +314,7 @@ const VIDEO_EXT = /\.(mp4|mov|mkv|webm|m4v)$/i;
 const listClips = (dir) =>
   fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => VIDEO_EXT.test(f)).sort().map((f) => path.join(dir, f)) : [];
 
-function buildBed(slug, duration, outFile, prefer = []) {
+function buildBed(slug, duration, outFile, prefer = [], only = false) {
   let clips = listClips(path.join(ROOT, "footage", slug));
   if (!clips.length) clips = listClips(path.join(ROOT, "footage", "pool"));
   if (!clips.length) {
@@ -342,7 +333,7 @@ function buildBed(slug, duration, outFile, prefer = []) {
   if (!info.length) throw new Error(`footage for ${slug} is too short for ${CUT_SECONDS}s shots`);
   const isPreferred = (c) => prefer.some((p) => path.basename(c.f).includes(p));
   const fav = info.filter(isPreferred);
-  const rest = info.filter((c) => !isPreferred(c));
+  const rest = only && fav.length ? [] : info.filter((c) => !isPreferred(c));
   const n = Math.ceil(duration / CUT_SECONDS);
   const used = new Map();
   const list = [];
@@ -355,10 +346,12 @@ function buildBed(slug, duration, outFile, prefer = []) {
     const k = used.get(c.f) ?? 0;
     used.set(c.f, k + 1);
     // Step through each clip shot by shot so repeat visits land on unseen footage.
-    const offset = (c.head + ((k * CUT_SECONDS * 1.5) % c.span)).toFixed(2);
+    const offset = (c.head + ((k * CUT_SECONDS) % c.span)).toFixed(2);
     const seg = path.join(tmp, `s${String(i).padStart(3, "0")}.mp4`);
     ff(["-ss", offset, "-t", String(CUT_SECONDS), "-i", c.f, "-an",
-      "-vf", `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},fps=${FPS},setsar=1`,
+      "-filter_complex", `[0:v]fps=${FPS},split[a][b];` +
+        `[a]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=28:3,eq=brightness=-0.1[bg];` +
+        `[b]scale=${W}:${BOX_H}:force_original_aspect_ratio=increase,crop=${W}:${BOX_H}[fg];[bg][fg]overlay=0:${BOX_Y},setsar=1`,
       "-pix_fmt", "yuv420p", "-c:v", "libx264", "-preset", "fast", "-crf", "17", "-g", String(FPS), seg]);
     list.push(`file '${seg.replace(/'/g, "'\\''")}'`);
   }
@@ -366,7 +359,7 @@ function buildBed(slug, duration, outFile, prefer = []) {
   fs.writeFileSync(listFile, list.join("\n"));
   ff(["-f", "concat", "-safe", "0", "-i", listFile, "-t", String(duration), "-c", "copy", outFile]);
   fs.rmSync(tmp, { recursive: true, force: true });
-  return `${n} cuts from ${info.length} clip(s)`;
+  return `${n} cuts from ${(fav.length && only ? fav : info).length} clip(s)`;
 }
 
 // Voiceover + looped music bed + a whoosh on every new line + an impact on the hook and each stamp.
@@ -415,7 +408,7 @@ for (const video of scripts.videos) {
   const bedFile = path.join(dir, "assets", "bg.mp4");
   const bed = fs.existsSync(bedFile) && !process.env.FRESH_BED
     ? "kept existing bed"
-    : buildBed(video.slug, timing.duration + TAIL, bedFile, video.footage);
+    : buildBed(video.slug, timing.duration + TAIL, bedFile, video.footage, video.footageOnly);
   for (const ins of video.inserts ?? []) {
     if (ins.kind !== "broll") continue;
     const src = path.join(ROOT, "broll", `${ins.clip}.mp4`);
