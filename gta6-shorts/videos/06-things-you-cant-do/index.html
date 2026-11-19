@@ -17,14 +17,12 @@
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
       #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
-      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
-      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .hot { color: var(--hot); }
-      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
              background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
       .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
       .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
@@ -49,64 +47,63 @@
       <div id="shade"></div>
       <div id="flash"></div>
       <div id="bar"></div>
-      <div id="pill"><span>6 things GTA 6 took away</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>GTA 5 HABITS THAT ARE DEAD</span></div>
       <div class="ins stat" id="i0"><div class="big" style="font-size:190px">TRUNK</div><div class="label">extra guns live here now</div></div>
       <div class="ins list" id="i1"><div class="title">STEALING CARS</div><div class="item" id="i1_0"><i></i>Old cars: jimmy the lock</div><div class="item" id="i1_1"><i></i>Sports cars + EVs: key cloner</div></div>
       <div class="ins list" id="i2"><div class="title">YOUR BODY MATTERS</div><div class="item" id="i2_0"><i></i>Eat</div><div class="item" id="i2_1"><i></i>Sleep</div><div class="item" id="i2_2"><i></i>Fuel the car</div><div class="item" id="i2_3"><i></i>Gym builds muscle</div></div>
       <div class="ins broll" id="i3"><video class="clip" data-start="34.2" data-duration="4.277" data-track-index="9" src="assets/empty-wallet.mp4" muted playsinline></video><div class="label">Money is hard to earn</div></div>
       <div class="ins stat" id="i4"><div class="big" style="font-size:190px">NO DISC</div><div class="label">boxed copy is reportedly a download code</div></div>
-      <div class="clip cap" id="c0" data-start="0" data-duration="1.432" data-track-index="3"><span class="hot">6</span> things you did</div>
-      <div class="clip cap" id="c1" data-start="1.432" data-duration="0.678" data-track-index="3">in <span class="hot">GTA</span> <span class="hot">5</span></div>
-      <div class="clip cap" id="c2" data-start="2.11" data-duration="0.829" data-track-index="3">that <span class="hot">GTA</span> <span class="hot">6</span></div>
-      <div class="clip cap" id="c3" data-start="2.939" data-duration="1.055" data-track-index="3">won't let you</div>
-      <div class="clip cap" id="c4" data-start="3.995" data-duration="0.603" data-track-index="3">do</div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="1.432" data-track-index="3"><span class="w" id="c0w0">6</span> <span class="w" id="c0w1">things</span> <span class="w" id="c0w2">you</span> <span class="w" id="c0w3">did</span></div>
+      <div class="clip cap" id="c1" data-start="1.432" data-duration="0.678" data-track-index="3"><span class="w" id="c1w0">in</span> <span class="w" id="c1w1">GTA</span> <span class="w" id="c1w2">5</span></div>
+      <div class="clip cap" id="c2" data-start="2.11" data-duration="0.829" data-track-index="3"><span class="w" id="c2w0">that</span> <span class="w" id="c2w1">GTA</span> <span class="w" id="c2w2">6</span></div>
+      <div class="clip cap" id="c3" data-start="2.939" data-duration="1.055" data-track-index="3"><span class="w" id="c3w0">won't</span> <span class="w" id="c3w1">let</span> <span class="w" id="c3w2">you</span></div>
+      <div class="clip cap" id="c4" data-start="3.995" data-duration="0.603" data-track-index="3"><span class="w" id="c4w0">do</span></div>
       <div class="clip cap stamp" id="c5" data-start="4.598" data-duration="0.537" data-track-index="3">#1</div>
-      <div class="clip cap" id="c6" data-start="5.135" data-duration="0.955" data-track-index="3">Carry every gun</div>
-      <div class="clip cap" id="c7" data-start="6.09" data-duration="0.776" data-track-index="3">you own</div>
-      <div class="clip cap" id="c8" data-start="6.866" data-duration="0.955" data-track-index="3">Your loadout is</div>
-      <div class="clip cap" id="c9" data-start="7.822" data-duration="1.015" data-track-index="3"><span class="hot">limited</span> now</div>
-      <div class="clip cap" id="c10" data-start="8.837" data-duration="0.896" data-track-index="3">The rest lives</div>
-      <div class="clip cap" id="c11" data-start="9.732" data-duration="1.134" data-track-index="3">in your trunk</div>
+      <div class="clip cap" id="c6" data-start="5.135" data-duration="0.955" data-track-index="3"><span class="w" id="c6w0">Carry</span> <span class="w" id="c6w1">every</span> <span class="w" id="c6w2">gun</span></div>
+      <div class="clip cap" id="c7" data-start="6.09" data-duration="0.776" data-track-index="3"><span class="w" id="c7w0">you</span> <span class="w" id="c7w1">own</span></div>
+      <div class="clip cap" id="c8" data-start="6.866" data-duration="0.955" data-track-index="3"><span class="w" id="c8w0">Your</span> <span class="w" id="c8w1">loadout</span> <span class="w" id="c8w2">is</span></div>
+      <div class="clip cap" id="c9" data-start="7.822" data-duration="1.015" data-track-index="3"><span class="w" id="c9w0">limited</span> <span class="w" id="c9w1">now</span></div>
+      <div class="clip cap" id="c10" data-start="8.837" data-duration="0.896" data-track-index="3"><span class="w" id="c10w0">The</span> <span class="w" id="c10w1">rest</span> <span class="w" id="c10w2">lives</span></div>
+      <div class="clip cap" id="c11" data-start="9.732" data-duration="1.134" data-track-index="3"><span class="w" id="c11w0">in</span> <span class="w" id="c11w1">your</span> <span class="w" id="c11w2">trunk</span></div>
       <div class="clip cap stamp" id="c12" data-start="10.867" data-duration="0.614" data-track-index="3">#2</div>
-      <div class="clip cap" id="c13" data-start="11.481" data-duration="0.956" data-track-index="3">Steal any car</div>
-      <div class="clip cap" id="c14" data-start="12.437" data-duration="1.297" data-track-index="3">in <span class="hot">2</span> seconds</div>
-      <div class="clip cap" id="c15" data-start="13.734" data-duration="0.683" data-track-index="3">Old cars</div>
-      <div class="clip cap" id="c16" data-start="14.417" data-duration="0.956" data-track-index="3">you jimmy the</div>
-      <div class="clip cap" id="c17" data-start="15.373" data-duration="0.683" data-track-index="3">lock</div>
-      <div class="clip cap" id="c18" data-start="16.055" data-duration="1.092" data-track-index="3">Sports cars and</div>
-      <div class="clip cap" id="c19" data-start="17.148" data-duration="0.751" data-track-index="3">EVs need a</div>
-      <div class="clip cap" id="c20" data-start="17.899" data-duration="1.092" data-track-index="3">key cloner</div>
+      <div class="clip cap" id="c13" data-start="11.481" data-duration="0.956" data-track-index="3"><span class="w" id="c13w0">Steal</span> <span class="w" id="c13w1">any</span> <span class="w" id="c13w2">car</span></div>
+      <div class="clip cap" id="c14" data-start="12.437" data-duration="1.297" data-track-index="3"><span class="w" id="c14w0">in</span> <span class="w" id="c14w1">2</span> <span class="w" id="c14w2">seconds</span></div>
+      <div class="clip cap" id="c15" data-start="13.734" data-duration="0.683" data-track-index="3"><span class="w" id="c15w0">Old</span> <span class="w" id="c15w1">cars</span></div>
+      <div class="clip cap" id="c16" data-start="14.417" data-duration="0.956" data-track-index="3"><span class="w" id="c16w0">you</span> <span class="w" id="c16w1">jimmy</span> <span class="w" id="c16w2">the</span></div>
+      <div class="clip cap" id="c17" data-start="15.373" data-duration="0.683" data-track-index="3"><span class="w" id="c17w0">lock</span></div>
+      <div class="clip cap" id="c18" data-start="16.055" data-duration="1.092" data-track-index="3"><span class="w" id="c18w0">Sports</span> <span class="w" id="c18w1">cars</span> <span class="w" id="c18w2">and</span></div>
+      <div class="clip cap" id="c19" data-start="17.148" data-duration="0.751" data-track-index="3"><span class="w" id="c19w0">EVs</span> <span class="w" id="c19w1">need</span> <span class="w" id="c19w2">a</span></div>
+      <div class="clip cap" id="c20" data-start="17.899" data-duration="1.092" data-track-index="3"><span class="w" id="c20w0">key</span> <span class="w" id="c20w1">cloner</span></div>
       <div class="clip cap stamp" id="c21" data-start="18.991" data-duration="0.782" data-track-index="3">#3</div>
-      <div class="clip cap" id="c22" data-start="19.773" data-duration="0.711" data-track-index="3">Mash X to</div>
-      <div class="clip cap" id="c23" data-start="20.483" data-duration="0.853" data-track-index="3">sprint</div>
-      <div class="clip cap" id="c24" data-start="21.336" data-duration="1.208" data-track-index="3">That's <span class="hot">gone</span></div>
+      <div class="clip cap" id="c22" data-start="19.773" data-duration="0.711" data-track-index="3"><span class="w" id="c22w0">Mash</span> <span class="w" id="c22w1">X</span> <span class="w" id="c22w2">to</span></div>
+      <div class="clip cap" id="c23" data-start="20.483" data-duration="0.853" data-track-index="3"><span class="w" id="c23w0">sprint</span></div>
+      <div class="clip cap" id="c24" data-start="21.336" data-duration="1.208" data-track-index="3"><span class="w" id="c24w0">That's</span> <span class="w" id="c24w1">gone</span></div>
       <div class="clip cap stamp" id="c25" data-start="22.544" data-duration="0.658" data-track-index="3">#4</div>
-      <div class="clip cap" id="c26" data-start="23.202" data-duration="0.987" data-track-index="3">See enemies on</div>
-      <div class="clip cap" id="c27" data-start="24.188" data-duration="1.053" data-track-index="3">your radar</div>
-      <div class="clip cap" id="c28" data-start="25.241" data-duration="0.855" data-track-index="3"><span class="hot">Removed</span></div>
+      <div class="clip cap" id="c26" data-start="23.202" data-duration="0.987" data-track-index="3"><span class="w" id="c26w0">See</span> <span class="w" id="c26w1">enemies</span> <span class="w" id="c26w2">on</span></div>
+      <div class="clip cap" id="c27" data-start="24.188" data-duration="1.053" data-track-index="3"><span class="w" id="c27w0">your</span> <span class="w" id="c27w1">radar</span></div>
+      <div class="clip cap" id="c28" data-start="25.241" data-duration="0.855" data-track-index="3"><span class="w" id="c28w0">Removed</span></div>
       <div class="clip cap stamp" id="c29" data-start="26.096" data-duration="0.66" data-track-index="3">#5</div>
-      <div class="clip cap" id="c30" data-start="26.756" data-duration="0.792" data-track-index="3">Ignore your</div>
-      <div class="clip cap" id="c31" data-start="27.548" data-duration="0.66" data-track-index="3">body</div>
-      <div class="clip cap" id="c32" data-start="28.209" data-duration="0.594" data-track-index="3">You eat</div>
-      <div class="clip cap" id="c33" data-start="28.803" data-duration="0.726" data-track-index="3">you sleep</div>
-      <div class="clip cap" id="c34" data-start="29.529" data-duration="0.858" data-track-index="3">you fuel the</div>
-      <div class="clip cap" id="c35" data-start="30.387" data-duration="0.594" data-track-index="3">car</div>
-      <div class="clip cap" id="c36" data-start="30.981" data-duration="0.792" data-track-index="3">Hit the gym</div>
-      <div class="clip cap" id="c37" data-start="31.773" data-duration="0.924" data-track-index="3">and you build</div>
-      <div class="clip cap" id="c38" data-start="32.697" data-duration="0.792" data-track-index="3">muscle</div>
+      <div class="clip cap" id="c30" data-start="26.756" data-duration="0.792" data-track-index="3"><span class="w" id="c30w0">Ignore</span> <span class="w" id="c30w1">your</span></div>
+      <div class="clip cap" id="c31" data-start="27.548" data-duration="0.66" data-track-index="3"><span class="w" id="c31w0">body</span></div>
+      <div class="clip cap" id="c32" data-start="28.209" data-duration="0.594" data-track-index="3"><span class="w" id="c32w0">You</span> <span class="w" id="c32w1">eat</span></div>
+      <div class="clip cap" id="c33" data-start="28.803" data-duration="0.726" data-track-index="3"><span class="w" id="c33w0">you</span> <span class="w" id="c33w1">sleep</span></div>
+      <div class="clip cap" id="c34" data-start="29.529" data-duration="0.858" data-track-index="3"><span class="w" id="c34w0">you</span> <span class="w" id="c34w1">fuel</span> <span class="w" id="c34w2">the</span></div>
+      <div class="clip cap" id="c35" data-start="30.387" data-duration="0.594" data-track-index="3"><span class="w" id="c35w0">car</span></div>
+      <div class="clip cap" id="c36" data-start="30.981" data-duration="0.792" data-track-index="3"><span class="w" id="c36w0">Hit</span> <span class="w" id="c36w1">the</span> <span class="w" id="c36w2">gym</span></div>
+      <div class="clip cap" id="c37" data-start="31.773" data-duration="0.924" data-track-index="3"><span class="w" id="c37w0">and</span> <span class="w" id="c37w1">you</span> <span class="w" id="c37w2">build</span></div>
+      <div class="clip cap" id="c38" data-start="32.697" data-duration="0.792" data-track-index="3"><span class="w" id="c38w0">muscle</span></div>
       <div class="clip cap stamp" id="c39" data-start="33.489" data-duration="0.661" data-track-index="3">#6</div>
-      <div class="clip cap" id="c40" data-start="34.15" data-duration="1.395" data-track-index="3">Get rich fast</div>
-      <div class="clip cap" id="c41" data-start="35.545" data-duration="1.028" data-track-index="3">Reviewers say</div>
-      <div class="clip cap" id="c42" data-start="36.574" data-duration="1.028" data-track-index="3">money is <span class="hot">hard</span></div>
-      <div class="clip cap" id="c43" data-start="37.602" data-duration="0.955" data-track-index="3">to earn</div>
+      <div class="clip cap" id="c40" data-start="34.15" data-duration="1.395" data-track-index="3"><span class="w" id="c40w0">Get</span> <span class="w" id="c40w1">rich</span> <span class="w" id="c40w2">fast</span></div>
+      <div class="clip cap" id="c41" data-start="35.545" data-duration="1.028" data-track-index="3"><span class="w" id="c41w0">Reviewers</span> <span class="w" id="c41w1">say</span></div>
+      <div class="clip cap" id="c42" data-start="36.574" data-duration="1.028" data-track-index="3"><span class="w" id="c42w0">money</span> <span class="w" id="c42w1">is</span> <span class="w" id="c42w2">hard</span></div>
+      <div class="clip cap" id="c43" data-start="37.602" data-duration="0.955" data-track-index="3"><span class="w" id="c43w0">to</span> <span class="w" id="c43w1">earn</span></div>
       <div class="clip cap stamp" id="c44" data-start="38.557" data-duration="0.709" data-track-index="3">BONUS</div>
-      <div class="clip cap" id="c45" data-start="39.266" data-duration="0.967" data-track-index="3">The boxed copy</div>
-      <div class="clip cap" id="c46" data-start="40.232" data-duration="0.967" data-track-index="3">reportedly has</div>
-      <div class="clip cap" id="c47" data-start="41.199" data-duration="0.838" data-track-index="3">no disc</div>
-      <div class="clip cap" id="c48" data-start="42.036" data-duration="1.031" data-track-index="3">It's a download</div>
-      <div class="clip cap" id="c49" data-start="43.067" data-duration="0.644" data-track-index="3">code in a</div>
-      <div class="clip cap" id="c50" data-start="43.712" data-duration="0.644" data-track-index="3">case</div>
+      <div class="clip cap" id="c45" data-start="39.266" data-duration="0.967" data-track-index="3"><span class="w" id="c45w0">The</span> <span class="w" id="c45w1">boxed</span> <span class="w" id="c45w2">copy</span></div>
+      <div class="clip cap" id="c46" data-start="40.232" data-duration="0.967" data-track-index="3"><span class="w" id="c46w0">reportedly</span> <span class="w" id="c46w1">has</span></div>
+      <div class="clip cap" id="c47" data-start="41.199" data-duration="0.838" data-track-index="3"><span class="w" id="c47w0">no</span> <span class="w" id="c47w1">disc</span></div>
+      <div class="clip cap" id="c48" data-start="42.036" data-duration="1.031" data-track-index="3"><span class="w" id="c48w0">It's</span> <span class="w" id="c48w1">a</span> <span class="w" id="c48w2">download</span></div>
+      <div class="clip cap" id="c49" data-start="43.067" data-duration="0.644" data-track-index="3"><span class="w" id="c49w0">code</span> <span class="w" id="c49w1">in</span> <span class="w" id="c49w2">a</span></div>
+      <div class="clip cap" id="c50" data-start="43.712" data-duration="0.644" data-track-index="3"><span class="w" id="c50w0">case</span></div>
       <audio id="mix" data-start="0" data-duration="44.756" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -117,12 +114,19 @@
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 44.756, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
-      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = [["c0w0",0],["c0w1",0.415],["c0w2",0.829],["c0w3",1.131],["c1w0",1.432],["c1w1",1.658],["c1w2",1.96],["c2w0",2.11],["c2w1",2.487],["c2w2",2.789],["c3w0",2.939],["c3w1",3.392],["c3w2",3.693],["c4w0",3.995],["c5w0",4.598],["c6w0",5.135],["c6w1",5.493],["c6w2",5.851],["c7w0",6.09],["c7w1",6.329],["c8w0",6.866],["c8w1",7.165],["c8w2",7.643],["c9w0",7.822],["c9w1",8.299],["c10w0",8.837],["c10w1",9.076],["c10w2",9.374],["c11w0",9.732],["c11w1",9.912],["c11w2",10.21],["c12w0",10.867],["c13w0",11.481],["c13w1",11.891],["c13w2",12.164],["c14w0",12.437],["c14w1",12.642],["c14w2",13.188],["c15w0",13.734],["c15w1",14.007],["c16w0",14.417],["c16w1",14.69],["c16w2",15.1],["c17w0",15.373],["c18w0",16.055],["c18w1",16.533],["c18w2",16.875],["c19w0",17.148],["c19w1",17.421],["c19w2",17.762],["c20w0",17.899],["c20w1",18.172],["c21w0",18.991],["c22w0",19.773],["c22w1",20.128],["c22w2",20.27],["c23w0",20.483],["c24w0",21.336],["c24w1",21.833],["c25w0",22.544],["c26w0",23.202],["c26w1",23.465],["c26w2",23.991],["c27w0",24.188],["c27w1",24.517],["c28w0",25.241],["c29w0",26.096],["c30w0",26.756],["c30w1",27.218],["c31w0",27.548],["c32w0",28.209],["c32w1",28.473],["c33w0",28.803],["c33w1",29.067],["c34w0",29.529],["c34w1",29.793],["c34w2",30.123],["c35w0",30.387],["c36w0",30.981],["c36w1",31.245],["c36w2",31.509],["c37w0",31.773],["c37w1",32.037],["c37w2",32.301],["c38w0",32.697],["c39w0",33.489],["c40w0",34.15],["c40w1",34.444],["c40w2",34.811],["c41w0",35.545],["c41w1",36.28],["c42w0",36.574],["c42w1",37.014],["c42w2",37.235],["c43w0",37.602],["c43w1",37.822],["c44w0",38.557],["c45w0",39.266],["c45w1",39.523],["c45w2",39.91],["c46w0",40.232],["c46w1",40.941],["c47w0",41.199],["c47w1",41.392],["c48w0",42.036],["c48w1",42.358],["c48w2",42.487],["c49w0",43.067],["c49w1",43.389],["c49w2",43.583],["c50w0",43.712]];
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
       });
       const inserts = [{"k":0,"start":5.185,"end":10.787,"items":0},{"k":1,"start":11.531,"end":18.911,"items":2},{"k":2,"start":26.806,"end":33.409,"items":4},{"k":3,"start":34.2,"end":38.477,"items":0},{"k":4,"start":39.316,"end":44.526,"items":0}];
       inserts.forEach((x) => {

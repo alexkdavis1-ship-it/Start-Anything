@@ -17,14 +17,12 @@
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
       #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
-      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
-      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .hot { color: var(--hot); }
-      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
              background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
       .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
       .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
@@ -49,7 +47,6 @@
       <div id="shade"></div>
       <div id="flash"></div>
       <div id="bar"></div>
-      <div id="pill"><span>How to get rich in GTA 6</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>YOU WILL BE BROKE</span></div>
       <div class="ins broll" id="i0"><video class="clip" data-start="11.14" data-duration="3.696" data-track-index="6" src="assets/gas-station.mp4" muted playsinline></video><div class="label">Gas station stick-ups</div></div>
       <div class="ins list" id="i1"><div class="title">GANG HIDEOUTS PAY IN</div><div class="item" id="i1_0"><i></i>Cash</div><div class="item" id="i1_1"><i></i>Drugs</div><div class="item" id="i1_2"><i></i>High-value items</div></div>
@@ -57,59 +54,59 @@
       <div class="ins broll" id="i3"><video class="clip" data-start="27.925" data-duration="6.45" data-track-index="9" src="assets/jewelry.mp4" muted playsinline></video><div class="label">Cut the alarm first</div></div>
       <div class="ins broll" id="i4"><video class="clip" data-start="35.031" data-duration="3.707" data-track-index="10" src="assets/cctv.mp4" muted playsinline></video><div class="label">Erase the tapes</div></div>
       <div class="ins stat" id="i5"><div class="big" style="font-size:190px">LATER</div><div class="label">Big bank heists unlock later</div></div>
-      <div class="clip cap" id="c0" data-start="0" data-duration="0.968" data-track-index="3">You are going</div>
-      <div class="clip cap" id="c1" data-start="0.968" data-duration="0.83" data-track-index="3">to be <span class="hot">broke</span></div>
-      <div class="clip cap" id="c2" data-start="1.799" data-duration="0.968" data-track-index="3">in <span class="hot">GTA</span> <span class="hot">6</span></div>
-      <div class="clip cap" id="c3" data-start="2.767" data-duration="0.968" data-track-index="3">Reviewers all</div>
-      <div class="clip cap" id="c4" data-start="3.736" data-duration="0.899" data-track-index="3">say the same</div>
-      <div class="clip cap" id="c5" data-start="4.635" data-duration="0.761" data-track-index="3">thing</div>
-      <div class="clip cap" id="c6" data-start="5.396" data-duration="0.968" data-track-index="3">Money is <span class="hot">hard</span></div>
-      <div class="clip cap" id="c7" data-start="6.364" data-duration="1.107" data-track-index="3">to come by</div>
-      <div class="clip cap" id="c8" data-start="7.471" data-duration="0.768" data-track-index="3">So here is</div>
-      <div class="clip cap" id="c9" data-start="8.24" data-duration="1.048" data-track-index="3">where the cash</div>
-      <div class="clip cap" id="c10" data-start="9.287" data-duration="1.188" data-track-index="3">actually is</div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="0.968" data-track-index="3"><span class="w" id="c0w0">You</span> <span class="w" id="c0w1">are</span> <span class="w" id="c0w2">going</span></div>
+      <div class="clip cap" id="c1" data-start="0.968" data-duration="0.83" data-track-index="3"><span class="w" id="c1w0">to</span> <span class="w" id="c1w1">be</span> <span class="w" id="c1w2">broke</span></div>
+      <div class="clip cap" id="c2" data-start="1.799" data-duration="0.968" data-track-index="3"><span class="w" id="c2w0">in</span> <span class="w" id="c2w1">GTA</span> <span class="w" id="c2w2">6</span></div>
+      <div class="clip cap" id="c3" data-start="2.767" data-duration="0.968" data-track-index="3"><span class="w" id="c3w0">Reviewers</span> <span class="w" id="c3w1">all</span></div>
+      <div class="clip cap" id="c4" data-start="3.736" data-duration="0.899" data-track-index="3"><span class="w" id="c4w0">say</span> <span class="w" id="c4w1">the</span> <span class="w" id="c4w2">same</span></div>
+      <div class="clip cap" id="c5" data-start="4.635" data-duration="0.761" data-track-index="3"><span class="w" id="c5w0">thing</span></div>
+      <div class="clip cap" id="c6" data-start="5.396" data-duration="0.968" data-track-index="3"><span class="w" id="c6w0">Money</span> <span class="w" id="c6w1">is</span> <span class="w" id="c6w2">hard</span></div>
+      <div class="clip cap" id="c7" data-start="6.364" data-duration="1.107" data-track-index="3"><span class="w" id="c7w0">to</span> <span class="w" id="c7w1">come</span> <span class="w" id="c7w2">by</span></div>
+      <div class="clip cap" id="c8" data-start="7.471" data-duration="0.768" data-track-index="3"><span class="w" id="c8w0">So</span> <span class="w" id="c8w1">here</span> <span class="w" id="c8w2">is</span></div>
+      <div class="clip cap" id="c9" data-start="8.24" data-duration="1.048" data-track-index="3"><span class="w" id="c9w0">where</span> <span class="w" id="c9w1">the</span> <span class="w" id="c9w2">cash</span></div>
+      <div class="clip cap" id="c10" data-start="9.287" data-duration="1.188" data-track-index="3"><span class="w" id="c10w0">actually</span> <span class="w" id="c10w1">is</span></div>
       <div class="clip cap stamp" id="c11" data-start="10.475" data-duration="0.615" data-track-index="3">#1</div>
-      <div class="clip cap" id="c12" data-start="11.09" data-duration="0.82" data-track-index="3">Gas station</div>
-      <div class="clip cap" id="c13" data-start="11.91" data-duration="1.025" data-track-index="3">stick-ups</div>
-      <div class="clip cap" id="c14" data-start="12.935" data-duration="0.888" data-track-index="3">Small money</div>
-      <div class="clip cap" id="c15" data-start="13.823" data-duration="1.093" data-track-index="3">low effort</div>
+      <div class="clip cap" id="c12" data-start="11.09" data-duration="0.82" data-track-index="3"><span class="w" id="c12w0">Gas</span> <span class="w" id="c12w1">station</span></div>
+      <div class="clip cap" id="c13" data-start="11.91" data-duration="1.025" data-track-index="3"><span class="w" id="c13w0">stick-ups</span></div>
+      <div class="clip cap" id="c14" data-start="12.935" data-duration="0.888" data-track-index="3"><span class="w" id="c14w0">Small</span> <span class="w" id="c14w1">money</span></div>
+      <div class="clip cap" id="c15" data-start="13.823" data-duration="1.093" data-track-index="3"><span class="w" id="c15w0">low</span> <span class="w" id="c15w1">effort</span></div>
       <div class="clip cap stamp" id="c16" data-start="14.916" data-duration="0.536" data-track-index="3">#2</div>
-      <div class="clip cap" id="c17" data-start="15.452" data-duration="1.131" data-track-index="3">Gang hideouts</div>
-      <div class="clip cap" id="c18" data-start="16.583" data-duration="0.893" data-track-index="3">The game calls</div>
-      <div class="clip cap" id="c19" data-start="17.477" data-duration="0.774" data-track-index="3">them illegal</div>
-      <div class="clip cap" id="c20" data-start="18.251" data-duration="0.953" data-track-index="3">operations</div>
-      <div class="clip cap" id="c21" data-start="19.204" data-duration="0.834" data-track-index="3">Clear one out</div>
-      <div class="clip cap" id="c22" data-start="20.037" data-duration="0.834" data-track-index="3">and you leave</div>
-      <div class="clip cap" id="c23" data-start="20.871" data-duration="0.655" data-track-index="3">with cash</div>
-      <div class="clip cap" id="c24" data-start="21.526" data-duration="0.596" data-track-index="3">drugs and</div>
-      <div class="clip cap" id="c25" data-start="22.122" data-duration="0.655" data-track-index="3">high-value</div>
-      <div class="clip cap" id="c26" data-start="22.777" data-duration="0.655" data-track-index="3">items</div>
+      <div class="clip cap" id="c17" data-start="15.452" data-duration="1.131" data-track-index="3"><span class="w" id="c17w0">Gang</span> <span class="w" id="c17w1">hideouts</span></div>
+      <div class="clip cap" id="c18" data-start="16.583" data-duration="0.893" data-track-index="3"><span class="w" id="c18w0">The</span> <span class="w" id="c18w1">game</span> <span class="w" id="c18w2">calls</span></div>
+      <div class="clip cap" id="c19" data-start="17.477" data-duration="0.774" data-track-index="3"><span class="w" id="c19w0">them</span> <span class="w" id="c19w1">illegal</span></div>
+      <div class="clip cap" id="c20" data-start="18.251" data-duration="0.953" data-track-index="3"><span class="w" id="c20w0">operations</span></div>
+      <div class="clip cap" id="c21" data-start="19.204" data-duration="0.834" data-track-index="3"><span class="w" id="c21w0">Clear</span> <span class="w" id="c21w1">one</span> <span class="w" id="c21w2">out</span></div>
+      <div class="clip cap" id="c22" data-start="20.037" data-duration="0.834" data-track-index="3"><span class="w" id="c22w0">and</span> <span class="w" id="c22w1">you</span> <span class="w" id="c22w2">leave</span></div>
+      <div class="clip cap" id="c23" data-start="20.871" data-duration="0.655" data-track-index="3"><span class="w" id="c23w0">with</span> <span class="w" id="c23w1">cash</span></div>
+      <div class="clip cap" id="c24" data-start="21.526" data-duration="0.596" data-track-index="3"><span class="w" id="c24w0">drugs</span> <span class="w" id="c24w1">and</span></div>
+      <div class="clip cap" id="c25" data-start="22.122" data-duration="0.655" data-track-index="3"><span class="w" id="c25w0">high-value</span></div>
+      <div class="clip cap" id="c26" data-start="22.777" data-duration="0.655" data-track-index="3"><span class="w" id="c26w0">items</span></div>
       <div class="clip cap stamp" id="c27" data-start="23.432" data-duration="0.654" data-track-index="3">#3</div>
-      <div class="clip cap" id="c28" data-start="24.086" data-duration="0.773" data-track-index="3">Don't sit on</div>
-      <div class="clip cap" id="c29" data-start="24.859" data-duration="0.892" data-track-index="3">the drugs</div>
-      <div class="clip cap" id="c30" data-start="25.752" data-duration="0.773" data-track-index="3">Sell them to</div>
-      <div class="clip cap" id="c31" data-start="26.525" data-duration="0.773" data-track-index="3">a fence</div>
+      <div class="clip cap" id="c28" data-start="24.086" data-duration="0.773" data-track-index="3"><span class="w" id="c28w0">Don't</span> <span class="w" id="c28w1">sit</span> <span class="w" id="c28w2">on</span></div>
+      <div class="clip cap" id="c29" data-start="24.859" data-duration="0.892" data-track-index="3"><span class="w" id="c29w0">the</span> <span class="w" id="c29w1">drugs</span></div>
+      <div class="clip cap" id="c30" data-start="25.752" data-duration="0.773" data-track-index="3"><span class="w" id="c30w0">Sell</span> <span class="w" id="c30w1">them</span> <span class="w" id="c30w2">to</span></div>
+      <div class="clip cap" id="c31" data-start="26.525" data-duration="0.773" data-track-index="3"><span class="w" id="c31w0">a</span> <span class="w" id="c31w1">fence</span></div>
       <div class="clip cap stamp" id="c32" data-start="27.298" data-duration="0.577" data-track-index="3">#4</div>
-      <div class="clip cap" id="c33" data-start="27.875" data-duration="1.154" data-track-index="3">Jewelry stores</div>
-      <div class="clip cap" id="c34" data-start="29.03" data-duration="0.981" data-track-index="3">Scout first</div>
-      <div class="clip cap" id="c35" data-start="30.011" data-duration="0.808" data-track-index="3">Cut the alarm</div>
-      <div class="clip cap" id="c36" data-start="30.819" data-duration="0.981" data-track-index="3">before you smash</div>
-      <div class="clip cap" id="c37" data-start="31.8" data-duration="0.635" data-track-index="3">a display</div>
-      <div class="clip cap" id="c38" data-start="32.435" data-duration="0.75" data-track-index="3">and the cops</div>
-      <div class="clip cap" id="c39" data-start="33.186" data-duration="0.577" data-track-index="3"><span class="hot">never</span> get</div>
-      <div class="clip cap" id="c40" data-start="33.763" data-duration="0.693" data-track-index="3">called</div>
+      <div class="clip cap" id="c33" data-start="27.875" data-duration="1.154" data-track-index="3"><span class="w" id="c33w0">Jewelry</span> <span class="w" id="c33w1">stores</span></div>
+      <div class="clip cap" id="c34" data-start="29.03" data-duration="0.981" data-track-index="3"><span class="w" id="c34w0">Scout</span> <span class="w" id="c34w1">first</span></div>
+      <div class="clip cap" id="c35" data-start="30.011" data-duration="0.808" data-track-index="3"><span class="w" id="c35w0">Cut</span> <span class="w" id="c35w1">the</span> <span class="w" id="c35w2">alarm</span></div>
+      <div class="clip cap" id="c36" data-start="30.819" data-duration="0.981" data-track-index="3"><span class="w" id="c36w0">before</span> <span class="w" id="c36w1">you</span> <span class="w" id="c36w2">smash</span></div>
+      <div class="clip cap" id="c37" data-start="31.8" data-duration="0.635" data-track-index="3"><span class="w" id="c37w0">a</span> <span class="w" id="c37w1">display</span></div>
+      <div class="clip cap" id="c38" data-start="32.435" data-duration="0.75" data-track-index="3"><span class="w" id="c38w0">and</span> <span class="w" id="c38w1">the</span> <span class="w" id="c38w2">cops</span></div>
+      <div class="clip cap" id="c39" data-start="33.186" data-duration="0.577" data-track-index="3"><span class="w" id="c39w0">never</span> <span class="w" id="c39w1">get</span></div>
+      <div class="clip cap" id="c40" data-start="33.763" data-duration="0.693" data-track-index="3"><span class="w" id="c40w0">called</span></div>
       <div class="clip cap stamp" id="c41" data-start="34.456" data-duration="0.526" data-track-index="3">#5</div>
-      <div class="clip cap" id="c42" data-start="34.981" data-duration="0.526" data-track-index="3">Erase the</div>
-      <div class="clip cap" id="c43" data-start="35.507" data-duration="0.841" data-track-index="3">security tapes</div>
-      <div class="clip cap" id="c44" data-start="36.348" data-duration="0.788" data-track-index="3">and the police</div>
-      <div class="clip cap" id="c45" data-start="37.136" data-duration="0.788" data-track-index="3">don't get your</div>
-      <div class="clip cap" id="c46" data-start="37.924" data-duration="0.894" data-track-index="3">description</div>
-      <div class="clip cap" id="c47" data-start="38.818" data-duration="0.754" data-track-index="3">The big bank</div>
-      <div class="clip cap" id="c48" data-start="39.572" data-duration="0.812" data-track-index="3">heists unlock</div>
-      <div class="clip cap" id="c49" data-start="40.383" data-duration="0.638" data-track-index="3">later</div>
-      <div class="clip cap" id="c50" data-start="41.021" data-duration="0.696" data-track-index="3">Until then</div>
-      <div class="clip cap" id="c51" data-start="41.717" data-duration="0.754" data-track-index="3">hideouts are</div>
-      <div class="clip cap" id="c52" data-start="42.471" data-duration="1.102" data-track-index="3">your paycheck</div>
+      <div class="clip cap" id="c42" data-start="34.981" data-duration="0.526" data-track-index="3"><span class="w" id="c42w0">Erase</span> <span class="w" id="c42w1">the</span></div>
+      <div class="clip cap" id="c43" data-start="35.507" data-duration="0.841" data-track-index="3"><span class="w" id="c43w0">security</span> <span class="w" id="c43w1">tapes</span></div>
+      <div class="clip cap" id="c44" data-start="36.348" data-duration="0.788" data-track-index="3"><span class="w" id="c44w0">and</span> <span class="w" id="c44w1">the</span> <span class="w" id="c44w2">police</span></div>
+      <div class="clip cap" id="c45" data-start="37.136" data-duration="0.788" data-track-index="3"><span class="w" id="c45w0">don't</span> <span class="w" id="c45w1">get</span> <span class="w" id="c45w2">your</span></div>
+      <div class="clip cap" id="c46" data-start="37.924" data-duration="0.894" data-track-index="3"><span class="w" id="c46w0">description</span></div>
+      <div class="clip cap" id="c47" data-start="38.818" data-duration="0.754" data-track-index="3"><span class="w" id="c47w0">The</span> <span class="w" id="c47w1">big</span> <span class="w" id="c47w2">bank</span></div>
+      <div class="clip cap" id="c48" data-start="39.572" data-duration="0.812" data-track-index="3"><span class="w" id="c48w0">heists</span> <span class="w" id="c48w1">unlock</span></div>
+      <div class="clip cap" id="c49" data-start="40.383" data-duration="0.638" data-track-index="3"><span class="w" id="c49w0">later</span></div>
+      <div class="clip cap" id="c50" data-start="41.021" data-duration="0.696" data-track-index="3"><span class="w" id="c50w0">Until</span> <span class="w" id="c50w1">then</span></div>
+      <div class="clip cap" id="c51" data-start="41.717" data-duration="0.754" data-track-index="3"><span class="w" id="c51w0">hideouts</span> <span class="w" id="c51w1">are</span></div>
+      <div class="clip cap" id="c52" data-start="42.471" data-duration="1.102" data-track-index="3"><span class="w" id="c52w0">your</span> <span class="w" id="c52w1">paycheck</span></div>
       <audio id="mix" data-start="0" data-duration="43.972" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -120,12 +117,19 @@
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 43.972, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
-      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = [["c0w0",0],["c0w1",0.277],["c0w2",0.553],["c1w0",0.968],["c1w1",1.176],["c1w2",1.384],["c2w0",1.799],["c2w1",2.006],["c2w2",2.283],["c3w0",2.767],["c3w1",3.459],["c4w0",3.736],["c4w1",4.012],["c4w2",4.289],["c5w0",4.635],["c6w0",5.396],["c6w1",5.811],["c6w2",6.018],["c7w0",6.364],["c7w1",6.572],["c7w2",6.918],["c8w0",7.471],["c8w1",7.681],["c8w2",8.03],["c9w0",8.24],["c9w1",8.659],["c9w2",8.938],["c10w0",9.287],["c10w1",9.916],["c11w0",10.475],["c12w0",11.09],["c12w1",11.363],["c13w0",11.91],["c14w0",12.935],["c14w1",13.345],["c15w0",13.823],["c15w1",14.096],["c16w0",14.916],["c17w0",15.452],["c17w1",15.75],["c18w0",16.583],["c18w1",16.822],["c18w2",17.119],["c19w0",17.477],["c19w1",17.774],["c20w0",18.251],["c21w0",19.204],["c21w1",19.561],["c21w2",19.799],["c22w0",20.037],["c22w1",20.276],["c22w2",20.514],["c23w0",20.871],["c23w1",21.169],["c24w0",21.526],["c24w1",21.883],["c25w0",22.122],["c26w0",22.777],["c27w0",23.432],["c28w0",24.086],["c28w1",24.443],["c28w2",24.681],["c29w0",24.859],["c29w1",25.097],["c30w0",25.752],["c30w1",26.049],["c30w2",26.346],["c31w0",26.525],["c31w1",26.644],["c32w0",27.298],["c33w0",27.875],["c33w1",28.337],["c34w0",29.03],["c34w1",29.376],["c35w0",30.011],["c35w1",30.242],["c35w2",30.473],["c36w0",30.819],["c36w1",31.223],["c36w2",31.454],["c37w0",31.8],["c37w1",31.916],["c38w0",32.435],["c38w1",32.666],["c38w2",32.897],["c39w0",33.186],["c39w1",33.532],["c40w0",33.763],["c41w0",34.456],["c42w0",34.981],["c42w1",35.296],["c43w0",35.507],["c43w1",35.98],["c44w0",36.348],["c44w1",36.558],["c44w2",36.768],["c45w0",37.136],["c45w1",37.451],["c45w2",37.662],["c46w0",37.924],["c47w0",38.818],["c47w1",39.05],["c47w2",39.282],["c48w0",39.572],["c48w1",39.978],["c49w0",40.383],["c50w0",41.021],["c50w1",41.369],["c51w0",41.717],["c51w1",42.239],["c52w0",42.471],["c52w1",42.761]];
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
       });
       const inserts = [{"k":0,"start":11.14,"end":14.836,"items":0},{"k":1,"start":15.502,"end":23.352,"items":3},{"k":2,"start":24.136,"end":27.218,"items":0},{"k":3,"start":27.925,"end":34.376,"items":0},{"k":4,"start":35.031,"end":38.738,"items":0},{"k":5,"start":39.268,"end":43.742,"items":0}];
       inserts.forEach((x) => {

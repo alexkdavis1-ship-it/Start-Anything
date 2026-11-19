@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>GTA 6 criminal profiles explained</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--font); color: var(--ink); }
+      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
+      #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
+             -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
+      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="46.689" data-width="1080" data-height="1920">
+      <div id="bgwrap">
+        <video id="bg" class="clip" data-start="0" data-duration="46.689" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
+      </div>
+      <div id="shade"></div>
+      <div id="flash"></div>
+      <div id="bar"></div>
+      <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>DON'T GO IRREDEEMABLE</span></div>
+      <div class="ins list" id="i0"><div class="title">5 CRIMINAL PROFILES</div><div class="item" id="i0_0" style="font-size:46px;padding:8px 0 8px 8px"><i></i>Professional</div><div class="item" id="i0_1" style="font-size:46px;padding:8px 0 8px 8px"><i></i>Hardened</div><div class="item" id="i0_2" style="font-size:46px;padding:8px 0 8px 8px"><i></i>Violent</div><div class="item" id="i0_3" style="font-size:46px;padding:8px 0 8px 8px"><i></i>Psycho</div><div class="item" id="i0_4" style="font-size:46px;padding:8px 0 8px 8px"><i></i>Irredeemable</div></div>
+      <div class="ins list" id="i1"><div class="title">HOW YOU EARN FOCUS</div><div class="item" id="i1_0"><i></i>Clean: takedowns</div><div class="item" id="i1_1"><i></i>Violent: headshots</div></div>
+      <div class="ins stat" id="i2"><div class="big" style="font-size:190px">PSYCHO</div><div class="label">you can no longer surrender</div></div>
+      <div class="ins stat" id="i3"><div class="big" style="font-size:150px">PERMANENT</div><div class="label">every focus bonus gone</div></div>
+      <div class="ins stat" id="i4"><div class="big" style="font-size:190px">ENDING</div><div class="label">your profile helps decide it, per IGN</div></div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="0.649" data-track-index="3"><span class="w" id="c0w0">GTA</span> <span class="w" id="c0w1">6</span> <span class="w" id="c0w2">is</span></div>
+      <div class="clip cap" id="c1" data-start="0.649" data-duration="1.154" data-track-index="3"><span class="w" id="c1w0">grading</span> <span class="w" id="c1w1">how</span> <span class="w" id="c1w2">you</span></div>
+      <div class="clip cap" id="c2" data-start="1.803" data-duration="0.721" data-track-index="3"><span class="w" id="c2w0">play</span></div>
+      <div class="clip cap" id="c3" data-start="2.525" data-duration="1.01" data-track-index="3"><span class="w" id="c3w0">And</span> <span class="w" id="c3w1">one</span> <span class="w" id="c3w2">grade</span></div>
+      <div class="clip cap" id="c4" data-start="3.534" data-duration="1.298" data-track-index="3"><span class="w" id="c4w0">is</span> <span class="w" id="c4w1">permanent</span></div>
+      <div class="clip cap" id="c5" data-start="4.833" data-duration="1.14" data-track-index="3"><span class="w" id="c5w0">Jason</span> <span class="w" id="c5w1">and</span> <span class="w" id="c5w2">Lucia</span></div>
+      <div class="clip cap" id="c6" data-start="5.973" data-duration="0.855" data-track-index="3"><span class="w" id="c6w0">each</span> <span class="w" id="c6w1">have</span> <span class="w" id="c6w2">a</span></div>
+      <div class="clip cap" id="c7" data-start="6.828" data-duration="0.641" data-track-index="3"><span class="w" id="c7w0">criminal</span></div>
+      <div class="clip cap" id="c8" data-start="7.469" data-duration="0.926" data-track-index="3"><span class="w" id="c8w0">profile</span></div>
+      <div class="clip cap" id="c9" data-start="8.396" data-duration="1.14" data-track-index="3"><span class="w" id="c9w0">5</span> <span class="w" id="c9w1">levels</span></div>
+      <div class="clip cap" id="c10" data-start="9.536" data-duration="0.998" data-track-index="3"><span class="w" id="c10w0">Professional</span></div>
+      <div class="clip cap" id="c11" data-start="10.534" data-duration="0.713" data-track-index="3"><span class="w" id="c11w0">Hardened</span></div>
+      <div class="clip cap" id="c12" data-start="11.246" data-duration="0.641" data-track-index="3"><span class="w" id="c12w0">Violent</span></div>
+      <div class="clip cap" id="c13" data-start="11.888" data-duration="0.57" data-track-index="3"><span class="w" id="c13w0">Psycho</span></div>
+      <div class="clip cap" id="c14" data-start="12.458" data-duration="1.283" data-track-index="3"><span class="w" id="c14w0">Irredeemable</span></div>
+      <div class="clip cap" id="c15" data-start="13.74" data-duration="0.671" data-track-index="3"><span class="w" id="c15w0">Stay</span> <span class="w" id="c15w1">quiet</span></div>
+      <div class="clip cap" id="c16" data-start="14.412" data-duration="0.951" data-track-index="3"><span class="w" id="c16w0">knock</span> <span class="w" id="c16w1">people</span> <span class="w" id="c16w2">out</span></div>
+      <div class="clip cap" id="c17" data-start="15.362" data-duration="0.615" data-track-index="3"><span class="w" id="c17w0">instead</span> <span class="w" id="c17w1">of</span></div>
+      <div class="clip cap" id="c18" data-start="15.978" data-duration="0.783" data-track-index="3"><span class="w" id="c18w0">killing</span> <span class="w" id="c18w1">them</span></div>
+      <div class="clip cap" id="c19" data-start="16.761" data-duration="0.727" data-track-index="3"><span class="w" id="c19w0">and</span> <span class="w" id="c19w1">you</span> <span class="w" id="c19w2">stay</span></div>
+      <div class="clip cap" id="c20" data-start="17.488" data-duration="1.007" data-track-index="3"><span class="w" id="c20w0">Professional</span></div>
+      <div class="clip cap" id="c21" data-start="18.495" data-duration="0.735" data-track-index="3"><span class="w" id="c21w0">Go</span> <span class="w" id="c21w1">in</span> <span class="w" id="c21w2">guns</span></div>
+      <div class="clip cap" id="c22" data-start="19.23" data-duration="1.069" data-track-index="3"><span class="w" id="c22w0">blazing</span> <span class="w" id="c22w1">and</span> <span class="w" id="c22w2">you</span></div>
+      <div class="clip cap" id="c23" data-start="20.299" data-duration="1.002" data-track-index="3"><span class="w" id="c23w0">slide</span> <span class="w" id="c23w1">down</span> <span class="w" id="c23w2">the</span></div>
+      <div class="clip cap" id="c24" data-start="21.301" data-duration="0.668" data-track-index="3"><span class="w" id="c24w0">list</span></div>
+      <div class="clip cap" id="c25" data-start="21.969" data-duration="0.606" data-track-index="3"><span class="w" id="c25w0">Each</span> <span class="w" id="c25w1">level</span></div>
+      <div class="clip cap" id="c26" data-start="22.575" data-duration="0.882" data-track-index="3"><span class="w" id="c26w0">changes</span> <span class="w" id="c26w1">how</span> <span class="w" id="c26w2">you</span></div>
+      <div class="clip cap" id="c27" data-start="23.457" data-duration="0.882" data-track-index="3"><span class="w" id="c27w0">earn</span> <span class="w" id="c27w1">focus</span></div>
+      <div class="clip cap" id="c28" data-start="24.339" data-duration="0.772" data-track-index="3"><span class="w" id="c28w0">Clean</span> <span class="w" id="c28w1">players</span></div>
+      <div class="clip cap" id="c29" data-start="25.111" data-duration="0.661" data-track-index="3"><span class="w" id="c29w0">get</span> <span class="w" id="c29w1">it</span> <span class="w" id="c29w2">from</span></div>
+      <div class="clip cap" id="c30" data-start="25.773" data-duration="0.827" data-track-index="3"><span class="w" id="c30w0">takedowns</span></div>
+      <div class="clip cap" id="c31" data-start="26.599" data-duration="0.882" data-track-index="3"><span class="w" id="c31w0">Violent</span> <span class="w" id="c31w1">players</span></div>
+      <div class="clip cap" id="c32" data-start="27.481" data-duration="0.661" data-track-index="3"><span class="w" id="c32w0">get</span> <span class="w" id="c32w1">it</span> <span class="w" id="c32w2">from</span></div>
+      <div class="clip cap" id="c33" data-start="28.143" data-duration="0.827" data-track-index="3"><span class="w" id="c33w0">headshots</span></div>
+      <div class="clip cap" id="c34" data-start="28.97" data-duration="0.874" data-track-index="3"><span class="w" id="c34w0">Hit</span> <span class="w" id="c34w1">Psycho</span> <span class="w" id="c34w2">and</span></div>
+      <div class="clip cap" id="c35" data-start="29.844" data-duration="0.758" data-track-index="3"><span class="w" id="c35w0">you</span> <span class="w" id="c35w1">lose</span> <span class="w" id="c35w2">the</span></div>
+      <div class="clip cap" id="c36" data-start="30.601" data-duration="0.583" data-track-index="3"><span class="w" id="c36w0">option</span> <span class="w" id="c36w1">to</span></div>
+      <div class="clip cap" id="c37" data-start="31.184" data-duration="0.991" data-track-index="3"><span class="w" id="c37w0">surrender</span> <span class="w" id="c37w1">to</span> <span class="w" id="c37w2">the</span></div>
+      <div class="clip cap" id="c38" data-start="32.175" data-duration="0.583" data-track-index="3"><span class="w" id="c38w0">cops</span></div>
+      <div class="clip cap" id="c39" data-start="32.758" data-duration="1.108" data-track-index="3"><span class="w" id="c39w0">Keep</span> <span class="w" id="c39w1">massacring</span></div>
+      <div class="clip cap" id="c40" data-start="33.865" data-duration="0.969" data-track-index="3"><span class="w" id="c40w0">civilians</span> <span class="w" id="c40w1">and</span></div>
+      <div class="clip cap" id="c41" data-start="34.834" data-duration="0.761" data-track-index="3"><span class="w" id="c41w0">you</span> <span class="w" id="c41w1">become</span></div>
+      <div class="clip cap" id="c42" data-start="35.596" data-duration="1.246" data-track-index="3"><span class="w" id="c42w0">Irredeemable</span></div>
+      <div class="clip cap" id="c43" data-start="36.842" data-duration="0.831" data-track-index="3"><span class="w" id="c43w0">Every</span> <span class="w" id="c43w1">focus</span></div>
+      <div class="clip cap" id="c44" data-start="37.672" data-duration="1.038" data-track-index="3"><span class="w" id="c44w0">bonus</span> <span class="w" id="c44w1">is</span> <span class="w" id="c44w2">gone</span></div>
+      <div class="clip cap" id="c45" data-start="38.711" data-duration="0.969" data-track-index="3"><span class="w" id="c45w0">for</span> <span class="w" id="c45w1">good</span></div>
+      <div class="clip cap" id="c46" data-start="39.68" data-duration="0.895" data-track-index="3"><span class="w" id="c46w0">The</span> <span class="w" id="c46w1">only</span> <span class="w" id="c46w2">fix</span></div>
+      <div class="clip cap" id="c47" data-start="40.575" data-duration="0.964" data-track-index="3"><span class="w" id="c47w0">is</span> <span class="w" id="c47w1">loading</span> <span class="w" id="c47w2">an</span></div>
+      <div class="clip cap" id="c48" data-start="41.539" data-duration="0.964" data-track-index="3"><span class="w" id="c48w0">old</span> <span class="w" id="c48w1">save</span></div>
+      <div class="clip cap" id="c49" data-start="42.503" data-duration="0.895" data-track-index="3"><span class="w" id="c49w0">And</span> <span class="w" id="c49w1">IGN</span> <span class="w" id="c49w2">says</span></div>
+      <div class="clip cap" id="c50" data-start="43.398" data-duration="0.895" data-track-index="3"><span class="w" id="c50w0">your</span> <span class="w" id="c50w1">profile</span></div>
+      <div class="clip cap" id="c51" data-start="44.293" data-duration="1.17" data-track-index="3"><span class="w" id="c51w0">helps</span> <span class="w" id="c51w1">decide</span> <span class="w" id="c51w2">the</span></div>
+      <div class="clip cap" id="c52" data-start="45.463" data-duration="0.826" data-track-index="3"><span class="w" id="c52w0">ending</span></div>
+      <audio id="mix" data-start="0" data-duration="46.689" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const caps = [0,0.649,1.803,2.525,3.534,4.833,5.973,6.828,7.469,8.396,9.536,10.534,11.246,11.888,12.458,13.74,14.412,15.362,15.978,16.761,17.488,18.495,19.23,20.299,21.301,21.969,22.575,23.457,24.339,25.111,25.773,26.599,27.481,28.143,28.97,29.844,30.601,31.184,32.175,32.758,33.865,34.834,35.596,36.842,37.672,38.711,39.68,40.575,41.539,42.503,43.398,44.293,45.463];
+      const beats = [0,4.833,13.74,18.495,21.969,28.97,32.758,39.68];
+      tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 46.689, ease: "none" }, 0);
+      tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
+      tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
+      caps.forEach((t, i) => {
+        const el = document.getElementById("c" + i);
+        const stamp = el.classList.contains("stamp");
+        const tilt = stamp ? -6 : i % 2 ? 2 : -2;
+        tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = [["c0w0",0],["c0w1",0.289],["c0w2",0.433],["c1w0",0.649],["c1w1",1.226],["c1w2",1.515],["c2w0",1.803],["c3w0",2.525],["c3w1",2.813],["c3w2",3.102],["c4w0",3.534],["c4w1",3.751],["c5w0",4.833],["c5w1",5.26],["c5w2",5.545],["c6w0",5.973],["c6w1",6.329],["c6w2",6.685],["c7w0",6.828],["c8w0",7.469],["c9w0",8.396],["c9w1",8.966],["c10w0",9.536],["c11w0",10.534],["c12w0",11.246],["c13w0",11.888],["c14w0",12.458],["c15w0",13.74],["c15w1",14.02],["c16w0",14.412],["c16w1",14.747],["c16w2",15.139],["c17w0",15.362],["c17w1",15.81],["c18w0",15.978],["c18w1",16.425],["c19w0",16.761],["c19w1",16.985],["c19w2",17.208],["c20w0",17.488],["c21w0",18.495],["c21w1",18.695],["c21w2",18.896],["c22w0",19.23],["c22w1",19.764],["c22w2",20.031],["c23w0",20.299],["c23w1",20.7],["c23w2",21.034],["c24w0",21.301],["c25w0",21.969],["c25w1",22.245],["c26w0",22.575],["c26w1",23.016],["c26w2",23.237],["c27w0",23.457],["c27w1",23.733],["c28w0",24.339],["c28w1",24.67],["c29w0",25.111],["c29w1",25.332],["c29w2",25.497],["c30w0",25.773],["c31w0",26.599],["c31w1",27.04],["c32w0",27.481],["c32w1",27.702],["c32w2",27.867],["c33w0",28.143],["c34w0",28.97],["c34w1",29.203],["c34w2",29.611],["c35w0",29.844],["c35w1",30.077],["c35w2",30.368],["c36w0",30.601],["c36w1",31.009],["c37w0",31.184],["c37w1",31.767],["c37w2",31.942],["c38w0",32.175],["c39w0",32.758],["c39w1",33.104],["c40w0",33.865],["c40w1",34.557],["c41w0",34.834],["c41w1",35.111],["c42w0",35.596],["c43w0",36.842],["c43w1",37.257],["c44w0",37.672],["c44w1",38.088],["c44w2",38.296],["c45w0",38.711],["c45w1",38.988],["c46w0",39.68],["c46w1",39.955],["c46w2",40.3],["c47w0",40.575],["c47w1",40.781],["c47w2",41.332],["c48w0",41.539],["c48w1",41.814],["c49w0",42.503],["c49w1",42.778],["c49w2",43.053],["c50w0",43.398],["c50w1",43.742],["c51w0",44.293],["c51w1",44.706],["c51w2",45.187],["c52w0",45.463]];
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
+      });
+      const inserts = [{"k":0,"start":5.283,"end":13.66,"items":5},{"k":1,"start":22.419,"end":28.89,"items":2},{"k":2,"start":29.42,"end":32.678,"items":0},{"k":3,"start":33.208,"end":39.6,"items":0},{"k":4,"start":40.13,"end":46.459,"items":0}];
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
+      });
+      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      beats.forEach((t, i) => {
+        const next = i + 1 < beats.length ? beats[i + 1] : 46.689;
+        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
+        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
+        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
+      });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

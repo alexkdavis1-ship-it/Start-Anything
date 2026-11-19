@@ -17,14 +17,12 @@
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
       #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
-      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
-      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .hot { color: var(--hot); }
-      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
              background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
       .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
       .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
@@ -49,58 +47,57 @@
       <div id="shade"></div>
       <div id="flash"></div>
       <div id="bar"></div>
-      <div id="pill"><span>GTA 6 on Series S: the truth</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>30 FPS. EVERY CONSOLE.</span></div>
       <div class="ins broll" id="i0"><video class="clip" data-start="5.126" data-duration="5.426" data-track-index="6" src="assets/controller.mp4" muted playsinline></video><div class="label">No 60 FPS option, even on PS5 Pro</div></div>
       <div class="ins stat" id="i1"><div class="big" style="font-size:150px">1440p → 4K</div><div class="label">PS5 · PS5 Pro · Series X (reported)</div></div>
       <div class="ins stat" id="i2"><div class="big" style="font-size:118px">720p → 1080p</div><div class="label">Xbox Series S</div></div>
       <div class="ins list" id="i3"><div class="title">SERIES S IN EARLY TESTING</div><div class="item" id="i3_0"><i></i>Driving: in the 20s</div><div class="item" id="i3_1"><i></i>Big explosions: around 20</div></div>
       <div class="ins stat" id="i4"><div class="big" style="font-size:190px">30 FPS</div><div class="label">walking and cutscenes</div></div>
-      <div class="clip cap" id="c0" data-start="0" data-duration="0.791" data-track-index="3"><span class="hot">GTA</span> <span class="hot">6</span> runs</div>
-      <div class="clip cap" id="c1" data-start="0.791" data-duration="2.302" data-track-index="3">at <span class="hot">30</span> <span class="hot">FPS</span></div>
-      <div class="clip cap" id="c2" data-start="3.093" data-duration="0.647" data-track-index="3">On every</div>
-      <div class="clip cap" id="c3" data-start="3.741" data-duration="0.935" data-track-index="3">console</div>
-      <div class="clip cap" id="c4" data-start="4.676" data-duration="0.331" data-track-index="3">Yes</div>
-      <div class="clip cap" id="c5" data-start="5.007" data-duration="0.86" data-track-index="3">even the PS5</div>
-      <div class="clip cap" id="c6" data-start="5.867" data-duration="0.596" data-track-index="3">Pro</div>
-      <div class="clip cap" id="c7" data-start="6.463" data-duration="0.926" data-track-index="3">Push Square's</div>
-      <div class="clip cap" id="c8" data-start="7.389" data-duration="0.794" data-track-index="3">review says</div>
-      <div class="clip cap" id="c9" data-start="8.183" data-duration="0.794" data-track-index="3">there is no</div>
-      <div class="clip cap" id="c10" data-start="8.977" data-duration="1.125" data-track-index="3">option to double</div>
-      <div class="clip cap" id="c11" data-start="10.102" data-duration="0.529" data-track-index="3">it</div>
-      <div class="clip cap" id="c12" data-start="10.632" data-duration="0.42" data-track-index="3">PS5</div>
-      <div class="clip cap" id="c13" data-start="11.052" data-duration="1.009" data-track-index="3">PS5 Pro and</div>
-      <div class="clip cap" id="c14" data-start="12.061" data-duration="0.757" data-track-index="3">Series X</div>
-      <div class="clip cap" id="c15" data-start="12.818" data-duration="0.925" data-track-index="3">reportedly</div>
-      <div class="clip cap" id="c16" data-start="13.743" data-duration="2.27" data-track-index="3">render at <span class="hot">1440p</span></div>
-      <div class="clip cap" id="c17" data-start="16.012" data-duration="1.934" data-track-index="3">upscaled to <span class="hot">4K</span></div>
-      <div class="clip cap" id="c18" data-start="17.946" data-duration="1.332" data-track-index="3">The Series S</div>
-      <div class="clip cap" id="c19" data-start="19.278" data-duration="1.11" data-track-index="3"><span class="hot">720p</span></div>
-      <div class="clip cap" id="c20" data-start="20.389" data-duration="0.888" data-track-index="3">upscaled to</div>
-      <div class="clip cap" id="c21" data-start="21.277" data-duration="1.11" data-track-index="3"><span class="hot">1080p</span></div>
-      <div class="clip cap" id="c22" data-start="22.387" data-duration="0.587" data-track-index="3">And early</div>
-      <div class="clip cap" id="c23" data-start="22.974" data-duration="0.997" data-track-index="3">testing reported</div>
-      <div class="clip cap" id="c24" data-start="23.971" data-duration="0.704" data-track-index="3">by BGR puts</div>
-      <div class="clip cap" id="c25" data-start="24.675" data-duration="1.115" data-track-index="3">it in the <span class="hot">20s</span></div>
-      <div class="clip cap" id="c26" data-start="25.79" data-duration="0.88" data-track-index="3">while driving</div>
-      <div class="clip cap" id="c27" data-start="26.67" data-duration="1.056" data-track-index="3">and around <span class="hot">20</span></div>
-      <div class="clip cap" id="c28" data-start="27.726" data-duration="0.763" data-track-index="3">when several</div>
-      <div class="clip cap" id="c29" data-start="28.489" data-duration="0.939" data-track-index="3">cars explode at</div>
-      <div class="clip cap" id="c30" data-start="29.428" data-duration="0.587" data-track-index="3">once</div>
-      <div class="clip cap" id="c31" data-start="30.015" data-duration="0.712" data-track-index="3">So is the</div>
-      <div class="clip cap" id="c32" data-start="30.727" data-duration="0.641" data-track-index="3">Series S</div>
-      <div class="clip cap" id="c33" data-start="31.368" data-duration="1.14" data-track-index="3">unplayable</div>
-      <div class="clip cap" id="c34" data-start="32.508" data-duration="0.57" data-track-index="3">No</div>
-      <div class="clip cap" id="c35" data-start="33.078" data-duration="1.069" data-track-index="3">Walking around</div>
-      <div class="clip cap" id="c36" data-start="34.147" data-duration="0.997" data-track-index="3">and cutscenes</div>
-      <div class="clip cap" id="c37" data-start="35.144" data-duration="1.14" data-track-index="3">hold <span class="hot">30</span></div>
-      <div class="clip cap" id="c38" data-start="36.284" data-duration="0.731" data-track-index="3">But if you're</div>
-      <div class="clip cap" id="c39" data-start="37.016" data-duration="0.575" data-track-index="3">choosing a</div>
-      <div class="clip cap" id="c40" data-start="37.59" data-duration="0.888" data-track-index="3">console for this</div>
-      <div class="clip cap" id="c41" data-start="38.478" data-duration="0.313" data-track-index="3">game</div>
-      <div class="clip cap" id="c42" data-start="38.792" data-duration="0.627" data-track-index="3">that gap is</div>
-      <div class="clip cap" id="c43" data-start="39.419" data-duration="0.627" data-track-index="3">what you're</div>
-      <div class="clip cap" id="c44" data-start="40.046" data-duration="0.836" data-track-index="3">paying for</div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="0.791" data-track-index="3"><span class="w" id="c0w0">GTA</span> <span class="w" id="c0w1">6</span> <span class="w" id="c0w2">runs</span></div>
+      <div class="clip cap" id="c1" data-start="0.791" data-duration="2.302" data-track-index="3"><span class="w" id="c1w0">at</span> <span class="w" id="c1w1">30</span> <span class="w" id="c1w2">FPS</span></div>
+      <div class="clip cap" id="c2" data-start="3.093" data-duration="0.647" data-track-index="3"><span class="w" id="c2w0">On</span> <span class="w" id="c2w1">every</span></div>
+      <div class="clip cap" id="c3" data-start="3.741" data-duration="0.935" data-track-index="3"><span class="w" id="c3w0">console</span></div>
+      <div class="clip cap" id="c4" data-start="4.676" data-duration="0.331" data-track-index="3"><span class="w" id="c4w0">Yes</span></div>
+      <div class="clip cap" id="c5" data-start="5.007" data-duration="0.86" data-track-index="3"><span class="w" id="c5w0">even</span> <span class="w" id="c5w1">the</span> <span class="w" id="c5w2">PS5</span></div>
+      <div class="clip cap" id="c6" data-start="5.867" data-duration="0.596" data-track-index="3"><span class="w" id="c6w0">Pro</span></div>
+      <div class="clip cap" id="c7" data-start="6.463" data-duration="0.926" data-track-index="3"><span class="w" id="c7w0">Push</span> <span class="w" id="c7w1">Square's</span></div>
+      <div class="clip cap" id="c8" data-start="7.389" data-duration="0.794" data-track-index="3"><span class="w" id="c8w0">review</span> <span class="w" id="c8w1">says</span></div>
+      <div class="clip cap" id="c9" data-start="8.183" data-duration="0.794" data-track-index="3"><span class="w" id="c9w0">there</span> <span class="w" id="c9w1">is</span> <span class="w" id="c9w2">no</span></div>
+      <div class="clip cap" id="c10" data-start="8.977" data-duration="1.125" data-track-index="3"><span class="w" id="c10w0">option</span> <span class="w" id="c10w1">to</span> <span class="w" id="c10w2">double</span></div>
+      <div class="clip cap" id="c11" data-start="10.102" data-duration="0.529" data-track-index="3"><span class="w" id="c11w0">it</span></div>
+      <div class="clip cap" id="c12" data-start="10.632" data-duration="0.42" data-track-index="3"><span class="w" id="c12w0">PS5</span></div>
+      <div class="clip cap" id="c13" data-start="11.052" data-duration="1.009" data-track-index="3"><span class="w" id="c13w0">PS5</span> <span class="w" id="c13w1">Pro</span> <span class="w" id="c13w2">and</span></div>
+      <div class="clip cap" id="c14" data-start="12.061" data-duration="0.757" data-track-index="3"><span class="w" id="c14w0">Series</span> <span class="w" id="c14w1">X</span></div>
+      <div class="clip cap" id="c15" data-start="12.818" data-duration="0.925" data-track-index="3"><span class="w" id="c15w0">reportedly</span></div>
+      <div class="clip cap" id="c16" data-start="13.743" data-duration="2.27" data-track-index="3"><span class="w" id="c16w0">render</span> <span class="w" id="c16w1">at</span> <span class="w" id="c16w2">1440p</span></div>
+      <div class="clip cap" id="c17" data-start="16.012" data-duration="1.934" data-track-index="3"><span class="w" id="c17w0">upscaled</span> <span class="w" id="c17w1">to</span> <span class="w" id="c17w2">4K</span></div>
+      <div class="clip cap" id="c18" data-start="17.946" data-duration="1.332" data-track-index="3"><span class="w" id="c18w0">The</span> <span class="w" id="c18w1">Series</span> <span class="w" id="c18w2">S</span></div>
+      <div class="clip cap" id="c19" data-start="19.278" data-duration="1.11" data-track-index="3"><span class="w" id="c19w0">720p</span></div>
+      <div class="clip cap" id="c20" data-start="20.389" data-duration="0.888" data-track-index="3"><span class="w" id="c20w0">upscaled</span> <span class="w" id="c20w1">to</span></div>
+      <div class="clip cap" id="c21" data-start="21.277" data-duration="1.11" data-track-index="3"><span class="w" id="c21w0">1080p</span></div>
+      <div class="clip cap" id="c22" data-start="22.387" data-duration="0.587" data-track-index="3"><span class="w" id="c22w0">And</span> <span class="w" id="c22w1">early</span></div>
+      <div class="clip cap" id="c23" data-start="22.974" data-duration="0.997" data-track-index="3"><span class="w" id="c23w0">testing</span> <span class="w" id="c23w1">reported</span></div>
+      <div class="clip cap" id="c24" data-start="23.971" data-duration="0.704" data-track-index="3"><span class="w" id="c24w0">by</span> <span class="w" id="c24w1">BGR</span> <span class="w" id="c24w2">puts</span></div>
+      <div class="clip cap" id="c25" data-start="24.675" data-duration="1.115" data-track-index="3"><span class="w" id="c25w0">it</span> <span class="w" id="c25w1">in</span> <span class="w" id="c25w2">the</span> <span class="w" id="c25w3">20s</span></div>
+      <div class="clip cap" id="c26" data-start="25.79" data-duration="0.88" data-track-index="3"><span class="w" id="c26w0">while</span> <span class="w" id="c26w1">driving</span></div>
+      <div class="clip cap" id="c27" data-start="26.67" data-duration="1.056" data-track-index="3"><span class="w" id="c27w0">and</span> <span class="w" id="c27w1">around</span> <span class="w" id="c27w2">20</span></div>
+      <div class="clip cap" id="c28" data-start="27.726" data-duration="0.763" data-track-index="3"><span class="w" id="c28w0">when</span> <span class="w" id="c28w1">several</span></div>
+      <div class="clip cap" id="c29" data-start="28.489" data-duration="0.939" data-track-index="3"><span class="w" id="c29w0">cars</span> <span class="w" id="c29w1">explode</span> <span class="w" id="c29w2">at</span></div>
+      <div class="clip cap" id="c30" data-start="29.428" data-duration="0.587" data-track-index="3"><span class="w" id="c30w0">once</span></div>
+      <div class="clip cap" id="c31" data-start="30.015" data-duration="0.712" data-track-index="3"><span class="w" id="c31w0">So</span> <span class="w" id="c31w1">is</span> <span class="w" id="c31w2">the</span></div>
+      <div class="clip cap" id="c32" data-start="30.727" data-duration="0.641" data-track-index="3"><span class="w" id="c32w0">Series</span> <span class="w" id="c32w1">S</span></div>
+      <div class="clip cap" id="c33" data-start="31.368" data-duration="1.14" data-track-index="3"><span class="w" id="c33w0">unplayable</span></div>
+      <div class="clip cap" id="c34" data-start="32.508" data-duration="0.57" data-track-index="3"><span class="w" id="c34w0">No</span></div>
+      <div class="clip cap" id="c35" data-start="33.078" data-duration="1.069" data-track-index="3"><span class="w" id="c35w0">Walking</span> <span class="w" id="c35w1">around</span></div>
+      <div class="clip cap" id="c36" data-start="34.147" data-duration="0.997" data-track-index="3"><span class="w" id="c36w0">and</span> <span class="w" id="c36w1">cutscenes</span></div>
+      <div class="clip cap" id="c37" data-start="35.144" data-duration="1.14" data-track-index="3"><span class="w" id="c37w0">hold</span> <span class="w" id="c37w1">30</span></div>
+      <div class="clip cap" id="c38" data-start="36.284" data-duration="0.731" data-track-index="3"><span class="w" id="c38w0">But</span> <span class="w" id="c38w1">if</span> <span class="w" id="c38w2">you're</span></div>
+      <div class="clip cap" id="c39" data-start="37.016" data-duration="0.575" data-track-index="3"><span class="w" id="c39w0">choosing</span> <span class="w" id="c39w1">a</span></div>
+      <div class="clip cap" id="c40" data-start="37.59" data-duration="0.888" data-track-index="3"><span class="w" id="c40w0">console</span> <span class="w" id="c40w1">for</span> <span class="w" id="c40w2">this</span></div>
+      <div class="clip cap" id="c41" data-start="38.478" data-duration="0.313" data-track-index="3"><span class="w" id="c41w0">game</span></div>
+      <div class="clip cap" id="c42" data-start="38.792" data-duration="0.627" data-track-index="3"><span class="w" id="c42w0">that</span> <span class="w" id="c42w1">gap</span> <span class="w" id="c42w2">is</span></div>
+      <div class="clip cap" id="c43" data-start="39.419" data-duration="0.627" data-track-index="3"><span class="w" id="c43w0">what</span> <span class="w" id="c43w1">you're</span></div>
+      <div class="clip cap" id="c44" data-start="40.046" data-duration="0.836" data-track-index="3"><span class="w" id="c44w0">paying</span> <span class="w" id="c44w1">for</span></div>
       <audio id="mix" data-start="0" data-duration="41.282" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -111,12 +108,19 @@
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 41.282, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
-      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = [["c0w0",0],["c0w1",0.288],["c0w2",0.432],["c1w0",0.791],["c1w1",1.007],["c1w2",2.05],["c2w0",3.093],["c2w1",3.309],["c3w0",3.741],["c4w0",4.676],["c5w0",5.007],["c5w1",5.338],["c5w2",5.602],["c6w0",5.867],["c7w0",6.463],["c7w1",6.794],["c8w0",7.389],["c8w1",7.852],["c9w0",8.183],["c9w1",8.58],["c9w2",8.779],["c10w0",8.977],["c10w1",9.441],["c10w2",9.639],["c11w0",10.102],["c12w0",10.632],["c13w0",11.052],["c13w1",11.388],["c13w2",11.725],["c14w0",12.061],["c14w1",12.65],["c15w0",12.818],["c16w0",13.743],["c16w1",14.331],["c16w2",14.583],["c17w0",16.012],["c17w1",16.769],["c17w2",17.021],["c18w0",17.946],["c18w1",18.242],["c18w2",18.76],["c19w0",19.278],["c20w0",20.389],["c20w1",21.055],["c21w0",21.277],["c22w0",22.387],["c22w1",22.622],["c23w0",22.974],["c23w1",23.443],["c24w0",23.971],["c24w1",24.147],["c24w2",24.382],["c25w0",24.675],["c25w1",24.851],["c25w2",25.164],["c25w3",25.477],["c26w0",25.79],["c26w1",26.142],["c27w0",26.67],["c27w1",26.905],["c27w2",27.316],["c28w0",27.726],["c28w1",28.02],["c29w0",28.489],["c29w1",28.783],["c29w2",29.252],["c30w0",29.428],["c31w0",30.015],["c31w1",30.228],["c31w2",30.442],["c32w0",30.727],["c32w1",31.226],["c33w0",31.368],["c34w0",32.508],["c35w0",33.078],["c35w1",33.648],["c36w0",34.147],["c36w1",34.432],["c37w0",35.144],["c37w1",35.714],["c38w0",36.284],["c38w1",36.493],["c38w2",36.65],["c39w0",37.016],["c39w1",37.486],["c40w0",37.59],["c40w1",38.008],["c40w2",38.217],["c41w0",38.478],["c42w0",38.792],["c42w1",39.053],["c42w2",39.262],["c43w0",39.419],["c43w1",39.68],["c44w0",40.046],["c44w1",40.411]];
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
       });
       const inserts = [{"k":0,"start":5.126,"end":10.552,"items":0},{"k":1,"start":11.082,"end":17.866,"items":0},{"k":2,"start":18.396,"end":22.307,"items":0},{"k":3,"start":22.837,"end":29.935,"items":2},{"k":4,"start":30.465,"end":36.204,"items":0}];
       inserts.forEach((x) => {

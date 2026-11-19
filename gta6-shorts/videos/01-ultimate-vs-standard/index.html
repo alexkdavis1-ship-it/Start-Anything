@@ -17,14 +17,12 @@
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
       #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
-      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
-      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .hot { color: var(--hot); }
-      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
              background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
       .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
       .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
@@ -49,61 +47,60 @@
       <div id="shade"></div>
       <div id="flash"></div>
       <div id="bar"></div>
-      <div id="pill"><span>Is GTA 6 Ultimate worth $100?</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>DON'T BUY ULTIMATE YET</span></div>
       <div class="ins compare" id="i0"><div class="cols"><div class="col "><div class="top">STANDARD</div><div class="big" style="font-size:170px">$80</div></div><div class="join">VS</div><div class="col win"><div class="top">ULTIMATE</div><div class="big" style="font-size:170px">$100</div></div></div></div>
       <div class="ins list" id="i1"><div class="title">THE EXTRA $20 BUYS</div><div class="item" id="i1_0"><i></i>'95 Grotti Cheetah</div><div class="item" id="i1_1"><i></i>2 revolvers</div><div class="item" id="i1_2"><i></i>A speedboat</div><div class="item" id="i1_3"><i></i>Buggy + garage</div></div>
       <div class="ins list" id="i2"><div class="title">ALSO ON THE LIST</div><div class="item" id="i2_0"><i></i>2 mod shops</div><div class="item" id="i2_1"><i></i>Tattoo parlor</div><div class="item" id="i2_2"><i></i>Salon</div><div class="item" id="i2_3"><i></i>Clothing store</div></div>
       <div class="ins broll" id="i3"><video class="clip" data-start="28.244" data-duration="6.471" data-track-index="9" src="assets/empty-wallet.mp4" muted playsinline></video><div class="label">Money is hard to come by</div></div>
       <div class="ins stat" id="i4"><div class="big" style="font-size:250px">+$20</div><div class="label">Standard owners can upgrade later</div></div>
-      <div class="clip cap" id="c0" data-start="0" data-duration="0.777" data-track-index="3">Do not pay</div>
-      <div class="clip cap" id="c1" data-start="0.777" data-duration="1.836" data-track-index="3"><span class="hot">$100</span> for <span class="hot">GTA</span></div>
-      <div class="clip cap" id="c2" data-start="2.613" data-duration="0.847" data-track-index="3"><span class="hot">6</span> until you</div>
-      <div class="clip cap" id="c3" data-start="3.46" data-duration="1.059" data-track-index="3">hear this</div>
-      <div class="clip cap" id="c4" data-start="4.519" data-duration="1.832" data-track-index="3">Standard is <span class="hot">$80</span></div>
-      <div class="clip cap" id="c5" data-start="6.351" data-duration="1.642" data-track-index="3">Ultimate is <span class="hot">$100</span></div>
-      <div class="clip cap" id="c6" data-start="7.993" data-duration="1.166" data-track-index="3">That extra <span class="hot">$20</span></div>
-      <div class="clip cap" id="c7" data-start="9.159" data-duration="1.49" data-track-index="3">buys <span class="hot">16</span> items</div>
-      <div class="clip cap" id="c8" data-start="10.649" data-duration="1.36" data-track-index="3">A <span class="hot">'95</span> Grotti</div>
-      <div class="clip cap" id="c9" data-start="12.009" data-duration="0.842" data-track-index="3">Cheetah</div>
-      <div class="clip cap" id="c10" data-start="12.851" data-duration="1.23" data-track-index="3">Two revolvers</div>
-      <div class="clip cap" id="c11" data-start="14.081" data-duration="1.101" data-track-index="3">A speedboat</div>
-      <div class="clip cap" id="c12" data-start="15.182" data-duration="0.842" data-track-index="3">A buggy with</div>
-      <div class="clip cap" id="c13" data-start="16.024" data-duration="1.295" data-track-index="3">its own garage</div>
-      <div class="clip cap" id="c14" data-start="17.319" data-duration="0.931" data-track-index="3">The list also</div>
-      <div class="clip cap" id="c15" data-start="18.25" data-duration="0.931" data-track-index="3">names two mod</div>
-      <div class="clip cap" id="c16" data-start="19.182" data-duration="0.466" data-track-index="3">shops</div>
-      <div class="clip cap" id="c17" data-start="19.647" data-duration="1.131" data-track-index="3">a tattoo parlor</div>
-      <div class="clip cap" id="c18" data-start="20.778" data-duration="0.798" data-track-index="3">a salon and</div>
-      <div class="clip cap" id="c19" data-start="21.577" data-duration="0.732" data-track-index="3">a clothing</div>
-      <div class="clip cap" id="c20" data-start="22.308" data-duration="0.732" data-track-index="3">store</div>
-      <div class="clip cap" id="c21" data-start="23.04" data-duration="0.716" data-track-index="3">None of it</div>
-      <div class="clip cap" id="c22" data-start="23.756" data-duration="0.912" data-track-index="3">is story</div>
-      <div class="clip cap" id="c23" data-start="24.668" data-duration="0.716" data-track-index="3">It's cars</div>
-      <div class="clip cap" id="c24" data-start="25.385" data-duration="0.391" data-track-index="3">guns</div>
-      <div class="clip cap" id="c25" data-start="25.775" data-duration="0.912" data-track-index="3">and places to</div>
-      <div class="clip cap" id="c26" data-start="26.687" data-duration="1.107" data-track-index="3">spend money</div>
-      <div class="clip cap" id="c27" data-start="27.794" data-duration="0.772" data-track-index="3">But reviewers</div>
-      <div class="clip cap" id="c28" data-start="28.566" data-duration="0.661" data-track-index="3">keep saying</div>
-      <div class="clip cap" id="c29" data-start="29.228" data-duration="0.772" data-track-index="3">money is <span class="hot">hard</span></div>
-      <div class="clip cap" id="c30" data-start="29.999" data-duration="0.606" data-track-index="3">to come by</div>
-      <div class="clip cap" id="c31" data-start="30.606" data-duration="0.992" data-track-index="3">in this game</div>
-      <div class="clip cap" id="c32" data-start="31.598" data-duration="0.717" data-track-index="3">So <span class="hot">free</span> cars</div>
-      <div class="clip cap" id="c33" data-start="32.314" data-duration="0.717" data-track-index="3">early on are</div>
-      <div class="clip cap" id="c34" data-start="33.031" data-duration="0.882" data-track-index="3">worth more than</div>
-      <div class="clip cap" id="c35" data-start="33.913" data-duration="0.882" data-track-index="3">they sound</div>
-      <div class="clip cap" id="c36" data-start="34.795" data-duration="0.944" data-track-index="3">Here's the part</div>
-      <div class="clip cap" id="c37" data-start="35.739" data-duration="0.885" data-track-index="3">the store page</div>
-      <div class="clip cap" id="c38" data-start="36.623" data-duration="0.708" data-track-index="3">buries</div>
-      <div class="clip cap" id="c39" data-start="37.331" data-duration="0.944" data-track-index="3">Standard owners</div>
-      <div class="clip cap" id="c40" data-start="38.274" data-duration="0.708" data-track-index="3">can buy the</div>
-      <div class="clip cap" id="c41" data-start="38.982" data-duration="0.649" data-track-index="3">exact same</div>
-      <div class="clip cap" id="c42" data-start="39.631" data-duration="1.12" data-track-index="3">upgrade later</div>
-      <div class="clip cap" id="c43" data-start="40.751" data-duration="1.324" data-track-index="3">So buy Standard</div>
-      <div class="clip cap" id="c44" data-start="42.075" data-duration="1.198" data-track-index="3">Play <span class="hot">10</span> hours</div>
-      <div class="clip cap" id="c45" data-start="43.273" data-duration="1.009" data-track-index="3">Upgrade only if</div>
-      <div class="clip cap" id="c46" data-start="44.282" data-duration="1.009" data-track-index="3">you're <span class="hot">broke</span> in</div>
-      <div class="clip cap" id="c47" data-start="45.291" data-duration="0.946" data-track-index="3">Vice City</div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="0.777" data-track-index="3"><span class="w" id="c0w0">Do</span> <span class="w" id="c0w1">not</span> <span class="w" id="c0w2">pay</span></div>
+      <div class="clip cap" id="c1" data-start="0.777" data-duration="1.836" data-track-index="3"><span class="w" id="c1w0">$100</span> <span class="w" id="c1w1">for</span> <span class="w" id="c1w2">GTA</span></div>
+      <div class="clip cap" id="c2" data-start="2.613" data-duration="0.847" data-track-index="3"><span class="w" id="c2w0">6</span> <span class="w" id="c2w1">until</span> <span class="w" id="c2w2">you</span></div>
+      <div class="clip cap" id="c3" data-start="3.46" data-duration="1.059" data-track-index="3"><span class="w" id="c3w0">hear</span> <span class="w" id="c3w1">this</span></div>
+      <div class="clip cap" id="c4" data-start="4.519" data-duration="1.832" data-track-index="3"><span class="w" id="c4w0">Standard</span> <span class="w" id="c4w1">is</span> <span class="w" id="c4w2">$80</span></div>
+      <div class="clip cap" id="c5" data-start="6.351" data-duration="1.642" data-track-index="3"><span class="w" id="c5w0">Ultimate</span> <span class="w" id="c5w1">is</span> <span class="w" id="c5w2">$100</span></div>
+      <div class="clip cap" id="c6" data-start="7.993" data-duration="1.166" data-track-index="3"><span class="w" id="c6w0">That</span> <span class="w" id="c6w1">extra</span> <span class="w" id="c6w2">$20</span></div>
+      <div class="clip cap" id="c7" data-start="9.159" data-duration="1.49" data-track-index="3"><span class="w" id="c7w0">buys</span> <span class="w" id="c7w1">16</span> <span class="w" id="c7w2">items</span></div>
+      <div class="clip cap" id="c8" data-start="10.649" data-duration="1.36" data-track-index="3"><span class="w" id="c8w0">A</span> <span class="w" id="c8w1">'95</span> <span class="w" id="c8w2">Grotti</span></div>
+      <div class="clip cap" id="c9" data-start="12.009" data-duration="0.842" data-track-index="3"><span class="w" id="c9w0">Cheetah</span></div>
+      <div class="clip cap" id="c10" data-start="12.851" data-duration="1.23" data-track-index="3"><span class="w" id="c10w0">Two</span> <span class="w" id="c10w1">revolvers</span></div>
+      <div class="clip cap" id="c11" data-start="14.081" data-duration="1.101" data-track-index="3"><span class="w" id="c11w0">A</span> <span class="w" id="c11w1">speedboat</span></div>
+      <div class="clip cap" id="c12" data-start="15.182" data-duration="0.842" data-track-index="3"><span class="w" id="c12w0">A</span> <span class="w" id="c12w1">buggy</span> <span class="w" id="c12w2">with</span></div>
+      <div class="clip cap" id="c13" data-start="16.024" data-duration="1.295" data-track-index="3"><span class="w" id="c13w0">its</span> <span class="w" id="c13w1">own</span> <span class="w" id="c13w2">garage</span></div>
+      <div class="clip cap" id="c14" data-start="17.319" data-duration="0.931" data-track-index="3"><span class="w" id="c14w0">The</span> <span class="w" id="c14w1">list</span> <span class="w" id="c14w2">also</span></div>
+      <div class="clip cap" id="c15" data-start="18.25" data-duration="0.931" data-track-index="3"><span class="w" id="c15w0">names</span> <span class="w" id="c15w1">two</span> <span class="w" id="c15w2">mod</span></div>
+      <div class="clip cap" id="c16" data-start="19.182" data-duration="0.466" data-track-index="3"><span class="w" id="c16w0">shops</span></div>
+      <div class="clip cap" id="c17" data-start="19.647" data-duration="1.131" data-track-index="3"><span class="w" id="c17w0">a</span> <span class="w" id="c17w1">tattoo</span> <span class="w" id="c17w2">parlor</span></div>
+      <div class="clip cap" id="c18" data-start="20.778" data-duration="0.798" data-track-index="3"><span class="w" id="c18w0">a</span> <span class="w" id="c18w1">salon</span> <span class="w" id="c18w2">and</span></div>
+      <div class="clip cap" id="c19" data-start="21.577" data-duration="0.732" data-track-index="3"><span class="w" id="c19w0">a</span> <span class="w" id="c19w1">clothing</span></div>
+      <div class="clip cap" id="c20" data-start="22.308" data-duration="0.732" data-track-index="3"><span class="w" id="c20w0">store</span></div>
+      <div class="clip cap" id="c21" data-start="23.04" data-duration="0.716" data-track-index="3"><span class="w" id="c21w0">None</span> <span class="w" id="c21w1">of</span> <span class="w" id="c21w2">it</span></div>
+      <div class="clip cap" id="c22" data-start="23.756" data-duration="0.912" data-track-index="3"><span class="w" id="c22w0">is</span> <span class="w" id="c22w1">story</span></div>
+      <div class="clip cap" id="c23" data-start="24.668" data-duration="0.716" data-track-index="3"><span class="w" id="c23w0">It's</span> <span class="w" id="c23w1">cars</span></div>
+      <div class="clip cap" id="c24" data-start="25.385" data-duration="0.391" data-track-index="3"><span class="w" id="c24w0">guns</span></div>
+      <div class="clip cap" id="c25" data-start="25.775" data-duration="0.912" data-track-index="3"><span class="w" id="c25w0">and</span> <span class="w" id="c25w1">places</span> <span class="w" id="c25w2">to</span></div>
+      <div class="clip cap" id="c26" data-start="26.687" data-duration="1.107" data-track-index="3"><span class="w" id="c26w0">spend</span> <span class="w" id="c26w1">money</span></div>
+      <div class="clip cap" id="c27" data-start="27.794" data-duration="0.772" data-track-index="3"><span class="w" id="c27w0">But</span> <span class="w" id="c27w1">reviewers</span></div>
+      <div class="clip cap" id="c28" data-start="28.566" data-duration="0.661" data-track-index="3"><span class="w" id="c28w0">keep</span> <span class="w" id="c28w1">saying</span></div>
+      <div class="clip cap" id="c29" data-start="29.228" data-duration="0.772" data-track-index="3"><span class="w" id="c29w0">money</span> <span class="w" id="c29w1">is</span> <span class="w" id="c29w2">hard</span></div>
+      <div class="clip cap" id="c30" data-start="29.999" data-duration="0.606" data-track-index="3"><span class="w" id="c30w0">to</span> <span class="w" id="c30w1">come</span> <span class="w" id="c30w2">by</span></div>
+      <div class="clip cap" id="c31" data-start="30.606" data-duration="0.992" data-track-index="3"><span class="w" id="c31w0">in</span> <span class="w" id="c31w1">this</span> <span class="w" id="c31w2">game</span></div>
+      <div class="clip cap" id="c32" data-start="31.598" data-duration="0.717" data-track-index="3"><span class="w" id="c32w0">So</span> <span class="w" id="c32w1">free</span> <span class="w" id="c32w2">cars</span></div>
+      <div class="clip cap" id="c33" data-start="32.314" data-duration="0.717" data-track-index="3"><span class="w" id="c33w0">early</span> <span class="w" id="c33w1">on</span> <span class="w" id="c33w2">are</span></div>
+      <div class="clip cap" id="c34" data-start="33.031" data-duration="0.882" data-track-index="3"><span class="w" id="c34w0">worth</span> <span class="w" id="c34w1">more</span> <span class="w" id="c34w2">than</span></div>
+      <div class="clip cap" id="c35" data-start="33.913" data-duration="0.882" data-track-index="3"><span class="w" id="c35w0">they</span> <span class="w" id="c35w1">sound</span></div>
+      <div class="clip cap" id="c36" data-start="34.795" data-duration="0.944" data-track-index="3"><span class="w" id="c36w0">Here's</span> <span class="w" id="c36w1">the</span> <span class="w" id="c36w2">part</span></div>
+      <div class="clip cap" id="c37" data-start="35.739" data-duration="0.885" data-track-index="3"><span class="w" id="c37w0">the</span> <span class="w" id="c37w1">store</span> <span class="w" id="c37w2">page</span></div>
+      <div class="clip cap" id="c38" data-start="36.623" data-duration="0.708" data-track-index="3"><span class="w" id="c38w0">buries</span></div>
+      <div class="clip cap" id="c39" data-start="37.331" data-duration="0.944" data-track-index="3"><span class="w" id="c39w0">Standard</span> <span class="w" id="c39w1">owners</span></div>
+      <div class="clip cap" id="c40" data-start="38.274" data-duration="0.708" data-track-index="3"><span class="w" id="c40w0">can</span> <span class="w" id="c40w1">buy</span> <span class="w" id="c40w2">the</span></div>
+      <div class="clip cap" id="c41" data-start="38.982" data-duration="0.649" data-track-index="3"><span class="w" id="c41w0">exact</span> <span class="w" id="c41w1">same</span></div>
+      <div class="clip cap" id="c42" data-start="39.631" data-duration="1.12" data-track-index="3"><span class="w" id="c42w0">upgrade</span> <span class="w" id="c42w1">later</span></div>
+      <div class="clip cap" id="c43" data-start="40.751" data-duration="1.324" data-track-index="3"><span class="w" id="c43w0">So</span> <span class="w" id="c43w1">buy</span> <span class="w" id="c43w2">Standard</span></div>
+      <div class="clip cap" id="c44" data-start="42.075" data-duration="1.198" data-track-index="3"><span class="w" id="c44w0">Play</span> <span class="w" id="c44w1">10</span> <span class="w" id="c44w2">hours</span></div>
+      <div class="clip cap" id="c45" data-start="43.273" data-duration="1.009" data-track-index="3"><span class="w" id="c45w0">Upgrade</span> <span class="w" id="c45w1">only</span> <span class="w" id="c45w2">if</span></div>
+      <div class="clip cap" id="c46" data-start="44.282" data-duration="1.009" data-track-index="3"><span class="w" id="c46w0">you're</span> <span class="w" id="c46w1">broke</span> <span class="w" id="c46w2">in</span></div>
+      <div class="clip cap" id="c47" data-start="45.291" data-duration="0.946" data-track-index="3"><span class="w" id="c47w0">Vice</span> <span class="w" id="c47w1">City</span></div>
       <audio id="mix" data-start="0" data-duration="46.637" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -114,12 +111,19 @@
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 46.637, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
-      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = [["c0w0",0],["c0w1",0.212],["c0w2",0.494],["c1w0",0.777],["c1w1",2.048],["c1w2",2.33],["c2w0",2.613],["c2w1",2.754],["c2w2",3.178],["c3w0",3.46],["c3w1",3.813],["c4w0",4.519],["c4w1",5.088],["c4w2",5.277],["c5w0",6.351],["c5w1",6.899],["c5w2",7.446],["c6w0",7.993],["c6w1",8.382],["c6w2",8.771],["c7w0",9.159],["c7w1",9.483],["c7w2",10.066],["c8w0",10.649],["c8w1",10.778],["c8w2",11.555],["c9w0",12.009],["c10w0",12.851],["c10w1",13.11],["c11w0",14.081],["c11w1",14.211],["c12w0",15.182],["c12w1",15.312],["c12w2",15.7],["c13w0",16.024],["c13w1",16.283],["c13w2",16.542],["c14w0",17.319],["c14w1",17.585],["c14w2",17.918],["c15w0",18.25],["c15w1",18.65],["c15w2",18.916],["c16w0",19.182],["c17w0",19.647],["c17w1",19.78],["c17w2",20.246],["c18w0",20.778],["c18w1",20.911],["c18w2",21.31],["c19w0",21.577],["c19w1",21.71],["c20w0",22.308],["c21w0",23.04],["c21w1",23.366],["c21w2",23.561],["c22w0",23.756],["c22w1",23.952],["c23w0",24.668],["c23w1",24.994],["c24w0",25.385],["c25w0",25.775],["c25w1",26.036],["c25w2",26.492],["c26w0",26.687],["c26w1",27.078],["c27w0",27.794],["c27w1",28.015],["c28w0",28.566],["c28w1",28.842],["c29w0",29.228],["c29w1",29.558],["c29w2",29.724],["c30w0",29.999],["c30w1",30.165],["c30w2",30.44],["c31w0",30.606],["c31w1",30.771],["c31w2",31.047],["c32w0",31.598],["c32w1",31.763],["c32w2",32.039],["c33w0",32.314],["c33w1",32.645],["c33w2",32.811],["c34w0",33.031],["c34w1",33.362],["c34w2",33.637],["c35w0",33.913],["c35w1",34.189],["c36w0",34.795],["c36w1",35.208],["c36w2",35.444],["c37w0",35.739],["c37w1",35.974],["c37w2",36.328],["c38w0",36.623],["c39w0",37.331],["c39w1",37.862],["c40w0",38.274],["c40w1",38.51],["c40w2",38.746],["c41w0",38.982],["c41w1",39.336],["c42w0",39.631],["c42w1",40.102],["c43w0",40.751],["c43w1",40.94],["c43w2",41.192],["c44w0",42.075],["c44w1",42.39],["c44w2",42.832],["c45w0",43.273],["c45w1",43.778],["c45w2",44.093],["c46w0",44.282],["c46w1",44.723],["c46w2",45.102],["c47w0",45.291],["c47w1",45.606]];
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
       });
       const inserts = [{"k":0,"start":4.969,"end":7.913,"items":0},{"k":1,"start":8.443,"end":17.239,"items":4},{"k":2,"start":17.769,"end":22.96,"items":4},{"k":3,"start":28.244,"end":34.715,"items":0},{"k":4,"start":35.245,"end":40.671,"items":0}];
       inserts.forEach((x) => {
