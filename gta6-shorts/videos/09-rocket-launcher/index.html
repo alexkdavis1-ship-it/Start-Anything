@@ -5,38 +5,32 @@
     <meta name="viewport" content="width=1080, height=1920" />
     <title>Free rocket launcher in chapter 1 of GTA 6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:wght@500;700;800&family=Montserrat:wght@700;800&display=block" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
-      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
+      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "TikTok Sans", "Montserrat", sans-serif; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
       #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--font); color: var(--ink); }
-      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 50%; }
       #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-      #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
-      #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
-      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
-      #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
-             -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .w { display: inline-block; margin: 0 0.16em; }
-      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
-             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
-      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
-      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
-      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
-      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
-      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
-      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
-      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
-      .ins .col .big { color: #fff; }
-      .ins .col.win .big { color: var(--hot); }
-      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
-      .ins.broll { padding: 18px 18px 30px; }
+      .label, .title, .item, #hook span { font-family: var(--font); font-weight: 700; background: #fff; color: #111; border-radius: 18px;
+             box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+      #hook { position: absolute; left: 70px; right: 70px; top: 170px; text-align: center; font-size: 58px; line-height: 1.52; }
+      #hook span { padding: 8px 24px; }
+      .cap { position: absolute; left: 60px; right: 60px; top: 1270px; text-align: center; font-size: 84px; font-weight: 800; line-height: 1.12;
+             -webkit-text-stroke: 12px #000; paint-order: stroke fill; text-shadow: 0 6px 14px rgba(0,0,0,.55); }
+      .cap .w { display: inline-block; margin: 0 0.13em; }
+      .cap.stamp { top: 780px; font-size: 300px; }
+      .ins { position: absolute; left: 50px; right: 50px; top: 130px; visibility: hidden; text-align: center; }
+      .ins .big { font-weight: 800; color: #fff; line-height: 1.05; -webkit-text-stroke: 14px #000; paint-order: stroke fill; }
+      .ins .label { display: inline-block; font-size: 46px; line-height: 1.25; padding: 10px 24px; margin-top: 12px; }
+      .ins .title { display: inline-block; font-size: 46px; font-weight: 800; padding: 10px 26px; margin-bottom: 8px; background: #111; color: #fff; }
+      .ins .item { display: table; margin: 10px auto; font-size: 48px; line-height: 1.2; padding: 10px 24px; }
+      .ins .cols { display: flex; align-items: center; justify-content: center; gap: 30px; }
+      .ins .col .top { font-size: 38px; font-weight: 700; -webkit-text-stroke: 8px #000; paint-order: stroke fill; }
+      .ins .join { font-size: 70px; font-weight: 800; -webkit-text-stroke: 10px #000; paint-order: stroke fill; }
       .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
-      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
   <body>
@@ -44,16 +38,13 @@
       <div id="bgwrap">
         <video id="bg" class="clip" data-start="0" data-duration="40.393" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
       </div>
-      <div id="shade"></div>
-      <div id="flash"></div>
-      <div id="bar"></div>
-      <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>FREE ROCKET LAUNCHER</span></div>
-      <div class="ins stat" id="i0"><div class="big" style="font-size:190px">STEP 1</div><div class="label">Reach the mission Building a Life</div></div>
-      <div class="ins stat" id="i1"><div class="big" style="font-size:190px">STEP 2</div><div class="label">North from the Keys, just west of Vice City</div></div>
-      <div class="ins list" id="i2"><div class="title">LOOK FOR</div><div class="item" id="i2_0"><i></i>Griffin Firing Range</div><div class="item" id="i2_1"><i></i>Impound lot to the southwest</div></div>
-      <div class="ins stat" id="i3"><div class="big" style="font-size:190px">THE RV</div><div class="label">the one covered in satellite dishes</div></div>
-      <div class="ins list" id="i4"><div class="title">IN THE BUNKER</div><div class="item" id="i4_0"><i></i>Rocket launcher + 4 rockets</div><div class="item" id="i4_1"><i></i>A unique SMG</div><div class="item" id="i4_2"><i></i>Frag grenades</div></div>
-      <div class="ins stat" id="i5"><div class="big" style="font-size:150px">SAVE FIRST</div><div class="label">no rocket ammo for sale this early</div></div>
+      <div id="hook" class="clip" data-start="0" data-duration="4.5" data-track-index="2"><span>free rocket launcher in chapter 1 of GTA 6 🚀</span></div>
+      <div class="ins stat" id="i0"><div class="big" style="font-size:160px">STEP 1</div><div class="label">Reach the mission Building a Life</div></div>
+      <div class="ins stat" id="i1"><div class="big" style="font-size:160px">STEP 2</div><div class="label">North from the Keys, just west of Vice City</div></div>
+      <div class="ins list" id="i2"><div class="title">LOOK FOR</div><div class="item" id="i2_0">Griffin Firing Range</div><div class="item" id="i2_1">Impound lot to the southwest</div></div>
+      <div class="ins stat" id="i3"><div class="big" style="font-size:160px">THE RV</div><div class="label">the one covered in satellite dishes</div></div>
+      <div class="ins list" id="i4"><div class="title">IN THE BUNKER</div><div class="item" id="i4_0">Rocket launcher + 4 rockets</div><div class="item" id="i4_1">A unique SMG</div><div class="item" id="i4_2">Frag grenades</div></div>
+      <div class="ins stat" id="i5"><div class="big" style="font-size:128px">SAVE FIRST</div><div class="label">no rocket ammo for sale this early</div></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="0.914" data-track-index="3"><span class="w" id="c0w0">There's</span> <span class="w" id="c0w1">a</span> <span class="w" id="c0w2">free</span></div>
       <div class="clip cap" id="c1" data-start="0.914" data-duration="0.975" data-track-index="3"><span class="w" id="c1w0">rocket</span> <span class="w" id="c1w1">launcher</span></div>
       <div class="clip cap" id="c2" data-start="1.89" data-duration="0.488" data-track-index="3"><span class="w" id="c2w0">sitting</span></div>
@@ -108,9 +99,8 @@
       const tl = gsap.timeline({ paused: true });
       const caps = [0,0.914,1.89,2.377,3.17,4.328,4.754,5.588,6.481,7.493,8.207,8.981,9.933,10.945,11.83,12.841,13.662,14.484,15.621,16.526,17.485,18.336,18.922,19.827,20.778,21.617,22.344,23.183,23.91,24.581,25.16,25.95,26.635,27.32,27.899,28.68,29.886,30.88,31.803,32.797,33.436,34.429,35.528,36.421,37.314,38.345,39.238];
       const beats = [0,4.754,10.945,15.621,19.827,24.581,27.899,34.429];
-      tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 40.393, ease: "none" }, 0);
-      tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
-      tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
+      tl.fromTo("#hook", { scale: 0.8, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: "back.out(2)" }, 0);
+      tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 4.38);
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
         const stamp = el.classList.contains("stamp");
@@ -131,16 +121,14 @@
         tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
         const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
         for (let j = 0; j < x.items; j++) {
-          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+          tl.fromTo(el + "_" + j, { scale: 0.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.14, ease: "back.out(2)" }, x.start + 0.15 + j * step);
         }
         tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
-      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      // A small punch-in on every spoken line.
       beats.forEach((t, i) => {
         const next = i + 1 < beats.length ? beats[i + 1] : 40.393;
-        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
-        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
-        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
+        tl.fromTo("#bgwrap", { scale: 1.05 }, { scale: 1, duration: 0.28, ease: "power3.out" }, t);
       });
       window.__timelines["main"] = tl;
       tl.seek(0);
