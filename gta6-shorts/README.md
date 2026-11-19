@@ -11,5 +11,7 @@ Needs Node 22+, ffmpeg, yt-dlp (`brew install node ffmpeg yt-dlp`).
 3. `npm run render` writes `renders/<slug>.mp4`. One video: `./render-all.sh 04-cops`.
 4. `npm run preview --video=04-cops` opens the live HyperFrames preview.
 
-Edit words, the top title card (`pill`) and favoured clips (`footage`) in `scripts.json`. Changing a spoken line means regenerating that voiceover and
+Edit words, the top title card (`pill`), favoured clips (`footage`) and explainer cards (`inserts`:
+stat, compare, list, or a stock clip from `broll/`) in `scripts.json`. The gameplay bed is kept
+between builds; run `FRESH_BED=1 npm run build` after changing footage. Changing a spoken line means regenerating that voiceover and
 updating its timings in `vo.json`. Caption look and pacing live in `build.mjs`.

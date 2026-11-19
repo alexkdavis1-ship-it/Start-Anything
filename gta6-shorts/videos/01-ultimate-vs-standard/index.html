@@ -24,6 +24,20 @@
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
       .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
@@ -37,54 +51,59 @@
       <div id="bar"></div>
       <div id="pill"><span>Is GTA 6 Ultimate worth $100?</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>DON'T BUY ULTIMATE YET</span></div>
+      <div class="ins compare" id="i0"><div class="cols"><div class="col "><div class="top">STANDARD</div><div class="big" style="font-size:170px">$80</div></div><div class="join">VS</div><div class="col win"><div class="top">ULTIMATE</div><div class="big" style="font-size:170px">$100</div></div></div></div>
+      <div class="ins list" id="i1"><div class="title">THE EXTRA $20 BUYS</div><div class="item" id="i1_0"><i></i>'95 Grotti Cheetah</div><div class="item" id="i1_1"><i></i>2 revolvers</div><div class="item" id="i1_2"><i></i>A speedboat</div><div class="item" id="i1_3"><i></i>Buggy + garage</div></div>
+      <div class="ins list" id="i2"><div class="title">ALSO ON THE LIST</div><div class="item" id="i2_0"><i></i>2 mod shops</div><div class="item" id="i2_1"><i></i>Tattoo parlor</div><div class="item" id="i2_2"><i></i>Salon</div><div class="item" id="i2_3"><i></i>Clothing store</div></div>
+      <div class="ins broll" id="i3"><video class="clip" data-start="28.244" data-duration="6.471" data-track-index="9" src="assets/empty-wallet.mp4" muted playsinline></video><div class="label">Money is hard to come by</div></div>
+      <div class="ins stat" id="i4"><div class="big" style="font-size:250px">+$20</div><div class="label">Standard owners can upgrade later</div></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="0.777" data-track-index="3">Do not pay</div>
       <div class="clip cap" id="c1" data-start="0.777" data-duration="1.836" data-track-index="3"><span class="hot">$100</span> for <span class="hot">GTA</span></div>
       <div class="clip cap" id="c2" data-start="2.613" data-duration="0.847" data-track-index="3"><span class="hot">6</span> until you</div>
-      <div class="clip cap" id="c3" data-start="3.46" data-duration="1.059" data-track-index="3">hear this.</div>
-      <div class="clip cap" id="c4" data-start="4.519" data-duration="1.832" data-track-index="3">Standard is <span class="hot">$80.</span></div>
-      <div class="clip cap" id="c5" data-start="6.351" data-duration="1.642" data-track-index="3">Ultimate is <span class="hot">$100.</span></div>
+      <div class="clip cap" id="c3" data-start="3.46" data-duration="1.059" data-track-index="3">hear this</div>
+      <div class="clip cap" id="c4" data-start="4.519" data-duration="1.832" data-track-index="3">Standard is <span class="hot">$80</span></div>
+      <div class="clip cap" id="c5" data-start="6.351" data-duration="1.642" data-track-index="3">Ultimate is <span class="hot">$100</span></div>
       <div class="clip cap" id="c6" data-start="7.993" data-duration="1.166" data-track-index="3">That extra <span class="hot">$20</span></div>
-      <div class="clip cap" id="c7" data-start="9.159" data-duration="1.49" data-track-index="3">buys <span class="hot">16</span> items.</div>
+      <div class="clip cap" id="c7" data-start="9.159" data-duration="1.49" data-track-index="3">buys <span class="hot">16</span> items</div>
       <div class="clip cap" id="c8" data-start="10.649" data-duration="1.36" data-track-index="3">A <span class="hot">'95</span> Grotti</div>
-      <div class="clip cap" id="c9" data-start="12.009" data-duration="0.842" data-track-index="3">Cheetah.</div>
-      <div class="clip cap" id="c10" data-start="12.851" data-duration="1.23" data-track-index="3">Two revolvers.</div>
-      <div class="clip cap" id="c11" data-start="14.081" data-duration="1.101" data-track-index="3">A speedboat.</div>
+      <div class="clip cap" id="c9" data-start="12.009" data-duration="0.842" data-track-index="3">Cheetah</div>
+      <div class="clip cap" id="c10" data-start="12.851" data-duration="1.23" data-track-index="3">Two revolvers</div>
+      <div class="clip cap" id="c11" data-start="14.081" data-duration="1.101" data-track-index="3">A speedboat</div>
       <div class="clip cap" id="c12" data-start="15.182" data-duration="0.842" data-track-index="3">A buggy with</div>
-      <div class="clip cap" id="c13" data-start="16.024" data-duration="1.295" data-track-index="3">its own garage.</div>
+      <div class="clip cap" id="c13" data-start="16.024" data-duration="1.295" data-track-index="3">its own garage</div>
       <div class="clip cap" id="c14" data-start="17.319" data-duration="0.931" data-track-index="3">The list also</div>
       <div class="clip cap" id="c15" data-start="18.25" data-duration="0.931" data-track-index="3">names two mod</div>
-      <div class="clip cap" id="c16" data-start="19.182" data-duration="0.466" data-track-index="3">shops,</div>
-      <div class="clip cap" id="c17" data-start="19.647" data-duration="1.131" data-track-index="3">a tattoo parlor,</div>
+      <div class="clip cap" id="c16" data-start="19.182" data-duration="0.466" data-track-index="3">shops</div>
+      <div class="clip cap" id="c17" data-start="19.647" data-duration="1.131" data-track-index="3">a tattoo parlor</div>
       <div class="clip cap" id="c18" data-start="20.778" data-duration="0.798" data-track-index="3">a salon and</div>
       <div class="clip cap" id="c19" data-start="21.577" data-duration="0.732" data-track-index="3">a clothing</div>
-      <div class="clip cap" id="c20" data-start="22.308" data-duration="0.732" data-track-index="3">store.</div>
+      <div class="clip cap" id="c20" data-start="22.308" data-duration="0.732" data-track-index="3">store</div>
       <div class="clip cap" id="c21" data-start="23.04" data-duration="0.716" data-track-index="3">None of it</div>
-      <div class="clip cap" id="c22" data-start="23.756" data-duration="0.912" data-track-index="3">is story.</div>
-      <div class="clip cap" id="c23" data-start="24.668" data-duration="0.716" data-track-index="3">It's cars,</div>
-      <div class="clip cap" id="c24" data-start="25.385" data-duration="0.391" data-track-index="3">guns,</div>
+      <div class="clip cap" id="c22" data-start="23.756" data-duration="0.912" data-track-index="3">is story</div>
+      <div class="clip cap" id="c23" data-start="24.668" data-duration="0.716" data-track-index="3">It's cars</div>
+      <div class="clip cap" id="c24" data-start="25.385" data-duration="0.391" data-track-index="3">guns</div>
       <div class="clip cap" id="c25" data-start="25.775" data-duration="0.912" data-track-index="3">and places to</div>
-      <div class="clip cap" id="c26" data-start="26.687" data-duration="1.107" data-track-index="3">spend money.</div>
+      <div class="clip cap" id="c26" data-start="26.687" data-duration="1.107" data-track-index="3">spend money</div>
       <div class="clip cap" id="c27" data-start="27.794" data-duration="0.772" data-track-index="3">But reviewers</div>
       <div class="clip cap" id="c28" data-start="28.566" data-duration="0.661" data-track-index="3">keep saying</div>
       <div class="clip cap" id="c29" data-start="29.228" data-duration="0.772" data-track-index="3">money is <span class="hot">hard</span></div>
       <div class="clip cap" id="c30" data-start="29.999" data-duration="0.606" data-track-index="3">to come by</div>
-      <div class="clip cap" id="c31" data-start="30.606" data-duration="0.992" data-track-index="3">in this game.</div>
+      <div class="clip cap" id="c31" data-start="30.606" data-duration="0.992" data-track-index="3">in this game</div>
       <div class="clip cap" id="c32" data-start="31.598" data-duration="0.717" data-track-index="3">So <span class="hot">free</span> cars</div>
       <div class="clip cap" id="c33" data-start="32.314" data-duration="0.717" data-track-index="3">early on are</div>
       <div class="clip cap" id="c34" data-start="33.031" data-duration="0.882" data-track-index="3">worth more than</div>
-      <div class="clip cap" id="c35" data-start="33.913" data-duration="0.882" data-track-index="3">they sound.</div>
+      <div class="clip cap" id="c35" data-start="33.913" data-duration="0.882" data-track-index="3">they sound</div>
       <div class="clip cap" id="c36" data-start="34.795" data-duration="0.944" data-track-index="3">Here's the part</div>
       <div class="clip cap" id="c37" data-start="35.739" data-duration="0.885" data-track-index="3">the store page</div>
-      <div class="clip cap" id="c38" data-start="36.623" data-duration="0.708" data-track-index="3">buries.</div>
+      <div class="clip cap" id="c38" data-start="36.623" data-duration="0.708" data-track-index="3">buries</div>
       <div class="clip cap" id="c39" data-start="37.331" data-duration="0.944" data-track-index="3">Standard owners</div>
       <div class="clip cap" id="c40" data-start="38.274" data-duration="0.708" data-track-index="3">can buy the</div>
       <div class="clip cap" id="c41" data-start="38.982" data-duration="0.649" data-track-index="3">exact same</div>
-      <div class="clip cap" id="c42" data-start="39.631" data-duration="1.12" data-track-index="3">upgrade later.</div>
-      <div class="clip cap" id="c43" data-start="40.751" data-duration="1.324" data-track-index="3">So buy Standard.</div>
-      <div class="clip cap" id="c44" data-start="42.075" data-duration="1.198" data-track-index="3">Play <span class="hot">10</span> hours.</div>
+      <div class="clip cap" id="c42" data-start="39.631" data-duration="1.12" data-track-index="3">upgrade later</div>
+      <div class="clip cap" id="c43" data-start="40.751" data-duration="1.324" data-track-index="3">So buy Standard</div>
+      <div class="clip cap" id="c44" data-start="42.075" data-duration="1.198" data-track-index="3">Play <span class="hot">10</span> hours</div>
       <div class="clip cap" id="c45" data-start="43.273" data-duration="1.009" data-track-index="3">Upgrade only if</div>
       <div class="clip cap" id="c46" data-start="44.282" data-duration="1.009" data-track-index="3">you're <span class="hot">broke</span> in</div>
-      <div class="clip cap" id="c47" data-start="45.291" data-duration="0.946" data-track-index="3">Vice City.</div>
+      <div class="clip cap" id="c47" data-start="45.291" data-duration="0.946" data-track-index="3">Vice City</div>
       <audio id="mix" data-start="0" data-duration="46.637" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -101,6 +120,16 @@
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const inserts = [{"k":0,"start":4.969,"end":7.913,"items":0},{"k":1,"start":8.443,"end":17.239,"items":4},{"k":2,"start":17.769,"end":22.96,"items":4},{"k":3,"start":28.244,"end":34.715,"items":0},{"k":4,"start":35.245,"end":40.671,"items":0}];
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
       // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
       beats.forEach((t, i) => {

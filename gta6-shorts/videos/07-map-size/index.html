@@ -24,6 +24,20 @@
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
       .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
@@ -37,46 +51,52 @@
       <div id="bar"></div>
       <div id="pill"><span>How big is the GTA 6 map?</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>130 HOURS. 60% UNSEEN.</span></div>
+      <div class="ins stat" id="i0"><div class="big" style="font-size:250px">2x</div><div class="label">the size of GTA 5, per Rockstar</div></div>
+      <div class="ins list" id="i1"><div class="title">6 REGIONS</div><div class="item" id="i1_0"><i></i>Vice City</div><div class="item" id="i1_1"><i></i>Leonida Keys</div><div class="item" id="i1_2"><i></i>Grassrivers</div><div class="item" id="i1_3"><i></i>Port Gellhorn</div><div class="item" id="i1_4"><i></i>Ambrosia</div><div class="item" id="i1_5"><i></i>Mount Kalaga National Park</div></div>
+      <div class="ins stat" id="i2"><div class="big" style="font-size:250px">130+</div><div class="label">hours played by Vice's reviewer</div></div>
+      <div class="ins stat" id="i3"><div class="big" style="font-size:250px">60%</div><div class="label">of the world still unseen</div></div>
+      <div class="ins stat" id="i4"><div class="big" style="font-size:190px">60–80</div><div class="label">hours for the story alone</div></div>
+      <div class="ins stat" id="i5"><div class="big" style="font-size:250px">300</div><div class="label">hours for 100%, per Push Square</div></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="0.835" data-track-index="3">How big is</div>
       <div class="clip cap" id="c1" data-start="0.835" data-duration="0.759" data-track-index="3">the <span class="hot">GTA</span> <span class="hot">6</span></div>
-      <div class="clip cap" id="c2" data-start="1.595" data-duration="0.683" data-track-index="3">map?</div>
+      <div class="clip cap" id="c2" data-start="1.595" data-duration="0.683" data-track-index="3">map</div>
       <div class="clip cap" id="c3" data-start="2.278" data-duration="0.835" data-track-index="3">Rockstar's</div>
       <div class="clip cap" id="c4" data-start="3.113" data-duration="1.215" data-track-index="3">answer is about</div>
       <div class="clip cap" id="c5" data-start="4.328" data-duration="1.367" data-track-index="3"><span class="hot">2x</span> the size of</div>
-      <div class="clip cap" id="c6" data-start="5.695" data-duration="0.835" data-track-index="3"><span class="hot">GTA</span> <span class="hot">5.</span></div>
-      <div class="clip cap" id="c7" data-start="6.531" data-duration="1.11" data-track-index="3"><span class="hot">6</span> regions.</div>
-      <div class="clip cap" id="c8" data-start="7.64" data-duration="1.04" data-track-index="3">Vice City.</div>
+      <div class="clip cap" id="c6" data-start="5.695" data-duration="0.835" data-track-index="3"><span class="hot">GTA</span> <span class="hot">5</span></div>
+      <div class="clip cap" id="c7" data-start="6.531" data-duration="1.11" data-track-index="3"><span class="hot">6</span> regions</div>
+      <div class="clip cap" id="c8" data-start="7.64" data-duration="1.04" data-track-index="3">Vice City</div>
       <div class="clip cap" id="c9" data-start="8.68" data-duration="0.832" data-track-index="3">The Leonida</div>
-      <div class="clip cap" id="c10" data-start="9.513" data-duration="0.693" data-track-index="3">Keys.</div>
-      <div class="clip cap" id="c11" data-start="10.206" data-duration="1.179" data-track-index="3">Grassrivers.</div>
-      <div class="clip cap" id="c12" data-start="11.385" data-duration="1.318" data-track-index="3">Port Gellhorn.</div>
-      <div class="clip cap" id="c13" data-start="12.702" data-duration="0.971" data-track-index="3">Ambrosia.</div>
+      <div class="clip cap" id="c10" data-start="9.513" data-duration="0.693" data-track-index="3">Keys</div>
+      <div class="clip cap" id="c11" data-start="10.206" data-duration="1.179" data-track-index="3">Grassrivers</div>
+      <div class="clip cap" id="c12" data-start="11.385" data-duration="1.318" data-track-index="3">Port Gellhorn</div>
+      <div class="clip cap" id="c13" data-start="12.702" data-duration="0.971" data-track-index="3">Ambrosia</div>
       <div class="clip cap" id="c14" data-start="13.673" data-duration="1.179" data-track-index="3">And Mount Kalaga</div>
-      <div class="clip cap" id="c15" data-start="14.852" data-duration="1.318" data-track-index="3">National Park.</div>
+      <div class="clip cap" id="c15" data-start="14.852" data-duration="1.318" data-track-index="3">National Park</div>
       <div class="clip cap" id="c16" data-start="16.17" data-duration="0.836" data-track-index="3">But the size</div>
       <div class="clip cap" id="c17" data-start="17.006" data-duration="1.029" data-track-index="3">isn't the scary</div>
-      <div class="clip cap" id="c18" data-start="18.035" data-duration="0.643" data-track-index="3">part.</div>
+      <div class="clip cap" id="c18" data-start="18.035" data-duration="0.643" data-track-index="3">part</div>
       <div class="clip cap" id="c19" data-start="18.678" data-duration="0.895" data-track-index="3">Vice's reviewer</div>
       <div class="clip cap" id="c20" data-start="19.572" data-duration="0.615" data-track-index="3">played for</div>
-      <div class="clip cap" id="c21" data-start="20.187" data-duration="2.013" data-track-index="3"><span class="hot">130+</span> hours.</div>
+      <div class="clip cap" id="c21" data-start="20.187" data-duration="2.013" data-track-index="3"><span class="hot">130+</span> hours</div>
       <div class="clip cap" id="c22" data-start="22.2" data-duration="0.727" data-track-index="3">Finished the</div>
-      <div class="clip cap" id="c23" data-start="22.927" data-duration="0.615" data-track-index="3">story.</div>
+      <div class="clip cap" id="c23" data-start="22.927" data-duration="0.615" data-track-index="3">story</div>
       <div class="clip cap" id="c24" data-start="23.542" data-duration="0.671" data-track-index="3">Did most of</div>
       <div class="clip cap" id="c25" data-start="24.213" data-duration="0.503" data-track-index="3">the side</div>
-      <div class="clip cap" id="c26" data-start="24.716" data-duration="0.727" data-track-index="3">content.</div>
+      <div class="clip cap" id="c26" data-start="24.716" data-duration="0.727" data-track-index="3">content</div>
       <div class="clip cap" id="c27" data-start="25.443" data-duration="1.012" data-track-index="3">And still hadn't</div>
       <div class="clip cap" id="c28" data-start="26.455" data-duration="0.714" data-track-index="3">set foot in</div>
       <div class="clip cap" id="c29" data-start="27.169" data-duration="1.25" data-track-index="3"><span class="hot">60%</span> of the</div>
-      <div class="clip cap" id="c30" data-start="28.42" data-duration="0.655" data-track-index="3">world.</div>
+      <div class="clip cap" id="c30" data-start="28.42" data-duration="0.655" data-track-index="3">world</div>
       <div class="clip cap" id="c31" data-start="29.074" data-duration="0.965" data-track-index="3">The story alone</div>
       <div class="clip cap" id="c32" data-start="30.04" data-duration="0.302" data-track-index="3">runs</div>
-      <div class="clip cap" id="c33" data-start="30.341" data-duration="1.327" data-track-index="3"><span class="hot">60</span> to <span class="hot">80</span> hours,</div>
+      <div class="clip cap" id="c33" data-start="30.341" data-duration="1.327" data-track-index="3"><span class="hot">60</span> to <span class="hot">80</span> hours</div>
       <div class="clip cap" id="c34" data-start="31.668" data-duration="0.784" data-track-index="3">depending on</div>
       <div class="clip cap" id="c35" data-start="32.453" data-duration="0.905" data-track-index="3">which reviewer</div>
-      <div class="clip cap" id="c36" data-start="33.358" data-duration="0.784" data-track-index="3">you ask.</div>
-      <div class="clip cap" id="c37" data-start="34.142" data-duration="1.794" data-track-index="3">A full <span class="hot">100%?</span></div>
+      <div class="clip cap" id="c36" data-start="33.358" data-duration="0.784" data-track-index="3">you ask</div>
+      <div class="clip cap" id="c37" data-start="34.142" data-duration="1.794" data-track-index="3">A full <span class="hot">100%</span></div>
       <div class="clip cap" id="c38" data-start="35.936" data-duration="1.13" data-track-index="3">Push Square says</div>
-      <div class="clip cap" id="c39" data-start="37.066" data-duration="1.595" data-track-index="3">up to <span class="hot">300.</span></div>
+      <div class="clip cap" id="c39" data-start="37.066" data-duration="1.595" data-track-index="3">up to <span class="hot">300</span></div>
       <audio id="mix" data-start="0" data-duration="39.061" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -93,6 +113,16 @@
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const inserts = [{"k":0,"start":3.2,"end":6.451,"items":0},{"k":1,"start":6.981,"end":16.09,"items":6},{"k":2,"start":19.128,"end":25.363,"items":0},{"k":3,"start":25.893,"end":28.994,"items":0},{"k":4,"start":29.524,"end":34.062,"items":0},{"k":5,"start":34.592,"end":38.831,"items":0}];
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
       // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
       beats.forEach((t, i) => {

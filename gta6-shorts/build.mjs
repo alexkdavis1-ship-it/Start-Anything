@@ -141,16 +141,49 @@ function captionsFor(video, timing) {
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const r = (n) => Math.round(n * 1000) / 1000;
 
+// Explainer cards (stats, comparisons, lists, stock b-roll) shown above the captions during a line.
+function insertsFor(video, timing, caps, D, hookEnd) {
+  return (video.inserts ?? []).map((ins, k) => {
+    const lineStart = timing.starts[ins.line];
+    const lastLine = ins.line + (ins.lines ?? 1);
+    const lineEnd = lastLine < timing.starts.length ? timing.starts[lastLine] : D - 0.15;
+    let start = lineStart + 0.45;
+    if (ins.line === 0) start = Math.max(start, hookEnd);
+    // Wait for a "#1"-style stamp to clear before the card lands.
+    const first = caps.find((c) => Math.abs(c.start - lineStart) < 0.01);
+    if (first && first.words.length === 1 && STAMP.test(first.words[0])) start = Math.max(start, first.start + first.duration + 0.05);
+    const end = lineEnd - 0.08;
+    const sized = (t) => (t.length <= 4 ? 250 : t.length <= 7 ? 190 : t.length <= 10 ? 150 : 118);
+    let body = "";
+    if (ins.kind === "stat") {
+      body = `<div class="big" style="font-size:${sized(ins.big)}px">${esc(ins.big)}</div><div class="label">${esc(ins.label)}</div>`;
+    } else if (ins.kind === "compare") {
+      const col = (c, cls) => `<div class="col ${cls}"><div class="top">${esc(c.top)}</div><div class="big" style="font-size:${Math.min(170, sized(c.big))}px">${esc(c.big)}</div></div>`;
+      body = `<div class="cols">${col(ins.left, "")}<div class="join">${esc(ins.joiner ?? "VS")}</div>${col(ins.right, "win")}</div>`;
+    } else if (ins.kind === "list") {
+      body = `<div class="title">${esc(ins.title)}</div>` + ins.items.map((it, j) => `<div class="item" id="i${k}_${j}"><i></i>${esc(it)}</div>`).join("");
+    } else if (ins.kind === "broll") {
+      body = `<video class="clip" data-start="${r(start)}" data-duration="${r(end - start)}" data-track-index="${6 + k}" src="assets/${ins.clip}.mp4" muted playsinline></video>` +
+        (ins.label ? `<div class="label">${esc(ins.label)}</div>` : "");
+    } else {
+      throw new Error(`${video.slug}: unknown insert kind "${ins.kind}"`);
+    }
+    return { k, start: r(start), end: r(end), items: ins.items?.length ?? 0, clip: ins.clip,
+      html: `      <div class="ins ${ins.kind}" id="i${k}">${body}</div>` };
+  });
+}
+
 function html(video, timing, caps) {
   const D = r(timing.duration + TAIL);
   const hookEnd = r(Math.min(timing.starts[1] ?? 3, 3.2));
+  const inserts = insertsFor(video, timing, caps, D, hookEnd);
   const capHtml = caps
     .map((c, i) => {
       const words = c.words
         .flatMap((w) => w.split(" "))
         .map((w) => {
-          const bare = w.replace(/[.,?!]+$/, "");
-          return HOT.test(bare) ? `<span class="hot">${esc(w)}</span>` : esc(w);
+          const bare = w.replace(/[.,?!]/g, "");
+          return HOT.test(bare) ? `<span class="hot">${esc(bare)}</span>` : esc(bare);
         })
         .join(" ");
       const stamp = c.words.length === 1 && STAMP.test(c.words[0]);
@@ -185,6 +218,20 @@ function html(video, timing, caps) {
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
       .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
@@ -198,6 +245,7 @@ function html(video, timing, caps) {
       <div id="bar"></div>
       <div id="pill"><span>${esc(video.pill ?? video.title)}</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="${hookEnd}" data-track-index="2"><span>${esc(video.hook)}</span></div>
+${inserts.map((x) => x.html).join("\n")}
 ${capHtml}
       <audio id="mix" data-start="0" data-duration="${D}" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
@@ -215,6 +263,16 @@ ${capHtml}
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const inserts = ${JSON.stringify(inserts.map(({ k, start, end, items }) => ({ k, start, end, items })))};
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
       // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
       beats.forEach((t, i) => {
@@ -326,7 +384,17 @@ for (const video of scripts.videos) {
   fs.mkdirSync(path.join(dir, "assets"), { recursive: true });
   const caps = captionsFor(video, timing);
   buildMix(video.slug, timing, caps, timing.duration + TAIL, path.join(dir, "assets", "mix.mp3"));
-  const bed = buildBed(video.slug, timing.duration + TAIL, path.join(dir, "assets", "bg.mp4"), video.footage);
+  // The gameplay bed is slow to cut; keep the existing one unless asked for a fresh cut (FRESH_BED=1).
+  const bedFile = path.join(dir, "assets", "bg.mp4");
+  const bed = fs.existsSync(bedFile) && !process.env.FRESH_BED
+    ? "kept existing bed"
+    : buildBed(video.slug, timing.duration + TAIL, bedFile, video.footage);
+  for (const ins of video.inserts ?? []) {
+    if (ins.kind !== "broll") continue;
+    const src = path.join(ROOT, "broll", `${ins.clip}.mp4`);
+    if (!fs.existsSync(src)) throw new Error(`${video.slug}: missing broll/${ins.clip}.mp4`);
+    fs.copyFileSync(src, path.join(dir, "assets", `${ins.clip}.mp4`));
+  }
   fs.writeFileSync(path.join(dir, "index.html"), html(video, timing, caps));
   fs.writeFileSync(path.join(dir, "hyperframes.json"), JSON.stringify({
     $schema: "https://hyperframes.heygen.com/schema/hyperframes.json",

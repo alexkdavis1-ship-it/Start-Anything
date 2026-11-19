@@ -20,6 +20,55 @@
       "footage": [
         "7679255201894714637",
         "launch-trailer"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "compare",
+          "left": {
+            "top": "STANDARD",
+            "big": "$80"
+          },
+          "right": {
+            "top": "ULTIMATE",
+            "big": "$100"
+          },
+          "joiner": "VS"
+        },
+        {
+          "line": 2,
+          "kind": "list",
+          "title": "THE EXTRA $20 BUYS",
+          "items": [
+            "'95 Grotti Cheetah",
+            "2 revolvers",
+            "A speedboat",
+            "Buggy + garage"
+          ]
+        },
+        {
+          "line": 3,
+          "kind": "list",
+          "title": "ALSO ON THE LIST",
+          "items": [
+            "2 mod shops",
+            "Tattoo parlor",
+            "Salon",
+            "Clothing store"
+          ]
+        },
+        {
+          "line": 5,
+          "kind": "broll",
+          "clip": "empty-wallet",
+          "label": "Money is hard to come by"
+        },
+        {
+          "line": 6,
+          "kind": "stat",
+          "big": "+$20",
+          "label": "Standard owners can upgrade later"
+        }
       ]
     },
     {
@@ -40,6 +89,41 @@
       "footage": [
         "7679254944112807182",
         "7679255201894714637"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "broll",
+          "clip": "controller",
+          "label": "No 60 FPS option, even on PS5 Pro"
+        },
+        {
+          "line": 2,
+          "kind": "stat",
+          "big": "1440p → 4K",
+          "label": "PS5 · PS5 Pro · Series X (reported)"
+        },
+        {
+          "line": 3,
+          "kind": "stat",
+          "big": "720p → 1080p",
+          "label": "Xbox Series S"
+        },
+        {
+          "line": 4,
+          "kind": "list",
+          "title": "SERIES S IN EARLY TESTING",
+          "items": [
+            "Driving: in the 20s",
+            "Big explosions: around 20"
+          ]
+        },
+        {
+          "line": 5,
+          "kind": "stat",
+          "big": "30 FPS",
+          "label": "walking and cutscenes"
+        }
       ]
     },
     {
@@ -61,6 +145,48 @@
       "footage": [
         "7679255042695679246",
         "7678788806123834637"
+      ],
+      "inserts": [
+        {
+          "line": 2,
+          "kind": "broll",
+          "clip": "gas-station",
+          "label": "Gas station stick-ups"
+        },
+        {
+          "line": 3,
+          "kind": "list",
+          "title": "GANG HIDEOUTS PAY IN",
+          "items": [
+            "Cash",
+            "Drugs",
+            "High-value items"
+          ]
+        },
+        {
+          "line": 4,
+          "kind": "broll",
+          "clip": "cash",
+          "label": "Sell the drugs to a fence"
+        },
+        {
+          "line": 5,
+          "kind": "broll",
+          "clip": "jewelry",
+          "label": "Cut the alarm first"
+        },
+        {
+          "line": 6,
+          "kind": "broll",
+          "clip": "cctv",
+          "label": "Erase the tapes"
+        },
+        {
+          "line": 7,
+          "kind": "stat",
+          "big": "LATER",
+          "label": "Big bank heists unlock later"
+        }
       ]
     },
     {
@@ -82,6 +208,55 @@
       "footage": [
         "7679254944112807182",
         "7678788806123834637"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "list",
+          "title": "WHAT COPS WORK FROM",
+          "items": [
+            "Witness reports",
+            "A body",
+            "A car you abandoned"
+          ]
+        },
+        {
+          "line": 2,
+          "kind": "broll",
+          "clip": "police-night",
+          "label": "Sighting called in first"
+        },
+        {
+          "line": 3,
+          "kind": "compare",
+          "left": {
+            "top": "THEY KNOW YOUR",
+            "big": "OUTFIT"
+          },
+          "right": {
+            "top": "THEY KNOW YOUR",
+            "big": "CAR"
+          },
+          "joiner": "+"
+        },
+        {
+          "line": 4,
+          "kind": "stat",
+          "big": "5",
+          "label": "outfits fit in your trunk"
+        },
+        {
+          "line": 5,
+          "kind": "stat",
+          "big": "K9",
+          "label": "units can sense you"
+        },
+        {
+          "line": 7,
+          "kind": "stat",
+          "big": "RADAR",
+          "label": "enemies no longer show up"
+        }
       ]
     },
     {
@@ -103,6 +278,36 @@
       "footage": [
         "7679254910839295245",
         "7679255281032760589"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "broll",
+          "clip": "beach-house",
+          "label": "Decorate before she arrives"
+        },
+        {
+          "line": 3,
+          "kind": "list",
+          "title": "BUILD THE BOND",
+          "items": [
+            "Hold hands",
+            "Go on dates",
+            "Go clubbing"
+          ]
+        },
+        {
+          "line": 4,
+          "kind": "broll",
+          "clip": "night-city",
+          "label": "The penthouse balcony"
+        },
+        {
+          "line": 6,
+          "kind": "stat",
+          "big": "ENDINGS",
+          "label": "more than one, set by your choices"
+        }
       ]
     },
     {
@@ -124,6 +329,46 @@
       "footage": [
         "7679255042695679246",
         "7679254944112807182"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "stat",
+          "big": "TRUNK",
+          "label": "extra guns live here now"
+        },
+        {
+          "line": 2,
+          "kind": "list",
+          "title": "STEALING CARS",
+          "items": [
+            "Old cars: jimmy the lock",
+            "Sports cars + EVs: key cloner"
+          ]
+        },
+        {
+          "line": 5,
+          "kind": "list",
+          "title": "YOUR BODY MATTERS",
+          "items": [
+            "Eat",
+            "Sleep",
+            "Fuel the car",
+            "Gym builds muscle"
+          ]
+        },
+        {
+          "line": 6,
+          "kind": "broll",
+          "clip": "empty-wallet",
+          "label": "Money is hard to earn"
+        },
+        {
+          "line": 7,
+          "kind": "stat",
+          "big": "NO DISC",
+          "label": "boxed copy is reportedly a download code"
+        }
       ]
     },
     {
@@ -145,6 +390,51 @@
         "7679255281032760589",
         "7679255084114496782",
         "7679255201894714637"
+      ],
+      "inserts": [
+        {
+          "line": 0,
+          "kind": "stat",
+          "big": "2x",
+          "label": "the size of GTA 5, per Rockstar"
+        },
+        {
+          "line": 1,
+          "kind": "list",
+          "title": "6 REGIONS",
+          "items": [
+            "Vice City",
+            "Leonida Keys",
+            "Grassrivers",
+            "Port Gellhorn",
+            "Ambrosia",
+            "Mount Kalaga National Park"
+          ]
+        },
+        {
+          "line": 3,
+          "kind": "stat",
+          "big": "130+",
+          "label": "hours played by Vice's reviewer"
+        },
+        {
+          "line": 4,
+          "kind": "stat",
+          "big": "60%",
+          "label": "of the world still unseen"
+        },
+        {
+          "line": 5,
+          "kind": "stat",
+          "big": "60–80",
+          "label": "hours for the story alone"
+        },
+        {
+          "line": 6,
+          "kind": "stat",
+          "big": "300",
+          "label": "hours for 100%, per Push Square"
+        }
       ]
     }
   ]

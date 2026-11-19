@@ -24,6 +24,20 @@
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
       .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
@@ -37,55 +51,59 @@
       <div id="bar"></div>
       <div id="pill"><span>You can ruin it with Lucia</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>YOU CAN RUIN IT WITH LUCIA</span></div>
+      <div class="ins broll" id="i0"><video class="clip" data-start="5.518" data-duration="5.269" data-track-index="6" src="assets/beach-house.mp4" muted playsinline></video><div class="label">Decorate before she arrives</div></div>
+      <div class="ins list" id="i1"><div class="title">BUILD THE BOND</div><div class="item" id="i1_0"><i></i>Hold hands</div><div class="item" id="i1_1"><i></i>Go on dates</div><div class="item" id="i1_2"><i></i>Go clubbing</div></div>
+      <div class="ins broll" id="i2"><video class="clip" data-start="21.4" data-duration="2.709" data-track-index="8" src="assets/night-city.mp4" muted playsinline></video><div class="label">The penthouse balcony</div></div>
+      <div class="ins stat" id="i3"><div class="big" style="font-size:190px">ENDINGS</div><div class="label">more than one, set by your choices</div></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="0.878" data-track-index="3"><span class="hot">GTA</span> <span class="hot">6</span> tracks</div>
       <div class="clip cap" id="c1" data-start="0.878" data-duration="0.338" data-track-index="3">your</div>
       <div class="clip cap" id="c2" data-start="1.216" data-duration="0.878" data-track-index="3">relationship</div>
-      <div class="clip cap" id="c3" data-start="2.095" data-duration="1.081" data-track-index="3">with Lucia.</div>
+      <div class="clip cap" id="c3" data-start="2.095" data-duration="1.081" data-track-index="3">with Lucia</div>
       <div class="clip cap" id="c4" data-start="3.176" data-duration="0.811" data-track-index="3">And you can</div>
-      <div class="clip cap" id="c5" data-start="3.987" data-duration="1.081" data-track-index="3">neglect it.</div>
-      <div class="clip cap" id="c6" data-start="5.068" data-duration="0.563" data-track-index="3">Early on,</div>
+      <div class="clip cap" id="c5" data-start="3.987" data-duration="1.081" data-track-index="3">neglect it</div>
+      <div class="clip cap" id="c6" data-start="5.068" data-duration="0.563" data-track-index="3">Early on</div>
       <div class="clip cap" id="c7" data-start="5.631" data-duration="0.845" data-track-index="3">the game gives</div>
       <div class="clip cap" id="c8" data-start="6.475" data-duration="0.901" data-track-index="3">you an optional</div>
-      <div class="clip cap" id="c9" data-start="7.376" data-duration="0.507" data-track-index="3">job.</div>
+      <div class="clip cap" id="c9" data-start="7.376" data-duration="0.507" data-track-index="3">job</div>
       <div class="clip cap" id="c10" data-start="7.883" data-duration="0.957" data-track-index="3">Decorate Jason's</div>
       <div class="clip cap" id="c11" data-start="8.84" data-duration="0.676" data-track-index="3">beach house</div>
       <div class="clip cap" id="c12" data-start="9.516" data-duration="0.619" data-track-index="3">before she</div>
-      <div class="clip cap" id="c13" data-start="10.135" data-duration="0.732" data-track-index="3">arrives.</div>
-      <div class="clip cap" id="c14" data-start="10.867" data-duration="0.45" data-track-index="3">Do it,</div>
+      <div class="clip cap" id="c13" data-start="10.135" data-duration="0.732" data-track-index="3">arrives</div>
+      <div class="clip cap" id="c14" data-start="10.867" data-duration="0.45" data-track-index="3">Do it</div>
       <div class="clip cap" id="c15" data-start="11.317" data-duration="0.836" data-track-index="3">and the bond</div>
-      <div class="clip cap" id="c16" data-start="12.153" data-duration="1.222" data-track-index="3">gets stronger.</div>
-      <div class="clip cap" id="c17" data-start="13.375" data-duration="0.836" data-track-index="3">Skip it and,</div>
+      <div class="clip cap" id="c16" data-start="12.153" data-duration="1.222" data-track-index="3">gets stronger</div>
+      <div class="clip cap" id="c17" data-start="13.375" data-duration="0.836" data-track-index="3">Skip it and</div>
       <div class="clip cap" id="c18" data-start="14.211" data-duration="0.836" data-track-index="3">according to</div>
       <div class="clip cap" id="c19" data-start="15.047" data-duration="0.9" data-track-index="3">Push Square's</div>
-      <div class="clip cap" id="c20" data-start="15.947" data-duration="0.514" data-track-index="3">review,</div>
-      <div class="clip cap" id="c21" data-start="16.461" data-duration="1.093" data-track-index="3">she notices.</div>
+      <div class="clip cap" id="c20" data-start="15.947" data-duration="0.514" data-track-index="3">review</div>
+      <div class="clip cap" id="c21" data-start="16.461" data-duration="1.093" data-track-index="3">she notices</div>
       <div class="clip cap" id="c22" data-start="17.554" data-duration="0.761" data-track-index="3">You can hold</div>
-      <div class="clip cap" id="c23" data-start="18.315" data-duration="0.644" data-track-index="3">hands.</div>
-      <div class="clip cap" id="c24" data-start="18.959" data-duration="0.995" data-track-index="3">Go on dates.</div>
-      <div class="clip cap" id="c25" data-start="19.955" data-duration="0.995" data-track-index="3">Go clubbing.</div>
+      <div class="clip cap" id="c23" data-start="18.315" data-duration="0.644" data-track-index="3">hands</div>
+      <div class="clip cap" id="c24" data-start="18.959" data-duration="0.995" data-track-index="3">Go on dates</div>
+      <div class="clip cap" id="c25" data-start="19.955" data-duration="0.995" data-track-index="3">Go clubbing</div>
       <div class="clip cap" id="c26" data-start="20.95" data-duration="0.568" data-track-index="3">A kiss on</div>
       <div class="clip cap" id="c27" data-start="21.518" data-duration="0.796" data-track-index="3">the penthouse</div>
       <div class="clip cap" id="c28" data-start="22.314" data-duration="0.852" data-track-index="3">balcony raises</div>
-      <div class="clip cap" id="c29" data-start="23.166" data-duration="1.023" data-track-index="3">the bond too.</div>
+      <div class="clip cap" id="c29" data-start="23.166" data-duration="1.023" data-track-index="3">the bond too</div>
       <div class="clip cap" id="c30" data-start="24.189" data-duration="0.852" data-track-index="3">Or ignore all</div>
-      <div class="clip cap" id="c31" data-start="25.042" data-duration="0.67" data-track-index="3">of it.</div>
+      <div class="clip cap" id="c31" data-start="25.042" data-duration="0.67" data-track-index="3">of it</div>
       <div class="clip cap" id="c32" data-start="25.711" data-duration="0.913" data-track-index="3">The developers</div>
       <div class="clip cap" id="c33" data-start="26.624" data-duration="0.913" data-track-index="3">told The Gamer</div>
       <div class="clip cap" id="c34" data-start="27.538" data-duration="1.035" data-track-index="3">the relationship</div>
       <div class="clip cap" id="c35" data-start="28.573" data-duration="1.035" data-track-index="3">is something you</div>
-      <div class="clip cap" id="c36" data-start="29.607" data-duration="0.365" data-track-index="3">earn,</div>
-      <div class="clip cap" id="c37" data-start="29.973" data-duration="1.218" data-track-index="3">or leave alone.</div>
+      <div class="clip cap" id="c36" data-start="29.607" data-duration="0.365" data-track-index="3">earn</div>
+      <div class="clip cap" id="c37" data-start="29.973" data-duration="1.218" data-track-index="3">or leave alone</div>
       <div class="clip cap" id="c38" data-start="31.19" data-duration="0.918" data-track-index="3">Here's why that</div>
-      <div class="clip cap" id="c39" data-start="32.108" data-duration="0.746" data-track-index="3">matters.</div>
+      <div class="clip cap" id="c39" data-start="32.108" data-duration="0.746" data-track-index="3">matters</div>
       <div class="clip cap" id="c40" data-start="32.854" data-duration="0.746" data-track-index="3">The game has</div>
       <div class="clip cap" id="c41" data-start="33.599" data-duration="0.516" data-track-index="3">multiple</div>
-      <div class="clip cap" id="c42" data-start="34.116" data-duration="0.516" data-track-index="3">endings,</div>
+      <div class="clip cap" id="c42" data-start="34.116" data-duration="0.516" data-track-index="3">endings</div>
       <div class="clip cap" id="c43" data-start="34.632" data-duration="0.918" data-track-index="3">and they depend</div>
-      <div class="clip cap" id="c44" data-start="35.55" data-duration="1.205" data-track-index="3">on your choices.</div>
+      <div class="clip cap" id="c44" data-start="35.55" data-duration="1.205" data-track-index="3">on your choices</div>
       <div class="clip cap" id="c45" data-start="36.754" data-duration="0.866" data-track-index="3">So the couple</div>
       <div class="clip cap" id="c46" data-start="37.62" data-duration="0.804" data-track-index="3">you build is</div>
       <div class="clip cap" id="c47" data-start="38.424" data-duration="0.742" data-track-index="3">part of how</div>
-      <div class="clip cap" id="c48" data-start="39.165" data-duration="1.298" data-track-index="3">this story ends.</div>
+      <div class="clip cap" id="c48" data-start="39.165" data-duration="1.298" data-track-index="3">this story ends</div>
       <audio id="mix" data-start="0" data-duration="40.864" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -102,6 +120,16 @@
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const inserts = [{"k":0,"start":5.518,"end":10.787,"items":0},{"k":1,"start":18.004,"end":20.87,"items":3},{"k":2,"start":21.4,"end":24.109,"items":0},{"k":3,"start":31.64,"end":36.674,"items":0}];
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
       // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
       beats.forEach((t, i) => {

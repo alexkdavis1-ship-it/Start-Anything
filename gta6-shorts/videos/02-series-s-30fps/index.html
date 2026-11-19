@@ -24,6 +24,20 @@
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
       .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
@@ -37,51 +51,56 @@
       <div id="bar"></div>
       <div id="pill"><span>GTA 6 on Series S: the truth</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>30 FPS. EVERY CONSOLE.</span></div>
+      <div class="ins broll" id="i0"><video class="clip" data-start="5.126" data-duration="5.426" data-track-index="6" src="assets/controller.mp4" muted playsinline></video><div class="label">No 60 FPS option, even on PS5 Pro</div></div>
+      <div class="ins stat" id="i1"><div class="big" style="font-size:150px">1440p → 4K</div><div class="label">PS5 · PS5 Pro · Series X (reported)</div></div>
+      <div class="ins stat" id="i2"><div class="big" style="font-size:118px">720p → 1080p</div><div class="label">Xbox Series S</div></div>
+      <div class="ins list" id="i3"><div class="title">SERIES S IN EARLY TESTING</div><div class="item" id="i3_0"><i></i>Driving: in the 20s</div><div class="item" id="i3_1"><i></i>Big explosions: around 20</div></div>
+      <div class="ins stat" id="i4"><div class="big" style="font-size:190px">30 FPS</div><div class="label">walking and cutscenes</div></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="0.791" data-track-index="3"><span class="hot">GTA</span> <span class="hot">6</span> runs</div>
-      <div class="clip cap" id="c1" data-start="0.791" data-duration="2.302" data-track-index="3">at <span class="hot">30</span> <span class="hot">FPS.</span></div>
+      <div class="clip cap" id="c1" data-start="0.791" data-duration="2.302" data-track-index="3">at <span class="hot">30</span> <span class="hot">FPS</span></div>
       <div class="clip cap" id="c2" data-start="3.093" data-duration="0.647" data-track-index="3">On every</div>
-      <div class="clip cap" id="c3" data-start="3.741" data-duration="0.935" data-track-index="3">console.</div>
-      <div class="clip cap" id="c4" data-start="4.676" data-duration="0.331" data-track-index="3">Yes,</div>
+      <div class="clip cap" id="c3" data-start="3.741" data-duration="0.935" data-track-index="3">console</div>
+      <div class="clip cap" id="c4" data-start="4.676" data-duration="0.331" data-track-index="3">Yes</div>
       <div class="clip cap" id="c5" data-start="5.007" data-duration="0.86" data-track-index="3">even the PS5</div>
-      <div class="clip cap" id="c6" data-start="5.867" data-duration="0.596" data-track-index="3">Pro.</div>
+      <div class="clip cap" id="c6" data-start="5.867" data-duration="0.596" data-track-index="3">Pro</div>
       <div class="clip cap" id="c7" data-start="6.463" data-duration="0.926" data-track-index="3">Push Square's</div>
       <div class="clip cap" id="c8" data-start="7.389" data-duration="0.794" data-track-index="3">review says</div>
       <div class="clip cap" id="c9" data-start="8.183" data-duration="0.794" data-track-index="3">there is no</div>
       <div class="clip cap" id="c10" data-start="8.977" data-duration="1.125" data-track-index="3">option to double</div>
-      <div class="clip cap" id="c11" data-start="10.102" data-duration="0.529" data-track-index="3">it.</div>
-      <div class="clip cap" id="c12" data-start="10.632" data-duration="0.42" data-track-index="3">PS5,</div>
+      <div class="clip cap" id="c11" data-start="10.102" data-duration="0.529" data-track-index="3">it</div>
+      <div class="clip cap" id="c12" data-start="10.632" data-duration="0.42" data-track-index="3">PS5</div>
       <div class="clip cap" id="c13" data-start="11.052" data-duration="1.009" data-track-index="3">PS5 Pro and</div>
       <div class="clip cap" id="c14" data-start="12.061" data-duration="0.757" data-track-index="3">Series X</div>
       <div class="clip cap" id="c15" data-start="12.818" data-duration="0.925" data-track-index="3">reportedly</div>
-      <div class="clip cap" id="c16" data-start="13.743" data-duration="2.27" data-track-index="3">render at <span class="hot">1440p,</span></div>
-      <div class="clip cap" id="c17" data-start="16.012" data-duration="1.934" data-track-index="3">upscaled to <span class="hot">4K.</span></div>
-      <div class="clip cap" id="c18" data-start="17.946" data-duration="1.332" data-track-index="3">The Series S?</div>
-      <div class="clip cap" id="c19" data-start="19.278" data-duration="1.11" data-track-index="3"><span class="hot">720p,</span></div>
+      <div class="clip cap" id="c16" data-start="13.743" data-duration="2.27" data-track-index="3">render at <span class="hot">1440p</span></div>
+      <div class="clip cap" id="c17" data-start="16.012" data-duration="1.934" data-track-index="3">upscaled to <span class="hot">4K</span></div>
+      <div class="clip cap" id="c18" data-start="17.946" data-duration="1.332" data-track-index="3">The Series S</div>
+      <div class="clip cap" id="c19" data-start="19.278" data-duration="1.11" data-track-index="3"><span class="hot">720p</span></div>
       <div class="clip cap" id="c20" data-start="20.389" data-duration="0.888" data-track-index="3">upscaled to</div>
-      <div class="clip cap" id="c21" data-start="21.277" data-duration="1.11" data-track-index="3"><span class="hot">1080p.</span></div>
+      <div class="clip cap" id="c21" data-start="21.277" data-duration="1.11" data-track-index="3"><span class="hot">1080p</span></div>
       <div class="clip cap" id="c22" data-start="22.387" data-duration="0.587" data-track-index="3">And early</div>
       <div class="clip cap" id="c23" data-start="22.974" data-duration="0.997" data-track-index="3">testing reported</div>
       <div class="clip cap" id="c24" data-start="23.971" data-duration="0.704" data-track-index="3">by BGR puts</div>
       <div class="clip cap" id="c25" data-start="24.675" data-duration="1.115" data-track-index="3">it in the <span class="hot">20s</span></div>
-      <div class="clip cap" id="c26" data-start="25.79" data-duration="0.88" data-track-index="3">while driving,</div>
+      <div class="clip cap" id="c26" data-start="25.79" data-duration="0.88" data-track-index="3">while driving</div>
       <div class="clip cap" id="c27" data-start="26.67" data-duration="1.056" data-track-index="3">and around <span class="hot">20</span></div>
       <div class="clip cap" id="c28" data-start="27.726" data-duration="0.763" data-track-index="3">when several</div>
       <div class="clip cap" id="c29" data-start="28.489" data-duration="0.939" data-track-index="3">cars explode at</div>
-      <div class="clip cap" id="c30" data-start="29.428" data-duration="0.587" data-track-index="3">once.</div>
+      <div class="clip cap" id="c30" data-start="29.428" data-duration="0.587" data-track-index="3">once</div>
       <div class="clip cap" id="c31" data-start="30.015" data-duration="0.712" data-track-index="3">So is the</div>
       <div class="clip cap" id="c32" data-start="30.727" data-duration="0.641" data-track-index="3">Series S</div>
-      <div class="clip cap" id="c33" data-start="31.368" data-duration="1.14" data-track-index="3">unplayable?</div>
-      <div class="clip cap" id="c34" data-start="32.508" data-duration="0.57" data-track-index="3">No.</div>
+      <div class="clip cap" id="c33" data-start="31.368" data-duration="1.14" data-track-index="3">unplayable</div>
+      <div class="clip cap" id="c34" data-start="32.508" data-duration="0.57" data-track-index="3">No</div>
       <div class="clip cap" id="c35" data-start="33.078" data-duration="1.069" data-track-index="3">Walking around</div>
       <div class="clip cap" id="c36" data-start="34.147" data-duration="0.997" data-track-index="3">and cutscenes</div>
-      <div class="clip cap" id="c37" data-start="35.144" data-duration="1.14" data-track-index="3">hold <span class="hot">30.</span></div>
+      <div class="clip cap" id="c37" data-start="35.144" data-duration="1.14" data-track-index="3">hold <span class="hot">30</span></div>
       <div class="clip cap" id="c38" data-start="36.284" data-duration="0.731" data-track-index="3">But if you're</div>
       <div class="clip cap" id="c39" data-start="37.016" data-duration="0.575" data-track-index="3">choosing a</div>
       <div class="clip cap" id="c40" data-start="37.59" data-duration="0.888" data-track-index="3">console for this</div>
-      <div class="clip cap" id="c41" data-start="38.478" data-duration="0.313" data-track-index="3">game,</div>
+      <div class="clip cap" id="c41" data-start="38.478" data-duration="0.313" data-track-index="3">game</div>
       <div class="clip cap" id="c42" data-start="38.792" data-duration="0.627" data-track-index="3">that gap is</div>
       <div class="clip cap" id="c43" data-start="39.419" data-duration="0.627" data-track-index="3">what you're</div>
-      <div class="clip cap" id="c44" data-start="40.046" data-duration="0.836" data-track-index="3">paying for.</div>
+      <div class="clip cap" id="c44" data-start="40.046" data-duration="0.836" data-track-index="3">paying for</div>
       <audio id="mix" data-start="0" data-duration="41.282" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
@@ -98,6 +117,16 @@
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const inserts = [{"k":0,"start":5.126,"end":10.552,"items":0},{"k":1,"start":11.082,"end":17.866,"items":0},{"k":2,"start":18.396,"end":22.307,"items":0},{"k":3,"start":22.837,"end":29.935,"items":2},{"k":4,"start":30.465,"end":36.204,"items":0}];
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
       });
       // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
       beats.forEach((t, i) => {
