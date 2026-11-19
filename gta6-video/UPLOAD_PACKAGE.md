@@ -100,3 +100,57 @@ The gameplay details are Rockstar statements and press previews as relayed by co
 - The script flags preview-sourced items with "previews say" or "reportedly"; treat those as likely, not guaranteed.
 - "Criminal profile can lock permanently" comes from previews; the script says it "may never come back".
 - Voice pacing: the narration was slowed about 4.5% and given pauses before each rule to reach 9:50.
+
+---
+
+# Video 3: GTA 6 Online explained
+
+**File:** `GTA6_Online_Explained.mp4` (1920x1080, 30 fps, 9:20). A higher-bitrate `_MASTER` copy also exists.
+**Thumbnail:** `thumbnail_online.jpg`
+
+## Title options
+1. GTA 6 Online: What's Confirmed, What's Reported, What's Rumor
+2. GTA 6 Online Explained: Release Date, Transfers, Everything We Know
+3. When Is GTA 6 Online Coming? (The Honest Answer)
+
+## Description
+GTA 6 launched without an online mode, and Rockstar has said almost nothing about it. This video sorts everything into three piles (confirmed, reported and rumor), then looks at what Rockstar's last two online launches tell us, and ends with five things to do while you wait.
+
+0:00 The biggest part of GTA 6 isn't out yet
+0:28 CONFIRMED: Single-player at launch
+0:43 CONFIRMED: GTA Online continues
+0:59 CONFIRMED: Nothing transfers
+1:13 CONFIRMED: Rockstar owns FiveM
+1:57 CONFIRMED: GTA+ already exists
+2:12 REPORTED: A 2027 launch
+2:53 REPORTED: The groundwork is in the files
+3:10 REPORTED: A creator platform
+3:33 REPORTED: No microtransactions in story
+3:42 RUMOR: 64-player lobbies
+4:16 RUMOR: Fluid access
+4:38 HISTORY: They've done this twice
+4:49 2013: The broken launch
+5:08 Heists arrived late
+5:34 It got expensive
+6:00 Red Dead Online faded
+6:35 The pattern
+7:15 A clue inside GTA 6
+7:37 What nobody knows
+7:55 5 things to do now
+8:41 My prediction
+
+Footage: Rockstar Games' official trailers for GTA VI, GTA V, GTA Online and Red Dead Redemption 2, used for commentary. Not affiliated with Rockstar Games or Take-Two. The narration is an AI voice; music is AI-generated.
+
+#GTA6 #GTA6Online #GTAOnline
+
+## Where each claim comes from
+- Confirmed: store pages call GTA VI a single-player experience; Take-Two CEO Strauss Zelnick on continuing GTA Online support (earnings call); Rockstar's Aug 2023 acquisition of Cfx.re (FiveM/RedM); GTA+ free month with digital pre-orders.
+- Reported: Twitch CEO Dan Clancy to Bloomberg (multiplayer "next year"); Bank of America analyst window of March to June 2027; PlayStation Game Size on multiplayer hooks in the pre-load; Digiday (2025) on creator discussions; "no microtransactions" from Extended Look coverage.
+- Rumor: mid-2025 leak (codename, 64/96-player lobbies, "fluid access"). Single source, unverified.
+- History: GTA Online launch problems and $500,000 stimulus (Oct 2013); Heists (Mar 2015); Cayo Perico (Dec 2020); Oppressor Mk II and Luxor Deluxe prices; Red Dead Online beta (Nov 2018) and Rockstar's July 2022 statement; standalone GTA Online free on PS5 for three months (Mar 2022); $500M Shark Card revenue by 2016 and ~10M weekly players (CNBC).
+
+## Known soft spots
+- "No transfer" means none has been announced, not that Rockstar has ruled it out.
+- The "systems would fit online" section and the prediction are my interpretation, and the script says so.
+- There is no role-play footage; that section runs over GTA Online trailer clips.
+- Runtime is 9:20, not 10:00. The confirmed facts are thin and I did not pad them.
