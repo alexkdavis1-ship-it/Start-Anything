@@ -21,7 +21,7 @@
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .cap .w { display: inline-block; margin: 0 0.16em; }
       .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
              background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
       .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
@@ -122,7 +122,7 @@
         const el = "#" + id;
         const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
         tl.set(el, { color: "#ffe14a" }, t);
-        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        tl.fromTo(el, { scale: 1.1, y: -12 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
         if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
       });
       const inserts = [{"k":0,"start":5.204,"end":10.865,"items":0},{"k":1,"start":11.395,"end":15.541,"items":0},{"k":2,"start":16.071,"end":19.747,"items":2},{"k":3,"start":20.277,"end":24.501,"items":0},{"k":4,"start":28.349,"end":34.349,"items":3},{"k":5,"start":34.879,"end":40.163,"items":0}];
