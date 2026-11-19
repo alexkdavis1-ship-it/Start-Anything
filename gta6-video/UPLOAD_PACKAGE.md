@@ -60,7 +60,7 @@ History (long-established):
 
 # Video 2: GTA 6 full-screen gameplay guide
 
-**File:** `GTA6_Everything_Before_Day_1.mp4` (1920x1080, 30 fps, 9:50, ~527 MB). A higher-bitrate `_MASTER` copy (~915 MB) also exists.
+**File:** `GTA6_Everything_Before_Day_1.mp4` (1920x1080, 30 fps, 9:50, ~350 MB). A higher-bitrate `_MASTER` copy (~915 MB) also exists.
 **Thumbnail:** `thumbnail_everything.jpg`
 
 ## Title options
