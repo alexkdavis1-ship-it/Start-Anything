@@ -55,3 +55,48 @@ History (long-established):
 - "25 games, 2001-2013" counts Rockstar-published titles including ports and handheld entries.
 - The Scotland aerial b-roll is Edinburgh, not Dundee; it is labeled "Scotland".
 - The Bigfoot, Mount Chiliad and moon-theory section is fan lore, presented as lore.
+
+---
+
+# Video 2: GTA 6 full-screen gameplay guide
+
+**File:** `GTA6_Everything_Before_Day_1.mp4` (1920x1080, 30 fps, 9:50, ~527 MB). A higher-bitrate `_MASTER` copy (~915 MB) also exists.
+**Thumbnail:** `thumbnail_everything.jpg`
+
+## Title options
+1. GTA 6: 12 Rules You NEED To Know Before Day 1
+2. Don't Play GTA 6 Like GTA 5 (12 Things That Changed)
+3. GTA 6: Everything You NEED To Know Before You Play
+
+## Description
+GTA 6 changes how police, money, cars and robberies work. Here are the 12 rules to know before your first session, plus a 5-step day-one checklist.
+
+0:00 Before day one
+0:22 Rule 1: Download it now
+1:02 Rule 2: You start in the Keys
+1:52 Rule 3: Two characters
+2:30 Rule 4: The cops need a reason
+3:09 Rule 5: Read the stars
+3:57 Rule 6: You can rob anything
+4:31 Rule 7: Three kinds of money
+5:16 Rule 8: Stealing cars takes tools
+5:55 Rule 9: Register a car early
+6:21 Rule 10: Guns are limited
+6:47 Rule 11: The game is grading you
+7:11 Rule 12: The relationship
+7:49 The world pushes back
+8:48 What's gone
+9:08 Day-one checklist
+
+All footage is from Rockstar Games' official videos (Trailer 1, Trailer 2, Launch Trailer, Pre-Load trailer and "Grand Theft Auto VI: An Extended Look"), used for commentary. Not affiliated with Rockstar Games or Take-Two. Music and voiceover generated with vidIQ.
+
+## Where the facts come from
+The gameplay details are Rockstar statements and press previews as relayed by coverage, not hands-on testing:
+- Official (Rockstar Newswire/Support, store pages): 212 GB, pre-load, 30 fps target on all consoles including PS5 Pro, $79.99 / $99.99, Vintage Vice City Pack before Nov 20, single-player at launch, six regions and their descriptions, character bios.
+- Extended Look and Rob Nelson interviews (Edge, IGN, Famitsu, The Guardian, New York Times, Game Informer, as summarized by Engadget and GameSpot recaps): character switching, six stars, witness-based wanted system and description icons, robberies, three money types, fences, key cloner, Wink and Scooter Bros apps, car registration slots, Focus, criminal profile, relationship levels, fitness, 600,000 animations, 170+ species, 23 radio stations, ~80-hour playthrough.
+- Reported, not confirmed by Rockstar: the day-one update, the U.S. unlock at midnight Eastern (from store listings), free aim as default, no full first-person mode.
+
+## Known soft spots
+- The script flags preview-sourced items with "previews say" or "reportedly"; treat those as likely, not guaranteed.
+- "Criminal profile can lock permanently" comes from previews; the script says it "may never come back".
+- Voice pacing: the narration was slowed about 4.5% and given pauses before each rule to reach 9:50.
