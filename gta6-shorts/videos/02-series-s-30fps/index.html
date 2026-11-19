@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=1080, height=1920" />
     <title>GTA 6 on Xbox Series S: the real numbers</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=block" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
       :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
@@ -16,11 +16,15 @@
       #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
-      #hook { position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
+      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
+      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-      .cap { position: absolute; left: 70px; right: 70px; top: 1130px; text-align: center; font-size: 112px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
+      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
   <body>
@@ -29,7 +33,9 @@
         <video id="bg" class="clip" data-start="0" data-duration="41.282" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
       </div>
       <div id="shade"></div>
+      <div id="flash"></div>
       <div id="bar"></div>
+      <div id="pill"><span>GTA 6 on Series S: the truth</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>30 FPS. EVERY CONSOLE.</span></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="0.791" data-track-index="3"><span class="hot">GTA</span> <span class="hot">6</span> runs</div>
       <div class="clip cap" id="c1" data-start="0.791" data-duration="2.302" data-track-index="3">at <span class="hot">30</span> <span class="hot">FPS.</span></div>
@@ -76,7 +82,7 @@
       <div class="clip cap" id="c42" data-start="38.792" data-duration="0.627" data-track-index="3">that gap is</div>
       <div class="clip cap" id="c43" data-start="39.419" data-duration="0.627" data-track-index="3">what you're</div>
       <div class="clip cap" id="c44" data-start="40.046" data-duration="0.836" data-track-index="3">paying for.</div>
-      <audio id="vo" data-start="0" data-duration="40.882" data-track-index="4" data-volume="1" src="assets/vo.mp3"></audio>
+      <audio id="mix" data-start="0" data-duration="41.282" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -86,12 +92,19 @@
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 41.282, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
+      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
-        tl.fromTo("#c" + i, { scale: 0.72, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.1, ease: "back.out(2.4)" }, t);
+        const el = document.getElementById("c" + i);
+        const stamp = el.classList.contains("stamp");
+        const tilt = stamp ? -6 : i % 2 ? 2 : -2;
+        tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
       });
-      // Punch-in on the gameplay at the start of every spoken line.
-      beats.forEach((t) => {
-        tl.fromTo("#bgwrap", { scale: 1.09 }, { scale: 1, duration: 0.45, ease: "power3.out" }, t);
+      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      beats.forEach((t, i) => {
+        const next = i + 1 < beats.length ? beats[i + 1] : 41.282;
+        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
+        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
+        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
       });
       window.__timelines["main"] = tl;
       tl.seek(0);

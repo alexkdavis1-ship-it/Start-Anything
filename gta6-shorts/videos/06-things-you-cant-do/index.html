@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=1080, height=1920" />
     <title>6 things from GTA 5 you can't do in GTA 6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=block" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
       :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
@@ -16,11 +16,15 @@
       #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
-      #hook { position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
+      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
+      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
-      .cap { position: absolute; left: 70px; right: 70px; top: 1130px; text-align: center; font-size: 112px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
+      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
       .cap .hot { color: var(--hot); }
+      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
     </style>
   </head>
   <body>
@@ -29,21 +33,23 @@
         <video id="bg" class="clip" data-start="0" data-duration="44.756" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
       </div>
       <div id="shade"></div>
+      <div id="flash"></div>
       <div id="bar"></div>
+      <div id="pill"><span>6 things GTA 6 took away</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>GTA 5 HABITS THAT ARE DEAD</span></div>
       <div class="clip cap" id="c0" data-start="0" data-duration="1.432" data-track-index="3"><span class="hot">6</span> things you did</div>
       <div class="clip cap" id="c1" data-start="1.432" data-duration="0.678" data-track-index="3">in <span class="hot">GTA</span> <span class="hot">5</span></div>
       <div class="clip cap" id="c2" data-start="2.11" data-duration="0.829" data-track-index="3">that <span class="hot">GTA</span> <span class="hot">6</span></div>
       <div class="clip cap" id="c3" data-start="2.939" data-duration="1.055" data-track-index="3">won't let you</div>
       <div class="clip cap" id="c4" data-start="3.995" data-duration="0.603" data-track-index="3">do.</div>
-      <div class="clip cap" id="c5" data-start="4.598" data-duration="0.537" data-track-index="3">One.</div>
+      <div class="clip cap stamp" id="c5" data-start="4.598" data-duration="0.537" data-track-index="3">#1</div>
       <div class="clip cap" id="c6" data-start="5.135" data-duration="0.955" data-track-index="3">Carry every gun</div>
       <div class="clip cap" id="c7" data-start="6.09" data-duration="0.776" data-track-index="3">you own.</div>
       <div class="clip cap" id="c8" data-start="6.866" data-duration="0.955" data-track-index="3">Your loadout is</div>
       <div class="clip cap" id="c9" data-start="7.822" data-duration="1.015" data-track-index="3"><span class="hot">limited</span> now.</div>
       <div class="clip cap" id="c10" data-start="8.837" data-duration="0.896" data-track-index="3">The rest lives</div>
       <div class="clip cap" id="c11" data-start="9.732" data-duration="1.134" data-track-index="3">in your trunk.</div>
-      <div class="clip cap" id="c12" data-start="10.867" data-duration="0.614" data-track-index="3">Two.</div>
+      <div class="clip cap stamp" id="c12" data-start="10.867" data-duration="0.614" data-track-index="3">#2</div>
       <div class="clip cap" id="c13" data-start="11.481" data-duration="0.956" data-track-index="3">Steal any car</div>
       <div class="clip cap" id="c14" data-start="12.437" data-duration="1.297" data-track-index="3">in <span class="hot">2</span> seconds.</div>
       <div class="clip cap" id="c15" data-start="13.734" data-duration="0.683" data-track-index="3">Old cars,</div>
@@ -52,15 +58,15 @@
       <div class="clip cap" id="c18" data-start="16.055" data-duration="1.092" data-track-index="3">Sports cars and</div>
       <div class="clip cap" id="c19" data-start="17.148" data-duration="0.751" data-track-index="3">EVs need a</div>
       <div class="clip cap" id="c20" data-start="17.899" data-duration="1.092" data-track-index="3">key cloner.</div>
-      <div class="clip cap" id="c21" data-start="18.991" data-duration="0.782" data-track-index="3">Three.</div>
+      <div class="clip cap stamp" id="c21" data-start="18.991" data-duration="0.782" data-track-index="3">#3</div>
       <div class="clip cap" id="c22" data-start="19.773" data-duration="0.711" data-track-index="3">Mash X to</div>
       <div class="clip cap" id="c23" data-start="20.483" data-duration="0.853" data-track-index="3">sprint.</div>
       <div class="clip cap" id="c24" data-start="21.336" data-duration="1.208" data-track-index="3">That's <span class="hot">gone.</span></div>
-      <div class="clip cap" id="c25" data-start="22.544" data-duration="0.658" data-track-index="3">Four.</div>
+      <div class="clip cap stamp" id="c25" data-start="22.544" data-duration="0.658" data-track-index="3">#4</div>
       <div class="clip cap" id="c26" data-start="23.202" data-duration="0.987" data-track-index="3">See enemies on</div>
       <div class="clip cap" id="c27" data-start="24.188" data-duration="1.053" data-track-index="3">your radar.</div>
       <div class="clip cap" id="c28" data-start="25.241" data-duration="0.855" data-track-index="3"><span class="hot">Removed.</span></div>
-      <div class="clip cap" id="c29" data-start="26.096" data-duration="0.66" data-track-index="3">Five.</div>
+      <div class="clip cap stamp" id="c29" data-start="26.096" data-duration="0.66" data-track-index="3">#5</div>
       <div class="clip cap" id="c30" data-start="26.756" data-duration="0.792" data-track-index="3">Ignore your</div>
       <div class="clip cap" id="c31" data-start="27.548" data-duration="0.66" data-track-index="3">body.</div>
       <div class="clip cap" id="c32" data-start="28.209" data-duration="0.594" data-track-index="3">You eat,</div>
@@ -70,19 +76,19 @@
       <div class="clip cap" id="c36" data-start="30.981" data-duration="0.792" data-track-index="3">Hit the gym</div>
       <div class="clip cap" id="c37" data-start="31.773" data-duration="0.924" data-track-index="3">and you build</div>
       <div class="clip cap" id="c38" data-start="32.697" data-duration="0.792" data-track-index="3">muscle.</div>
-      <div class="clip cap" id="c39" data-start="33.489" data-duration="0.661" data-track-index="3">Six.</div>
+      <div class="clip cap stamp" id="c39" data-start="33.489" data-duration="0.661" data-track-index="3">#6</div>
       <div class="clip cap" id="c40" data-start="34.15" data-duration="1.395" data-track-index="3">Get rich fast.</div>
       <div class="clip cap" id="c41" data-start="35.545" data-duration="1.028" data-track-index="3">Reviewers say</div>
       <div class="clip cap" id="c42" data-start="36.574" data-duration="1.028" data-track-index="3">money is <span class="hot">hard</span></div>
       <div class="clip cap" id="c43" data-start="37.602" data-duration="0.955" data-track-index="3">to earn.</div>
-      <div class="clip cap" id="c44" data-start="38.557" data-duration="0.709" data-track-index="3">Bonus.</div>
+      <div class="clip cap stamp" id="c44" data-start="38.557" data-duration="0.709" data-track-index="3">BONUS</div>
       <div class="clip cap" id="c45" data-start="39.266" data-duration="0.967" data-track-index="3">The boxed copy</div>
       <div class="clip cap" id="c46" data-start="40.232" data-duration="0.967" data-track-index="3">reportedly has</div>
       <div class="clip cap" id="c47" data-start="41.199" data-duration="0.838" data-track-index="3">no disc.</div>
       <div class="clip cap" id="c48" data-start="42.036" data-duration="1.031" data-track-index="3">It's a download</div>
       <div class="clip cap" id="c49" data-start="43.067" data-duration="0.644" data-track-index="3">code in a</div>
       <div class="clip cap" id="c50" data-start="43.712" data-duration="0.644" data-track-index="3">case.</div>
-      <audio id="vo" data-start="0" data-duration="44.356" data-track-index="4" data-volume="1" src="assets/vo.mp3"></audio>
+      <audio id="mix" data-start="0" data-duration="44.756" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -92,12 +98,19 @@
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 44.756, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
+      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
-        tl.fromTo("#c" + i, { scale: 0.72, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.1, ease: "back.out(2.4)" }, t);
+        const el = document.getElementById("c" + i);
+        const stamp = el.classList.contains("stamp");
+        const tilt = stamp ? -6 : i % 2 ? 2 : -2;
+        tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
       });
-      // Punch-in on the gameplay at the start of every spoken line.
-      beats.forEach((t) => {
-        tl.fromTo("#bgwrap", { scale: 1.09 }, { scale: 1, duration: 0.45, ease: "power3.out" }, t);
+      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      beats.forEach((t, i) => {
+        const next = i + 1 < beats.length ? beats[i + 1] : 44.756;
+        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
+        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
+        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
       });
       window.__timelines["main"] = tl;
       tl.seek(0);
