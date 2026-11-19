@@ -161,7 +161,9 @@ function insertsFor(video, timing, caps, D, hookEnd) {
       const col = (c, cls) => `<div class="col ${cls}"><div class="top">${esc(c.top)}</div><div class="big" style="font-size:${Math.min(170, sized(c.big))}px">${esc(c.big)}</div></div>`;
       body = `<div class="cols">${col(ins.left, "")}<div class="join">${esc(ins.joiner ?? "VS")}</div>${col(ins.right, "win")}</div>`;
     } else if (ins.kind === "list") {
-      body = `<div class="title">${esc(ins.title)}</div>` + ins.items.map((it, j) => `<div class="item" id="i${k}_${j}"><i></i>${esc(it)}</div>`).join("");
+      // Long lists get smaller rows so the card never reaches the captions.
+      const dense = ins.items.length > 4 ? ' style="font-size:46px;padding:8px 0 8px 8px"' : "";
+      body = `<div class="title">${esc(ins.title)}</div>` + ins.items.map((it, j) => `<div class="item" id="i${k}_${j}"${dense}><i></i>${esc(it)}</div>`).join("");
     } else if (ins.kind === "broll") {
       body = `<video class="clip" data-start="${r(start)}" data-duration="${r(end - start)}" data-track-index="${6 + k}" src="assets/${ins.clip}.mp4" muted playsinline></video>` +
         (ins.label ? `<div class="label">${esc(ins.label)}</div>` : "");
