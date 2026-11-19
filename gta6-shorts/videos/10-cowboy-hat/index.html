@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Arthur Morgan's hat is in GTA 6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@800&display=block" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root { --ink: #ffffff; --hot: #ffe14a; --ground: #07070b; --font: "Anton", "Impact", sans-serif; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--font); color: var(--ink); }
+      #bgwrap { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      #bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
+      #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+      .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
+             -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+             background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
+      .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
+      .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
+      .ins .title { font-size: 66px; color: var(--hot); letter-spacing: .02em; margin-bottom: 22px; }
+      .ins .item { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; line-height: 1.15; text-align: left; padding: 14px 0 14px 8px; display: flex; align-items: center; gap: 26px; }
+      .ins .item i { flex: none; width: 26px; height: 26px; background: var(--hot); transform: rotate(45deg); }
+      .ins .cols { display: flex; align-items: center; justify-content: space-around; }
+      .ins .col .top { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 40px; opacity: .85; }
+      .ins .col .big { color: #fff; }
+      .ins .col.win .big { color: var(--hot); }
+      .ins .join { font-size: 64px; color: #fff; opacity: .7; }
+      .ins.broll { padding: 18px 18px 30px; }
+      .ins.broll video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 26px; }
+      .cap.stamp { top: 820px; font-size: 380px; color: var(--hot); -webkit-text-stroke: 26px #000; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30.206" data-width="1080" data-height="1920">
+      <div id="bgwrap">
+        <video id="bg" class="clip" data-start="0" data-duration="30.206" data-track-index="0" src="assets/bg.mp4" muted playsinline></video>
+      </div>
+      <div id="shade"></div>
+      <div id="flash"></div>
+      <div id="bar"></div>
+      <div id="hook" class="clip" data-start="0" data-duration="3.2" data-track-index="2"><span>ARTHUR'S HAT IS IN GTA 6</span></div>
+      <div class="ins stat" id="i0"><div class="big" style="font-size:118px">PORT GELLHORN</div><div class="label">yard sale, on an outdoor sofa</div></div>
+      <div class="ins list" id="i1"><div class="title">THE ITEM</div><div class="item" id="i1_0"><i></i>Genuine Cowboy Hat</div><div class="item" id="i1_1"><i></i>Brown leather</div><div class="item" id="i1_2"><i></i>$35</div></div>
+      <div class="ins compare" id="i2"><div class="cols"><div class="col "><div class="top">SAME ROPE</div><div class="big" style="font-size:170px">BAND</div></div><div class="join">+</div><div class="col win"><div class="top">SAME</div><div class="big" style="font-size:170px">KNOT</div></div></div></div>
+      <div class="ins stat" id="i3"><div class="big" style="font-size:250px">$35</div><div class="label">at a yard sale</div></div>
+      <div class="clip cap" id="c0" data-start="0" data-duration="1.03" data-track-index="3"><span class="w" id="c0w0">Arthur</span> <span class="w" id="c0w1">Morgan's</span></div>
+      <div class="clip cap" id="c1" data-start="1.03" data-duration="0.644" data-track-index="3"><span class="w" id="c1w0">hat</span> <span class="w" id="c1w1">is</span> <span class="w" id="c1w2">in</span></div>
+      <div class="clip cap" id="c2" data-start="1.674" data-duration="0.708" data-track-index="3"><span class="w" id="c2w0">GTA</span> <span class="w" id="c2w1">6</span></div>
+      <div class="clip cap" id="c3" data-start="2.382" data-duration="0.772" data-track-index="3"><span class="w" id="c3w0">And</span> <span class="w" id="c3w1">you</span> <span class="w" id="c3w2">can</span></div>
+      <div class="clip cap" id="c4" data-start="3.154" data-duration="0.708" data-track-index="3"><span class="w" id="c4w0">buy</span> <span class="w" id="c4w1">it</span> <span class="w" id="c4w2">for</span></div>
+      <div class="clip cap" id="c5" data-start="3.862" data-duration="1.545" data-track-index="3"><span class="w" id="c5w0">$35</span></div>
+      <div class="clip cap" id="c6" data-start="5.407" data-duration="0.644" data-track-index="3"><span class="w" id="c6w0">Go</span> <span class="w" id="c6w1">to</span> <span class="w" id="c6w2">Port</span></div>
+      <div class="clip cap" id="c7" data-start="6.051" data-duration="0.761" data-track-index="3"><span class="w" id="c7w0">Gellhorn</span> <span class="w" id="c7w1">and</span></div>
+      <div class="clip cap" id="c8" data-start="6.812" data-duration="0.644" data-track-index="3"><span class="w" id="c8w0">look</span> <span class="w" id="c8w1">for</span> <span class="w" id="c8w2">a</span></div>
+      <div class="clip cap" id="c9" data-start="7.455" data-duration="0.878" data-track-index="3"><span class="w" id="c9w0">yard</span> <span class="w" id="c9w1">sale</span></div>
+      <div class="clip cap" id="c10" data-start="8.333" data-duration="0.915" data-track-index="3"><span class="w" id="c10w0">It's</span> <span class="w" id="c10w1">sitting</span> <span class="w" id="c10w2">on</span></div>
+      <div class="clip cap" id="c11" data-start="9.248" data-duration="1.201" data-track-index="3"><span class="w" id="c11w0">an</span> <span class="w" id="c11w1">outdoor</span> <span class="w" id="c11w2">sofa</span></div>
+      <div class="clip cap" id="c12" data-start="10.449" data-duration="0.916" data-track-index="3"><span class="w" id="c12w0">The</span> <span class="w" id="c12w1">game</span> <span class="w" id="c12w2">calls</span></div>
+      <div class="clip cap" id="c13" data-start="11.365" data-duration="0.916" data-track-index="3"><span class="w" id="c13w0">it</span> <span class="w" id="c13w1">the</span> <span class="w" id="c13w2">Genuine</span></div>
+      <div class="clip cap" id="c14" data-start="12.282" data-duration="0.977" data-track-index="3"><span class="w" id="c14w0">Cowboy</span> <span class="w" id="c14w1">Hat</span></div>
+      <div class="clip cap" id="c15" data-start="13.259" data-duration="1.161" data-track-index="3"><span class="w" id="c15w0">Brown</span> <span class="w" id="c15w1">leather</span></div>
+      <div class="clip cap" id="c16" data-start="14.42" data-duration="0.891" data-track-index="3"><span class="w" id="c16w0">The</span> <span class="w" id="c16w1">description</span></div>
+      <div class="clip cap" id="c17" data-start="15.311" data-duration="0.836" data-track-index="3"><span class="w" id="c17w0">says</span> <span class="w" id="c17w1">it's</span> <span class="w" id="c17w2">been</span></div>
+      <div class="clip cap" id="c18" data-start="16.146" data-duration="0.668" data-track-index="3"><span class="w" id="c18w0">passed</span> <span class="w" id="c18w1">down</span></div>
+      <div class="clip cap" id="c19" data-start="16.815" data-duration="0.446" data-track-index="3"><span class="w" id="c19w0">through</span></div>
+      <div class="clip cap" id="c20" data-start="17.26" data-duration="0.947" data-track-index="3"><span class="w" id="c20w0">generations</span></div>
+      <div class="clip cap" id="c21" data-start="18.207" data-duration="1.086" data-track-index="3"><span class="w" id="c21w0">IGN</span> <span class="w" id="c21w1">spotted</span> <span class="w" id="c21w2">the</span></div>
+      <div class="clip cap" id="c22" data-start="19.293" data-duration="0.814" data-track-index="3"><span class="w" id="c22w0">detail</span> <span class="w" id="c22w1">that</span></div>
+      <div class="clip cap" id="c23" data-start="20.107" data-duration="1.289" data-track-index="3"><span class="w" id="c23w0">gives</span> <span class="w" id="c23w1">it</span> <span class="w" id="c23w2">away</span></div>
+      <div class="clip cap" id="c24" data-start="21.397" data-duration="1.357" data-track-index="3"><span class="w" id="c24w0">Same</span> <span class="w" id="c24w1">rope</span> <span class="w" id="c24w2">band</span></div>
+      <div class="clip cap" id="c25" data-start="22.754" data-duration="1.018" data-track-index="3"><span class="w" id="c25w0">Same</span> <span class="w" id="c25w1">knot</span></div>
+      <div class="clip cap" id="c26" data-start="23.771" data-duration="0.721" data-track-index="3"><span class="w" id="c26w0">No</span> <span class="w" id="c26w1">name</span> <span class="w" id="c26w2">on</span></div>
+      <div class="clip cap" id="c27" data-start="24.493" data-duration="0.853" data-track-index="3"><span class="w" id="c27w0">the</span> <span class="w" id="c27w1">tag</span></div>
+      <div class="clip cap" id="c28" data-start="25.346" data-duration="0.787" data-track-index="3"><span class="w" id="c28w0">Just</span> <span class="w" id="c28w1">a</span> <span class="w" id="c28w2">very</span></div>
+      <div class="clip cap" id="c29" data-start="26.133" data-duration="0.918" data-track-index="3"><span class="w" id="c29w0">familiar</span> <span class="w" id="c29w1">hat</span></div>
+      <div class="clip cap" id="c30" data-start="27.051" data-duration="0.656" data-track-index="3"><span class="w" id="c30w0">at</span> <span class="w" id="c30w1">a</span> <span class="w" id="c30w2">yard</span></div>
+      <div class="clip cap" id="c31" data-start="27.707" data-duration="0.394" data-track-index="3"><span class="w" id="c31w0">sale</span></div>
+      <div class="clip cap" id="c32" data-start="28.1" data-duration="1.705" data-track-index="3"><span class="w" id="c32w0">for</span> <span class="w" id="c32w1">$35</span></div>
+      <audio id="mix" data-start="0" data-duration="30.206" data-track-index="4" data-volume="1" src="assets/mix.mp3"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const caps = [0,1.03,1.674,2.382,3.154,3.862,5.407,6.051,6.812,7.455,8.333,9.248,10.449,11.365,12.282,13.259,14.42,15.311,16.146,16.815,17.26,18.207,19.293,20.107,21.397,22.754,23.771,24.493,25.346,26.133,27.051,27.707,28.1];
+      const beats = [0,5.407,8.333,10.449,14.42,18.207,23.771];
+      tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: 30.206, ease: "none" }, 0);
+      tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
+      tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, 3.08);
+      caps.forEach((t, i) => {
+        const el = document.getElementById("c" + i);
+        const stamp = el.classList.contains("stamp");
+        const tilt = stamp ? -6 : i % 2 ? 2 : -2;
+        tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = [["c0w0",0],["c0w1",0.451],["c1w0",1.03],["c1w1",1.287],["c1w2",1.481],["c2w0",1.674],["c2w1",1.931],["c3w0",2.382],["c3w1",2.639],["c3w2",2.897],["c4w0",3.154],["c4w1",3.412],["c4w2",3.605],["c5w0",3.862],["c6w0",5.407],["c6w1",5.583],["c6w2",5.758],["c7w0",6.051],["c7w1",6.578],["c8w0",6.812],["c8w1",7.104],["c8w2",7.338],["c9w0",7.455],["c9w1",7.748],["c10w0",8.333],["c10w1",8.619],["c10w2",9.076],["c11w0",9.248],["c11w1",9.42],["c11w2",9.877],["c12w0",10.449],["c12w1",10.693],["c12w2",10.999],["c13w0",11.365],["c13w1",11.549],["c13w2",11.793],["c14w0",12.282],["c14w1",12.709],["c15w0",13.259],["c15w1",13.625],["c16w0",14.42],["c16w1",14.642],["c17w0",15.311],["c17w1",15.589],["c17w2",15.868],["c18w0",16.146],["c18w1",16.536],["c19w0",16.815],["c20w0",17.26],["c21w0",18.207],["c21w1",18.479],["c21w2",19.022],["c22w0",19.293],["c22w1",19.768],["c23w0",20.107],["c23w1",20.514],["c23w2",20.718],["c24w0",21.397],["c24w1",21.736],["c24w2",22.075],["c25w0",22.754],["c25w1",23.093],["c26w0",23.771],["c26w1",23.968],["c26w2",24.296],["c27w0",24.493],["c27w1",24.755],["c28w0",25.346],["c28w1",25.674],["c28w2",25.805],["c29w0",26.133],["c29w1",26.723],["c30w0",27.051],["c30w1",27.248],["c30w2",27.379],["c31w0",27.707],["c32w0",28.1],["c32w1",28.363]];
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
+      });
+      const inserts = [{"k":0,"start":5.857,"end":10.369,"items":0},{"k":1,"start":10.899,"end":14.34,"items":3},{"k":2,"start":18.657,"end":23.691,"items":0},{"k":3,"start":24.221,"end":29.976,"items":0}];
+      inserts.forEach((x) => {
+        const el = "#i" + x.k;
+        tl.fromTo(el, { autoAlpha: 0, y: 90, scale: 0.82 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "back.out(1.9)" }, x.start);
+        const step = x.items ? Math.min(0.5, (x.end - x.start - 0.5) / x.items) : 0;
+        for (let j = 0; j < x.items; j++) {
+          tl.fromTo(el + "_" + j, { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.14, ease: "power3.out" }, x.start + 0.15 + j * step);
+        }
+        tl.to(el, { autoAlpha: 0, scale: 0.9, duration: 0.1, ease: "power2.in" }, x.end - 0.1);
+      });
+      // Every spoken line: white flash, hard punch-in, then a slow push until the next line.
+      beats.forEach((t, i) => {
+        const next = i + 1 < beats.length ? beats[i + 1] : 30.206;
+        tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, t);
+        tl.fromTo("#bgwrap", { scale: 1.2 }, { scale: 1.03, duration: 0.3, ease: "power3.out" }, t);
+        tl.to("#bgwrap", { scale: 1.12, duration: Math.max(0.1, next - t - 0.3), ease: "none" }, t + 0.3);
+      });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
