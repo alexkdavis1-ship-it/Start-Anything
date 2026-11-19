@@ -1,9 +1,167 @@
 {
-  "01-ultimate-vs-standard": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/4f148708-70a5-413d-b4ec-eb0c5f4902d5.mp3", "duration": 46.236735, "starts": [0, 4.519184, 7.993469, 17.319184, 23.04, 27.794286, 34.795102, 40.75102]},
-  "02-series-s-30fps": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/0be5e3ca-eec1-4dff-9d36-155e3527825e.mp3", "duration": 40.881633, "starts": [0, 4.675918, 10.631837, 17.946122, 22.386939, 30.014694, 36.284082]},
-  "03-make-money": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/3fde73af-ba14-4de6-8f64-82195094246d.mp3", "duration": 43.572245, "starts": [0, 7.47102, 10.475102, 14.915918, 23.431837, 27.297959, 34.45551, 38.817959]},
-  "04-cops": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/4ad96f38-d10c-4260-a063-f2e84ba4e2fe.mp3", "duration": 37.172245, "starts": [0, 6.269388, 11.755102, 14.915918, 20.062041, 24.816327, 27.742041, 32.261224]},
-  "05-lucia": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/cff183ae-f430-4d67-a1a6-4752022816f0.mp3", "duration": 40.463673, "starts": [0, 5.067755, 10.866939, 17.554286, 20.950204, 24.189388, 31.190204, 36.754286]},
-  "06-things-you-cant-do": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/8cd0206e-bc4a-4bac-87c6-ebb4bdc3fdc8.mp3", "duration": 44.355918, "starts": [0, 4.597551, 10.866939, 18.99102, 22.543673, 26.096327, 33.48898, 38.556735]},
-  "07-map-size": {"audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/22b03bda-ea03-400c-ac50-22e89792babe.mp3", "duration": 38.661224, "starts": [0, 6.530612, 16.169796, 18.677551, 25.443265, 29.074286, 34.142041]}
+  "01-ultimate-vs-standard": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/4f148708-70a5-413d-b4ec-eb0c5f4902d5.mp3",
+    "duration": 46.236735,
+    "starts": [
+      0,
+      4.519184,
+      7.993469,
+      17.319184,
+      23.04,
+      27.794286,
+      34.795102,
+      40.75102
+    ]
+  },
+  "02-series-s-30fps": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/0be5e3ca-eec1-4dff-9d36-155e3527825e.mp3",
+    "duration": 40.881633,
+    "starts": [
+      0,
+      4.675918,
+      10.631837,
+      17.946122,
+      22.386939,
+      30.014694,
+      36.284082
+    ]
+  },
+  "03-make-money": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/3fde73af-ba14-4de6-8f64-82195094246d.mp3",
+    "duration": 43.572245,
+    "starts": [
+      0,
+      7.47102,
+      10.475102,
+      14.915918,
+      23.431837,
+      27.297959,
+      34.45551,
+      38.817959
+    ]
+  },
+  "04-cops": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/4ad96f38-d10c-4260-a063-f2e84ba4e2fe.mp3",
+    "duration": 37.172245,
+    "starts": [
+      0,
+      6.269388,
+      11.755102,
+      14.915918,
+      20.062041,
+      24.816327,
+      27.742041,
+      32.261224
+    ]
+  },
+  "05-lucia": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/cff183ae-f430-4d67-a1a6-4752022816f0.mp3",
+    "duration": 40.463673,
+    "starts": [
+      0,
+      5.067755,
+      10.866939,
+      17.554286,
+      20.950204,
+      24.189388,
+      31.190204,
+      36.754286
+    ]
+  },
+  "06-things-you-cant-do": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/8cd0206e-bc4a-4bac-87c6-ebb4bdc3fdc8.mp3",
+    "duration": 44.355918,
+    "starts": [
+      0,
+      4.597551,
+      10.866939,
+      18.99102,
+      22.543673,
+      26.096327,
+      33.48898,
+      38.556735
+    ]
+  },
+  "07-map-size": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/22b03bda-ea03-400c-ac50-22e89792babe.mp3",
+    "duration": 38.661224,
+    "starts": [
+      0,
+      6.530612,
+      16.169796,
+      18.677551,
+      25.443265,
+      29.074286,
+      34.142041
+    ]
+  },
+  "08-six-stars": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/849ae725-7549-48f0-91f9-f987d9827af0.mp3",
+    "duration": 38.060408,
+    "starts": [
+      0,
+      5.564082,
+      10.710204,
+      15.960816,
+      21.916735,
+      29.152653,
+      32.548571,
+      33.619592
+    ]
+  },
+  "09-rocket-launcher": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/c26e5642-3f57-443a-87d5-aee89961a316.mp3",
+    "duration": 39.993469,
+    "starts": [
+      0,
+      4.754286,
+      10.945306,
+      15.621224,
+      19.826939,
+      24.581224,
+      27.898776,
+      34.429388
+    ]
+  },
+  "10-cowboy-hat": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/063d3086-81f7-4cdd-a34b-661307cf4fcc.mp3",
+    "duration": 29.805714,
+    "starts": [
+      0,
+      5.407347,
+      8.333061,
+      10.44898,
+      14.419592,
+      18.207347,
+      23.771429
+    ]
+  },
+  "11-jet-ski-dog": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/737be614-8549-4b65-960b-4d743ce5e923.mp3",
+    "duration": 34.873469,
+    "starts": [
+      0,
+      4.519184,
+      9.926531,
+      13.792653,
+      19.2,
+      21.394286,
+      24.868571,
+      30.275918
+    ]
+  },
+  "12-criminal-profiles": {
+    "audioUrl": "https://assets.vidiq.com/voiceovers/fb262dcb-f7d7-4b6b-9b0e-b674985bdea4/4a58af6c-8167-4842-945b-40b49c3884b8.mp3",
+    "duration": 46.28898,
+    "starts": [
+      0,
+      4.832653,
+      13.740408,
+      18.494694,
+      21.96898,
+      28.969796,
+      32.757551,
+      39.68
+    ]
+  }
 }

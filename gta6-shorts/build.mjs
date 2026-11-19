@@ -19,7 +19,7 @@ const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const W = 1080;
 const H = 1920;
 const FPS = 30;
-const CUT_SECONDS = 1.8; // length of each gameplay shot
+const CUT_SECONDS = 1.3; // length of each gameplay shot
 const HEAD_TRIM = 2; // skip rating cards at the start of a clip
 const TAIL_TRIM = 0.24; // skip end slates: this share of each clip's tail
 const MUSIC_VOLUME = 0.2;
@@ -32,6 +32,15 @@ const only = process.argv.slice(2);
 // Spoken phrase -> what the caption shows. Timing still uses the spoken length.
 const DISPLAY = [
   ["thirty frames per second", "30 FPS"],
+  ["six stars", "6 stars"],
+  ["six star", "6 star"],
+  ["five stars", "5 stars"],
+  ["Five levels", "5 levels"],
+  ["chapter one", "chapter 1"],
+  ["four rockets", "4 rockets"],
+  ["thirty five dollars", "$35"],
+  ["thirty five bucks", "$35"],
+  ["S O S", "SOS"],
   ["fourteen forty p", "1440p"],
   ["Seven twenty p", "720p"],
   ["ten eighty", "1080p"],
@@ -131,7 +140,7 @@ function captionsFor(video, timing) {
     let t = start;
     for (const c of chunks) {
       const dur = ((end - start) * c.reduce((n, x) => n + x.weight, 0)) / total;
-      out.push({ start: t, duration: dur, words: c.map((x) => x.show) });
+      out.push({ start: t, duration: dur, words: c.map((x) => x.show), weights: c.map((x) => x.weight) });
       t += dur;
     }
   });
@@ -179,13 +188,25 @@ function html(video, timing, caps) {
   const D = r(timing.duration + TAIL);
   const hookEnd = r(Math.min(timing.starts[1] ?? 3, 3.2));
   const inserts = insertsFor(video, timing, caps, D, hookEnd);
+  const wordTimes = [];
   const capHtml = caps
     .map((c, i) => {
+      const total = c.weights.reduce((n, x) => n + x, 0);
+      let at = c.start;
       const words = c.words
-        .flatMap((w) => w.split(" "))
-        .map((w) => {
-          const bare = w.replace(/[.,?!]/g, "");
-          return HOT.test(bare) ? `<span class="hot">${esc(bare)}</span>` : esc(bare);
+        .flatMap((w, j) => {
+          const parts = w.split(" ");
+          const each = (c.duration * c.weights[j]) / total / parts.length;
+          return parts.map((part) => {
+            const t = at;
+            at += each;
+            return { text: part.replace(/[.,?!]/g, ""), t };
+          });
+        })
+        .filter((w) => w.text)
+        .map((w, j) => {
+          wordTimes.push([`c${i}w${j}`, r(w.t)]);
+          return `<span class="w" id="c${i}w${j}">${esc(w.text)}</span>`;
         })
         .join(" ");
       const stamp = c.words.length === 1 && STAMP.test(c.words[0]);
@@ -213,14 +234,12 @@ function html(video, timing, caps) {
       #shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 48%, rgba(0,0,0,.6) 100%); }
       #bar { position: absolute; left: 0; top: 0; height: 10px; width: 100%; background: var(--hot); transform-origin: 0 50%; }
       #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
-      #pill { position: absolute; left: 0; right: 0; top: 210px; display: flex; justify-content: center; }
-      #pill span { background: #fff; color: #0a0a0a; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 46px; padding: 16px 34px; border-radius: 22px; box-shadow: 0 8px 0 rgba(0,0,0,.35); }
-      #hook { position: absolute; left: 60px; right: 60px; top: 420px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
+      #hook { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; font-size: 112px; line-height: 1.42; text-transform: uppercase; letter-spacing: .01em; }
       #hook span { background: var(--hot); color: #0a0a0a; padding: 6px 22px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
       .cap { position: absolute; left: 60px; right: 60px; top: 1100px; text-align: center; font-size: 124px; line-height: 1.08; text-transform: uppercase; letter-spacing: .01em;
              -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.55); }
-      .cap .hot { color: var(--hot); }
-      .ins { position: absolute; left: 56px; right: 56px; top: 340px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
+      .cap .w { display: inline-block; margin: 0 0.11em; }
+      .ins { position: absolute; left: 56px; right: 56px; top: 270px; visibility: hidden; text-align: center; padding: 38px 40px 42px;
              background: rgba(9,9,14,.93); border: 6px solid var(--hot); border-radius: 40px; box-shadow: 0 18px 0 rgba(0,0,0,.45); }
       .ins .big { font-family: "Anton", "Montserrat", sans-serif; color: var(--hot); line-height: 1.05; text-transform: uppercase; }
       .ins .label { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; line-height: 1.2; margin-top: 18px; }
@@ -245,7 +264,6 @@ function html(video, timing, caps) {
       <div id="shade"></div>
       <div id="flash"></div>
       <div id="bar"></div>
-      <div id="pill"><span>${esc(video.pill ?? video.title)}</span></div>
       <div id="hook" class="clip" data-start="0" data-duration="${hookEnd}" data-track-index="2"><span>${esc(video.hook)}</span></div>
 ${inserts.map((x) => x.html).join("\n")}
 ${capHtml}
@@ -259,12 +277,19 @@ ${capHtml}
       tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: ${D}, ease: "none" }, 0);
       tl.fromTo("#hook", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.16, ease: "power4.out" }, 0);
       tl.to("#hook", { scale: 0.9, opacity: 0, duration: 0.12, ease: "power2.in" }, ${r(hookEnd - 0.12)});
-      tl.fromTo("#pill", { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 0.05);
       caps.forEach((t, i) => {
         const el = document.getElementById("c" + i);
         const stamp = el.classList.contains("stamp");
         const tilt = stamp ? -6 : i % 2 ? 2 : -2;
         tl.fromTo(el, { scale: stamp ? 2.2 : 0.6, opacity: 0, rotation: tilt * 3 }, { scale: 1, opacity: 1, rotation: tilt, duration: stamp ? 0.14 : 0.1, ease: stamp ? "power4.out" : "back.out(2.6)" }, t);
+      });
+      const words = ${JSON.stringify(wordTimes)};
+      words.forEach(([id, t], n) => {
+        const el = "#" + id;
+        const sameChunk = n + 1 < words.length && words[n + 1][0].split("w")[0] === id.split("w")[0];
+        tl.set(el, { color: "#ffe14a" }, t);
+        tl.fromTo(el, { scale: 1.28, y: -10 }, { scale: 1, y: 0, duration: 0.14, ease: "power3.out" }, t);
+        if (sameChunk) tl.set(el, { color: "#ffffff" }, words[n + 1][1]);
       });
       const inserts = ${JSON.stringify(inserts.map(({ k, start, end, items }) => ({ k, start, end, items })))};
       inserts.forEach((x) => {

@@ -16,7 +16,6 @@
         "Here's the part the store page buries. Standard owners can buy the exact same upgrade later.",
         "So buy Standard. Play ten hours. Upgrade only if you're broke in Vice City."
       ],
-      "pill": "Is GTA 6 Ultimate worth $100?",
       "footage": [
         "7679255201894714637",
         "launch-trailer"
@@ -85,7 +84,6 @@
         "So is the Series S unplayable? No. Walking around and cutscenes hold thirty.",
         "But if you're choosing a console for this game, that gap is what you're paying for."
       ],
-      "pill": "GTA 6 on Series S: the truth",
       "footage": [
         "7679254944112807182",
         "7679255201894714637"
@@ -141,7 +139,6 @@
         "Five. Erase the security tapes, and the police don't get your description.",
         "The big bank heists unlock later. Until then, hideouts are your paycheck."
       ],
-      "pill": "How to get rich in GTA 6",
       "footage": [
         "7679255042695679246",
         "7678788806123834637"
@@ -204,7 +201,6 @@
         "And if you rob a place with Lucia, they're looking for a duo. So split up.",
         "One more thing. Enemies are gone from your radar. You have to actually look."
       ],
-      "pill": "GTA 6 cops are built different",
       "footage": [
         "7679254944112807182",
         "7678788806123834637"
@@ -274,7 +270,6 @@
         "Here's why that matters. The game has multiple endings, and they depend on your choices.",
         "So the couple you build is part of how this story ends."
       ],
-      "pill": "You can ruin it with Lucia",
       "footage": [
         "7679254910839295245",
         "7679255281032760589"
@@ -325,7 +320,6 @@
         "Six. Get rich fast. Reviewers say money is hard to earn.",
         "Bonus. The boxed copy reportedly has no disc. It's a download code in a case."
       ],
-      "pill": "6 things GTA 6 took away",
       "footage": [
         "7679255042695679246",
         "7679254944112807182"
@@ -385,7 +379,6 @@
         "The story alone runs sixty to eighty hours, depending on which reviewer you ask.",
         "A full hundred percent? Push Square says up to three hundred."
       ],
-      "pill": "How big is the GTA 6 map?",
       "footage": [
         "7679255281032760589",
         "7679255084114496782",
@@ -434,6 +427,297 @@
           "kind": "stat",
           "big": "300",
           "label": "hours for 100%, per Push Square"
+        }
+      ]
+    },
+    {
+      "slug": "08-six-stars",
+      "keyword": "gta 6 6 star wanted level",
+      "title": "The only way to lose 6 stars in GTA 6",
+      "hook": "6 STARS NEVER GO AWAY",
+      "lines": [
+        "GTA 6 has a six star wanted level. And once you get it, it never goes away.",
+        "First, you can't get it by accident. Story missions cap you at five stars.",
+        "IGN tested it. Breaking into the airport and stealing a plane wasn't enough.",
+        "You have to stand and fight. Six stars only comes from taking down a lot of cops.",
+        "And then the game changes. The hunt never cools down. Hiding doesn't work. Running doesn't work.",
+        "There is exactly one way to lose six stars.",
+        "You die.",
+        "So the real challenge isn't escaping. It's how long you last."
+      ],
+      "footage": [
+        "7679254944112807182",
+        "7678788806123834637"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "stat",
+          "big": "5 STARS",
+          "label": "is the cap in story missions"
+        },
+        {
+          "line": 2,
+          "kind": "list",
+          "title": "NOT ENOUGH FOR 6",
+          "items": [
+            "Breaking into the airport",
+            "Stealing a plane"
+          ]
+        },
+        {
+          "line": 4,
+          "kind": "list",
+          "title": "AT 6 STARS",
+          "items": [
+            "The hunt never cools down",
+            "Hiding fails",
+            "Running fails"
+          ]
+        },
+        {
+          "line": 6,
+          "lines": 2,
+          "kind": "stat",
+          "big": "YOU DIE",
+          "label": "the only way to lose 6 stars"
+        }
+      ]
+    },
+    {
+      "slug": "09-rocket-launcher",
+      "keyword": "gta 6 rocket launcher location",
+      "title": "Free rocket launcher in chapter 1 of GTA 6",
+      "hook": "FREE ROCKET LAUNCHER",
+      "lines": [
+        "There's a free rocket launcher sitting unguarded in chapter one of GTA 6.",
+        "Step one. Play until the mission Building a Life. That unlocks storing weapons in your car.",
+        "Step two. Drive north out of the Keys, to just west of Vice City.",
+        "Find the Griffin Firing Range. Southwest of it there's an impound lot.",
+        "Walk through the open wire gate and look for the RV covered in satellite dishes.",
+        "Go in from the north side and open the hatch in the floor.",
+        "Inside the bunker: a rocket launcher with four rockets, a unique SMG, and frag grenades.",
+        "Save before you fire it. IGN says you can't buy more rockets this early."
+      ],
+      "footage": [
+        "7679255042695679246",
+        "launch-trailer"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "stat",
+          "big": "STEP 1",
+          "label": "Reach the mission Building a Life"
+        },
+        {
+          "line": 2,
+          "kind": "stat",
+          "big": "STEP 2",
+          "label": "North from the Keys, just west of Vice City"
+        },
+        {
+          "line": 3,
+          "kind": "list",
+          "title": "LOOK FOR",
+          "items": [
+            "Griffin Firing Range",
+            "Impound lot to the southwest"
+          ]
+        },
+        {
+          "line": 4,
+          "kind": "stat",
+          "big": "THE RV",
+          "label": "the one covered in satellite dishes"
+        },
+        {
+          "line": 6,
+          "kind": "list",
+          "title": "IN THE BUNKER",
+          "items": [
+            "Rocket launcher + 4 rockets",
+            "A unique SMG",
+            "Frag grenades"
+          ]
+        },
+        {
+          "line": 7,
+          "kind": "stat",
+          "big": "SAVE FIRST",
+          "label": "no rocket ammo for sale this early"
+        }
+      ]
+    },
+    {
+      "slug": "10-cowboy-hat",
+      "keyword": "gta 6 red dead easter egg",
+      "title": "Arthur Morgan's hat is in GTA 6",
+      "hook": "ARTHUR'S HAT IS IN GTA 6",
+      "lines": [
+        "Arthur Morgan's hat is in GTA 6. And you can buy it for thirty five dollars.",
+        "Go to Port Gellhorn and look for a yard sale.",
+        "It's sitting on an outdoor sofa.",
+        "The game calls it the Genuine Cowboy Hat. Brown leather.",
+        "The description says it's been passed down through generations.",
+        "IGN spotted the detail that gives it away. Same rope band. Same knot.",
+        "No name on the tag. Just a very familiar hat, at a yard sale, for thirty five bucks."
+      ],
+      "footage": [
+        "trailer2",
+        "7679255084114496782"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "lines": 2,
+          "kind": "stat",
+          "big": "PORT GELLHORN",
+          "label": "yard sale, on an outdoor sofa"
+        },
+        {
+          "line": 3,
+          "kind": "list",
+          "title": "THE ITEM",
+          "items": [
+            "Genuine Cowboy Hat",
+            "Brown leather",
+            "$35"
+          ]
+        },
+        {
+          "line": 5,
+          "kind": "compare",
+          "left": {
+            "top": "SAME ROPE",
+            "big": "BAND"
+          },
+          "right": {
+            "top": "SAME",
+            "big": "KNOT"
+          },
+          "joiner": "+"
+        },
+        {
+          "line": 6,
+          "kind": "stat",
+          "big": "$35",
+          "label": "at a yard sale"
+        }
+      ]
+    },
+    {
+      "slug": "11-jet-ski-dog",
+      "keyword": "gta 6 jet ski dog location",
+      "title": "How to find the jet ski dog in GTA 6",
+      "hook": "THE DOG DRIVES A JET SKI",
+      "lines": [
+        "There is a dog in GTA 6 that drives a jet ski. Here's how to meet him.",
+        "Take a boat out into Leonida Bay, northwest of Mariana County, to a remote island.",
+        "You'll know it's the right one. There's an S O S written in the sand.",
+        "Next to it is a phone. Pick it up and it plays a video from the last people stranded there.",
+        "Now go scuba diving around the island.",
+        "When you surface, the dog pulls up. On a jet ski.",
+        "Hop on the back and he drives you around, then drops you at a second jet ski that's yours to use.",
+        "IGN says he can turn up in other waters too. Get the photo while you can."
+      ],
+      "footage": [
+        "7679255084114496782",
+        "7679255281032760589",
+        "trailer2"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "list",
+          "title": "WHERE",
+          "items": [
+            "Leonida Bay",
+            "Northwest of Mariana County",
+            "A remote island, go by boat"
+          ]
+        },
+        {
+          "line": 2,
+          "kind": "stat",
+          "big": "SOS",
+          "label": "written in the sand"
+        },
+        {
+          "line": 4,
+          "kind": "stat",
+          "big": "DIVE",
+          "label": "scuba around the island"
+        },
+        {
+          "line": 6,
+          "kind": "list",
+          "title": "THEN",
+          "items": [
+            "Ride on the back",
+            "He drops you at a 2nd jet ski"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "12-criminal-profiles",
+      "keyword": "gta 6 criminal profile irredeemable",
+      "title": "GTA 6 criminal profiles explained",
+      "hook": "DON'T GO IRREDEEMABLE",
+      "lines": [
+        "GTA 6 is grading how you play. And one grade is permanent.",
+        "Jason and Lucia each have a criminal profile. Five levels. Professional, Hardened, Violent, Psycho, Irredeemable.",
+        "Stay quiet, knock people out instead of killing them, and you stay Professional.",
+        "Go in guns blazing and you slide down the list.",
+        "Each level changes how you earn focus. Clean players get it from takedowns. Violent players get it from headshots.",
+        "Hit Psycho and you lose the option to surrender to the cops.",
+        "Keep massacring civilians and you become Irredeemable. Every focus bonus is gone, for good.",
+        "The only fix is loading an old save. And IGN says your profile helps decide the ending."
+      ],
+      "footage": [
+        "7679254944112807182",
+        "7679254910839295245"
+      ],
+      "inserts": [
+        {
+          "line": 1,
+          "kind": "list",
+          "title": "5 CRIMINAL PROFILES",
+          "items": [
+            "Professional",
+            "Hardened",
+            "Violent",
+            "Psycho",
+            "Irredeemable"
+          ]
+        },
+        {
+          "line": 4,
+          "kind": "list",
+          "title": "HOW YOU EARN FOCUS",
+          "items": [
+            "Clean: takedowns",
+            "Violent: headshots"
+          ]
+        },
+        {
+          "line": 5,
+          "kind": "stat",
+          "big": "PSYCHO",
+          "label": "you can no longer surrender"
+        },
+        {
+          "line": 6,
+          "kind": "stat",
+          "big": "PERMANENT",
+          "label": "every focus bonus gone"
+        },
+        {
+          "line": 7,
+          "kind": "stat",
+          "big": "ENDING",
+          "label": "your profile helps decide it, per IGN"
         }
       ]
     }

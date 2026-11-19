@@ -3,3 +3,18 @@
 #
 # Rockstar Games official: Grand Theft Auto VI Trailer 2
 https://www.youtube.com/watch?v=VQRLujxTm3c
+
+# Launch-day raw gameplay on YouTube (no commentary, no face cam). YouTube blocks cloud downloads,
+# so these only work when download-clips.sh runs on your own computer.
+# TGM: 1 hour of free roam, PS5 Pro
+https://www.youtube.com/watch?v=O5Gc6z5F9KY
+# Champs Network: 5-star police chase at Vice Ocean Beach, 4K HDR
+https://www.youtube.com/watch?v=8-DRGbQ1IXc
+# DubStepZz: Mount Kalaga free roam, 4K
+https://www.youtube.com/watch?v=ilE8AUCujCI
+# Ajin: beaches and Vice City free roam, PS5 4K
+https://www.youtube.com/watch?v=DQqv-E4guu8
+# GAMErHyNas: open world, police chase, NPC fights
+https://www.youtube.com/watch?v=PfS0bdfVBss
+# BenedictPlays: Fixing Jason's House mission, PS5 Pro 4K
+https://www.youtube.com/watch?v=NAsaBdkSYIQ
